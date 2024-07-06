@@ -233,6 +233,7 @@ if AL then
 	-- LootTable
 	-- title
 	AL["Heroic"] = true;
+	AL["Mythic"] = true;
 	AL["25 Man"] = true;
 	AL["25 Man Heroic"] = true;
 	-- buttons

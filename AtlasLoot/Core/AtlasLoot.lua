@@ -164,7 +164,7 @@ StaticPopupDialogs["ATLASLOOT_SAVED_VARIABLES"] = {
 	hideOnEscape = 1
 };
 
-AtlasLoot.lootTableTypes = {"Normal", "Heroic", "25Man", "25ManHeroic", "RaidFinder"}
+AtlasLoot.lootTableTypes = {"Normal", "Heroic", "Mythic", "25Man", "25ManHeroic", "RaidFinder"}
 
 local function CopyTable(t)
 	local new = {}
@@ -516,7 +516,7 @@ function AtlasLoot:GetBossTableZoneID(zoneID)
 end
 
 --- Gets a localized instance Type
--- @param instanceType "Normal", Heroic", "25Man", "25ManHeroic"
+-- @param instanceType "Normal", Heroic", "Mythic", "25Man", "25ManHeroic"
 -- @return localized instance Type
 function AtlasLoot:GetLocInstanceType(instanceType)
 	if instanceType then
@@ -528,8 +528,8 @@ function AtlasLoot:GetLocInstanceType(instanceType)
 			instanceType = AL["25 Man"]
 		elseif instanceType == "25ManHeroic" then
 			instanceType = AL["25 Man Heroic"]
-		elseif instanceType == "RaidFinder" then
-			instanceType = AL["Raid Finder"]
+		elseif instanceType == "Mythic" then
+			instanceType = AL["Mythic"]
 		else
 			instanceType = nil
 		end
@@ -651,11 +651,11 @@ end
 do
 	local lootTableTypes = AtlasLoot.lootTableTypes
 	local lootTableTypesCheck = {
-		["Normal"] = { "Heroic", "25Man", "25ManHeroic", "RaidFinder" },
-		["Heroic"] = { "Normal", "25ManHeroic", "25Man", "RaidFinder" },
-		["25Man"] = { "25ManHeroic", "Normal", "Heroic", "RaidFinder" },
-		["25ManHeroic"] = { "25Man", "Heroic", "Normal", "RaidFinder" },
-		["RaidFinder"] = { "Normal", "Heroic", "25Man", "25ManHeroic" },
+		["Normal"] = { "Heroic", "25Man", "25ManHeroic", "Mythic" },
+		["Heroic"] = { "Normal", "25ManHeroic", "25Man", "Mythic" },
+		["25Man"] = { "25ManHeroic", "Normal", "Heroic", "Mythic" },
+		["25ManHeroic"] = { "25Man", "Heroic", "Normal", "Mythic" },
+		["Mythic"] = { "Normal", "Heroic", "25Man", "25ManHeroic" },
 	}
 	
 	function AtlasLoot:GetLootTableTypeFromDataID(dataID)
@@ -1006,26 +1006,25 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 		self.ItemFrame.Back.lootpage = AtlasLoot_Data[dataID].info.menu
 		self.ItemFrame.Back:Show()
 	end
-	
-	if AtlasLoot_Data[dataID]["RaidFinder"] and lootTableType ~= "RaidFinder" then
-		--print"this"
-		self.ItemFrame.RaidFinder:Show()
-		self.ItemFrame.RaidFinder:SetChecked(false)
-		self.ItemFrame.RaidFinder:Enable()
+
+	if AtlasLoot_Data[dataID]["Heroic"] then
+		self.ItemFrame.Heroic:Show()
+		self.ItemFrame.Heroic:SetChecked(false)
+		self.ItemFrame.Heroic:Enable()
 	end
 	
-	if lootTableType == "RaidFinder" and AtlasLoot_Data[dataID] and AtlasLoot_Data[dataID]["RaidFinder"] then
-		self.ItemFrame.RaidFinder:Show()
-		self.ItemFrame.RaidFinder:SetChecked(true)
-		self.ItemFrame.RaidFinder:Enable()
-		if AtlasLoot_Data[dataID]["Heroic"] then
-			self.ItemFrame.Heroic:Show()
-			self.ItemFrame.Heroic:SetChecked(false)
-			self.ItemFrame.Heroic:Enable()
-		end
+	if AtlasLoot_Data[dataID]["Mythic"] then
+		self.ItemFrame.Mythic:Show()
+		self.ItemFrame.Mythic:SetChecked(false)
+		self.ItemFrame.Mythic:Enable()
+	end
+	
+	if lootTableType == "Mythic" and AtlasLoot_Data[dataID] and AtlasLoot_Data[dataID]["Mythic"] then
+		self.ItemFrame.Mythic:SetChecked(true)
+		self.ItemFrame.Heroic:SetChecked(false)
 	elseif lootTableType == "Heroic" and AtlasLoot_Data[dataID]["Heroic"] then
-		self.ItemFrame.Heroic:Show()
 		self.ItemFrame.Heroic:SetChecked(true)
+		self.ItemFrame.Mythic:SetChecked(false)
 		if AtlasLoot_Data[dataID]["Normal"] then
 			self.ItemFrame.Heroic:Enable()
 		else

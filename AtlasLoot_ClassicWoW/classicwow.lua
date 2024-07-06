@@ -2918,6 +2918,16 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 25, 60499, "", "=q1=Searing Binding", "=ds=#m3#", "", "100%"};
 			};
 		};
+		["Heroic"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=".."Heroic Test", ""};
+			};
+		};
+		["Mythic"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=".."Mythic Test", ""};
+			};
+		};
 		info = {
 			name = BabbleZone["Ragefire Chasm"],
 			module = moduleName, instance = "RagefireChasm",
