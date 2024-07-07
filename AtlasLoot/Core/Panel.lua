@@ -346,12 +346,12 @@ do
 		Frame:SetParent(UIParent)
 		Frame:SetPoint("CENTER", "UIParent", "CENTER", 0, 0)
 		Frame:SetFrameLevel(Frame:GetParent():GetFrameLevel() + 1)
-		Frame:SetWidth(180)
-		Frame:SetHeight(35)
-		Frame:SetBackdrop({bgFile = "Interface/AchievementFrame/UI-Achievement-AchievementBackground", 
+		Frame:SetWidth(160)
+		Frame:SetHeight(36)
+		Frame:SetBackdrop({bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
 								edgeFile = "Interface/Tooltips/UI-Tooltip-Border", 
 								tile = false, tileSize = 32, edgeSize = 32, 
-								insets = { left = 11, right = 12, top = 12, bottom = 11 }})
+								insets = { left = 8, right = 8, top = 8, bottom = 8 }})
 		Frame:SetScript("OnShow", onShow)
 
 		Frame.TitelBg = Frame:CreateTexture(nil,"ARTWORK")
