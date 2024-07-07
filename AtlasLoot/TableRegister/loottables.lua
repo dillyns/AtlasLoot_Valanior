@@ -744,7 +744,6 @@ AtlasLoot_LootTableRegister = {
 
 		["BlackrockDepths"] = {
 			["Bosses"] = {
-
 			},
 			["Info"] = { BabbleZone["Blackrock Depths"], "AtlasLootClassicWoW", mapname = "BlackrockDepths" },
 		},
