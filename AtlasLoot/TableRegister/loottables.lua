@@ -959,7 +959,11 @@ AtlasLoot_LootTableRegister = {
 
 		["RagefireChasm"] = {
 			["Bosses"] = {
-				{ "RagefireChasmLoot", {2,3,4,5} },
+				{ "Oggleflint", 1 },
+				{ "Taragaman the Hungerer", 2 },
+				{ "Bazzalan", 3 },
+				{ "Jergosh the Invoker", 4 },
+				
 			},
 			["Info"] = { BabbleZone["Ragefire Chasm"], "AtlasLootClassicWoW", mapname = "Ragefire" },
 		},
@@ -1103,16 +1107,17 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { BabbleZone["The Deadmines"], {"AtlasLootClassicWoW"}, sortOrder = { "TheDeadminesEnt", "TheDeadmines" }, mapname = "TheDeadmines", EncounterJournalID = 63 },
 		},
 
-		["WailingCavernsEnt"] = "WailingCavernsEaI",
-		["WailingCaverns"] = "WailingCavernsEaI",
-		["WailingCavernsEaI"] = {
-			["WailingCavernsEnt"] = {
-				{ "WailingCavernsLoot#1", 3, hide = true },
-			},
-			["WailingCaverns"] = {
-				{ "WailingCavernsLoot#1", {2,3,4,5} },
-				{ "WailingCavernsLoot#2", {6,7,8,10,11}, hide = true },
-				{ "VWOWSets#1", 16, hide = true },
+		["WailingCavernsEnt"] = {
+			["bosses"] = {
+				{"Kresh",},
+				{"Lady Anacondra",},
+				{"Lord Cobrahn",},
+				{"DEviate Faerie Dragon",},
+				{"Lord Pythas",},
+				{"Skum",},
+				{"Lord Serpentis",},
+				{"Verdan the Everliving",},
+				{"Mutanus the Devourer",},
 			},
 			["Info"] = { BabbleZone["Wailing Caverns"], "AtlasLootClassicWoW", sortOrder = { "WailingCavernsEnt", "WailingCaverns" }, mapname = "WailingCaverns" },
 		},

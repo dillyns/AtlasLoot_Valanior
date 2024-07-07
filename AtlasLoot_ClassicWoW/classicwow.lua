@@ -4323,61 +4323,119 @@ local moduleName = "AtlasLootClassicWoW"
 		-----------------------
 		--- Wailing Caverns ---
 		-----------------------
+	
+	AtlasLoot_Data["Kresh"] = {
+        ["Normal"] = {
+            {
+			    { 1, 6447, "", "=q3=", "", "", ""};
+                { 2, 13245, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80288, "", "=q3=", "", "", ""};
+                { 2, 80703, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+                { 1, 140001, "", "=q3=", "", "", ""};
+                { 2, 350501, "", "=q3=", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Kresh"],
+            module = moduleName, instance = "Wailing Caverns",
+        };
+    };
+	
+	AtlasLoot_Data["Lady Anacondra"] = {
+        ["Normal"] = {
+            {
+			    { 1, 5404, "", "=q3=", "", "", ""};
+                { 2, 10412, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80270, "", "=q3=", "", "", ""};
+                { 2, 80449, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+                { 1, 131001, "", "=q3=", "", "", ""};
+                { 2, 220501, "", "=q3=", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Lady Anacondra"],
+            module = moduleName, instance = "Wailing Caverns",
+        };
+    };
+	
+	AtlasLoot_Data["Bazzalan"] = {
+        ["Normal"] = {
+            {
+			    { 1, 80005, "", "=q3=", "", "", ""};
+                { 2, 80006, "", "=q3=", "", "", ""};
+                { 3, 80007, "", "=q3=", "", "", ""};
+                { 4, 80008, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 81055, "", "=q3=", "", "", ""};
+                { 2, 81056, "", "=q3=", "", "", ""};
+                { 3, 81057, "", "=q3=", "", "", ""};
+                { 4, 81058, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+                { 1, 668001, "", "=q3=", "", "", ""};
+                { 2, 668501, "", "=q3=", "", "", ""};
+                { 3, 669001, "", "=q3=", "", "", ""};
+				{ 4, 669501, "", "=q3=", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Bazzalan"],
+            module = moduleName, instance = "Wailing Caverns",
+        };
+    };
+	
+	AtlasLoot_Data["Lord Cobrahn"] = {
+        ["Normal"] = {
+            {
+			    { 1, 14147, "", "=q3=", "", "", ""};
+                { 2, 14150, "", "=q3=", "", "", ""};
+                { 3, 14151, "", "=q3=", "", "", ""};
+                { 4, 80009, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80781, "", "=q3=", "", "", ""};
+                { 2, 80784, "", "=q3=", "", "", ""};
+                { 3, 80785, "", "=q3=", "", "", ""};
+                { 4, 81059, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+                { 1, 389501, "", "=q3=", "", "", ""};
+                { 2, 391001, "", "=q3=", "", "", ""};
+                { 3, 391501, "", "=q3=", "", "", ""};
+				{ 4, 670001, "", "=q3=", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Lord Cobrahn"],
+            module = moduleName, instance = "Wailing Caverns",
+        };
 
-	AtlasLoot_Data["WailingCavernsLoot"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Trigore the Lasher"], "#j28#, "..AL["Rare"]};
-				{ 2, 5425, "", "=q3=Runescale Girdle", "=ds=#s8#, #a3#", "", "50%"};
-				{ 3, 5426, "", "=q3=Serpent's Kiss", "=ds=#h1#, #w1#", "", "35%"};
-				{ 5, 0, "INV_Box_01", "=q6="..BabbleBoss["Boahn"], "#j28#, "..AL["Rare"]};
-				{ 6, 5423, "", "=q3=Boahn's Fang", "=ds=#h2#, #w1#", "", "28%"};
-				{ 7, 5422, "", "=q2=Brambleweed Leggings", "=ds=#s11#, #a2#", "", "64%"};
-				{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Lady Anacondra"], ""};
-				{ 10, 5404, "", "=q3=Serpent's Shoulders", "=ds=#s3#, #a2#", "", "58.61%"};
-				{ 11, 10412, "", "=q3=Belt of the Fang", "=ds=#s10#, #a2#", "", "8.63%"};
-				{ 12, 6446, "", "=q3=Snakeskin Bag", "=ds=#e1#", "", "6.61%"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Lord Pythas"], ""};
-				{ 17, 6473, "", "=q3=Armor of the Fang", "=ds=#s5#, #a2#", "", "52.06%"};
-				{ 18, 6472, "", "=q3=Stinging Viper", "=ds=#h1#, #w6#", "", "28.24%"};
-				{ 20, 0, "INV_Box_01", "=q6="..BabbleBoss["Lord Cobrahn"], ""};
-				{ 21, 6465, "", "=q3=Robe of the Moccasin", "=ds=#s5#, #a1#", "", "51.73%"};
-				{ 22, 10410, "", "=q3=Leggings of the Fang", "=ds=#s11#, #a2#", "", "16.03%"};
-				{ 23, 6460, "", "=q3=Cobrahn's Grasp", "=ds=#s10#, #a3#", "", "16.20%"};
-				{ 25, 0, "INV_Box_01", "=q6="..BabbleBoss["Skum"], ""};
-				{ 26, 6449, "", "=q3=Glowing Lizardscale Cloak", "=ds=#s4#", "", "38.24%"};
-				{ 27, 6448, "", "=q3=Tail Spike", "=ds=#h1#, #w4#", "", "39.24%"};
-			};
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Lord Serpentis"], ""};
-				{ 2, 5970, "", "=q3=Serpent Gloves", "=ds=#s9#, #a1#", "", "20.96%"};
-				{ 3, 10411, "", "=q3=Footpads of the Fang", "=ds=#s12#, #a2#", "", "19.07%"};
-				{ 4, 6459, "", "=q3=Savage Trodders", "=ds=#s12#, #a3#", "", "24.39%"};
-				{ 5, 6469, "", "=q3=Venomstrike", "=ds=#w2#", "", "16.63%"};
-				{ 7, 0, "INV_Box_01", "=q6="..BabbleBoss["Verdan the Everliving"], ""};
-				{ 8, 6629, "", "=q3=Sporid Cape", "=ds=#s4#", "", "16.65%"};
-				{ 9, 6631, "", "=q3=Living Root", "=ds=#w9#", "", "34.47%"};
-				{ 10, 6630, "", "=q3=Seedcloud Buckler", "=ds=#w8#", "", "35.38%"};
-				{ 12, 0, "INV_Box_01", "=q6="..BabbleBoss["Mutanus the Devourer"], ""};
-				{ 13, 6461, "", "=q3=Slime-Encrusted Pads", "=ds=#s3#, #a1#", "", "22.96%"};
-				{ 14, 6627, "", "=q3=Mutant Scale Breastplate", "=ds=#s5#, #a3#", "", "18.33%"};
-				{ 15, 6463, "", "=q3=Deep Fathom Ring", "=ds=#s13#", "", "21.99%"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Kresh"], ""};
-				{ 17, 13245, "", "=q3=Kresh's Back", "=ds=#w8#", "", "9.17%"};
-				{ 18, 6447, "", "=q3=Worn Turtle Shell Shield", "=ds=#w8#", "", "63.66%"};
-				{ 20, 0, "INV_Box_01", "=q6="..BabbleBoss["Deviate Faerie Dragon"], AL["Rare"]};
-				{ 21, 6632, "", "=q3=Feyscale Cloak", "=ds=#s4#", "", "37.84%"};
-				{ 22, 5243, "", "=q3=Firebelcher", "=ds=#w12#", "", "39.65%"};
-				{ 24, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"]};
-				{ 25, 10413, "", "=q3=Gloves of the Fang", "=ds=#s9#", "=q2="..AL["Druid of the Fang"], "1.20%"};
-			};
-		};
-		info = {
-			name = BabbleZone["Wailing Caverns"],
-			module = moduleName, instance = "WailingCaverns",
-		};
 	};
-
     		------------------
 		--- Zul'Farrak ---
 		------------------
