@@ -348,9 +348,9 @@ do
 		Frame:SetFrameLevel(Frame:GetParent():GetFrameLevel() + 1)
 		Frame:SetWidth(180)
 		Frame:SetHeight(35)
-		Frame:SetBackdrop({bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
-								edgeFile = "Interface\\DialogFrame\\UI-DialogBox-Border", 
-								tile = true, tileSize = 32, edgeSize = 32, 
+		Frame:SetBackdrop({bgFile = "Interface/AchievementFrame/UI-Achievement-AchievementBackground", 
+								edgeFile = "Interface/Tooltips/UI-Tooltip-Border", 
+								tile = false, tileSize = 32, edgeSize = 32, 
 								insets = { left = 11, right = 12, top = 12, bottom = 11 }})
 		Frame:SetScript("OnShow", onShow)
 

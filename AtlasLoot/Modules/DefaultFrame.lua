@@ -28,8 +28,8 @@ local db
 local dbDefaults = {
 	profile = {
 		DefaultFrameLocked = false,
-		module = "AtlasLootClassicWoW",
-		instance = "BlackfathomDeeps",
+		module = "AtlasLootCataclysm",
+		instance = "BlackrockCaverns",
 		point = nil,
 		NEWpoint = {"CENTER"}
 	},
