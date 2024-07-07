@@ -1109,17 +1109,17 @@ AtlasLoot_LootTableRegister = {
 
 		["Wailing Caverns"] = {
 			["bosses"] = {
-                { "Kresh", 1 },
-				{ "Lady AnaCondra", 2 },
-				{ "Lord Cobrahn", 3 },
-				{ "Deviate Faerie Dragon", 4 },
-				{ "Lord Pythas", 5 },
-				{ "Skum", 6 },
-				{ "Lord Serpentis", 7 },
-				{ "Verdan the Everliving", 8 },
-				{ "Mutanus the Devourer", 9 },
+                { "Kresh", 31 },
+				{ "LadyAnaCondra", 30 },
+				{ "LordCobrahn", 34 },
+				{ "DeviateFaerieDragon", 35 },
+				{ "LordPythas", 36 },
+				{ "Skum", 38},
+				{ "LordSerpentis", 39 },
+				{ "VerdantheEverliving", 90 },
+				{ "MutanustheDevourer", 91 },
 			},
-			["Info"] = { BabbleZone["Wailing Caverns"], "AtlasLootClassicWoW", mapname = "WailingCaverns" },
+			["Info"] = { BabbleZone["Wailing Caverns"], "AtlasLootClassicWoW", mapname = "Wailing Caverns" },
         },
 
 		["TheStockade"] = {
@@ -1147,16 +1147,14 @@ AtlasLoot_LootTableRegister = {
 
 		["ZulFarrak"] = {
 			["Bosses"] = {
-				{ "ZFGahzrilla", 5 },
-				{ "ZFSezzziz", 12 },
-				{ "ZFChiefUkorzSandscalp", 14 },
-				{ "ZFWitchDoctorZumrah", 16 },
-				{ "ZFAntusul", 17 },
-				{ "ZFHydromancerVelratha", 19 },
-				{ "ZFDustwraith", 21 },
-				{ "ZFZerillis", 22 },
-				{ "LunarFestival", 23, hide = true },
-				{ "ZFTrash", 25 },
+				{ "Gahzrilla", 5 },
+				{ "Sezzziz", 12 },
+				{ "ChiefUkorzSandscalp", 14 },
+				{ "WitchDoctorZumrah", 16 },
+				{ "Antusul", 17 },
+				{ "HydromancerVelratha", 19 },
+				{ "Dustwraith", 21 },
+				{ "Zerillis", 22 },
 			},
 			["Info"] = { BabbleZone["Zul'Farrak"], "AtlasLootClassicWoW", mapname = "ZulFarrak" },
 		},

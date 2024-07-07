@@ -692,7 +692,7 @@ local moduleName = "AtlasLootClassicWoW"
         };
     };
 	
-		AtlasLoot_Data["Lady Sarevess"] = {
+	AtlasLoot_Data["Lady Sarevess"] = {
         ["Normal"] = {
             {
 			    { 1, 888, "", "", "", "", ""};
@@ -723,7 +723,7 @@ local moduleName = "AtlasLootClassicWoW"
         };
     };
 	
-			AtlasLoot_Data["Gelihast"] = {
+	AtlasLoot_Data["Gelihast"] = {
         ["Normal"] = {
             {
 			    { 1, 1470, "", "=q3=", "", "", ""};
@@ -755,7 +755,7 @@ local moduleName = "AtlasLootClassicWoW"
         };
     };
 	
-		    AtlasLoot_Data["Twilight Lord Kelris"] = {
+	 AtlasLoot_Data["Twilight Lord Kelris"] = {
         ["Normal"] = {
             {
 			    { 1, 5881, "", "=q3=", "", "", ""};
@@ -786,8 +786,8 @@ local moduleName = "AtlasLootClassicWoW"
             module = moduleName, instance = "Blackfathom Deeps",
         };
     };
-	
-			AtlasLoot_Data["Old Serra'kis"] = {
+
+	AtlasLoot_Data["Old Serra'kis"] = {
         ["Normal"] = {
             {
 			    { 1, 2271, "", "=q3=", "", "", ""};
@@ -818,7 +818,7 @@ local moduleName = "AtlasLootClassicWoW"
         };
     };
 	
-			AtlasLoot_Data["Aku'mai"] = {
+	AtlasLoot_Data["Aku'mai"] = {
         ["Normal"] = {
             {
 			    { 1, 6909, "", "=q3=", "", "", ""};
@@ -852,6 +852,36 @@ local moduleName = "AtlasLootClassicWoW"
 		--------------------------------------------
 		--- Blackrock Mountain: Blackrock Depths ---
 		--------------------------------------------
+	AtlasLoot_Data["Aku'mai"] = {
+        ["Normal"] = {
+            {
+			    { 1, 6909, "", "=q3=", "", "", ""};
+                { 2, 6910, "", "=q3=", "", "", ""};
+                { 3, 6911, "", "=q3=", "", "", ""};
+                { 4, 80013, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80328, "", "=q3=", "", "", ""};
+                { 2, 80329, "", "=q3=", "", "", ""};
+                { 3, 80330, "", "=q3=", "", "", ""};
+                { 4, 81063, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+                { 1, 160001, "", "=q3=", "", "", ""};
+                { 2, 160501, "", "=q3=", "", "", ""};
+                { 3, 161001, "", "=q3=", "", "", ""};
+				{ 4, 672001, "", "=q3=", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Aku'mai"],
+            module = moduleName, instance = "Blackfathom Deeps",
+        };
+    };
 		-----------------------------------
 		--- Blackrock Mountain: Entrance ---
 		-----------------------------------
@@ -4345,7 +4375,7 @@ local moduleName = "AtlasLootClassicWoW"
         };
         info = {
             name = BabbleBoss["Kresh"],
-            module = moduleName, instance = "WailingCaverns",
+            module = moduleName, instance = "Wailing Caverns",
         };
     };
 	
@@ -4370,7 +4400,7 @@ local moduleName = "AtlasLootClassicWoW"
         };
         info = {
             name = BabbleBoss["Lady Anacondra"],
-            module = moduleName, instance = "WailingCavernsc",
+            module = moduleName, instance = "Wailing Cavernsc",
         };
     };
 	
@@ -4401,7 +4431,7 @@ local moduleName = "AtlasLootClassicWoW"
         };
         info = {
             name = BabbleBoss["Bazzalan"],
-            module = moduleName, instance = "WailingCaverns",
+            module = moduleName, instance = "Wailing Caverns",
         };
     };
 	
@@ -4432,146 +4462,260 @@ local moduleName = "AtlasLootClassicWoW"
         };
         info = {
             name = BabbleBoss["Lord Cobrahn"],
-            module = moduleName, instance = "WailingCaverns",
+            module = moduleName, instance = "Wailing Caverns",
         };
     };
     		------------------
 		--- Zul'Farrak ---
 		------------------
 
-	AtlasLoot_Data["ZFGahzrilla"] = {
-		["Normal"] = {
-			{
-				{ 1, 9469, "", "=q3=Gahz'rilla Scale Armor", "=ds=#s5#, #a3#", "", "36.76%"};
-				{ 2, 9467, "", "=q3=Gahz'rilla Fang", "=ds=#h1#, #w4#", "", "36.83%"};
-				{ 4, 8707, "", "=q1=Gahz'rilla's Electrified Scale", "=ds=#m3#"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Gahz'rilla"],
-			module = moduleName, instance = "ZulFarrak",
-		};
-	};
+	AtlasLoot_Data["Gahzrilla"] = {
+        ["Normal"] = {
+            {
+			    { 1, 14147, "", "=q3=", "", "", ""};
+                { 2, 14150, "", "=q3=", "", "", ""};
+                { 3, 14151, "", "=q3=", "", "", ""};
+                { 4, 80009, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80781, "", "=q3=", "", "", ""};
+                { 2, 80784, "", "=q3=", "", "", ""};
+                { 3, 80785, "", "=q3=", "", "", ""};
+                { 4, 81059, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+                { 1, 389501, "", "=q3=", "", "", ""};
+                { 2, 391001, "", "=q3=", "", "", ""};
+                { 3, 391501, "", "=q3=", "", "", ""};
+				{ 4, 670001, "", "=q3=", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Gahzrilla"],
+            module = moduleName, instance = "ZulFarrak",
+        };
+    };
 
-	AtlasLoot_Data["ZFSezzziz"] = {
-		["Normal"] = {
-			{
-				{ 1, 9470, "", "=q3=Bad Mojo Mask", "=ds=#s1#, #a1#", "", "18.69%"};
-				{ 2, 9473, "", "=q3=Jinxed Hoodoo Skin", "=ds=#s5#, #a2#", "", "21.12%"};
-				{ 3, 9474, "", "=q3=Jinxed Hoodoo Kilt", "=ds=#s11#, #a2#", "", "20.95%"};
-				{ 4, 9475, "", "=q3=Diabolic Skiver", "=ds=#w7#", "", "20.06%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Shadowpriest Sezz'ziz"],
-			module = moduleName, instance = "ZulFarrak",
-		};
-	};
+	AtlasLoot_Data["Sezzziz"] = {
+        ["Normal"] = {
+            {
+			    { 1, 14147, "", "=q3=", "", "", ""};
+                { 2, 14150, "", "=q3=", "", "", ""};
+                { 3, 14151, "", "=q3=", "", "", ""};
+                { 4, 80009, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80781, "", "=q3=", "", "", ""};
+                { 2, 80784, "", "=q3=", "", "", ""};
+                { 3, 80785, "", "=q3=", "", "", ""};
+                { 4, 81059, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+                { 1, 389501, "", "=q3=", "", "", ""};
+                { 2, 391001, "", "=q3=", "", "", ""};
+                { 3, 391501, "", "=q3=", "", "", ""};
+				{ 4, 670001, "", "=q3=", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Sezzziz"],
+            module = moduleName, instance = "ZulFarrak",
+        };
+    };
 
-	AtlasLoot_Data["ZFChiefUkorzSandscalp"] = {
-		["Normal"] = {
-			{
-				{ 1, 9479, "", "=q3=Embrace of the Lycan", "=ds=#s1#, #a2#", "", "8.97%"};
-				{ 2, 9476, "", "=q3=Big Bad Pauldrons", "=ds=#s3#, #a4#", "", "28.17%"};
-				{ 3, 9478, "", "=q3=Ripsaw", "=ds=#h1#, #w1#", "", "19.78%"};
-				{ 4, 9477, "", "=q3=The Chief's Enforcer", "=ds=#w9#", "", "22.33%"};
-				{ 6, 11086, "", "=q3=Jang'thraze the Protector", "=ds=#h3#, #w10#", "", "1.72%"};
-				{ 7, 9372, "", "=q4=Sul'thraze the Lasher", "=ds=#h2# #w10#"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Chief Ukorz Sandscalp"],
-			module = moduleName, instance = "ZulFarrak",
-		};
-	};
+	AtlasLoot_Data["ChiefUkorzSandscalp"] = {
+        ["Normal"] = {
+            {
+			    { 1, 14147, "", "=q3=", "", "", ""};
+                { 2, 14150, "", "=q3=", "", "", ""};
+                { 3, 14151, "", "=q3=", "", "", ""};
+                { 4, 80009, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80781, "", "=q3=", "", "", ""};
+                { 2, 80784, "", "=q3=", "", "", ""};
+                { 3, 80785, "", "=q3=", "", "", ""};
+                { 4, 81059, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+                { 1, 389501, "", "=q3=", "", "", ""};
+                { 2, 391001, "", "=q3=", "", "", ""};
+                { 3, 391501, "", "=q3=", "", "", ""};
+				{ 4, 670001, "", "=q3=", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["ChiefUkorzSandscalp"],
+            module = moduleName, instance = "ZulFarrak",
+        };
+    };
 
-	AtlasLoot_Data["ZFWitchDoctorZumrah"] = {
-		["Normal"] = {
-			{
-				{ 1, 18083, "", "=q3=Jumanza Grips", "=ds=#s9#, #a1#", "", "24.97%"};
-				{ 2, 18082, "", "=q3=Zum'rah's Vexing Cane", "=ds=#w9#", "", "11.98%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Witch Doctor Zum'rah"],
-			module = moduleName, instance = "ZulFarrak",
-		};
-	};
+	AtlasLoot_Data["WitchDoctorZumrah"] = {
+        ["Normal"] = {
+            {
+			    { 1, 14147, "", "=q3=", "", "", ""};
+                { 2, 14150, "", "=q3=", "", "", ""};
+                { 3, 14151, "", "=q3=", "", "", ""};
+                { 4, 80009, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80781, "", "=q3=", "", "", ""};
+                { 2, 80784, "", "=q3=", "", "", ""};
+                { 3, 80785, "", "=q3=", "", "", ""};
+                { 4, 81059, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+                { 1, 389501, "", "=q3=", "", "", ""};
+                { 2, 391001, "", "=q3=", "", "", ""};
+                { 3, 391501, "", "=q3=", "", "", ""};
+				{ 4, 670001, "", "=q3=", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["WitchDoctorZumrah"],
+            module = moduleName, instance = "ZulFarrak",
+        };
+    };
 
-	AtlasLoot_Data["ZFAntusul"] = {
-        	["Normal"] = {
-			{
-				{ 1, 9640, "", "=q3=Vice Grips", "=ds=#s9#, #a4#", "", "31.30%"};
-				{ 2, 9641, "", "=q3=Lifeblood Amulet", "=ds=#s2#", "", "30.80%"};
-				{ 3, 9639, "", "=q3=The Hand of Antu'sul", "=ds=#h1#, #w6#", "", "15.47%"};
-				{ 5, 9379, "", "=q3=Sang'thraze the Deflector", "=ds=#h1#, #w10#", "", "2.10%"};
-				{ 6, 9372, "", "=q4=Sul'thraze the Lasher", "=ds=#h2#, #w10#"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Antu'sul"],
-			module = moduleName, instance = "ZulFarrak",
-		};
-	};
+	AtlasLoot_Data["Antusul"] = {
+        ["Normal"] = {
+            {
+			    { 1, 14147, "", "=q3=", "", "", ""};
+                { 2, 14150, "", "=q3=", "", "", ""};
+                { 3, 14151, "", "=q3=", "", "", ""};
+                { 4, 80009, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80781, "", "=q3=", "", "", ""};
+                { 2, 80784, "", "=q3=", "", "", ""};
+                { 3, 80785, "", "=q3=", "", "", ""};
+                { 4, 81059, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+                { 1, 389501, "", "=q3=", "", "", ""};
+                { 2, 391001, "", "=q3=", "", "", ""};
+                { 3, 391501, "", "=q3=", "", "", ""};
+				{ 4, 670001, "", "=q3=", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Antusul"],
+            module = moduleName, instance = "ZulFarrak",
+        };
+    };
 
-	AtlasLoot_Data["ZFHydromancerVelratha"] = {
-		["Normal"] = {
-			{
-				{ 1, 9234, "", "=q1=Tiara of the Deep", "=ds=#m3#", "", "100%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Hydromancer Velratha"],
-			module = moduleName, instance = "ZulFarrak",
-		};
-	};
+	AtlasLoot_Data["HydromancerVelratha"] = {
+        ["Normal"] = {
+            {
+			    { 1, 14147, "", "=q3=", "", "", ""};
+                { 2, 14150, "", "=q3=", "", "", ""};
+                { 3, 14151, "", "=q3=", "", "", ""};
+                { 4, 80009, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80781, "", "=q3=", "", "", ""};
+                { 2, 80784, "", "=q3=", "", "", ""};
+                { 3, 80785, "", "=q3=", "", "", ""};
+                { 4, 81059, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+                { 1, 389501, "", "=q3=", "", "", ""};
+                { 2, 391001, "", "=q3=", "", "", ""};
+                { 3, 391501, "", "=q3=", "", "", ""};
+				{ 4, 670001, "", "=q3=", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["HydromancerVelratha"],
+            module = moduleName, instance = "ZulFarrak",
+        };
+    };
 
-	AtlasLoot_Data["ZFDustwraith"] = {
-		["Normal"] = {
-			{
-				{ 1, 12471, "", "=q3=Desertwalker Cane", "=ds=#s15#", "", "17.71%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Dustwraith"].." ("..AL["Rare"]..")",
-			module = moduleName, instance = "ZulFarrak",
-		};
-	};
+	AtlasLoot_Data["Dustwraith"] = {
+        ["Normal"] = {
+            {
+			    { 1, 14147, "", "=q3=", "", "", ""};
+                { 2, 14150, "", "=q3=", "", "", ""};
+                { 3, 14151, "", "=q3=", "", "", ""};
+                { 4, 80009, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80781, "", "=q3=", "", "", ""};
+                { 2, 80784, "", "=q3=", "", "", ""};
+                { 3, 80785, "", "=q3=", "", "", ""};
+                { 4, 81059, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+                { 1, 389501, "", "=q3=", "", "", ""};
+                { 2, 391001, "", "=q3=", "", "", ""};
+                { 3, 391501, "", "=q3=", "", "", ""};
+				{ 4, 670001, "", "=q3=", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Dustwraith"],
+            module = moduleName, instance = "ZulFarrak",
+        };
+    };
 
-	AtlasLoot_Data["ZFZerillis"] = {
-		["Normal"] = {
-			{
-				{ 1, 12470, "", "=q3=Sandstalker Ankleguards", "=ds=#s12#, #a2#", "", "15.55%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Zerillis"].." ("..AL["Rare"]..")",
-			module = moduleName, instance = "ZulFarrak",
-		};
-	};
-
-	AtlasLoot_Data["ZFTrash"] = {
-		["Normal"] = {
-			{
-				{ 1, 9512, "", "=q3=Blackmetal Cape", "=ds=#s4#", "", "0.02%"};
-				{ 2, 9484, "", "=q3=Spellshock Leggings", "=ds=#s11#, #a1#", "", "0.01%"};
-				{ 3, 9243, "", "=q3=Shriveled Troll Heart", "=ds=#s2#"};
-				{ 4, 862, "", "=q3=Runed Ring", "=ds=#s13#", "", "0.02%"};
-				{ 5, 6440, "", "=q3=Brainlash", "=ds=#s13#", "", "0.01%"};
-				{ 16, 5616, "", "=q3=Gutwrencher", "=ds=#h1#, #w4#", "", "0.01%"};
-				{ 17, 9511, "", "=q3=Bloodletter Scalpel", "=ds=#h1#, #w10#", "", "0.01%"};
-				{ 18, 9481, "", "=q3=The Minotaur", "=ds=#h2#, #w1#", "", "0.01%"};
-				{ 19, 9480, "", "=q3=Eyegouger", "=ds=#w7#", "", "0.01%"};
-				{ 20, 9482, "", "=q3=Witch Doctor's Cane", "=ds=#w9#", "", "0.01%"};
-				{ 21, 9483, "", "=q3=Flaming Incinerator", "=ds=#w12#", "", "0.01%"};
-				{ 22, 2040, "", "=q3=Troll Protector", "=ds=#w8#", "", "0.02%"};
-			};
-		};
-		info = {
-			name = AL["Trash Mobs"],
-			module = moduleName, instance = "ZulFarrak",
-		};
-	};
+	AtlasLoot_Data["Zerillis"] = {
+        ["Normal"] = {
+            {
+			    { 1, 14147, "", "=q3=", "", "", ""};
+                { 2, 14150, "", "=q3=", "", "", ""};
+                { 3, 14151, "", "=q3=", "", "", ""};
+                { 4, 80009, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80781, "", "=q3=", "", "", ""};
+                { 2, 80784, "", "=q3=", "", "", ""};
+                { 3, 80785, "", "=q3=", "", "", ""};
+                { 4, 81059, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+                { 1, 389501, "", "=q3=", "", "", ""};
+                { 2, 391001, "", "=q3=", "", "", ""};
+                { 3, 391501, "", "=q3=", "", "", ""};
+				{ 4, 670001, "", "=q3=", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Zerillis"],
+            module = moduleName, instance = "ZulFarrak",
+        };
+    };
 
 	--------------------------
 	--- Sets & Collections ---
