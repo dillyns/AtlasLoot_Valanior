@@ -103,49 +103,13 @@ end
 local function Init_ButtonList()
 	if AtlasLoot.PanelButtonList then return end
 	AtlasLoot.PanelButtonList = {
-		WorldEvents = {
-			text = AL["World Events"],
-			lootPage = "WORLDEVENTMENU",
-			order = 10,
-		},
-		Collections = {
-			text = AL["Collections"],
-			lootPage = "SETMENU",
-			order = 20,
-		},
-		Factions = {
-			text = AL["Factions"],
-			lootPage = "REPMENU",
-			order = 30,
-		},
-		PvPRewards = {
-			text = AL["PvP Rewards"],
-			lootPage = "PVPMENU",
-			order = 40,
-		},
-		Crafting = {
-			text = AL["Crafting"],
-			lootPage = "CRAFTINGMENU",
-			order = 50,
-		},
-		--[[
-		Wishlist = {
-			text = AL["Wishlist"],
-			func = function() print("WISHLIST") end,
-			order = 60,
-			--disabled = true,
-		},
-		]]--
+
 		Options = {
 			text = AL["Options"],
 			func = AtlasLoot.OptionsToggle,
 			order = 70,
 		},
-		LoadModules = {
-			text = AL["Load Modules"],
-			func = function() AtlasLoot:LoadModule("all") end,
-			order = 80,
-		},
+
 	}
 end
 
@@ -398,7 +362,7 @@ do
 			
 		Frame.Titel = Frame:CreateFontString(nil,"ARTWORK","GameFontNormal")
 		Frame.Titel:SetPoint("BOTTOM", Frame.TitelBg, "BOTTOM", 0, 34)
-		Frame.Titel:SetText("Atlasloot Enhanced")
+		Frame.Titel:SetText("Atlasloot Valanior")
 
 		ButtonListLines["SearchFrame"] = CreateFrame("FRAME", nil, Frame)
 		ButtonListLines["SearchFrame"]:SetHeight(20)
