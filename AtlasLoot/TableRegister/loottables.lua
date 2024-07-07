@@ -1109,18 +1109,18 @@ AtlasLoot_LootTableRegister = {
 
 		["Wailing Caverns"] = {
 			["bosses"] = {
-				{"Kresh", 1 },
-				{"Lady Anacondra", 2 },
-				{"Lord Cobrahn", 3 },
-				{"Deviate Faerie Dragon", 4 },
-				{"Lord Pythas", 5 },
-				{"Skum", 6 },
-				{"Lord Serpentis", 7 },
-				{"Verdan the Everliving", 8 },
-				{"Mutanus the Devourer", 9 },
+                { "Kresh", 1 },
+				{ "Lady AnaCondra", 2 },
+				{ "Lord Cobrahn", 3 },
+				{ "Deviate Faerie Dragon", 4 },
+				{ "Lord Pythas", 5 },
+				{ "Skum", 6 },
+				{ "Lord Serpentis", 7 },
+				{ "Verdan the Everliving", 8 },
+				{ "Mutanus the Devourer", 9 },
 			},
 			["Info"] = { BabbleZone["Wailing Caverns"], "AtlasLootClassicWoW", mapname = "WailingCaverns" },
-		},
+        },
 
 		["TheStockade"] = {
 			["Bosses"] = {

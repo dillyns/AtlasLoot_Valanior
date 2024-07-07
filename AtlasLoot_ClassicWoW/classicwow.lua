@@ -2663,7 +2663,7 @@ local moduleName = "AtlasLootClassicWoW"
         };
     };
 	
-			AtlasLoot_Data["Bazzalan"] = {
+	AtlasLoot_Data["Bazzalan"] = {
         ["Normal"] = {
             {
 			    { 1, 80005, "", "=q3=", "", "", ""};
@@ -2694,7 +2694,7 @@ local moduleName = "AtlasLootClassicWoW"
         };
     };
 	
-		    AtlasLoot_Data["Jergosh the Invoker"] = {
+	 AtlasLoot_Data["Jergosh the Invoker"] = {
         ["Normal"] = {
             {
 			    { 1, 14147, "", "=q3=", "", "", ""};
@@ -4345,7 +4345,7 @@ local moduleName = "AtlasLootClassicWoW"
         };
         info = {
             name = BabbleBoss["Kresh"],
-            module = moduleName, instance = "Wailing Caverns",
+            module = moduleName, instance = "WailingCaverns",
         };
     };
 	
@@ -4370,7 +4370,7 @@ local moduleName = "AtlasLootClassicWoW"
         };
         info = {
             name = BabbleBoss["Lady Anacondra"],
-            module = moduleName, instance = "Wailing Caverns",
+            module = moduleName, instance = "WailingCavernsc",
         };
     };
 	
@@ -4401,7 +4401,7 @@ local moduleName = "AtlasLootClassicWoW"
         };
         info = {
             name = BabbleBoss["Bazzalan"],
-            module = moduleName, instance = "Wailing Caverns",
+            module = moduleName, instance = "WailingCaverns",
         };
     };
 	
@@ -4432,7 +4432,7 @@ local moduleName = "AtlasLootClassicWoW"
         };
         info = {
             name = BabbleBoss["Lord Cobrahn"],
-            module = moduleName, instance = "Wailing Caverns",
+            module = moduleName, instance = "WailingCaverns",
         };
     };
     		------------------
