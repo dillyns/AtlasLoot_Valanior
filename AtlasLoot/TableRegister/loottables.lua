@@ -1107,19 +1107,19 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { BabbleZone["The Deadmines"], {"AtlasLootClassicWoW"}, sortOrder = { "TheDeadminesEnt", "TheDeadmines" }, mapname = "TheDeadmines", EncounterJournalID = 63 },
 		},
 
-		["WailingCavernsEnt"] = {
+		["Wailing Caverns"] = {
 			["bosses"] = {
-				{"Kresh",},
-				{"Lady Anacondra",},
-				{"Lord Cobrahn",},
-				{"DEviate Faerie Dragon",},
-				{"Lord Pythas",},
-				{"Skum",},
-				{"Lord Serpentis",},
-				{"Verdan the Everliving",},
-				{"Mutanus the Devourer",},
+				{"Kresh", 1 },
+				{"Lady Anacondra", 2 },
+				{"Lord Cobrahn", 3 },
+				{"Deviate Faerie Dragon", 4 },
+				{"Lord Pythas", 5 },
+				{"Skum", 6 },
+				{"Lord Serpentis", 7 },
+				{"Verdan the Everliving", 8 },
+				{"Mutanus the Devourer", 9 },
 			},
-			["Info"] = { BabbleZone["Wailing Caverns"], "AtlasLootClassicWoW", sortOrder = { "WailingCavernsEnt", "WailingCaverns" }, mapname = "WailingCaverns" },
+			["Info"] = { BabbleZone["Wailing Caverns"], "AtlasLootClassicWoW", mapname = "WailingCaverns" },
 		},
 
 		["TheStockade"] = {

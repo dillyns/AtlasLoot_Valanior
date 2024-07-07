@@ -4434,8 +4434,7 @@ local moduleName = "AtlasLootClassicWoW"
             name = BabbleBoss["Lord Cobrahn"],
             module = moduleName, instance = "Wailing Caverns",
         };
-
-	};
+    };
     		------------------
 		--- Zul'Farrak ---
 		------------------
