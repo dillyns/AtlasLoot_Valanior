@@ -1100,8 +1100,9 @@ AtlasLoot_LootTableRegister = {
 				{ "Edwin VanCleef", 7 },
 				{ "Cookie", 8 },
 			},
-			["Info"] = { BabbleZone["The Deadmines"], "AtlasLootClassicWoW", mapname = "The Deadmines" },
+			["Info"] = { BabbleZone["The Deadmines"], "AtlasLootClassicWoW", mapname = "TheDeadmines" },
 		},
+-- this is the same as wailing caverns?
 
 		["Wailing Caverns"] = {
 			["Bosses"] = {

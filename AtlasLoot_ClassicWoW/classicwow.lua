@@ -3924,6 +3924,7 @@ local moduleName = "AtlasLootClassicWoW"
         };
     };
 
+	--what is wrong here i dont understand?
 		--------------------
 		--- The Stockade ---
 		--------------------
