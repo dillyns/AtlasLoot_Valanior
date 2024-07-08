@@ -3902,20 +3902,20 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Rhahk'Zor"] = {
         ["Normal"] = {
             {
-			    { 1, 872, "", "=q3=", "", "", ""};
-                { 2, 5187, "", "=q3=", "", "", ""};
+			    { 1, 872, "", "=q3=Rockslicer", "", "", ""};
+                { 2, 5187, "", "=q3=Rhahk'Zor's Hammer", "", "", ""};
             };
         };
         ["Heroic"] = {
             {
-			    { 1, 80209, "", "=q3=", "", "", ""};
-                { 2, 80257, "", "=q3=", "", "", ""};
+			    { 1, 80209, "", "=q3=Rockslicer", "", "", ""};
+                { 2, 80257, "", "=q3=Rhahk'Zor's Hammer", "", "", ""};
             };
         };
         ["Mythic"] = {
             {
-                { 1, 100501, "", "=q3=", "", "", ""};
-                { 2, 124501, "", "=q3=", "", "", ""};
+                { 1, 100501, "", "=q3=Rockslicer", "", "", ""};
+                { 2, 124501, "", "=q3=Rhahk'Zor's Hammer", "", "", ""};
             };
         };
         info = {
@@ -3924,7 +3924,208 @@ local moduleName = "AtlasLootClassicWoW"
         };
     };
 
-	--what is wrong here i dont understand?
+	AtlasLoot_Data["Miner Johnson"] = {
+        ["Normal"] = {
+            {
+			    { 1, 5443, "", "=q3=Gold-plated Buckler", "", "", ""};
+                { 2, 5444, "", "=q3=Miner's Cape", "", "", ""};
+				{ 3, 10400, "", "=q3=Blackened Defias Leggings", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80271, "", "=q3=Gold-plated Buckler", "", "", ""};
+                { 2, 80272, "", "=q3=Miner's Cape", "", "", ""};
+				{ 3, 80443, "", "=q3=Blackened Defias Leggings", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+			    { 1, 131501, "", "=q3=Gold-plated Buckler", "", "", ""};
+                { 2, 132001, "", "=q3=Miner's Cape", "", "", ""};
+				{ 3, 217501, "", "=q3=Blackened Defias Leggings", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Miner Johnson"],
+            module = moduleName, instance = "The Deadmines",
+        };
+    };
+
+	AtlasLoot_Data["Sneed's Shredder"] = {
+        ["Normal"] = {
+            {
+			    { 1, 1937, "", "=q3=Buzz Saw", "", "", ""};
+                { 2, 2169, "", "=q3=Buzzer Blade", "", "", ""};
+				{ 3, 10401, "", "=q3=Blackened Defias Gloves", "", "", ""};
+				{ 5, 7365, "", "=q3=Gnoam Sprecklesprocket", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80226, "", "=q3=Buzz Saw", "", "", ""};
+                { 2, 80233, "", "=q3=Buzzer Blade", "", "", ""};
+				{ 3, 80444, "", "=q3=Blackened Defias Gloves", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+			    { 1, 109001, "", "=q3=Buzz Saw", "", "", ""};
+                { 2, 112501, "", "=q3=Buzzer Blade", "", "", ""};
+				{ 3, 218001, "", "=q3=Blackened Defias Gloves", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Sneed's Shredder"],
+            module = moduleName, instance = "The Deadmines",
+        };
+    };
+
+	AtlasLoot_Data["Gilnid"] = {
+        ["Normal"] = {
+            {
+			    { 1, 1156, "", "=q3=Lavishly Jeweled Ring", "", "", ""};
+                { 2, 5199, "", "=q3=Smelting Pants", "", "", ""};
+				{ 3, 10402, "", "=q3=Blackened Defias Boots", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80212, "", "=q3=Lavishly Jeweled Ring", "", "", ""};
+                { 2, 80264, "", "=q3=Smelting Pants", "", "", ""};
+				{ 3, 80445, "", "=q3=Blackened Defias Boots", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+			    { 1, 102001, "", "=q3=Lavishly Jeweled Ring", "", "", ""};
+                { 2, 128001, "", "=q3=Smelting Pants", "", "", ""};
+				{ 3, 218501, "", "=q3=Blackened Defias Boots", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Gilnid"],
+            module = moduleName, instance = "The Deadmines",
+        };
+    };
+
+	AtlasLoot_Data["Mr. Smite"] = {
+        ["Normal"] = {
+            {
+			    { 1, 5192, "", "=q3=Thief's Blade", "", "", ""};
+                { 2, 5196, "", "=q3=Smite's Reaver", "", "", ""};
+				{ 3, 7230, "", "=q3=Smite's Mighty Hammer", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80259, "", "=q3=Thief's Blade", "", "", ""};
+                { 2, 80261, "", "=q3=Smite's Reaver", "", "", ""};
+				{ 3, 80331, "", "=q3=Smite's Mighty Hammer", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+			    { 1, 125501, "", "=q3=Thief's Blade", "", "", ""};
+                { 2, 126501, "", "=q3=Smite's Reaver", "", "", ""};
+				{ 3, 161501, "", "=q3=Smite's Mighty Hammer", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Mr. Smite"],
+            module = moduleName, instance = "The Deadmines",
+        };
+    };
+
+	AtlasLoot_Data["Captain Greenskin"] = {
+        ["Normal"] = {
+            {
+			    { 1, 5200, "", "=q3=Impaling Harpoon", "", "", ""};
+                { 2, 5201, "", "=q3=Emberstone Staff", "", "", ""};
+				{ 3, 10403, "", "=q3=Blackened Defias Belt", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80265, "", "=q3=Impaling Harpoon", "", "", ""};
+                { 2, 80266, "", "=q3=Emberstone Staff", "", "", ""};
+				{ 3, 80446, "", "=q3=Blackened Defias Belt", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+			    { 1, 128501, "", "=q3=Impaling Harpoon", "", "", ""};
+                { 2, 129001, "", "=q3=Emberstone Staff", "", "", ""};
+				{ 3, 219001, "", "=q3=Blackened Defias Belt", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Captain Greenskin"],
+            module = moduleName, instance = "The Deadmines",
+        };
+    };
+
+	AtlasLoot_Data["Edwin VanCleef"] = {
+        ["Normal"] = {
+            {
+			    { 1, 5191, "", "=q3=Cruel Barb", "", "", ""};
+                { 2, 5193, "", "=q3=Cape of the Brotherhood", "", "", ""};
+				{ 3, 5202, "", "=q3=Corsair's Overshirt", "", "", ""};
+				{ 4, 10399, "", "=q3=Blackened Defias Armor", "", "", ""};
+				{ 6, 2874, "", "=q3=An Unsent Letter", "", "", ""};
+				{ 7, 3637, "", "=q3=Head of VanCleef", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80258, "", "=q3=Cruel Barb", "", "", ""};
+                { 2, 80260, "", "=q3=Cape of the Brotherhood", "", "", ""};
+				{ 3, 80267, "", "=q3=Corsair's Overshirt", "", "", ""};
+				{ 4, 80442, "", "=q3=Blackened Defias Armor", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+			    { 1, 125001, "", "=q3=Cruel Barb", "", "", ""};
+                { 2, 126001, "", "=q3=Cape of the Brotherhood", "", "", ""};
+				{ 3, 129501, "", "=q3=Corsair's Overshirt", "", "", ""};
+				{ 4, 217001, "", "=q3=Blackened Defias Armor", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Edwin VanCleef"],
+            module = moduleName, instance = "The Deadmines",
+        };
+    };
+
+	AtlasLoot_Data["Cookie"] = {
+        ["Normal"] = {
+            {
+			    { 1, 5197, "", "=q3=Cookie's Tenderizer", "", "", ""};
+                { 2, 5198, "", "=q3=Cookie's Stirring Rod", "", "", ""};
+				{ 4, 8490, "", "=q3=Cat Carrier (Siamese)", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80262, "", "=q3=Cookie's Tenderizer", "", "", ""};
+                { 2, 80263, "", "=q3=Cookie's Stirring Rod", "", "", ""};
+				{ 4, 8490, "", "=q3=Cat Carrier (Siamese)", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+			    { 1, 127001, "", "=q3=Cookie's Tenderizer", "", "", ""};
+                { 2, 127501, "", "=q3=Cookie's Stirring Rod", "", "", ""};
+				{ 4, 8490, "", "=q3=Cat Carrier (Siamese)", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Cookie"],
+            module = moduleName, instance = "The Deadmines",
+        };
+    };
+
 		--------------------
 		--- The Stockade ---
 		--------------------

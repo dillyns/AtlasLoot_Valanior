@@ -1095,14 +1095,13 @@ AtlasLoot_LootTableRegister = {
 				{ "Miner Johnson", 2 },
 				{ "Sneed's Shredder", 3 },
 				{ "Gilnid", 4 },
-				{ "MrSmite", 5 },
-				{ "Captain Greekskin", 6 },
+				{ "Mr. Smite", 5 },
+				{ "Captain Greenskin", 6 },
 				{ "Edwin VanCleef", 7 },
 				{ "Cookie", 8 },
 			},
 			["Info"] = { BabbleZone["The Deadmines"], "AtlasLootClassicWoW", mapname = "The Deadmines" },
 		},
--- this is the same as wailing caverns
 
 		["Wailing Caverns"] = {
 			["Bosses"] = {
