@@ -1108,10 +1108,10 @@ AtlasLoot_LootTableRegister = {
 		},
 
 		["Wailing Caverns"] = {
-			["bosses"] = {
-                { "Kresh", 31 },
-				{ "LadyAnaCondra", 30 },
-				{ "LordCobrahn", 34 },
+			["Bosses"] = {
+                { "Kresh", 1 },
+				{ "Lady Anacondra", 2 },
+				{ "Lord Cobrahn", 3 },
 				{ "DeviateFaerieDragon", 35 },
 				{ "LordPythas", 36 },
 				{ "Skum", 38},

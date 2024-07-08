@@ -4400,37 +4400,6 @@ local moduleName = "AtlasLootClassicWoW"
         };
         info = {
             name = BabbleBoss["Lady Anacondra"],
-            module = moduleName, instance = "Wailing Cavernsc",
-        };
-    };
-	
-	AtlasLoot_Data["Bazzalan"] = {
-        ["Normal"] = {
-            {
-			    { 1, 80005, "", "=q3=", "", "", ""};
-                { 2, 80006, "", "=q3=", "", "", ""};
-                { 3, 80007, "", "=q3=", "", "", ""};
-                { 4, 80008, "", "=q3=", "", "", ""};
-            };
-        };
-        ["Heroic"] = {
-            {
-			    { 1, 81055, "", "=q3=", "", "", ""};
-                { 2, 81056, "", "=q3=", "", "", ""};
-                { 3, 81057, "", "=q3=", "", "", ""};
-                { 4, 81058, "", "=q3=", "", "", ""};
-            };
-        };
-        ["Mythic"] = {
-            {
-                { 1, 668001, "", "=q3=", "", "", ""};
-                { 2, 668501, "", "=q3=", "", "", ""};
-                { 3, 669001, "", "=q3=", "", "", ""};
-				{ 4, 669501, "", "=q3=", "", "", ""};
-            };
-        };
-        info = {
-            name = BabbleBoss["Bazzalan"],
             module = moduleName, instance = "Wailing Caverns",
         };
     };
@@ -4465,7 +4434,8 @@ local moduleName = "AtlasLootClassicWoW"
             module = moduleName, instance = "Wailing Caverns",
         };
     };
-    		------------------
+
+    	------------------
 		--- Zul'Farrak ---
 		------------------
 
