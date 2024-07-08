@@ -1091,7 +1091,7 @@ AtlasLoot_LootTableRegister = {
 		
 		["The Deadmines"] = {
 			["Bosses"] = {
-				{ "RhahkZor", 1 },
+				{ "Rhahk'Zor", 1 },
 				{ "Miner Johnson", 2 },
 				{ "Sneed's Shredder", 3 },
 				{ "Gilnid", 4 },
