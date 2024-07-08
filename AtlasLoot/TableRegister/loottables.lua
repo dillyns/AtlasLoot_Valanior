@@ -1090,12 +1090,12 @@ AtlasLoot_LootTableRegister = {
 		},
 		
 		["The Deadmines"] = {
-			["bosses"] = {
-				{ "Rhahk'Zor", 1 },
+			["Bosses"] = {
+				{ "RhahkZor", 1 },
 				{ "Miner Johnson", 2 },
 				{ "Sneed's Shredder", 3 },
 				{ "Gilnid", 4 },
-				{ "Mr.Smite", 5 },
+				{ "MrSmite", 5 },
 				{ "Captain Greekskin", 6 },
 				{ "Edwin VanCleef", 7 },
 				{ "Cookie", 8 },

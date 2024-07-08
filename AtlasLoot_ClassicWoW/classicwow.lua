@@ -3899,7 +3899,7 @@ local moduleName = "AtlasLootClassicWoW"
 		--- The Deadmines ---
 		---------------------
 
-	AtlasLoot_Data["Rhahk'Zor"] = {
+	AtlasLoot_Data["RhahkZor"] = {
         ["Normal"] = {
             {
 			    { 1, 872, "", "=q3=", "", "", ""};
@@ -3919,7 +3919,7 @@ local moduleName = "AtlasLootClassicWoW"
             };
         };
         info = {
-            name = BabbleBoss["Rhahk'Zor"],
+            name = BabbleBoss["RhahkZor"],
             module = moduleName, instance = "The Deadmines",
         };
     };
