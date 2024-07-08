@@ -2641,7 +2641,7 @@ local moduleName = "AtlasLootClassicWoW"
         };
         ["Heroic"] = {
             {
-			    { 1, 81050, "", "=q3=Snarlmouth Leggings", "", "", ""};
+			    { 1, 81050, "", "=q3=Scorched Boots", "", "", ""};
                 { 2, 81051, "", "=q3=Snarlmouth Leggings", "", "", ""};
                 { 3, 81052, "", "=q3=Bonecoal Waistguard", "", "", ""};
                 { 4, 81053, "", "=q3=Oggleflint's Precious", "", "", ""};
@@ -2649,9 +2649,9 @@ local moduleName = "AtlasLootClassicWoW"
         };
         ["Mythic"] = {
             {
-                { 1, 665501, "", "=q3=Snarlmouth Leggings", "", "", ""};
-                { 2, 666001, "", "=q3=Bonecoal Waistguard", "", "", ""};
-                { 3, 666501, "", "=q3=Oggleflint's Precious", "", "", ""};
+                { 1, 665501, "", "=q3=Scorched Boots", "", "", ""};
+                { 2, 666001, "", "=q3=Snarlmouth Leggings", "", "", ""};
+                { 3, 666501, "", "=q3=Bonecoal Waistguard", "", "", ""};
 				{ 4, 667001, "", "=q3=Oggleflint's Precious", "", "", ""};
             };
         };
@@ -2661,30 +2661,30 @@ local moduleName = "AtlasLootClassicWoW"
         };
     };
 	
-		AtlasLoot_Data["Taragaman the Hungerer"] = {
+	AtlasLoot_Data["Taragaman the Hungerer"] = {
         ["Normal"] = {
             {
-			    { 1, 14540, "", "=q3=Taragaman The Hungerer's Heart", "=ds=#m3#", "", ""};
-                { 2, 14145, "", "=q3=", "", "", ""};
-                { 3, 14148, "", "=q3=", "", "", ""};
-                { 4, 14149, "", "=q3=", "", "", ""};
-				{ 5, 80004, "", "=q3=", "", "", ""};
+			    { 1, 14540, "", "=q3=Taragaman The Hungerer's Heart", "", "", ""};
+                { 2, 14145, "", "=q3=Cursed Felblade", "", "", ""};
+                { 3, 14148, "", "=q3=Crystalline Cuffs", "", "", ""};
+                { 4, 14149, "", "=q3=Subterranean Cape", "", "", ""};
+				{ 5, 80004, "", "=q3=Grasp of the Broken", "", "", ""};
             };
         };
         ["Heroic"] = {
             {
-			    { 1, 80780, "", "=q3=", "", "", ""};
-                { 2, 80782, "", "=q3=", "", "", ""};
-                { 3, 80783, "", "=q3=", "", "", ""};
-                { 4, 81054, "", "=q3=", "", "", ""};
+			    { 1, 80780, "", "=q3=Cursed Felblade", "", "", ""};
+                { 2, 80782, "", "=q3=Crystalline Cuffs", "", "", ""};
+                { 3, 80783, "", "=q3=Subterranean Cape", "", "", ""};
+                { 4, 81054, "", "=q3=Grasp of the Broken", "", "", ""};
             };
         };
         ["Mythic"] = {
             {
-                { 1, 389001, "", "=q3=", "", "", ""};
-                { 2, 390001, "", "=q3=", "", "", ""};
-                { 3, 390501, "", "=q3=", "", "", ""};
-				{ 4, 667501, "", "=q3=", "", "", ""};
+                { 1, 389001, "", "=q3=Cursed Felblade", "", "", ""};
+                { 2, 390001, "", "=q3=Crystalline Cuffs", "", "", ""};
+                { 3, 390501, "", "=q3=Subterranean Cape", "", "", ""};
+				{ 4, 667501, "", "=q3=Grasp of the Broken", "", "", ""};
             };
         };
         info = {
@@ -2696,26 +2696,26 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Bazzalan"] = {
         ["Normal"] = {
             {
-			    { 1, 80005, "", "=q3=", "", "", ""};
-                { 2, 80006, "", "=q3=", "", "", ""};
-                { 3, 80007, "", "=q3=", "", "", ""};
-                { 4, 80008, "", "=q3=", "", "", ""};
+			    { 1, 80005, "", "=q3=Flameseared Carapace", "", "", ""};
+                { 2, 80006, "", "=q3=Demonic Bindings", "", "", ""};
+                { 3, 80007, "", "=q3=Bazzalan's Grasp", "", "", ""};
+                { 4, 80008, "", "=q3=Everburn Shoulderguards", "", "", ""};
             };
         };
         ["Heroic"] = {
             {
-			    { 1, 81055, "", "=q3=", "", "", ""};
-                { 2, 81056, "", "=q3=", "", "", ""};
-                { 3, 81057, "", "=q3=", "", "", ""};
-                { 4, 81058, "", "=q3=", "", "", ""};
+			    { 1, 81055, "", "=q3=Flameseared Carapace", "", "", ""};
+                { 2, 81056, "", "=q3=Demonic Bindings", "", "", ""};
+                { 3, 81057, "", "=q3=Bazzalan's Grasp", "", "", ""};
+                { 4, 81058, "", "=q3=Everburn Shoulderguards", "", "", ""};
             };
         };
         ["Mythic"] = {
             {
-                { 1, 668001, "", "=q3=", "", "", ""};
-                { 2, 668501, "", "=q3=", "", "", ""};
-                { 3, 669001, "", "=q3=", "", "", ""};
-				{ 4, 669501, "", "=q3=", "", "", ""};
+                { 1, 668001, "", "=q3=Flameseared Carapace", "", "", ""};
+                { 2, 668501, "", "=q3=Demonic Bindings", "", "", ""};
+                { 3, 669001, "", "=q3=Bazzalan's Grasp", "", "", ""};
+				{ 4, 669501, "", "=q3=Everburn Shoulderguards", "", "", ""};
             };
         };
         info = {
@@ -2727,26 +2727,26 @@ local moduleName = "AtlasLootClassicWoW"
 	 AtlasLoot_Data["Jergosh the Invoker"] = {
         ["Normal"] = {
             {
-			    { 1, 14147, "", "=q3=", "", "", ""};
-                { 2, 14150, "", "=q3=", "", "", ""};
-                { 3, 14151, "", "=q3=", "", "", ""};
-                { 4, 80009, "", "=q3=", "", "", ""};
+			    { 1, 14147, "", "=q3=Cavedweller Bracers", "", "", ""};
+                { 2, 14150, "", "=q3=Robe of Evocation", "", "", ""};
+                { 3, 14151, "", "=q3=Chanting Blade", "", "", ""};
+                { 4, 80009, "", "=q3=Heartboiler Staff", "", "", ""};
             };
         };
         ["Heroic"] = {
             {
-			    { 1, 80781, "", "=q3=", "", "", ""};
-                { 2, 80784, "", "=q3=", "", "", ""};
-                { 3, 80785, "", "=q3=", "", "", ""};
-                { 4, 81059, "", "=q3=", "", "", ""};
+			    { 1, 80781, "", "=q3=Cavedweller Bracers", "", "", ""};
+                { 2, 80784, "", "=q3=Robe of Evocation", "", "", ""};
+                { 3, 80785, "", "=q3=Chanting Blade", "", "", ""};
+                { 4, 81059, "", "=q3=Heartboiler Staff", "", "", ""};
             };
         };
         ["Mythic"] = {
             {
-                { 1, 389501, "", "=q3=", "", "", ""};
-                { 2, 391001, "", "=q3=", "", "", ""};
-                { 3, 391501, "", "=q3=", "", "", ""};
-				{ 4, 670001, "", "=q3=", "", "", ""};
+                { 1, 389501, "", "=q3=Cavedweller Bracers", "", "", ""};
+                { 2, 391001, "", "=q3=Robe of Evocation", "", "", ""};
+                { 3, 391501, "", "=q3=Chanting Blade", "", "", ""};
+				{ 4, 670001, "", "=q3=Heartboiler Staff", "", "", ""};
             };
         };
         info = {
@@ -4236,20 +4236,20 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Kresh"] = {
         ["Normal"] = {
             {
-			    { 1, 6447, "", "=q3=", "", "", ""};
-                { 2, 13245, "", "=q3=", "", "", ""};
+				{ 1, 13245, "", "=q3=Kresh's Back", "", "", ""};
+			    { 2, 6447, "", "=q3=Worn Turtle Shell Shield", "", "", ""};
             };
         };
         ["Heroic"] = {
             {
-			    { 1, 80288, "", "=q3=", "", "", ""};
-                { 2, 80703, "", "=q3=", "", "", ""};
+			    { 1, 80288, "", "=q3=Kresh's Back", "", "", ""};
+                { 2, 80703, "", "=q3=Worn Turtle Shell Shield", "", "", ""};
             };
         };
         ["Mythic"] = {
             {
-                { 1, 140001, "", "=q3=", "", "", ""};
-                { 2, 350501, "", "=q3=", "", "", ""};
+                { 1, 140001, "", "=q3=Kresh's Back", "", "", ""};
+                { 2, 350501, "", "=q3=Worn Turtle Shell Shield", "", "", ""};
             };
         };
         info = {
@@ -4261,20 +4261,22 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Lady Anacondra"] = {
         ["Normal"] = {
             {
-			    { 1, 5404, "", "=q3=", "", "", ""};
-                { 2, 10412, "", "=q3=", "", "", ""};
+			    { 1, 5404, "", "=q3=Serpent's Shoulders", "", "", ""};
+                { 2, 10412, "", "=q3=Belt of the Fang", "", "", ""};
+				{ 4, 6446, "", "=q3=Snakeskin Bag", "", "", ""};
+				{ 5, 9739, "", "=q3=Gem of Anacondra", "", "", ""};
             };
         };
         ["Heroic"] = {
             {
-			    { 1, 80270, "", "=q3=", "", "", ""};
-                { 2, 80449, "", "=q3=", "", "", ""};
+			    { 1, 80270, "", "=q3=Serpent's Shoulders", "", "", ""};
+                { 2, 80449, "", "=q3=Belt of the Fang", "", "", ""};
             };
         };
         ["Mythic"] = {
             {
-                { 1, 131001, "", "=q3=", "", "", ""};
-                { 2, 220501, "", "=q3=", "", "", ""};
+                { 1, 131001, "", "=q3=Serpent's Shoulders", "", "", ""};
+                { 2, 220501, "", "=q3=Belt of the Fang", "", "", ""};
             };
         };
         info = {
@@ -4286,23 +4288,24 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Lord Cobrahn"] = {
         ["Normal"] = {
             {
-			    { 1, 6465, "", "=q3=", "", "", ""};
-                { 2, 6460, "", "=q3=", "", "", ""};
-                { 3, 10410, "", "=q3=", "", "", ""};
+			    { 1, 6460, "", "=q3=Cobrahn's Grasp", "", "", ""};
+                { 2, 6465, "", "=q3=Robe of the Moccasin", "", "", ""};
+                { 3, 10410, "", "=q3=Leggings of the Fang", "", "", ""};
+                { 5, 9738, "", "=q3=Gem of Cobrahn", "", "", ""};
             };
         };
         ["Heroic"] = {
             {
-			    { 1, 80295, "", "=q3=", "", "", ""};
-                { 2, 80292, "", "=q3=", "", "", ""};
-                { 3, 80447, "", "=q3=", "", "", ""};
+			    { 1, 80292, "", "=q3=Cobrahn's Grasp", "", "", ""};
+                { 2, 80295, "", "=q3=Robe of the Moccasin", "", "", ""};
+                { 3, 80447, "", "=q3=Leggings of the Fang", "", "", ""};
             };
         };
         ["Mythic"] = {
             {
-                { 1, 143501, "", "=q3=", "", "", ""};
-                { 2, 142001, "", "=q3=", "", "", ""};
-                { 3, 219501, "", "=q3=", "", "", ""};
+                { 1, 142001, "", "=q3=Cobrahn's Grasp", "", "", ""};
+                { 2, 143501, "", "=q3=Robe of the Moccasin", "", "", ""};
+                { 3, 219501, "", "=q3=Leggings of the Fang", "", "", ""};
             };
         };
         info = {
@@ -4310,29 +4313,28 @@ local moduleName = "AtlasLootClassicWoW"
             module = moduleName, instance = "Wailing Caverns",
         };
     };
-	
-	AtlasLoot_Data["Deviate FaerieDragon"] = {
+
+	AtlasLoot_Data["Faerie Dragon"] = {
         ["Normal"] = {
             {
-			    { 1, 6632, "", "=q3=", "", "", ""};
-                { 2, 5243, "", "=q3=", "", "", ""};
+			    { 1, 5243, "", "=q3=Firebelcher", "", "", ""};
+                { 2, 6632, "", "=q3=Feyscale Cloak", "", "", ""};
             };
         };
         ["Heroic"] = {
             {
-			    { 1, 80303, "", "=q3=", "", "", ""};
-                { 2, 80268, "", "=q3=", "", "", ""};
+			    { 1, 80268, "", "=q3=Firebelcher", "", "", ""};
+                { 2, 80303, "", "=q3=Feyscale Cloak", "", "", ""};
             };
         };
         ["Mythic"] = {
             {
-                { 1, 147501, "", "=q3=", "", "", ""};
-                { 2, 130001, "", "=q3=", "", "", ""};
-
+                { 1, 130001, "", "=q3=Firebelcher", "", "", ""};
+                { 2, 147501, "", "=q3=Feyscale Cloak", "", "", ""};
             };
         };
         info = {
-            name = BabbleBoss["Deviate FaerieDragon"],
+            name = BabbleBoss["Deviate Faerie Dragon"],
             module = moduleName, instance = "Wailing Caverns",
         };
     };
@@ -4340,23 +4342,24 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Lord Pythas"] = {
         ["Normal"] = {
             {
-			    { 1, 6473, "", "=q3=", "", "", ""};
-                { 2, 6472, "", "=q3=", "", "", ""};
-                { 3, 10413, "", "=q3=", "", "", ""};
+			    { 1, 6472, "", "=q3=Stinging Viper", "", "", ""};
+                { 2, 6473, "", "=q3=Armor of the Fang", "", "", ""};
+				{ 3, 10413, "", "=q3=Gloves of the Fang", "", "", ""};
+                { 5, 9740, "", "=q3=Gem of Pythas", "", "", ""};
             };
         };
         ["Heroic"] = {
             {
-			    { 1, 80298, "", "=q3=", "", "", ""};
-                { 2, 80297, "", "=q3=", "", "", ""};
-                { 3, 80450, "", "=q3=", "", "", ""};
+			    { 1, 80297, "", "=q3=Stinging Viper", "", "", ""};
+                { 2, 80298, "", "=q3=Armor of the Fang", "", "", ""};
+				{ 3, 80450, "", "=q3=Gloves of the Fang", "", "", ""};
             };
         };
         ["Mythic"] = {
             {
-                { 1, 145001, "", "=q3=", "", "", ""};
-                { 2, 144501, "", "=q3=", "", "", ""};
-                { 3, 221001, "", "=q3=", "", "", ""};
+			    { 1, 144501, "", "=q3=Stinging Viper", "", "", ""};
+                { 2, 145001, "", "=q3=Armor of the Fang", "", "", ""};
+				{ 3, 221001, "", "=q3=Gloves of the Fang", "", "", ""};
             };
         };
         info = {
@@ -4368,20 +4371,20 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Skum"] = {
         ["Normal"] = {
             {
-			    { 1, 6448, "", "=q3=", "", "", ""};
-                { 2, 6449, "", "=q3=", "", "", ""};
+			    { 1, 6448, "", "=q3=Tail Spike", "", "", ""};
+                { 2, 6449, "", "=q3=Glowing Lizardscale Cloak", "", "", ""};
             };
         };
         ["Heroic"] = {
             {
-			    { 1, 80289, "", "=q3=", "", "", ""};
-                { 2, 80290, "", "=q3=", "", "", ""};
+			    { 1, 80289, "", "=q3=Tail Spike", "", "", ""};
+                { 2, 80290, "", "=q3=Glowing Lizardscale Cloak", "", "", ""};
             };
         };
         ["Mythic"] = {
             {
-                { 1, 140501, "", "=q3=", "", "", ""};
-                { 2, 141001, "", "=q3=", "", "", ""};
+			    { 1, 140501, "", "=q3=Tail Spike", "", "", ""};
+                { 2, 141001, "", "=q3=Glowing Lizardscale Cloak", "", "", ""};
             };
         };
         info = {
@@ -4393,26 +4396,27 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Lord Serpentis"] = {
         ["Normal"] = {
             {
-			    { 1, 6459, "", "=q3=", "", "", ""};
-                { 2, 10411, "", "=q3=", "", "", ""};
-                { 3, 5970, "", "=q3=", "", "", ""};
-                { 4, 6469, "", "=q3=", "", "", ""};
+			    { 1, 5970, "", "=q3=Serpent Gloves", "", "", ""};
+                { 2, 6459, "", "=q3=Savage Trodders", "", "", ""};
+				{ 3, 6469, "", "=q3=Venomstrike", "", "", ""};
+				{ 4, 10411, "", "=q3=Footpads of the Fang", "", "", ""};
+                { 6, 9741, "", "=q3=Gem of Serpentis", "", "", ""};
             };
         };
         ["Heroic"] = {
             {
-			    { 1, 80291, "", "=q3=", "", "", ""};
-                { 2, 80448, "", "=q3=", "", "", ""};
-                { 3, 80275, "", "=q3=", "", "", ""};
-                { 4, 80296, "", "=q3=", "", "", ""};
+			    { 1, 80275, "", "=q3=Serpent Gloves", "", "", ""};
+                { 2, 80291, "", "=q3=Savage Trodders", "", "", ""};
+				{ 3, 80296, "", "=q3=Venomstrike", "", "", ""};
+				{ 4, 80448, "", "=q3=Footpads of the Fang", "", "", ""};
             };
         };
         ["Mythic"] = {
             {
-                { 1, 141501, "", "=q3=", "", "", ""};
-                { 2, 220001, "", "=q3=", "", "", ""};
-                { 3, 133501, "", "=q3=", "", "", ""};
-				{ 4, 144001, "", "=q3=", "", "", ""};
+			    { 1, 133501, "", "=q3=Serpent Gloves", "", "", ""};
+                { 2, 141501, "", "=q3=Savage Trodders", "", "", ""};
+				{ 3, 144001, "", "=q3=Venomstrike", "", "", ""};
+				{ 4, 220001, "", "=q3=Footpads of the Fang", "", "", ""};
             };
         };
         info = {
@@ -4420,27 +4424,27 @@ local moduleName = "AtlasLootClassicWoW"
             module = moduleName, instance = "Wailing Caverns",
         };
     };
-	
+
 	AtlasLoot_Data["Verdan the Everliving"] = {
         ["Normal"] = {
             {
-			    { 1, 6630, "", "=q3=", "", "", ""};
-                { 2, 6631, "", "=q3=", "", "", ""};
-                { 3, 6629, "", "=q3=", "", "", ""};
+			    { 1, 6629, "", "=q3=Sporid Cape", "", "", ""};
+                { 2, 6630, "", "=q3=Seedcloud Buckler", "", "", ""};
+				{ 3, 6631, "", "=q3=Living Root", "", "", ""};
             };
         };
         ["Heroic"] = {
             {
-			    { 1, 80301, "", "=q3=", "", "", ""};
-                { 2, 80302, "", "=q3=", "", "", ""};
-                { 3, 80300, "", "=q3=", "", "", ""};
+			    { 1, 80300, "", "=q3=Sporid Cape", "", "", ""};
+                { 2, 80301, "", "=q3=Seedcloud Buckler", "", "", ""};
+				{ 3, 80302, "", "=q3=Living Root", "", "", ""};
             };
         };
         ["Mythic"] = {
             {
-                { 1, 146501, "", "=q3=", "", "", ""};
-                { 2, 147001, "", "=q3=", "", "", ""};
-                { 3, 146001, "", "=q3=", "", "", ""};
+			    { 1, 146001, "", "=q3=Sporid Cape", "", "", ""};
+                { 2, 146501, "", "=q3=Seedcloud Buckler", "", "", ""};
+				{ 3, 147001, "", "=q3=Living Root", "", "", ""};
             };
         };
         info = {
@@ -4452,23 +4456,24 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Mutanus the Devourer"] = {
         ["Normal"] = {
             {
-			    { 1, 6463, "", "=q3=", "", "", ""};
-                { 2, 6461, "", "=q3=", "", "", ""};
-                { 3, 6627, "", "=q3=", "", "", ""};
+			    { 1, 6461, "", "=q3=Slime-encrusted Pads", "", "", ""};
+                { 2, 6463, "", "=q3=Deep Fathom Ring", "", "", ""};
+				{ 3, 6627, "", "=q3=Mutant Scale Breastplate", "", "", ""};
+				{ 5, 10441, "", "=q3=Glowing Shard", "", "", ""};
             };
         };
         ["Heroic"] = {
             {
-			    { 1, 80294, "", "=q3=", "", "", ""};
-                { 2, 80293, "", "=q3=", "", "", ""};
-                { 3, 80299, "", "=q3=", "", "", ""};
+			    { 1, 80293, "", "=q3=Slime-encrusted Pads", "", "", ""};
+                { 2, 80294, "", "=q3=Deep Fathom Ring", "", "", ""};
+				{ 3, 80299, "", "=q3=Mutant Scale Breastplate", "", "", ""};
             };
         };
         ["Mythic"] = {
             {
-                { 1, 143001, "", "=q3=", "", "", ""};
-                { 2, 142501, "", "=q3=", "", "", ""};
-                { 3, 145501, "", "=q3=", "", "", ""};
+			    { 1, 142501, "", "=q3=Slime-encrusted Pads", "", "", ""};
+                { 2, 143001, "", "=q3=Deep Fathom Ring", "", "", ""};
+				{ 3, 145501, "", "=q3=Mutant Scale Breastplate", "", "", ""};
             };
         };
         info = {
