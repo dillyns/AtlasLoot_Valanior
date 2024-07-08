@@ -1088,23 +1088,19 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { BabbleZone["Scholomance"], "AtlasLootClassicWoW", mapname = "Scholomance" },
 		},
-
-		["TheDeadminesEnt"] = "TheDeadminesEaI",
-		["TheDeadmines"] = "TheDeadminesEaI",
-		["TheDeadminesEaI"] = {
-			["TheDeadminesEnt"] = {
-				{ "DeadminesTrash", {4,5}, hide = true },
+		
+		["The Deadmines"] = {
+			["bosses"] = {
+				{ "Rhahk'Zor", 1, },
+				{ "Miner Johnson", 2 },
+				{ "Sneed's Shredder", 3 },
+				{ "Gilnid", 4 },
+				{ "Mr.Smite", 5 },
+				{ "Captain Greekskin", 6 },
+				{ "Edwin VanCleef", 7 },
+				{ "Cookie", 8 },
 			},
-			["TheDeadmines"] = {
-				{ "DeadminesGlubtok", 3, EncounterJournalID = 89 },
-				{ "DeadminesGearbreaker", 5, EncounterJournalID = 90 },
-				{ "DeadminesFoeReaper", 6, EncounterJournalID = 91 },
-				{ "DeadminesRipsnarl", 7, EncounterJournalID = 92 },
-				{ "DeadminesCookie", 8, EncounterJournalID = 93 },
-				{ "DeadminesVanessa", 9, EncounterJournalID = 95 },
-				{ "DeadminesTrash", 18 },
-			},
-			["Info"] = { BabbleZone["The Deadmines"], {"AtlasLootClassicWoW"}, sortOrder = { "TheDeadminesEnt", "TheDeadmines" }, mapname = "TheDeadmines", EncounterJournalID = 63 },
+			["Info"] = { BabbleZone["The Deadmines"], "AtlasLootClassicWoW", mapname = "The Deadmines" },
 		},
 
 		["Wailing Caverns"] = {

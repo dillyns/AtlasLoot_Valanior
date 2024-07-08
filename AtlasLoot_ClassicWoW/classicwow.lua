@@ -3899,152 +3899,30 @@ local moduleName = "AtlasLootClassicWoW"
 		--- The Deadmines ---
 		---------------------
 
-	AtlasLoot_Data["DeadminesGlubtok"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 5444, "", "=q3=Miner's Cape", "=ds=#s4#", ""};
-				{ 3, 5195, "", "=q3=Gold-Flecked Gloves", "=ds=#s9#, #a1#", "" };
-				{ 4, 2169, "", "=q3=Buzzer Blade", "=ds=#h1#, #w4#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 63467, "", "=q3=Shadow of the Past", "=ds=#s4#", ""};
-				{ 18, 63468, "", "=q3=Defias Brotherhood Vest", "=ds=#s5#, #a2#", ""};
-				{ 19, 63471, "", "=q3=Vest of the Curious Visitor", "=ds=#s5#, #a2#", ""};
-				{ 20, 63470, "", "=q3=Missing Diplomat's Pauldrons", "=ds=#s3#, #a4#", ""};
-				{ 21, 65163, "", "=q3=Buzzer Blade", "=ds=#h1#, #w4#", ""};
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Glubtok", 89),
-			module = moduleName, instance = "TheDeadminesEaI",
-		};
-	};
-
-	AtlasLoot_Data["DeadminesGearbreaker"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 5199, "", "=q3=Smelting Pants", "=ds=#s11#, #a2#", "" };
-				{ 3, 5191, "", "=q3=Cruel Barb", "=ds=#h1#, #w10#", "" };
-				{ 4, 5200, "", "=q3=Impaling Harpoon", "=ds=#w7#", "" };
-				{ 5, 5443, "", "=q3=Gold-plated Buckler", "=ds=#w8#", "" };
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 63473, "", "=q3=Cloak of Thredd", "=ds=#s4#", ""};
-				{ 18, 63475, "", "=q3=Old Friend's Gloves", "=ds=#s9#, #a3#", ""};
-				{ 19, 63476, "", "=q3=Gearbreaker's Bindings", "=ds=#s8#, #a4#", ""};
-				{ 20, 63474, "", "=q3=Gear-Marked Gauntlets", "=ds=#s9#, #a4#", ""};
-				{ 21, 65164, "", "=q3=Cruel Barb", "=ds=#h1#, #w10#", ""};
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Helix Gearbreaker", 90),
-			module = moduleName, instance = "TheDeadminesEaI",
-		};
-	};
-
-	AtlasLoot_Data["DeadminesFoeReaper"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 1937, "", "=q3=Buzz Saw", "=ds=#h1#, #w10#", "", };
-				{ 3, 5187, "", "=q3=Foe Reaper", "=ds=#h2#, #w6#", ""};
-				{ 4, 5201, "", "=q3=Emberstone Staff", "=ds=#w9#", "" };
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 65166, "", "=q3=Buzz Saw", "=ds=#h1#, #w10#", ""};
-				{ 18, 65165, "", "=q3=Foe Reaper", "=ds=#h2#, #w6#", ""};
-				{ 19, 65167, "", "=q3=Emberstone Staff", "=ds=#w9#", ""};
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Foe Reaper 5000", 91),
-			module = moduleName, instance = "TheDeadminesEaI",
-		};
-	};
-
-	AtlasLoot_Data["DeadminesRipsnarl"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 1156, "", "=q3=Lavishly Jeweled Ring", "=ds=#s13#", "", };
-				{ 3, 5196, "", "=q3=Smite's Reaver", "=ds=#h1#, #w1#", ""};
-				{ 4, 872, "", "=q3=Rockslicer", "=ds=#h2#, #w1#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 65169, "", "=q3=Lavishly Jeweled Ring", "=ds=#s13#", ""};
-				{ 18, 65170, "", "=q3=Smite's Reaver", "=ds=#h1#, #w1#", ""};
-				{ 19, 65168, "", "=q3=Rockslicer", "=ds=#h2#, #w1#", ""};
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Admiral Ripsnarl", 92),
-			module = moduleName, instance = "TheDeadminesEaI",
-		};
-	};
-
-	AtlasLoot_Data["DeadminesCookie"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 5193, "", "=q3=Cape of the Brotherhood", "=ds=#s4#", "" };
-				{ 3, 5202, "", "=q3=Corsair's Overshirt", "=ds=#s5#, #a1#", "" };
-				{ 4, 5192, "", "=q3=Thief's Blade", "=ds=#h1#, #w10#", ""};
-				{ 5, 5197, "", "=q3=Cookie's Tenderizer", "=ds=#h1#, #w6#", "", };
-				{ 6, 5198, "", "=q3=Cookie's Stirring Rod", "=ds=#w12#", "", };
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 65177, "", "=q3=Cape of the Brotherhood", "=ds=#s4#", ""};
-				{ 18, 65174, "", "=q3=Corsair's Overshirt", "=ds=#s5#, #a1#", ""};
-				{ 19, 65173, "", "=q3=Thief's Blade", "=ds=#h1#, #w10#", ""};
-				{ 20, 65171, "", "=q3=Cookie's Tenderizer", "=ds=#h1#, #w6#", ""};
-				{ 21, 65172, "", "=q3=Cookie's Stirring Rod", "=ds=#w12#", ""};
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("\"Captain\" Cookie", 93),
-			module = moduleName, instance = "TheDeadminesEaI",
-		};
-	};
-
-	AtlasLoot_Data["DeadminesVanessa"] = {
-		["Normal"] = {
-			{
-				{ 1, 63484, "", "=q3=Armbands of Exiled Architects", "=ds=#s8#, #a1#", "" };
-				{ 2, 63482, "", "=q3=Daughter's Hands", "=ds=#s9#, #a1#", "" };
-				{ 3, 63485, "", "=q3=Cowl of Rebellion", "=ds=#s1#, #a2#", "" };
-				{ 4, 65178, "", "=q3=VanCleef's Boots", "=ds=#s12#, #a2#", "" };
-				{ 5, 63479, "", "=q3=Bracers of Some Consequence", "=ds=#s8#, #a3#", "" };
-				{ 6, 63486, "", "=q3=Shackles of the Betrayed", "=ds=#s8#, #a3#", "" };
-				{ 7, 63478, "", "=q3=Stonemason's Helm", "=ds=#s1#, #a4#", "" };
-				{ 8, 63483, "", "=q3=Guildmaster's Greaves", "=ds=#s12#, #a4#", "" };
-				{ 16, 63487, "", "=q3=Book of the Well Sung Song", "=ds=#s16#", "" };
-				{ 17, 63480, "", "=q3=Record of the Brotherhood's End", "=ds=#s16#", "" };
-				{ 19, 63477, "", "=q3=Wicked Dagger", "=ds=#h1#, #w4#", "" };
-			};
-		};
-		info = {
-			name = AtlasLoot:EJ_GetBossName("Vanessa VanCleef", 95),
-			module = moduleName, instance = "TheDeadminesEaI",
-		};
-	};
-
-	AtlasLoot_Data["DeadminesTrash"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-				{ 2, 1930, "", "=q3=Stonemason Cloak", "=ds=#s4#", "", "0.01%"};
-				{ 3, 1951, "", "=q3=Blackwater Cutlass", "=ds=#h1#, #w10#", "", "0.01%"};
-				{ 4, 1926, "", "=q3=Weighted Sap", "=ds=#h1#, #w6#", "", "0.01%"};
-				{ 17, 0, "INV_Box_01", "=q6="..BabbleBoss["Marisa du'Paige"], "=ec1=#j28#"};
-				{ 18, 3019, "", "=q3=Noble's Robe", "=ds=#s5#, #a1#", "", "22.4%"};
-				{ 19, 4660, "", "=q3=Walking Boots", "=ds=#s12#, #a1#", "", "71.4%"};
-				{ 21, 0, "INV_Box_01", "=q6="..BabbleBoss["Brainwashed Noble"], "=ec1=#j28#"};
-				{ 22, 5967, "", "=q3=Girdle of Nobility", "=ds=#s10#, #a1#", "", "70.4%"};
-				{ 23, 3902, "", "=q3=Staff of Nobles", "=ds=#w9#", "", "23.0%"};
-			};
-		};
-		info = {
-			name = AL["Trash Mobs"],
-			module = moduleName, instance = "TheDeadminesEaI",
-		};
-	};
+	AtlasLoot_Data["Rhahk'Zor"] = {
+        ["Normal"] = {
+            {
+			    { 1, 872, "", "=q3=", "", "", ""};
+                { 2, 5187, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80209, "", "=q3=", "", "", ""};
+                { 2, 80257, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+                { 1, 100501, "", "=q3=", "", "", ""};
+                { 2, 124501, "", "=q3=", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Rhahk'Zor"],
+            module = moduleName, instance = "The Deadmines",
+        };
+    };
 
 		--------------------
 		--- The Stockade ---
