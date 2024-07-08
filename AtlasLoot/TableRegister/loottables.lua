@@ -1091,7 +1091,7 @@ AtlasLoot_LootTableRegister = {
 		
 		["The Deadmines"] = {
 			["bosses"] = {
-				{ "Rhahk'Zor", 1, },
+				{ "Rhahk'Zor", 1 },
 				{ "Miner Johnson", 2 },
 				{ "Sneed's Shredder", 3 },
 				{ "Gilnid", 4 },
@@ -1100,9 +1100,9 @@ AtlasLoot_LootTableRegister = {
 				{ "Edwin VanCleef", 7 },
 				{ "Cookie", 8 },
 			},
-			["Info"] = { BabbleZone["The Deadmines"], "AtlasLootClassicWoW", mapname = "TheDeadmines" },
+			["Info"] = { BabbleZone["The Deadmines"], "AtlasLootClassicWoW", mapname = "The Deadmines" },
 		},
--- this is the same as wailing caverns?
+-- this is the same as wailing caverns
 
 		["Wailing Caverns"] = {
 			["Bosses"] = {
