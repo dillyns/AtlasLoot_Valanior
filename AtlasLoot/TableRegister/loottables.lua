@@ -1000,13 +1000,16 @@ AtlasLoot_LootTableRegister = {
 
 		["ShadowfangKeep"] = {
 			["Bosses"] = {
-				{ "ShadowfangAshbury", 3, EncounterJournalID = 96 },
-				{ "ShadowfangSilverlaine", 4, EncounterJournalID = 97 },
-				{ "ShadowfangSpringvale", 9, EncounterJournalID = 98 },
-				{ "ShadowfangWalden", 10, EncounterJournalID = 99 },
-				{ "ShadowfangGodfrey", 11, EncounterJournalID = 100 },
-				{ "Valentineday#3", 12, hide = true },
-				{ "ShadowfangTrash", 21 },
+				{ "Rethilgore", 1 },
+				{ "Fel Steed", 2 },
+				{ "Razorclaw the Butcher", 3 },
+				{ "Baron Silverlaine", 4 },
+				{ "Commander Springvale", 5 },
+				{ "Odo the Blindwatcher", 6 },
+				{ "Deathsworn Captain", 7 },
+				{ "Fenrus the Devourer", 8 },
+				{ "Wolf Master Nandos", 9 },
+				{ "Archmage Arugal", 10 },
 			},
 			["Info"] = { BabbleZone["Shadowfang Keep"], {"AtlasLootClassicWoW"}, mapname = "ShadowfangKeep", EncounterJournalID = 64 }
 		},
@@ -1058,24 +1061,21 @@ AtlasLoot_LootTableRegister = {
 
 		["Scholomance"] = {
 			["Bosses"] = {
-				{ "OldKeys", {1,2}, hide = true },
-				{ "SCHOLOKirtonostheHerald", 9 },
-				{ "SCHOLOJandiceBarov", 10 },
-				{ "SCHOLORattlegore", 11 },
-				{ "SCHOLODeathKnight", 12 },
-				{ "SCHOLORasFrostwhisper", 13 },
-				{ "SCHOLOLorekeeperPolkelt", 14 },
-				{ "SCHOLODoctorTheolenKrastinov", 15 },
-				{ "SCHOLOInstructorMalicia", 16 },
-				{ "SCHOLOLadyIlluciaBarov", 17 },
-				{ "SCHOLOLordAlexeiBarov", 18 },
-				{ "SCHOLOQuestItems", {19,25,27,28}, hide = true },
-				{ "SCHOLOTheRavenian", 20 },
-				{ "SCHOLODarkmasterGandling", 21 },
-				{ "SCHOLOMardukVectus", {22,23} },
-				{ "SCHOLOBloodStewardofKirtonos", 24 },
-				{ "SCHOLOTrash", 30 },
-				{ "VWOWScholo", 31, hide = true },
+				{ "Kirtonos the Herald", 9 },
+				{ "Jandice Barov", 10 },
+				{ "Rattlegore", 11 },
+				{ "DeathKnight", 12 },
+				{ "Ras Frostwhisper", 13 },
+				{ "Lorekeeper Polkelt", 14 },
+				{ "Doctor Theolen Krastinov", 15 },
+				{ "Instructor Malicia", 16 },
+				{ "Lady Illucia Barov", 17 },
+				{ "Lord Alexei Barov", 18 },
+				{ "The Ravenian", 20 },
+				{ "Darkmaster Gandling", 21 },
+				{ "Marduk Blackpool", 22 },
+				{ "Vectus", 23 },
+				{ "BloodStewardofKirtonos", 24 },
 			},
 			["Info"] = { BabbleZone["Scholomance"], "AtlasLootClassicWoW", mapname = "Scholomance" },
 		},
@@ -1108,14 +1108,18 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { BabbleZone["Wailing Caverns"], "AtlasLootClassicWoW", mapname = "Wailing Caverns" },
         },
-
 		["TheStockade"] = {
 			["Bosses"] = {
-				{ "Stockade", {2,3,4} },
+				{ "Targorr the Dread", 1 },
+				{ "Kam Deepfury", 2 },
+				{ "Hamhock", 3 },
+				{ "Dextren Ward", 4 },
+				{ "Bazil Thredd", 5 },
+				{ "Bruegal Ironknuckle", 6 },
 			},
 			["Info"] = { BabbleZone["The Stockade"], "AtlasLootClassicWoW", mapname = "TheStockade" },
 		},
-
+		
 		["TheRuinsofAhnQiraj"] = {
 			["Bosses"] = {
 				{ "CenarionCircle", 1, hide = true },
@@ -1130,6 +1134,7 @@ AtlasLoot_LootTableRegister = {
 				{ "AQEnchants", 22 },
 			},
 			["Info"] = { BabbleZone["Ruins of Ahn'Qiraj"], "AtlasLootClassicWoW", mapname = "RuinsofAhnQiraj", raid = true },
+			["Info"] = { BabbleZone["The Stockade"], "AtlasLootClassicWoW", mapname = "TheStockade" },
 		},
 
 		["ZulFarrak"] = {
