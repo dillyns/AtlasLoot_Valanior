@@ -3191,299 +3191,285 @@ AtlasLoot_Data["Darkmaster Gandling"] = {
 		--- Shadowfang Keep ---
 		-----------------------
 
-AtlasLoot_Data["Rethilgore"] = {
-    ["Normal"] = {
-        {
-            { 1, 1935, "", "=q3=Assassin's Blade", "", "", "" },
-            { 2, 2292, "", "=q3=Necrology Robes", "", "", "" },
-            { 3, 5254, "", "=q3=Rugged Spaulders", "", "", "" },
+	AtlasLoot_Data["Rethilgore"] = {
+        ["Normal"] = {
+            {
+			    { 1, 1935, "", "=q3=Assassin's Blade", "", "", "" };
+                { 2, 2292, "", "=q3=Necrology Robes", "", "", "" };
+				{ 3, 5254, "", "=q3=Rugged Spaulders", "", "", "" };
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80225, "", "=q3=Assassin's Blade", "", "", "" };
+                { 2, 80239, "", "=q3=Necrology Robes", "", "", "" };
+				{ 3, 80269, "", "=q3=Rugged Spaulders", "", "", "" };
+            };
+        };
+        ["Mythic"] = {
+            {
+			    { 1, 108501, "", "=q3=Assassin's Blade", "", "", "" };
+                { 2, 115501, "", "=q3=Necrology Robes", "", "", "" };
+				{ 3, 130501, "", "=q3=Rugged Spaulders", "", "", "" };
+            };
+        };
+        info = {
+            name = BabbleBoss["Rethilgore"],
+            module = moduleName, instance = "ShadowfangKeep",
         };
     };
-    ["Heroic"] = {
-        {
-            { 1, 101935, "", "=q3=Assassin's Blade", "", "", "" },
-            { 2, 102292, "", "=q3=Necrology Robes", "", "", "" },
-            { 3, 105254, "", "=q3=Rugged Spaulders", "", "", "" },
-        };
-    };
-    ["Mythic"] = {
-        {
-            { 1, 201935, "", "=q3=Assassin's Blade", "", "", "" },
-            { 2, 202292, "", "=q3=Necrology Robes", "", "", "" },
-            { 3, 205254, "", "=q3=Rugged Spaulders", "", "", "" },
-        };
-    };
-    info = {
-        name = BabbleBoss["Rethilgore"],
-        module = moduleName,
-        instance = "Shadowfang Keep",
-    };
-};
 
-AtlasLoot_Data["Fel Steed"] = {
-    ["Normal"] = {
-        {
-            { 1, 932, "", "=q3=Fel Steed Saddlebags", "", "", "" },
-            { 2, 6341, "", "=q3=Eerie Stable Lantern", "", "", "" },
+	AtlasLoot_Data["Fel Steed"] = {
+        ["Normal"] = {
+            {
+			    { 1, 6341, "", "=q3=Eerie Stable Lantern", "", "", "" };
+                { 3, 932, "", "=q3=Fel Steed Saddlebags", "", "", "" };
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80286, "", "=q3=Eerie Stable Lantern", "", "", "" };
+            };
+        };
+        ["Mythic"] = {
+            {
+			    { 1, 139001, "", "=q3=Eerie Stable Lantern", "", "", "" };
+            };
+        };
+        info = {
+            name = BabbleBoss["Fel Steed"],
+            module = moduleName, instance = "ShadowfangKeep",
         };
     };
-    ["Heroic"] = {
-        {
-            { 1, 100932, "", "=q3=Fel Steed Saddlebags", "", "", "" },
-            { 2, 106341, "", "=q3=Eerie Stable Lantern", "", "", "" },
-        };
-    };
-    ["Mythic"] = {
-        {
-            { 1, 200932, "", "=q3=Fel Steed Saddlebags", "", "", "" },
-            { 2, 206341, "", "=q3=Eerie Stable Lantern", "", "", "" },
-        };
-    };
-    info = {
-        name = BabbleBoss["Fel Steed"],
-        module = moduleName,
-        instance = "Shadowfang Keep",
-    };
-};
 
-AtlasLoot_Data["Razorclaw the Butcher"] = {
-    ["Normal"] = {
-        {
-            { 1, 1292, "", "=q3=Butcher's Cleaver", "", "", "" },
-            { 2, 6226, "", "=q3=Bloody Apron", "", "", "" },
-            { 3, 6633, "", "=q3=Butcher's Slicer", "", "", "" },
+	AtlasLoot_Data["Razorclaw the Butcher"] = {
+        ["Normal"] = {
+            {
+			    { 1, 1292, "", "=q3=Butcher's Cleaver", "", "", "" };
+                { 2, 6226, "", "=q3=Bloody Apron", "", "", "" };
+				{ 3, 6633, "", "=q3=Butcher's Slicer", "", "", "" };
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80213, "", "=q3=Butcher's Cleaver", "", "", "" };
+                { 2, 80277, "", "=q3=Bloody Apron", "", "", "" };
+				{ 3, 80304, "", "=q3=Butcher's Slicer", "", "", "" };
+            };
+        };
+        ["Mythic"] = {
+            {
+			    { 1, 102501, "", "=q3=Butcher's Cleaver", "", "", "" };
+                { 2, 134501, "", "=q3=Bloody Apron", "", "", "" };
+				{ 3, 148001, "", "=q3=Butcher's Slicer", "", "", "" };
+            };
+        };
+        info = {
+            name = BabbleBoss["Razorclaw the Butcher"],
+            module = moduleName, instance = "ShadowfangKeep",
         };
     };
-    ["Heroic"] = {
-        {
-            { 1, 101292, "", "=q3=Butcher's Cleaver", "", "", "" },
-            { 2, 102277, "", "=q3=Bloody Apron", "", "", "" },
-            { 3, 103304, "", "=q3=Butcher's Slicer", "", "", "" },
-        };
-    };
-    ["Mythic"] = {
-        {
-            { 1, 201292, "", "=q3=Butcher's Cleaver", "", "", "" },
-            { 2, 203501, "", "=q3=Bloody Apron", "", "", "" },
-            { 3, 204801, "", "=q3=Butcher's Slicer", "", "", "" },
-        };
-    };
-    info = {
-        name = BabbleBoss["Razorclaw the Butcher"],
-        module = moduleName,
-        instance = "Shadowfang Keep",
-    };
-};
 
-AtlasLoot_Data["Baron Silverlaine"] = {
-    ["Normal"] = {
-        {
-            { 1, 1482, "", "=q3=Shadowfang", "", "", "" },
-            { 2, 6321, "", "=q3=Silverlaine's Family Seal", "", "", "" },
-            { 3, 6323, "", "=q3=Baron's Scepter", "", "", "" },
-            { 4, 80014, "", "=q3=Silverlaine's Chestmail", "", "", "" },
+	AtlasLoot_Data["Baron Silverlaine"] = {
+        ["Normal"] = {
+            {
+			    { 1, 1482, "", "=q3=Shadowfang", "", "", "" };
+                { 2, 6321, "", "=q3=Silverlaine's Family Seal", "", "", "" };
+				{ 3, 6323, "", "=q3=Baron's Scepter", "", "", "" };
+				{ 4, 80014, "", "=q3=Silverlaine's Chestmail", "", "", "" };
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80217, "", "=q3=Shadowfang", "", "", "" };
+                { 2, 80282, "", "=q3=Silverlaine's Family Seal", "", "", "" };
+				{ 3, 80283, "", "=q3=Baron's Scepter", "", "", "" };
+				{ 4, 81064, "", "=q3=Silverlaine's Chestmail", "", "", "" };
+            };
+        };
+        ["Mythic"] = {
+            {
+			    { 1, 104501, "", "=q3=Shadowfang", "", "", "" };
+                { 2, 137001, "", "=q3=Silverlaine's Family Seal", "", "", "" };
+				{ 3, 137501, "", "=q3=Baron's Scepter", "", "", "" };
+				{ 4, 672501, "", "=q3=Silverlaine's Chestmail", "", "", "" };
+            };
+        };
+        info = {
+            name = BabbleBoss["Baron Silverlaine"],
+            module = moduleName, instance = "ShadowfangKeep",
         };
     };
-    ["Heroic"] = {
-        {
-            { 1, 101482, "", "=q3=Shadowfang", "", "", "" },
-            { 2, 102282, "", "=q3=Silverlaine's Family Seal", "", "", "" },
-            { 3, 102283, "", "=q3=Baron's Scepter", "", "", "" },
-            { 4, 101064, "", "=q3=Silverlaine's Chestmail", "", "", "" },
-        };
-    };
-    ["Mythic"] = {
-        {
-            { 1, 201482, "", "=q3=Shadowfang", "", "", "" },
-            { 2, 103701, "", "=q3=Silverlaine's Family Seal", "", "", "" },
-            { 3, 1037501, "", "=q3=Baron's Scepter", "", "", "" },
-            { 4, 1072501, "", "=q3=Silverlaine's Chestmail", "", "", "" },
-        };
-    };
-    info = {
-        name = BabbleBoss["Baron Silverlaine"],
-        module = moduleName,
-        instance = "Shadowfang Keep",
-    };
-};
 
-AtlasLoot_Data["Commander Springvale"] = {
-    ["Normal"] = {
-        {
-            { 1, 3191, "", "=q3=Arced War Axe", "", "", "" },
-            { 2, 6320, "", "=q3=Commander's Crest", "", "", "" },
-            { 3, 80015, "", "=q3=Commander's Gloves", "", "", "" },
+	AtlasLoot_Data["Commander Springvale"] = {
+        ["Normal"] = {
+            {
+			    { 1, 3191, "", "=q3=Arced War Axe", "", "", "" };
+                { 2, 6320, "", "=q3=Commander's Crest", "", "", "" };
+				{ 3, 80015, "", "=q3=Commander's Gloves", "", "", "" };
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80247, "", "=q3=Arced War Axe", "", "", "" };
+                { 2, 80281, "", "=q3=Commander's Crest", "", "", "" };
+				{ 3, 81065, "", "=q3=Commander's Gloves", "", "", "" };
+            };
+        };
+        ["Mythic"] = {
+            {
+			    { 1, 119501, "", "=q3=Arced War Axe", "", "", "" };
+                { 2, 136501, "", "=q3=Commander's Crest", "", "", "" };
+				{ 3, 673001, "", "=q3=Commander's Gloves", "", "", "" };
+            };
+        };
+        info = {
+            name = BabbleBoss["Commander Springvale"],
+            module = moduleName, instance = "ShadowfangKeep",
         };
     };
-    ["Heroic"] = {
-        {
-            { 1, 101278, "", "=q3=Arced War Axe", "", "", "" },
-            { 2, 102281, "", "=q3=Commander's Crest", "", "", "" },
-            { 3, 101065, "", "=q3=Commander's Gloves", "", "", "" },
-        };
-    };
-    ["Mythic"] = {
-        {
-            { 1, 201278, "", "=q3=Arced War Axe", "", "", "" },
-            { 2, 103651, "", "=q3=Commander's Crest", "", "", "" },
-            { 3, 1073001, "", "=q3=Commander's Gloves", "", "", "" },
-        };
-    };
-    info = {
-        name = BabbleBoss["Commander Springvale"],
-        module = moduleName,
-        instance = "Shadowfang Keep",
-    };
-};
 
-AtlasLoot_Data["Odo the Blindwatcher"] = {
-    ["Normal"] = {
-        {
-            { 1, 1318, "", "=q3=Night Reaver", "", "", "" },
-            { 2, 6318, "", "=q3=Odo's Ley Staff", "", "", "" },
-            { 3, 6319, "", "=q3=Girdle of the Blindwatcher", "", "", "" },
+	AtlasLoot_Data["Odo the Blindwatcher"] = {
+        ["Normal"] = {
+            {
+			    { 1, 1318, "", "=q3=Night Reaver", "", "", "" };
+                { 2, 6318, "", "=q3=Odo's Ley Staff", "", "", "" };
+				{ 3, 6319, "", "=q3=Girdle of the Blindwatcher", "", "", "" };
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80214, "", "=q3=Night Reaver", "", "", "" };
+                { 2, 80279, "", "=q3=Odo's Ley Staff", "", "", "" };
+				{ 3, 80280, "", "=q3=Girdle of the Blindwatcher", "", "", "" };
+            };
+        };
+        ["Mythic"] = {
+            {
+			    { 1, 103001, "", "=q3=Night Reaver", "", "", "" };
+                { 2, 135501, "", "=q3=Odo's Ley Staff", "", "", "" };
+				{ 3, 136001, "", "=q3=Girdle of the Blindwatcher", "", "", "" };
+            };
+        };
+        info = {
+            name = BabbleBoss["Odo the Blindwatcher"],
+            module = moduleName, instance = "ShadowfangKeep",
         };
     };
-    ["Heroic"] = {
-        {
-            { 1, 101279, "", "=q3=Night Reaver", "", "", "" },
-            { 2, 102279, "", "=q3=Odo's Ley Staff", "", "", "" },
-            { 3, 102280, "", "=q3=Girdle of the Blindwatcher", "", "", "" },
-        };
-    };
-    ["Mythic"] = {
-        {
-            { 1, 201279, "", "=q3=Night Reaver", "", "", "" },
-            { 2, 103501, "", "=q3=Odo's Ley Staff", "", "", "" },
-            { 3, 1036001, "", "=q3=Girdle of the Blindwatcher", "", "", "" },
-        };
-    };
-    info = {
-        name = BabbleBoss["Odo the Blindwatcher"],
-        module = moduleName,
-        instance = "Shadowfang Keep",
-    };
-};
 
-AtlasLoot_Data["Deathsworn Captain"] = {
-    ["Normal"] = {
-        {
-            { 1, 1483, "", "=q3=Face Smasher", "", "", "" },
-            { 2, 6641, "", "=q3=Haunting Blade", "", "", "" },
-            { 3, 6642, "", "=q3=Phantom Armor", "", "", "" },
+	AtlasLoot_Data["Deathsworn Captain"] = {
+        ["Normal"] = {
+            {
+			    { 1, 1483, "", "=q3=Face Smasher", "", "", "" };
+                { 2, 6641, "", "=q3=Haunting Blade", "", "", "" };
+				{ 3, 6642, "", "=q3=Phantom Armor", "", "", "" };
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80218, "", "=q3=Face Smasher", "", "", "" };
+                { 2, 80305, "", "=q3=Haunting Blade", "", "", "" };
+				{ 3, 80306, "", "=q3=Phantom Armor", "", "", "" };
+            };
+        };
+        ["Mythic"] = {
+            {
+			    { 1, 105001, "", "=q3=Face Smasher", "", "", "" };
+                { 2, 148501, "", "=q3=Haunting Blade", "", "", "" };
+				{ 3, 149001, "", "=q3=Phantom Armor", "", "", "" };
+            };
+        };
+        info = {
+            name = BabbleBoss["Deathsworn Captain"],
+            module = moduleName, instance = "ShadowfangKeep",
         };
     };
-    ["Heroic"] = {
-        {
-            { 1, 101872, "", "=q3=Face Smasher", "", "", "" },
-            { 2, 103805, "", "=q3=Haunting Blade", "", "", "" },
-            { 3, 103806, "", "=q3=Phantom Armor", "", "", "" },
-        };
-    };
-    ["Mythic"] = {
-        {
-            { 1, 201872, "", "=q3=Face Smasher", "", "", "" },
-            { 2, 104501, "", "=q3=Haunting Blade", "", "", "" },
-            { 3, 1049001, "", "=q3=Phantom Armor", "", "", "" },
-        };
-    };
-    info = {
-        name = BabbleBoss["Deathsworn Captain"],
-        module = moduleName,
-        instance = "Shadowfang Keep",
-    };
-};
 
-AtlasLoot_Data["Fenrus the Devourer"] = {
-    ["Normal"] = {
-        {
-            { 1, 3196, "", "=q3=Grizzled Boots", "", "", "" },
-            { 2, 80016, "", "=q3=Fenrus' Hide", "", "", "" },
-            { 3, 80017, "", "=q3=Fenrus' Hide", "", "", "" },
+	AtlasLoot_Data["Fenrus the Devourer"] = {
+        ["Normal"] = {
+            {
+			    { 1, 2205, "", "=q3=Duskbringer", "", "", "" };
+                { 2, 3230, "", "=q3=Black Wolf Bracers", "", "", "" };
+				{ 3, 6340, "", "=q3=Fenrus' Hide", "", "", "" };
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80234, "", "=q3=Duskbringer", "", "", "" };
+                { 2, 80249, "", "=q3=Black Wolf Bracers", "", "", "" };
+				{ 3, 80285, "", "=q3=Fenrus' Hide", "", "", "" };
+            };
+        };
+        ["Mythic"] = {
+            {
+			    { 1, 113001, "", "=q3=Duskbringer", "", "", "" };
+                { 2, 120501, "", "=q3=Black Wolf Bracers", "", "", "" };
+				{ 3, 138501, "", "=q3=Fenrus' Hide", "", "", "" };
+            };
+        };
+        info = {
+            name = BabbleBoss["Fenrus the Devourer"],
+            module = moduleName, instance = "ShadowfangKeep",
         };
     };
-    ["Heroic"] = {
-        {
-            { 1, 101280, "", "=q3=Grizzled Boots", "", "", "" },
-            { 2, 101084, "", "=q3=Fenrus' Hide", "", "", "" },
-            { 3, 101085, "", "=q3=Fenrus' Hide", "", "", "" },
-        };
-    };
-    ["Mythic"] = {
-        {
-            { 1, 201280, "", "=q3=Grizzled Boots", "", "", "" },
-            { 2, 105001, "", "=q3=Fenrus' Hide", "", "", "" },
-            { 3, 1054001, "", "=q3=Fenrus' Hide", "", "", "" },
-        };
-    };
-    info = {
-        name = BabbleBoss["Fenrus the Devourer"],
-        module = moduleName,
-        instance = "Shadowfang Keep",
-    };
-};
 
-AtlasLoot_Data["Wolf Master Nandos"] = {
-    ["Normal"] = {
-        {
-            { 1, 80018, "", "=q3=Runic Healing", "", "", "" },
-            { 2, 80019, "", "=q3=Runic Healing", "", "", "" },
-            { 3, 80020, "", "=q3=Runic Healing", "", "", "" },
+	AtlasLoot_Data["Wolf Master Nandos"] = {
+        ["Normal"] = {
+            {
+			    { 1, 1484, "", "=q3=Witching Stave", "", "", "" };
+                { 2, 3748, "", "=q3=Feline Mantle", "", "", "" };
+				{ 3, 6314, "", "=q3=Wolfmaster Cape", "", "", "" };
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80219, "", "=q3=Witching Stave", "", "", "" };
+                { 2, 80255, "", "=q3=Feline Mantle", "", "", "" };
+				{ 3, 80278, "", "=q3=Wolfmaster Cape", "", "", "" };
+            };
+        };
+        ["Mythic"] = {
+            {
+			    { 1, 105501, "", "=q3=Witching Stave", "", "", "" };
+                { 2, 123501, "", "=q3=Feline Mantle", "", "", "" };
+				{ 3, 135001, "", "=q3=Wolfmaster Cape", "", "", "" };
+            };
+        };
+        info = {
+            name = BabbleBoss["Wolf Master Nandos"],
+            module = moduleName, instance = "ShadowfangKeep",
         };
     };
-    ["Heroic"] = {
-        {
-            { 1, 101086, "", "=q3=Runic Healing", "", "", "" },
-            { 2, 101087, "", "=q3=Runic Healing", "", "", "" },
-            { 3, 101088, "", "=q3=Runic Healing", "", "", "" },
-        };
-    };
-    ["Mythic"] = {
-        {
-            { 1, 105101, "", "=q3=Runic Healing", "", "", "" },
-            { 2, 105201, "", "=q3=Runic Healing", "", "", "" },
-            { 3, 1053001, "", "=q3=Runic Healing", "", "", "" },
-        };
-    };
-    info = {
-        name = BabbleBoss["Wolf Master Nandos"],
-        module = moduleName,
-        instance = "Shadowfang Keep",
-    };
-};
 
-AtlasLoot_Data["Archmage Arugal"] = {
-    ["Normal"] = {
-        {
-            { 1, 6324, "", "=q3=Rugged Cape", "", "", "" },
-            { 2, 6325, "", "=q3=Recipe: Greater Mana Potion", "", "", "" },
-            { 3, 6326, "", "=q3=Recipe: Elixir of Shadows", "", "", "" },
-            { 4, 80021, "", "=q3=Arugal's Robes", "", "", "" },
+	AtlasLoot_Data["Archmage Arugal"] = {
+        ["Normal"] = {
+            {
+			    { 1, 6220, "", "=q3=Meteor Shard", "", "", "" };
+                { 2, 6324, "", "=q3=Robes of Arugal", "", "", "" };
+				{ 3, 6392, "", "=q3=Belt of Arugal", "", "", "" };
+				{ 5, 5442, "", "=q3=Head of Arugal", "", "", "" };
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80276, "", "=q3=Meteor Shard", "", "", "" };
+                { 2, 80284, "", "=q3=Robes of Arugal", "", "", "" };
+				{ 3, 80287, "", "=q3=Belt of Arugal", "", "", "" };
+            };
+        };
+        ["Mythic"] = {
+            {
+			    { 1, 134001, "", "=q3=Meteor Shard", "", "", "" };
+                { 2, 138001, "", "=q3=Robes of Arugal", "", "", "" };
+				{ 3, 139501, "", "=q3=Belt of Arugal", "", "", "" };
+            };
+        };
+        info = {
+            name = BabbleBoss["Archmage Arugal"],
+            module = moduleName, instance = "ShadowfangKeep",
         };
     };
-    ["Heroic"] = {
-        {
-            { 1, 102284, "", "=q3=Rugged Cape", "", "", "" },
-            { 2, 102285, "", "=q3=Recipe: Greater Mana Potion", "", "", "" },
-            { 3, 102286, "", "=q3=Recipe: Elixir of Shadows", "", "", "" },
-            { 4, 101066, "", "=q3=Arugal's Robes", "", "", "" },
-        };
-    };
-    ["Mythic"] = {
-        {
-            { 1, 201534, "", "=q3=Rugged Cape", "", "", "" },
-            { 2, 107801, "", "=q3=Recipe: Greater Mana Potion", "", "", "" },
-            { 3, 1079001, "", "=q3=Recipe: Elixir of Shadows", "", "", "" },
-            { 4, 110001, "", "=q3=Arugal's Robes", "", "", "" },
-        };
-    };
-    info = {
-        name = BabbleBoss["Archmage Arugal"],
-        module = moduleName,
-        instance = "Shadowfang Keep",
-    };
-};
-
+	
 
 		--------------------------------------
 		--- Stratholme - Crusader's Square ---
@@ -4048,189 +4034,187 @@ AtlasLoot_Data["Archmage Arugal"] = {
         };
     };
 
-		--------------------{ "Wolf Master Nandos", 9 },
+		--------------------
 		--- The Stockade ---
 		--------------------
-		AtlasLoot_Data["Targorr the Dread"] = {
-    ["Normal"] = {
-        {
-            { 1, 3630, "", "=q3=Head of Targorr", "", "", "" },
-            { 2, 2807, "", "=q3=Guillotine Axe", "", "", "" },
-            { 3, 9490, "", "=q3=Gizmotron Megachopper", "", "", "" },
-            { 4, 80020, "", "=q3=Targorr's Spaulders", "", "", "" },
-        };
-    };
-    ["Heroic"] = {
-        {
-            { 1, 80242, "", "=q3=Guillotine Axe", "", "", "" },
-            { 2, 80431, "", "=q3=Gizmotron Megachopper", "", "", "" },
-            { 3, 81070, "", "=q3=Targorr's Spaulders", "", "", "" },
-        };
-    };
-    ["Mythic"] = {
-        {
-            { 1, 117001, "", "=q3=Guillotine Axe", "", "", "" },
-            { 2, 211501, "", "=q3=Gizmotron Megachopper", "", "", "" },
-            { 3, 675501, "", "=q3=Targorr's Spaulders", "", "", "" },
-        };
-    };
-    info = {
-        name = BabbleBoss["Targorr the Dread"],
-        module = moduleName,
-        instance = "The Stockade",
-    };
-};
+	AtlasLoot_Data["Targorr the Dread"] = {
+	    ["Normal"] = {
+	        {
+	            { 1, 3630, "", "=q3=Head of Targorr", "", "", "" },
+	            { 2, 2807, "", "=q3=Guillotine Axe", "", "", "" },
+	            { 3, 9490, "", "=q3=Gizmotron Megachopper", "", "", "" },
+	            { 4, 80020, "", "=q3=Targorr's Spaulders", "", "", "" },
+	        };
+	    };
+	    ["Heroic"] = {
+	        {
+	            { 1, 80242, "", "=q3=Guillotine Axe", "", "", "" },
+	            { 2, 80431, "", "=q3=Gizmotron Megachopper", "", "", "" },
+	            { 3, 81070, "", "=q3=Targorr's Spaulders", "", "", "" },
+	        };
+	    };
+	    ["Mythic"] = {
+	        {
+	            { 1, 117001, "", "=q3=Guillotine Axe", "", "", "" },
+	            { 2, 211501, "", "=q3=Gizmotron Megachopper", "", "", "" },
+	            { 3, 675501, "", "=q3=Targorr's Spaulders", "", "", "" },
+	        };
+	    };
+	    info = {
+	        name = BabbleBoss["Targorr the Dread"],
+	        module = moduleName,
+	        instance = "The Stockade",
+	    };
+	};
 
-AtlasLoot_Data["Kam Deepfury"] = {
-    ["Normal"] = {
-        {
-            { 1, 3640, "", "=q3=Head of Deepfury", "", "", "" },
-            { 2, 2280, "", "=q3=Kam's Walking Stick", "", "", "" },
-            { 3, 3414, "", "=q3=Crested Scepter", "", "", "" },
-            { 4, 80021, "", "=q3=Stormwind Guard Legplates", "", "", "" },
-        };
-    };
-    ["Heroic"] = {
-        {
-            { 1, 80238, "", "=q3=Kam's Walking Stick", "", "", "" },
-            { 2, 80251, "", "=q3=Crested Scepter", "", "", "" },
-            { 3, 81071, "", "=q3=Stormwind Guard Legplates", "", "", "" },
-        };
-    };
-    ["Mythic"] = {
-        {
-            { 1, 115001, "", "=q3=Kam's Walking Stick", "", "", "" },
-            { 2, 121501, "", "=q3=Crested Scepter", "", "", "" },
-            { 3, 676001, "", "=q3=Stormwind Guard Legplates", "", "", "" },
-        };
-    };
-    info = {
-        name = BabbleBoss["Kam Deepfury"],
-        module = moduleName,
-        instance = "The Stockade",
-    };
-};
+	AtlasLoot_Data["Kam Deepfury"] = {
+	    ["Normal"] = {
+	        {
+	            { 1, 3640, "", "=q3=Head of Deepfury", "", "", "" },
+	            { 2, 2280, "", "=q3=Kam's Walking Stick", "", "", "" },
+	            { 3, 3414, "", "=q3=Crested Scepter", "", "", "" },
+	            { 4, 80021, "", "=q3=Stormwind Guard Legplates", "", "", "" },
+	        };
+	    };
+	    ["Heroic"] = {
+	        {
+	            { 1, 80238, "", "=q3=Kam's Walking Stick", "", "", "" },
+	            { 2, 80251, "", "=q3=Crested Scepter", "", "", "" },
+	            { 3, 81071, "", "=q3=Stormwind Guard Legplates", "", "", "" },
+	        };
+	    };
+	    ["Mythic"] = {
+	        {
+	            { 1, 115001, "", "=q3=Kam's Walking Stick", "", "", "" },
+	            { 2, 121501, "", "=q3=Crested Scepter", "", "", "" },
+	            { 3, 676001, "", "=q3=Stormwind Guard Legplates", "", "", "" },
+	        };
+	    };
+	    info = {
+	        name = BabbleBoss["Kam Deepfury"],
+	        module = moduleName,
+	        instance = "The Stockade",
+	    };
+	};
 
-AtlasLoot_Data["Hamhock"] = {
-    ["Normal"] = {
-        {
-            { 1, 1454, "", "=q3=Axe of the Enforcer", "", "", "" },
-            { 2, 3416, "", "=q3=Martyr's Chain", "", "", "" },
-            { 3, 80022, "", "=q3=Ogre Gauntlets", "", "", "" },
-        };
-    };
-    ["Heroic"] = {
-        {
-            { 1, 80215, "", "=q3=Axe of the Enforcer", "", "", "" },
-            { 2, 80253, "", "=q3=Martyr's Chain", "", "", "" },
-            { 3, 81072, "", "=q3=Ogre Gauntlets", "", "", "" },
-        };
-    };
-    ["Mythic"] = {
-        {
-            { 1, 103501, "", "=q3=Axe of the Enforcer", "", "", "" },
-            { 2, 122501, "", "=q3=Martyr's Chain", "", "", "" },
-            { 3, 676501, "", "=q3=Ogre Gauntlets", "", "", "" },
-        };
-    };
-    info = {
-        name = BabbleBoss["Hamhock"],
-        module = moduleName,
-        instance = "The Stockade",
-    };
-};
+	AtlasLoot_Data["Hamhock"] = {
+	    ["Normal"] = {
+	        {
+	            { 1, 1454, "", "=q3=Axe of the Enforcer", "", "", "" },
+	            { 2, 3416, "", "=q3=Martyr's Chain", "", "", "" },
+	            { 3, 80022, "", "=q3=Ogre Gauntlets", "", "", "" },
+	        };
+	    };
+	    ["Heroic"] = {
+	        {
+	            { 1, 80215, "", "=q3=Axe of the Enforcer", "", "", "" },
+	            { 2, 80253, "", "=q3=Martyr's Chain", "", "", "" },
+	            { 3, 81072, "", "=q3=Ogre Gauntlets", "", "", "" },
+	        };
+	    };
+	    ["Mythic"] = {
+	        {
+	            { 1, 103501, "", "=q3=Axe of the Enforcer", "", "", "" },
+	            { 2, 122501, "", "=q3=Martyr's Chain", "", "", "" },
+	            { 3, 676501, "", "=q3=Ogre Gauntlets", "", "", "" },
+	        };
+	    };
+	    info = {
+	        name = BabbleBoss["Hamhock"],
+	        module = moduleName,
+	        instance = "The Stockade",
+	    };
+	};
 
-AtlasLoot_Data["Dextren Ward"] = {
-    ["Normal"] = {
-        {
-            { 1, 3628, "", "=q3=Hand of Dextren Ward", "", "", "" },
-            { 2, 1491, "", "=q3=Ring of Precision", "", "", "" },
-            { 3, 1974, "", "=q3=Mindthrust Bracers", "", "", "" },
-            { 4, 9510, "", "=q3=Caverndeep Trudgers", "", "", "" },
-        };
-    };
-    ["Heroic"] = {
-        {
-            { 1, 80223, "", "=q3=Ring of Precision", "", "", "" },
-            { 2, 80227, "", "=q3=Mindthrust Bracers", "", "", "" },
-            { 3, 80436, "", "=q3=Caverndeep Trudgers", "", "", "" },
-        };
-    };
-    ["Mythic"] = {
-        {
-            { 1, 107501, "", "=q3=Ring of Precision", "", "", "" },
-            { 2, 109501, "", "=q3=Mindthrust Bracers", "", "", "" },
-            { 3, 214001, "", "=q3=Caverndeep Trudgers", "", "", "" },
-        };
-    };
-    info = {
-        name = BabbleBoss["Dextren Ward"],
-        module = moduleName,
-        instance = "The Stockade",
-    };
-};
+	AtlasLoot_Data["Dextren Ward"] = {
+	    ["Normal"] = {
+	        {
+	            { 1, 3628, "", "=q3=Hand of Dextren Ward", "", "", "" },
+	            { 2, 1491, "", "=q3=Ring of Precision", "", "", "" },
+	            { 3, 1974, "", "=q3=Mindthrust Bracers", "", "", "" },
+	            { 4, 9510, "", "=q3=Caverndeep Trudgers", "", "", "" },
+	        };
+	    };
+	    ["Heroic"] = {
+	        {
+	            { 1, 80223, "", "=q3=Ring of Precision", "", "", "" },
+	            { 2, 80227, "", "=q3=Mindthrust Bracers", "", "", "" },
+	            { 3, 80436, "", "=q3=Caverndeep Trudgers", "", "", "" },
+	        };
+	    };
+	    ["Mythic"] = {
+	        {
+	            { 1, 107501, "", "=q3=Ring of Precision", "", "", "" },
+	            { 2, 109501, "", "=q3=Mindthrust Bracers", "", "", "" },
+	            { 3, 214001, "", "=q3=Caverndeep Trudgers", "", "", "" },
+	        };
+	    };
+	    info = {
+	        name = BabbleBoss["Dextren Ward"],
+	        module = moduleName,
+	        instance = "The Stockade",
+	    };
+	};
 
-AtlasLoot_Data["Bazil Thredd"] = {
-    ["Normal"] = {
-        {
-            { 1, 2926, "", "=q3=Head of Bazil Thredd", "", "", "" },
-            { 2, 1486, "", "=q3=Tree Bark Jacket", "", "", "" },
-            { 3, 1489, "", "=q3=Gloomshroud Armor", "", "", "" },
-            { 4, 80023, "", "=q3=Chestplate of Bazil", "", "", "" },
-        };
-    };
-    ["Heroic"] = {
-        {
-            { 1, 80220, "", "=q3=Tree Bark Jacket", "", "", "" },
-            { 2, 80222, "", "=q3=Gloomshroud Armor", "", "", "" },
-            { 3, 81073, "", "=q3=Chestplate of Bazil", "", "", "" },
-        };
-    };
-    ["Mythic"] = {
-        {
-            { 1, 106001, "", "=q3=Tree Bark Jacket", "", "", "" },
-            { 2, 107001, "", "=q3=Gloomshroud Armor", "", "", "" },
-            { 3, 677001, "", "=q3=Chestplate of Bazil", "", "", "" },
-        };
-    };
-    info = {
-        name = BabbleBoss["Bazil Thredd"],
-        module = moduleName,
-        instance = "The Stockade",
-    };
-};
+	AtlasLoot_Data["Bazil Thredd"] = {
+	    ["Normal"] = {
+	        {
+	            { 1, 2926, "", "=q3=Head of Bazil Thredd", "", "", "" },
+	            { 2, 1486, "", "=q3=Tree Bark Jacket", "", "", "" },
+	            { 3, 1489, "", "=q3=Gloomshroud Armor", "", "", "" },
+	            { 4, 80023, "", "=q3=Chestplate of Bazil", "", "", "" },
+	        };
+	    };
+	    ["Heroic"] = {
+	        {
+	            { 1, 80220, "", "=q3=Tree Bark Jacket", "", "", "" },
+	            { 2, 80222, "", "=q3=Gloomshroud Armor", "", "", "" },
+	            { 3, 81073, "", "=q3=Chestplate of Bazil", "", "", "" },
+	        };
+	    };
+	    ["Mythic"] = {
+	        {
+	            { 1, 106001, "", "=q3=Tree Bark Jacket", "", "", "" },
+	            { 2, 107001, "", "=q3=Gloomshroud Armor", "", "", "" },
+	            { 3, 677001, "", "=q3=Chestplate of Bazil", "", "", "" },
+	        };
+	    };
+	    info = {
+	        name = BabbleBoss["Bazil Thredd"],
+	        module = moduleName,
+	        instance = "The Stockade",
+	    };
+	};
 
-AtlasLoot_Data["Bruegal Ironknuckle"] = {
-    ["Normal"] = {
-        {
-            { 1, 2941, "", "=q3=Prison Shank", "", "", "" },
-            { 2, 2942, "", "=q3=Iron Knuckles", "", "", "" },
-            { 3, 3228, "", "=q3=Jimmied Handcuffs", "", "", "" },
-        };
-    };
-    ["Heroic"] = {
-        {
-            { 1, 80244, "", "=q3=Prison Shank", "", "", "" },
-            { 2, 80245, "", "=q3=Iron Knuckles", "", "", "" },
-            { 3, 80248, "", "=q3=Jimmied Handcuffs", "", "", "" },
-        };
-    };
-    ["Mythic"] = {
-        {
-            { 1, 118001, "", "=q3=Prison Shank", "", "", "" },
-            { 2, 118501, "", "=q3=Iron Knuckles", "", "", "" },
-            { 3, 120001, "", "=q3=Jimmied Handcuffs", "", "", "" },
-        };
-    };
-    info = {
-        name = BabbleBoss["Bruegal Ironknuckle"],
-        module = moduleName,
-        instance = "The Stockade",
-    };
-};
+	AtlasLoot_Data["Bruegal Ironknuckle"] = {
+	    ["Normal"] = {
+	        {
+	            { 1, 2941, "", "=q3=Prison Shank", "", "", "" },
+	            { 2, 2942, "", "=q3=Iron Knuckles", "", "", "" },
+	            { 3, 3228, "", "=q3=Jimmied Handcuffs", "", "", "" },
+	        };
+	    };
+	    ["Heroic"] = {
+	        {
+	            { 1, 80244, "", "=q3=Prison Shank", "", "", "" },
+	            { 2, 80245, "", "=q3=Iron Knuckles", "", "", "" },
+	            { 3, 80248, "", "=q3=Jimmied Handcuffs", "", "", "" },
+	        };
+	    };
+	    ["Mythic"] = {
+	        {
+	            { 1, 118001, "", "=q3=Prison Shank", "", "", "" },
+	            { 2, 118501, "", "=q3=Iron Knuckles", "", "", "" },
+	            { 3, 120001, "", "=q3=Jimmied Handcuffs", "", "", "" },
+	        };
+	    };
+	    info = {
+	        name = BabbleBoss["Bruegal Ironknuckle"],
+	        module = moduleName,
+	        instance = "The Stockade",
+	    };
+	};
 	
-
-
 		-------------------------
 		--- The Sunken Temple ---
 		-------------------------

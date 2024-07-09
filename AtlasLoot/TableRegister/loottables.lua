@@ -1011,7 +1011,7 @@ AtlasLoot_LootTableRegister = {
 				{ "Wolf Master Nandos", 9 },
 				{ "Archmage Arugal", 10 },
 			},
-			["Info"] = { BabbleZone["Shadowfang Keep"], {"AtlasLootClassicWoW"}, mapname = "ShadowfangKeep", EncounterJournalID = 64 }
+			["Info"] = { BabbleZone["Shadowfang Keep"], "AtlasLootClassicWoW", mapname = "ShadowfangKeep" }
 		},
 
 		["Gnomeregan"] = {
@@ -1134,7 +1134,6 @@ AtlasLoot_LootTableRegister = {
 				{ "AQEnchants", 22 },
 			},
 			["Info"] = { BabbleZone["Ruins of Ahn'Qiraj"], "AtlasLootClassicWoW", mapname = "RuinsofAhnQiraj", raid = true },
-			["Info"] = { BabbleZone["The Stockade"], "AtlasLootClassicWoW", mapname = "TheStockade" },
 		},
 
 		["ZulFarrak"] = {
