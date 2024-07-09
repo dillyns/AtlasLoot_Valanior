@@ -907,296 +907,477 @@ local moduleName = "AtlasLootClassicWoW"
 		--- Blackrock Mountain: Lower Blackrock Spire ---
 		-------------------------------------------------
 
-	AtlasLoot_Data["LBRSQuestItems"] = {
-		["Normal"] = {
-			{
-				{ 1, 12533, "", "=q1=Roughshod Pike", "=ds=#m3#"};
-			};
-		};
-		info = {
-			name = BabbleZone["Lower Blackrock Spire"].." - "..AL["Quest Item"],
-			module = moduleName, instance = "BlackrockSpireLower",
-		};
-	};
+	AtlasLoot_Data["Highlord Omokk"] = { 
+        ["Normal"] = {
+            {
+			    { 1, 13166, "", "=q3=Slamshot Shoulders", "", "", ""};
+                { 2, 13167, "", "=q3=Fist of Omokk", "", "", ""};
+                { 3, 13168, "", "=q3=Plate of the Shaman King", "", "", ""};
+                { 4, 13169, "", "=q3=Tressermane Leggings", "", "", ""};
+				{ 5, 13170, "", "=q3=Skyshroud Leggings", "", "", ""};
+				{ 7, 12219, "", "=q3=", "", "", ""};
+				{ 8, 12336, "", "=q3=", "", "", ""};
+				{ 9, 12534, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80683, "", "=q3=Slamshot Shoulders", "", "", ""};
+                { 2, 80684, "", "=q3=Fist of Omokk", "", "", ""};
+                { 3, 80685, "", "=q3=Plate of the Shaman King", "", "", ""};
+                { 4, 80686, "", "=q3=Tressermane Leggings", "", "", ""};
+				{ 5, 80687, "", "=q3=Skyshroud Leggings", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+                { 1, 340501, "", "=q3=Slamshot Shoulders", "", "", ""};
+                { 2, 341001, "", "=q3=Fist of Omokk", "", "", ""};
+                { 3, 341501, "", "=q3=Plate of the Shaman King", "", "", ""};
+				{ 4, 342001, "", "=q3=Tressermane Leggings", "", "", ""};
+				{ 5, 342501, "", "=q3=Skyshroud Leggings", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Highlord Omokk"],
+            module = moduleName, instance = "BlackrockSpireLower",
+        };
+    };
 
-	AtlasLoot_Data["LBRSSpirestoneButcher"] = {
-		["Normal"] = {
-			{
-				{ 1, 12608, "", "=q3=Butcher's Apron", "=ds=#s4#", "", "54.31%"};
-				{ 2, 13286, "", "=q3=Rivenspike", "=ds=#h1#, #w1#", "", "35.78%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Spirestone Butcher"].." ("..AL["Rare"]..")",
-			module = moduleName, instance = "BlackrockSpireLower",
-		};
-	};
+	AtlasLoot_Data["Shadow Hunter Vosh'gajin"] = {
+        ["Normal"] = {
+            {
+			    { 1, 12626, "", "=q3=", "", "", ""};
+                { 2, 12651, "", "=q3=", "", "", ""};
+                { 3, 12653, "", "=q3=", "", "", ""};
+                { 4, 13255, "", "=q3=", "", "", ""};
+				{ 5, 13257, "", "=q3=", "", "", ""};
+				{ 7, 12219, "", "=q3=", "", "", ""};
+				{ 8, 12654, "", "=q3=", "", "", ""};
+				{ 9, 13352, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80647, "", "=q3=", "", "", ""};
+                { 2, 80650, "", "=q3=", "", "", ""};
+                { 3, 80651, "", "=q3=", "", "", ""};
+                { 4, 80706, "", "=q3=", "", "", ""};
+				{ 5, 80707, "", "=q3=", "", "", ""};
+				{ 7, 12654, "", "=q3=", "", "", ""};
 
-	AtlasLoot_Data["LBRSOmokk"] = {
-		["Normal"] = {
-			{
-				{ 1, 13170, "", "=q3=Skyshroud Leggings", "=ds=#s11#, #a1#", "", "8.52%"};
-				{ 2, 13169, "", "=q3=Tressermane Leggings", "=ds=#s11#, #a2#", "", "9.52%"};
-				{ 3, 13168, "", "=q3=Plate of the Shaman King", "=ds=#s5#, #a4#", "", "8.62%"};
-				{ 4, 13166, "", "=q3=Slamshot Shoulders", "=ds=#s3#, #a4#", "", "7.25%"};
-				{ 5, 13167, "", "=q3=Fist of Omokk", "=ds=#h2#, #w6#", "", "10.64%"};
-				{ 7, 12534, "", "=q1=Omokk's Head", "=ds=#m3#", "", "100%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Highlord Omokk"],
-			module = moduleName, instance = "BlackrockSpireLower",
-		};
-	};
+            };
+        };
+        ["Mythic"] = {
+            {
+			    { 1, 319501, "", "=q3=", "", "", ""};
+                { 2, 321001, "", "=q3=", "", "", ""};
+                { 3, 321501, "", "=q3=", "", "", ""};
+                { 4, 352001, "", "=q3=", "", "", ""};
+				{ 5, 352501, "", "=q3=", "", "", ""};
+				{ 7, 12654, "", "=q3=", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Shadow Hunter Vosh'gajin"],
+            module = moduleName, instance = "BlackrockSpireLower",
+        };
+    };
 
-	AtlasLoot_Data["LBRSSpirestoneLord"] = {
-		["Normal"] = {
-			{
-				{ 1, 13284, "", "=q3=Swiftdart Battleboots", "=ds=#s12#, #a3#", "", "48.68%"};
-				{ 2, 13285, "", "=q3=The Blackrock Slicer", "=ds=#h2#, #w1#", "", "34.87%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Spirestone Battle Lord"].." ("..AL["Rare"]..")",
-			module = moduleName, instance = "BlackrockSpireLower",
-		};
-	};
+	AtlasLoot_Data["Spirestone Butcher"] = {
+        ["Normal"] = {
+            {
+			     { 1, 12608, "", "=q3=", "", "", ""};
+				 { 2, 13286, "", "=q3=", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Spirestone Butcher"],
+            module = moduleName, instance = "BlackrockSpireLower",
+        };
+    };
 
-	AtlasLoot_Data["LBRSLordMagus"] = {
-		["Normal"] = {
-			{
-				{ 1, 13282, "", "=q3=Ogreseer Tower Boots", "=ds=#s12#, #a3#", "", "22.95%"};
-				{ 2, 13283, "", "=q3=Magus Ring", "=ds=#s13#", "", "38.01%"};
-				{ 3, 13261, "", "=q3=Globe of D'sak", "=ds=#s15#", "", "18.07%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Spirestone Lord Magus"].." ("..AL["Rare"]..")",
-			module = moduleName, instance = "BlackrockSpireLower",
-		};
-	};
+	AtlasLoot_Data["Spirestone Battle Lord"] = {
+        ["Normal"] = {
+            {
+			    { 1, 13284, "", "=q3=", "", "", ""};
+                { 2, 13285, "", "=q3=", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Spirestone Battle Lord"],
+            module = moduleName, instance = "BlackrockSpireLower",
+        };
+    };
 
-	AtlasLoot_Data["LBRSVosh"] = {
-		["Normal"] = {
-			{
-				{ 1, 12626, "", "=q3=Funeral Cuffs", "=ds=#s8#, #a1#", "", "18.74%"};
-				{ 2, 13257, "", "=q3=Demonic Runed Spaulders", "=ds=#s3#, #a2#", "", "16.84%"};
-				{ 3, 13255, "", "=q3=Trueaim Gauntlets", "=ds=#s9#, #a3#", "", "18.08%"};
-				{ 4, 12651, "", "=q3=Blackcrow", "=ds=#w3#", "", "8.56%"};
-				{ 5, 12653, "", "=q3=Riphook", "=ds=#w2#", "", "7.99%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Shadow Hunter Vosh'gajin"],
-			module = moduleName, instance = "BlackrockSpireLower",
-		};
-	};
+	AtlasLoot_Data["Spirestone Lord Magus"] = {
+        ["Normal"] = {
+            {
+			    { 1, 13283, "", "=q3=", "", "", ""};
+                { 2, 13282, "", "=q3=", "", "", ""};
+                { 3, 13261, "", "=q3=", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Spirestone Lord Magus"],
+            module = moduleName, instance = "BlackrockSpireLower",
+        };
+    };
 
-	AtlasLoot_Data["LBRSVoone"] = {
-		["Normal"] = {
-			{
-				{ 1, 22231, "", "=q3=Kayser's Boots of Precision", "=ds=#s12#, #a1#", "", "15.40%"};
-				{ 2, 13179, "", "=q3=Brazecore Armguards", "=ds=#s8#, #a3#", "", "16.12%"};
-				{ 3, 13177, "", "=q3=Talisman of Evasion", "=ds=#s2#", "", "15.40%"};
-				{ 4, 12582, "", "=q3=Keris of Zul'Serak", "=ds=#h1#, #w4#", "", "8.08%"};
-				{ 5, 28972, "", "=q3=Flightblade Throwing Axe", "=ds=#w11#", "", "79.85%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["War Master Voone"],
-			module = moduleName, instance = "BlackrockSpireLower",
-		};
-	};
+	AtlasLoot_Data["War Master Voone"] = {
+        ["Normal"] = {
+            {
+			    { 1, 12582, "", "=q3=", "", "", ""};
+                { 2, 13177, "", "=q3=", "", "", ""};
+                { 3, 13179, "", "=q3=", "", "", ""};
+                { 4, 22231, "", "=q3=", "", "", ""};
+				{ 5, 28972, "", "=q3=", "", "", ""};
+				{ 7, 12219, "", "=q3=", "", "", ""};
+				{ 8, 12335, "", "=q3=", "", "", ""};
 
-	AtlasLoot_Data["LBRSGrimaxe"] = {
-		["Normal"] = {
-			{
-				{ 1, 12634, "", "=q3=Chiselbrand Girdle", "=ds=#s10#, #a3#", "", "31.73%"};
-				{ 2, 12637, "", "=q3=Backusarian Gauntlets", "=ds=#s9#, #a4#", "", "26.44%"};
-				{ 3, 12621, "", "=q3=Demonfork", "=ds=#h1#, #w1#", "", "27.64%"};
-				{ 5, 12838, "", "=q3=Plans: Arcanite Reaper", "=ds=#p2# (300)", "", "6.73%"};
-				{ 6, 12784, "", "=q3=Arcanite Reaper", "=ds=#h2#, #w1#"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Bannok Grimaxe"].." ("..AL["Rare"]..")",
-			module = moduleName, instance = "BlackrockSpireLower",
-		};
-	};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80633, "", "=q3=", "", "", ""};
+                { 2, 80688, "", "=q3=", "", "", ""};
+                { 3, 80690, "", "=q3=", "", "", ""};
+                { 4, 81018, "", "=q3=", "", "", ""};
+				{ 5, 81048, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+                { 1, 312501, "", "=q3=", "", "", ""};
+                { 2, 343001, "", "=q3=", "", "", ""};
+                { 3, 344001, "", "=q3=", "", "", ""};
+				{ 4, 646501, "", "=q3=", "", "", ""};
+				{ 5, 664501, "", "=q3=", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["War Master Voone"],
+            module = moduleName, instance = "BlackrockSpireLower",
+        };
+    };
 
-	AtlasLoot_Data["LBRSSmolderweb"] = {
-		["Normal"] = {
-			{
-				{ 1, 13244, "", "=q3=Gilded Gauntlets", "=ds=#s9#, #a3#", "", "25.06%"};
-				{ 2, 13213, "", "=q3=Smolderweb's Eye", "=ds=#s14#", "", "24.97%"};
-				{ 3, 13183, "", "=q3=Venomspitter", "=ds=#h1#, #w6#", "", "12.49%"};
-				{ 5, 68673, "", "=q3=Smolderweb Egg", "=ds=#e13#"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Mother Smolderweb"],
-			module = moduleName, instance = "BlackrockSpireLower",
-		};
-	};
+	AtlasLoot_Data["Ghok Bashguud"] = {
+        ["Normal"] = {
+            {
+			    { 1, 13198, "", "=q3=", "", "", ""};
+                { 2, 13203, "", "=q3=", "", "", ""};
+                { 3, 13204, "", "=q3=", "", "", ""};
+                { 5, 12219, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 81102, "", "=q3=", "", "", ""};
+                { 2, 81103, "", "=q3=", "", "", ""};
+                { 3, 81104, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+                { 1, 890001, "", "=q3=", "", "", ""};
+                { 2, 890501, "", "=q3=", "", "", ""};
+                { 3, 891001, "", "=q3=", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Ghok Bashguud"],
+            module = moduleName, instance = "BlackrockSpireLower",
+        };
+    };
 
-	AtlasLoot_Data["LBRSCrystalFang"] = {
-		["Normal"] = {
-			{
-				{ 1, 13185, "", "=q3=Sunderseer Mantle", "=ds=#s3#, #a1#", "", "28.10%"};
-				{ 2, 13184, "", "=q3=Fallbrush Handgrips", "=ds=#s9#, #a2#", "", "35.48%"};
-				{ 3, 13218, "", "=q3=Fang of the Crystal Spider", "=ds=#h1#, #w4#", "", "17.62%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Crystal Fang"].." ("..AL["Rare"]..")",
-			module = moduleName, instance = "BlackrockSpireLower",
-		};
-	};
+	AtlasLoot_Data["Mother Smolderweb"] = {
+        ["Normal"] = {
+            {
+			    { 1, 13183, "", "=q3=", "", "", ""};
+                { 2, 13213, "", "=q3=", "", "", ""};
+                { 3, 13244, "", "=q3=", "", "", ""};
+                { 4, 18102, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80691, "", "=q3=", "", "", ""};
+                { 2, 80700, "", "=q3=", "", "", ""};
+                { 3, 80702, "", "=q3=", "", "", ""};
+                { 4, 80861, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+                { 1, 344501, "", "=q3=", "", "", ""};
+                { 2, 349001, "", "=q3=", "", "", ""};
+                { 3, 350001, "", "=q3=", "", "", ""};
+				{ 4, 516001, "", "=q3=", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Mother Smolderweb"],
+            module = moduleName, instance = "BlackrockSpireLower",
+        };
+    };
 
-	AtlasLoot_Data["LBRSDoomhowl"] = {
-		["Normal"] = {
-			{
-				{ 1, 13258, "", "=q3=Slaghide Gauntlets", "=ds=#s9#, #a2#", "", "17.09%"};
-				{ 2, 22232, "", "=q3=Marksman's Girdle", "=ds=#s10#, #a3#", "", "20.60%"};
-				{ 3, 13259, "", "=q3=Ribsteel Footguards", "=ds=#s12#, #a4#", "", "25.38%"};
-				{ 4, 13178, "", "=q3=Rosewine Circle", "=ds=#s13#", "", "21.48%"};
-				{ 6, 18784, "", "=q3=Top Half of Advanced Armorsmithing: Volume III", "=ds=#m3#", "", "10.30%"};
-				{ 7, 12725, "", "=q3=Plans: Enchanted Thorium Helm", "=q1=#m4#: =ds=#p2# (300)"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Urok Doomhowl"].." ("..AL["Summon"]..")",
-			module = moduleName, instance = "BlackrockSpireLower",
-		};
-	};
+	AtlasLoot_Data["Crystal Fang"] = {
+        ["Normal"] = {
+            {
+			    { 1, 12936, "", "=q3=", "", "", ""};
+                { 2, 13184, "", "=q3=", "", "", ""};
+                { 3, 13185, "", "=q3=", "", "", ""};
+                { 4, 13218, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80661, "", "=q3=", "", "", ""};
+                { 2, 80692, "", "=q3=", "", "", ""};
+                { 3, 80693, "", "=q3=", "", "", ""};
+                { 4, 80701, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+                { 1, 326501, "", "=q3=", "", "", ""};
+                { 2, 345001, "", "=q3=", "", "", ""};
+                { 3, 345501, "", "=q3=", "", "", ""};
+				{ 4, 349501, "", "=q3=", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Crystal Fang"],
+            module = moduleName, instance = "BlackrockSpireLower",
+        };
+    };
 
-	AtlasLoot_Data["LBRSZigris"] = {
-		["Normal"] = {
-			{
-				{ 1, 13253, "", "=q3=Hands of Power", "=ds=#s9#, #a1#", "", "14.22%"};
-				{ 2, 13252, "", "=q3=Cloudrunner Girdle", "=ds=#s10#, #a2#", "", "15.48%"};
-				{ 4, 12835, "", "=q3=Plans: Annihilator", "=ds=#p2# (300)", "", "8.37%"};
-				{ 5, 12798, "", "=q3=Annihilator", "=ds=#h1#, #w1#"};
-				{ 7, 21955, "", "=q2=Design: Black Diamond Crab", "=ds=#p12# (300)"};
-				{ 16, 12264, "", "=q3=Worg Carrier", "=ds=#e13#"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Quartermaster Zigris"],
-			module = moduleName, instance = "BlackrockSpireLower",
-		};
-	};
+	AtlasLoot_Data["Burning Felguard"] = {
+        ["Normal"] = {
+            {
+			    { 1, 13182, "", "=q3=", "", "", ""};
+                { 2, 13181, "", "=q3=", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Burning Felguard"],
+            module = moduleName, instance = "BlackrockSpireLower",
+        };
+    };
 
-	AtlasLoot_Data["LBRSSlavener"] = {
-		["Normal"] = {
-			{
-				{ 1, 13206, "", "=q3=Wolfshear Leggings", "=ds=#s11#, #a1#", "", "17.46%"};
-				{ 2, 13208, "", "=q3=Bleak Howler Armguards", "=ds=#s8#, #a2#", "", "18.02%"};
-				{ 3, 13205, "", "=q3=Rhombeard Protector", "=ds=#w8#", "", "16.93%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Gizrul the Slavener"],
-			module = moduleName, instance = "BlackrockSpireLower",
-		};
-	};
+	AtlasLoot_Data["Urok Doomhowl"] = {
+        ["Normal"] = {
+            {
+			    { 1, 13178, "", "=q3=", "", "", ""};
+                { 2, 13258, "", "=q3=", "", "", ""};
+                { 3, 13259, "", "=q3=", "", "", ""};
+                { 4, 22232, "", "=q3=", "", "", ""};
+				{ 6, 12219, "", "=q3=", "", "", ""};
+				{ 7, 12712, "", "=q3=", "", "", ""};
+				{ 8, 18784, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80689, "", "=q3=", "", "", ""};
+                { 2, 80708, "", "=q3=", "", "", ""};
+                { 3, 80709, "", "=q3=", "", "", ""};
+                { 4, 81019, "", "=q3=", "", "", ""};
+				{ 6, 18784, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+                { 1, 343501, "", "=q3=", "", "", ""};
+                { 2, 353001, "", "=q3=", "", "", ""};
+                { 3, 353501, "", "=q3=", "", "", ""};
+				{ 4, 647001, "", "=q3=", "", "", ""};
+				{ 6, 18784, "", "=q3=", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Urok Doomhowl"],
+            module = moduleName, instance = "BlackrockSpireLower",
+        };
+    };
 
-	AtlasLoot_Data["LBRSHalycon"] = {
-		["Normal"] = {
-			{
-				{ 1, 22313, "", "=q3=Ironweave Bracers", "=ds=#s8#, #a1#", "", "18.16%"};
-				{ 2, 13210, "", "=q3=Pads of the Dread Wolf", "=ds=#s12#, #a2#", "", "9.88%"};
-				{ 3, 13211, "", "=q3=Slashclaw Bracers", "=ds=#s8#, #a3#", "", "20.32%"};
-				{ 4, 13212, "", "=q3=Halycon's Spiked Collar", "=ds=#s2#", "", "18.23%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Halycon"],
-			module = moduleName, instance = "BlackrockSpireLower",
-		};
-	};
+	AtlasLoot_Data["Quartermaster Zigris"] = {
+        ["Normal"] = {
+            {
+			    { 1, 13252, "", "=q3=", "", "", ""};
+                { 2, 13253, "", "=q3=", "", "", ""};
+                { 3, 18104, "", "=q3=", "", "", ""};
+                { 4, 22247, "", "=q3=", "", "", ""};
+				{ 6, 12219, "", "=q3=", "", "", ""};
+				{ 7, 12835, "", "=q3=", "", "", ""};
+				{ 8, 21955, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80704, "", "=q3=", "", "", ""};
+                { 2, 80705, "", "=q3=", "", "", ""};
+                { 3, 80863, "", "=q3=", "", "", ""};
+                { 4, 81024, "", "=q3=", "", "", ""};
+				{ 7, 12835, "", "=q3=", "", "", ""};
+				{ 8, 21955, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+                { 1, 351001, "", "=q3=", "", "", ""};
+                { 2, 351501, "", "=q3=", "", "", ""};
+                { 3, 517001, "", "=q3=", "", "", ""};
+				{ 4, 649501, "", "=q3=", "", "", ""};
+				{ 7, 12835, "", "=q3=", "", "", ""};
+				{ 8, 21955, "", "=q3=", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Quartermaster Zigris"],
+            module = moduleName, instance = "BlackrockSpireLower",
+        };
+    };
 
-	AtlasLoot_Data["LBRSBashguud"] = {
-		["Normal"] = {
-			{
-				{ 1, 13203, "", "=q3=Armswake Cloak", "=ds=#s4#", "", "35.31%"};
-				{ 2, 13198, "", "=q3=Hurd Smasher", "=ds=#h1#, #w13#", "", "21.15%"};
-				{ 3, 13204, "", "=q3=Bashguuder", "=ds=#h1#, #w6#", "", "27.09%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Ghok Bashguud"].." ("..AL["Rare"]..")",
-			module = moduleName, instance = "BlackrockSpireLower",
-		};
-	};
+	AtlasLoot_Data["Gizrul the Slavener"] = {
+        ["Normal"] = {
+            {
+			    { 1, 12967, "", "=q3=", "", "", ""};
+                { 2, 13205, "", "=q3=", "", "", ""};
+                { 3, 13206, "", "=q3=", "", "", ""};
+                { 4, 13208, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80671, "", "=q3=", "", "", ""};
+                { 2, 80694, "", "=q3=", "", "", ""};
+                { 3, 80695, "", "=q3=", "", "", ""};
+                { 4, 80696, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+                { 1, 331501, "", "=q3=", "", "", ""};
+                { 2, 346001, "", "=q3=", "", "", ""};
+                { 3, 346501, "", "=q3=", "", "", ""};
+				{ 4, 347001, "", "=q3=", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Gizrul the Slavener"],
+            module = moduleName, instance = "BlackrockSpireLower",
+        };
+    };
 
-	AtlasLoot_Data["LBRSWyrmthalak"] = {
-		["Normal"] = {
-			{
-				{ 1, 13143, "", "=q4=Mark of the Dragon Lord", "=ds=#s13#", "", "1.11%"};
-				{ 3, 13162, "", "=q3=Reiver Claws", "=ds=#s9#, #a4#", "", "12.14%"};
-				{ 4, 13164, "", "=q3=Heart of the Scale", "=ds=#s14#", "", "0.73%"};
-				{ 5, 22321, "", "=q3=Heart of Wyrmthalak", "=ds=#s14#", "", "13.87%"};
-				{ 6, 13163, "", "=q3=Relentless Scythe", "=ds=#h2#, #w10#", "", "14.12%"};
-				{ 7, 13148, "", "=q3=Chillpike", "=ds=#w7#", "", "0.76%"};
-				{ 8, 13161, "", "=q3=Trindlehaven Staff", "=ds=#w9#", "", "10.40%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Overlord Wyrmthalak"],
-			module = moduleName, instance = "BlackrockSpireLower",
-		};
-	};
+	AtlasLoot_Data["Halycon"] = {
+        ["Normal"] = {
+            {
+			    { 1, 13210, "", "=q3=", "", "", ""};
+                { 2, 13211, "", "=q3=", "", "", ""};
+                { 3, 13212, "", "=q3=", "", "", ""};
+                { 4, 22321, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80697, "", "=q3=", "", "", ""};
+                { 2, 80698, "", "=q3=", "", "", ""};
+                { 3, 80699, "", "=q3=", "", "", ""};
+                { 4, 81034, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+                { 1, 347501, "", "=q3=", "", "", ""};
+                { 2, 348001, "", "=q3=", "", "", ""};
+                { 3, 348501, "", "=q3=", "", "", ""};
+				{ 4, 654501, "", "=q3=", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Halycon"],
+            module = moduleName, instance = "BlackrockSpireLower",
+        };
+    };
 
-	AtlasLoot_Data["LBRSFelguard"] = {
-		["Normal"] = {
-			{
-				{ 1, 13181, "", "=q3=Demonskin Gloves", "=ds=#s9#, #a1#", "", "14.47%"};
-				{ 2, 13182, "", "=q3=Phase Blade", "=ds=#h1#, #w10#", "", "11.63%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Burning Felguard"].." ("..AL["Rare"]..", "..AL["Random"]..")",
-			module = moduleName, instance = "BlackrockSpireLower",
-		};
-	};
-
-	AtlasLoot_Data["LBRSTrash"] = {
-		["Normal"] = {
-			{
-				{ 1, 14513, "", "=q4=Pattern: Robe of the Archmage", "=ds=#p8# (300) =q1=#m1# =ds=#c3# =q1="..AL["Firebrand Pyromancer"], "", "10.12%"};
-				{ 2, 14152, "", "=q4=Robe of the Archmage", "=ds=#s5#, #a1# =q1=#m1# =ds=#c3#"};
-				{ 4, 13494, "", "=q2=Recipe: Greater Fire Protection Potion", "=ds=#p1# (290) =q1="..AL["Firebrand Pyromancer"].." / "..AL["Firebrand Invoker"], "", "1.94%"};
-				{ 5, 16250, "", "=q2=Formula: Enchant Weapon - Superior Striking", "=ds=#p4# (300) =q1="..AL["Firebrand Grunt"], "", "1.04%"};
-				{ 6, 16244, "", "=q2=Formula: Enchant Gloves - Greater Strength", "=ds=#p4# (295) =q1=".. AL["Firebrand Legionnaire"], "", "4.16%"};
-				{ 7, 15749, "", "=q2=Pattern: Volcanic Breastplate", "=ds=#p7# (285) =q1="..AL["Spirestone Warlord"], "", "2.04%"};
-				{ 8, 15775, "", "=q2=Pattern: Volcanic Shoulders", "=ds=#p7# (300) =q1="..AL["Spirestone Mystic"], "", "10.56%"};
-			};
-		};
-		info = {
-			name = AL["Trash Mobs"],
-			module = moduleName, instance = "BlackrockSpireLower",
-		};
-	};
+	AtlasLoot_Data["Overlord Wyrmthalak"] = {
+        ["Normal"] = {
+            {
+			    { 1, 13143, "", "=q3=", "", "", ""};
+                { 2, 13148, "", "=q3=", "", "", ""};
+                { 3, 13161, "", "=q3=", "", "", ""};
+                { 4, 13162, "", "=q3=", "", "", ""};
+				{ 5, 13163, "", "=q3=", "", "", ""};
+				{ 6, 13164, "", "=q3=", "", "", ""};
+				{ 8, 12219, "", "=q3=", "", "", ""};
+				{ 9, 12337, "", "=q3=", "", "", ""};
+				{ 10, 12780, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80677, "", "=q3=", "", "", ""};
+                { 2, 80678, "", "=q3=", "", "", ""};
+                { 3, 80679, "", "=q3=", "", "", ""};
+                { 4, 80680, "", "=q3=", "", "", ""};
+				{ 5, 80681, "", "=q3=", "", "", ""};
+				{ 6, 80682, "", "=q3=", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+                { 1, 337001, "", "=q3=", "", "", ""};
+                { 2, 338001, "", "=q3=", "", "", ""};
+                { 3, 338501, "", "=q3=", "", "", ""};
+				{ 4, 339001, "", "=q3=", "", "", ""};
+				{ 5, 339501, "", "=q3=", "", "", ""};
+				{ 6, 340001, "", "=q3=", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Overlord Wyrmthalak"],
+            module = moduleName, instance = "BlackrockSpireLower",
+        };
+    };
 
 		-------------------------------------------------
 		--- Blackrock Mountain: Upper Blackrock Spire ---
 		-------------------------------------------------
 
-	AtlasLoot_Data["UBRSEmberseer"] = {
-		["Normal"] = {
-			{
-				{ 1, 12905, "", "=q3=Wildfire Cape", "=ds=#s4#", "", "15.20%"};
-				{ 2, 12927, "", "=q3=Truestrike Shoulders", "=ds=#s3#, #a2#", "", "17.47%"};
-				{ 3, 12929, "", "=q3=Emberfury Talisman", "=ds=#s2#", "", "15.89%"};
-				{ 4, 12926, "", "=q3=Flaming Band", "=ds=#s13#", "", "18.52%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Pyroguard Emberseer"],
-			module = moduleName, instance = "BlackrockSpireUpper",
-		};
-	};
+	AtlasLoot_Data["Pyroguard Emberseer"] = {
+        ["Normal"] = {
+            {
+                { 1, 12905, "", "=q3=Wildfire Cape", "", "", ""};
+				{ 2, 12926, "", "=q3=Flaming Band", "", "", ""};
+                { 3, 12927, "", "=q3=Truestrike Shoulders", "", "", ""};
+                { 4, 12929, "", "=q3=Emberfury Talisman", "", "", ""}; 
+                { 7, 17322, "", "=q3=Eye of the Emberseer", "", "", ""};
+                { 8, 21988, "", "=q3=Ember of Emberseer", "", "", ""};
+				{ 6, 22527, "", "=q3=Core of Elements", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+			    { 1, 80655, "", "=q3=Wildfire Cape", "", "", ""};
+                { 2, 80656, "", "=q3=Flaming Band", "", "", ""};
+                { 3, 80657, "", "=q3=HTruestrike Shoulders", "", "", ""};
+                { 4, 80658, "", "=q3=Emberfury Talisman", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+                { 1, 323501, "", "=q3=Wildfire Cape", "", "", ""};
+                { 2, 324001, "", "=q3=Flaming Band", "", "", ""};
+                { 3, 324501, "", "=q3=Truestrike Shoulders", "", "", ""};
+				{ 4, 325001, "", "=q3=Emberfury Talisman", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Pyroguard Emberseer"],
+            module = moduleName, instance = "BlackrockSpireUpper",
+        };
+    };
 
 	AtlasLoot_Data["UBRSSolakar"] = {
 		["Normal"] = {
