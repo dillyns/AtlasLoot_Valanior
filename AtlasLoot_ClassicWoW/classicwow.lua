@@ -4388,7 +4388,56 @@ AtlasLoot_Data["Charlga Razorflank"] = {
 		instance = "Razorfen Kraul",
 	};
 };
-	
+		--------------------------------------
+		--- Scarlet Monastery (Armory)---
+		--------------------------------------
+		AtlasLoot_Data["Herod"] = {
+    ["Normal"] = {
+        {
+            { 1, 5805, "", "=q3=Heart of Zeal", "", "", "" },
+            { 2, 7717, "", "=q3=Ravager", "", "", "" },
+            { 3, 7718, "", "=q3=Herod's Shoulder", "", "", "" },
+            { 4, 7719, "", "=q3=Raging Berserker's Helm", "", "", "" },
+            { 5, 7760, "", "=q3=Warchief Kilt", "", "", "" },
+            { 6, 10330, "", "=q3=Herod's Leggings", "", "", "" },
+        };
+    };
+    ["Heroic"] = {
+        {
+            { 1, 80349, "", "=q3=Ravager", "", "", "" },
+            { 2, 80350, "", "=q3=Herod's Shoulder", "", "", "" },
+            { 3, 80351, "", "=q3=Raging Berserker's Helm", "", "", "" },
+            { 4, 80368, "", "=q3=Warchief Kilt", "", "", "" },
+            { 5, 80440, "", "=q3=Herod's Leggings", "", "", "" },
+        };
+    };
+    ["Mythic"] = {
+        {
+            { 1, 170501, "", "=q3=Ravager", "", "", "" },
+            { 2, 171001, "", "=q3=Herod's Shoulder", "", "", "" },
+            { 3, 171501, "", "=q3=Raging Berserker's Helm", "", "", "" },
+            { 4, 180001, "", "=q3=Warchief Kilt", "", "", "" },
+            { 5, 216001, "", "=q3=Herod's Leggings", "", "", "" },
+        };
+    };
+    info = {
+        name = "Herod",
+        module = moduleName,
+        instance = "Scarlet Monastery - Armory",
+    };
+};
+		--------------------------------------
+		--- Scarlet Monastery (Armory)---
+		--------------------------------------
+
+		--------------------------------------
+		--- Scarlet Monastery (Armory)---
+		--------------------------------------
+
+		--------------------------------------
+		--- Scarlet Monastery (Armory)---
+		--------------------------------------
+
 		-------------------
 		--- Scholomance ---
 		-------------------

@@ -1044,37 +1044,35 @@ AtlasLoot_LootTableRegister = {
 
 		["ScarletMonasteryArmory"] = {
 			["Bosses"] = {
-				{ "SMArmoryLoot", 4 },
-				{ "SMTrash", 7 },
-				{ "VWOWSets#1", 8, hide = true },
+				 { "Herod", 1 },
 			},
 			["Info"] = { BabbleZone["Scarlet Monastery"]..": "..BabbleZone["Armory"], "AtlasLootClassicWoW", mapname = "ScarletMonastery" },
 		},
 
-		["ScarletMonasteryCathed"] = {
+		["ScarletMonasteryCathedral"] = {
 			["Bosses"] = {
-				{ "SMCathedralLoot", {2,3,4} },
-				{ "SMTrash", 9 },
-				{ "VWOWSets#1", 10, hide = true },
+			    { "High Inquisitor Whitemane", 1 },
+			    { "High Inquisitor Fairbanks", 2 },
+			    { "Scarlet Commander Mograine", 3 }
 			},
 			["Info"] = { BabbleZone["Scarlet Monastery"]..": "..BabbleZone["Cathedral"], "AtlasLootClassicWoW", mapname = "ScarletMonastery" },
 		},
 
-		["SMLibrary"] = {
-			["Bosses"] = {
-				{ "SMLibraryLoot", {2,3} },
-				{ "SMTrash", 9 },
-				{ "VWOWSets#1", 10, hide = true },
+		["ScarletMonasteryLibrary"] = {
+			  ["Bosses"] = {
+				{ "Houndmaster Loksey", 1 },
+			    { "Arcanist Doan", 2 }
 			},
 			["Info"] = { BabbleZone["Scarlet Monastery"]..": "..BabbleZone["Library"], "AtlasLootClassicWoW", mapname = "ScarletMonastery" },
 		},
 
-		["SMGraveyard"] = {
-			["Bosses"] = {
-				{ "SMGraveyardLoot", {2,4} },
-				{ "HeadlessHorseman", 5, hide = true },
-				{ "SMTrash", 10 },
-				{ "VWOWSets#1", 11, hide = true },
+		["ScarletMonasteryGraveyard"] = {
+			 ["Bosses"] = {
+				{ "Interrogator Vishas", 1 },
+			    { "Bloodmage Thalnos", 2 },
+			    { "Azshir the Sleepless", 3 },
+			    { "Fallen Champion", 4 },
+			    { "Ironspine", 5 }
 			},
 			["Info"] = { BabbleZone["Scarlet Monastery"]..": "..BabbleZone["Graveyard"], "AtlasLootClassicWoW", mapname = "ScarletMonastery" },
 		},
