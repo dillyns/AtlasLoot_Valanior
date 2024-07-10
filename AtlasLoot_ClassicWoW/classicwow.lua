@@ -1925,10 +1925,10 @@ AtlasLoot_Data["War Master Voone"] = {
 AtlasLoot_Data["Ghok Bashguud"] = {
     ["Normal"] = {
         {
-            { 1, 13198, "", "=q3=", "", "", ""};
-            { 2, 13203, "", "=q3=", "", "", ""};
-            { 3, 13204, "", "=q3=", "", "", ""};
-            { 4, 12219, "", "=q3=", "", "", ""};
+            { 1, 12219, "", "=q3=", "", "", ""};
+		    { 2, 13198, "", "=q3=", "", "", ""};
+            { 3, 13203, "", "=q3=", "", "", ""};
+            { 4, 13204, "", "=q3=", "", "", ""};
         };
     };
     ["Heroic"] = {
@@ -1955,26 +1955,26 @@ AtlasLoot_Data["Ghok Bashguud"] = {
 AtlasLoot_Data["Mother Smolderweb"] = {
     ["Normal"] = {
         {
-            { 1, 13183, "", "=q3=", "", "", ""};
-            { 2, 13213, "", "=q3=", "", "", ""};
-            { 3, 13244, "", "=q3=", "", "", ""};
-            { 4, 18102, "", "=q3=", "", "", ""};
+            { 1, 13183, "", "=q3=Venomspitter", "", "", ""};
+            { 2, 13213, "", "=q3=Smolderweb's Eye", "", "", ""};
+            { 3, 13244, "", "=q3=Gilded Gauntlets", "", "", ""};
+            { 4, 18102, "", "=q3=Dragonrider Boots", "", "", ""};
         };
     };
     ["Heroic"] = {
         {
-            { 1, 80691, "", "=q3=", "", "", ""};
-            { 2, 80692, "", "=q3=", "", "", ""};
-            { 3, 80693, "", "=q3=", "", "", ""};
-            { 4, 80694, "", "=q3=", "", "", ""};
+            { 1, 80691, "", "=q3=Venomspitter", "", "", ""};
+            { 2, 80700, "", "=q3=Smolderweb's Eye", "", "", ""};
+            { 3, 80702, "", "=q3=Gilded Gauntlets", "", "", ""};
+            { 4, 80861, "", "=q3=Dragonrider Boots", "", "", ""};
         };
     };
     ["Mythic"] = {
         {
-            { 1, 441501, "", "=q3=", "", "", ""};
-            { 2, 441502, "", "=q3=", "", "", ""};
-            { 3, 441503, "", "=q3=", "", "", ""};
-            { 4, 441504, "", "=q3=", "", "", ""};
+            { 1, 344501, "", "=q3=Venomspitter", "", "", ""};
+            { 2, 349001, "", "=q3=Smolderweb's Eye", "", "", ""};
+            { 3, 350001, "", "=q3=Gilded Gauntlets", "", "", ""};
+            { 4, 516001, "", "=q3=Dragonrider Boots", "", "", ""};
         };
     };
     info = {
@@ -3509,35 +3509,34 @@ AtlasLoot_Data["Dark Iron Ambassador"] = {
 AtlasLoot_Data["Mekgineer Thermaplugg"] = {
     ["Normal"] = {
         {
-            { 1, 9299, "", "=q3=Journeyman's Stave", "", "", "" },
-            { 2, 9452, "", "=q3=Hydrocane", "", "", "" },
-            { 3, 9455, "", "=q3=Acidic Walkers", "", "", "" },
-            { 4, 9456, "", "=q3=Glass Shooter", "", "", "" },
-            { 5, 9489, "", "=q3=Gyromatic Icemaker", "", "", "" },
-            { 6, 9490, "", "=q3=Gizmotron Megachopper", "", "", "" },
-            { 7, 80020, "", "=q3=Electromagnetic Boots", "", "", "" },
+            { 1, 9299, "", "=q3=Thermaplugg's Safe Combination", "", "", "" },
+            { 2, 9309, "", "=q3=Robo-mechanical Guts", "", "", "" },
+            { 3, 9458, "", "=q3=Thermaplugg's Central Core", "", "", "" },
+            { 4, 9459, "", "=q3=Thermaplugg's Left Arm", "", "", "" },
+            { 5, 9461, "", "=q3=Charged Gear", "", "", "" },
+            { 6, 9492, "", "=q3=Electromagnetic Gigaflux Reactivator", "", "", "" },
+            { 7, 9508, "", "=q3=Mechbuilder's Overalls", "", "", "" },
+			{ 8, 9509, "", "=q3=Petrolspill Leggings", "", "", "" },
         };
     };
     ["Heroic"] = {
         {
-            { 1, 80414, "", "=q3=Journeyman's Stave", "", "", "" },
-            { 2, 80409, "", "=q3=Hydrocane", "", "", "" },
-            { 3, 80412, "", "=q3=Acidic Walkers", "", "", "" },
-            { 4, 80414, "", "=q3=Glass Shooter", "", "", "" },
-            { 5, 80431, "", "=q3=Gyromatic Icemaker", "", "", "" },
-            { 6, 81070, "", "=q3=Gizmotron Megachopper", "", "", "" },
-            { 7, 81071, "", "=q3=Electromagnetic Boots", "", "", "" },
+            { 1, 80414, "", "=q3=Hhermaplugg's Central Core", "", "", "" },
+            { 2, 80415, "", "=q3=Hhermaplugg's Left Arm", "", "", "" },
+            { 3, 80416, "", "=q3=Hharged Gear", "", "", "" },
+            { 4, 80433, "", "=q3=Hlectromagnetic Gigaflux Reactivator", "", "", "" },
+            { 5, 80434, "", "=q3=Hechbuilder's Overalls", "", "", "" },
+            { 6, 80435, "", "=q3=Hetrolspill Leggings", "", "", "" },
         };
     };
     ["Mythic"] = {
         {
-            { 1, 203001, "", "=q3=Journeyman's Stave", "", "", "" },
-            { 2, 202001, "", "=q3=Hydrocane", "", "", "" },
-            { 3, 201502, "", "=q3=Acidic Walkers", "", "", "" },
-            { 4, 202502, "", "=q3=Glass Shooter", "", "", "" },
-            { 5, 211501, "", "=q3=Gyromatic Icemaker", "", "", "" },
-            { 6, 213001, "", "=q3=Gizmotron Megachopper", "", "", "" },
-            { 7, 675501, "", "=q3=Electromagnetic Boots", "", "", "" },
+            { 1, 203001, "", "=q3=Thermaplugg's Central Core", "", "", "" },
+            { 2, 203501, "", "=q3=Thermaplugg's Left Arm", "", "", "" },
+            { 3, 204001, "", "=q3=Charged Gear", "", "", "" },
+            { 4, 212501, "", "=q3=Electromagnetic Gigaflux Reactivator", "", "", "" },
+            { 5, 213001, "", "=q3=Mechbuilder's Overalls", "", "", "" },
+            { 6, 213501, "", "=q3=Petrolspill Leggings", "", "", "" },
         };
     };
     info = {
