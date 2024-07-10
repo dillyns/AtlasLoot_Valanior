@@ -827,27 +827,38 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { BabbleZone["Blackwing Lair"], "AtlasLootClassicWoW", mapname = "BlackwingLair", raid = true },
 		},
 
+		["DireMaulNorth"] = {
+             ["Bosses"] = {
+                 { "Guard Mol'dar", 1 },
+                 { "Stomper Kreeg", 2},
+                 { "Guard Fengus", 3 },
+                 { "Guard Slip'kik", 4 },
+                 { "Captain Kromcrush", 5 },
+                 { "King Gordok", 6 },
+                 { "Cho'Rush the Observer", 7 },
+		    },
+			["Info"] = { BabbleZone["Dire Maul (North)"], "AtlasLootClassicWoW", mapname = "DireMaul" },
+        },
 
-		["DireMaul"] = {
+		["DireMaulEast"] = {
 			 ["Bosses"] = {
 				 { "Lethtendris", 1 },
 				 { "Hydrospawn", 2 },
 				 { "Zevrim Thornhoof", 3 },
 				 { "Alzzin the Wildshaper", 4 },
-				 { "Guard Mol'dar", 5 },
-				 { "Stomper Kreeg", 6 },
-				 { "Guard Fengus", 7 },
-				 { "Guard Slip'kik", 8 },
-				 { "Captain Kromcrush", 9 },
-				 { "King Gordok", 10 },
-				 { "Cho'Rush the Observer", 11 },
-				 { "Magister Kalendris", 13 },
-				 { "Tsu'zee", 14 },
-				 { "Illyanna Ravenoak", 15 },
-				 { "Immol'thar", 16 },
-				 { "Prince Tortheldrin", 17 }
 			},
-			["Info"] = { BabbleZone["Dire Maul"], "AtlasLootClassicWoW", mapname = "DireMaul" },
+			["Info"] = { BabbleZone["Dire Maul (East)"], "AtlasLootClassicWoW", mapname = "DireMaul" },
+		},
+
+		["DireMaulWest"] = {
+			 ["Bosses"] = {
+				 { "Magister Kalendris", 1 },
+				 { "Tsu'zee", 2},
+				 { "Illyanna Ravenoak", 3 },
+				 { "Immol'thar", 4 },
+				 { "Prince Tortheldrin", 5 }
+			},
+			["Info"] = { BabbleZone["Dire Maul (West)"], "AtlasLootClassicWoW", mapname = "DireMaul" },
 		},
 
 		["Maraudon"] = {
@@ -917,16 +928,26 @@ AtlasLoot_LootTableRegister = {
 
 		["RazorfenDowns"] = {
 			["Bosses"] = {
-				{ "RazorfenDownsLoot#1", {3,4,5,8,10} },
-				{ "RazorfenDownsLoot#2", {6,7}, hide = true },
+				{ "Tuten'kash", 1 },
+				{ "Plaguemaw the Rotting", 2 },
+				{ "Mordresh Fire Eye", 3 },
+				{ "Ragglesnout", 4 },
+				{ "Glutton", 5 },
+				{ "Amnennar the Coldbringer", 6 }
 			},
 			["Info"] = { BabbleZone["Razorfen Downs"], "AtlasLootClassicWoW", mapname = "RazorfenDowns" },
 		},
 
 		["RazorfenKraul"] = {
-			["Bosses"] = {
-				{ "RazorfenKraulLoot#1", {3,4,5,6,7,10} }, 
-				{ "RazorfenKraulLoot#2", {8,11}, hide = true }, 
+			 ["Bosses"] = {
+				 { "Roogug", 1 },
+				 { "Aggem Thorncurse", 2 },
+				 { "Death Speaker Jargba", 3 },
+				 { "Overlord Ramtusk", 4 },
+				 { "Earthcaller Halmgar", 5 },
+				 { "Blind Hunter", 6 },
+			     { "Agathelos the Raging", 7 },
+			     { "Charlga Razorflank", 8 }
 			},
 			["Info"] = { BabbleZone["Razorfen Kraul"], "AtlasLootClassicWoW", mapname = "RazorfenKraul" },
 		},
@@ -1021,7 +1042,7 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { BabbleZone["Gnomeregan"], "AtlasLootClassicWoW", mapname = "Gnomeregan" },
 		},
 
-		["SMArmory"] = {
+		["ScarletMonasteryArmory"] = {
 			["Bosses"] = {
 				{ "SMArmoryLoot", 4 },
 				{ "SMTrash", 7 },
@@ -1030,7 +1051,7 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { BabbleZone["Scarlet Monastery"]..": "..BabbleZone["Armory"], "AtlasLootClassicWoW", mapname = "ScarletMonastery" },
 		},
 
-		["SMCathedral"] = {
+		["ScarletMonasteryCathed"] = {
 			["Bosses"] = {
 				{ "SMCathedralLoot", {2,3,4} },
 				{ "SMTrash", 9 },
