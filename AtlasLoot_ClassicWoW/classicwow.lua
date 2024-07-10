@@ -15,15 +15,11 @@ local moduleName = "AtlasLootClassicWoW"
 ---- Ahn'Qiraj: The Temple of Ahn'Qiraj
 ---- Blackfathom Deeps
 ---- Blackrock Mountain: Blackrock Depths
----- Blackrock Mountain: Entrance
 ---- Blackrock Mountain: Lower Blackrock Spire
 ---- Blackrock Mountain: Upper Blackrock Spire
 ---- Blackrock Mountain: Blackwing Lair
 ---- Blackrock Mountain: Molten Core
----- Dire Maul Books
----- Dire Maul East
----- Dire Maul North
----- Dire Maul West
+---- Dire Maul
 ---- Gnomeregan
 ---- Maraudon
 ---- Ragefire Chasm
@@ -852,57 +848,920 @@ local moduleName = "AtlasLootClassicWoW"
 		--------------------------------------------
 		--- Blackrock Mountain: Blackrock Depths ---
 		--------------------------------------------
-	AtlasLoot_Data["Aku'mai"] = {
-        ["Normal"] = {
-            {
-			    { 1, 6909, "", "=q3=", "", "", ""};
-                { 2, 6910, "", "=q3=", "", "", ""};
-                { 3, 6911, "", "=q3=", "", "", ""};
-                { 4, 80013, "", "=q3=", "", "", ""};
-            };
-        };
-        ["Heroic"] = {
-            {
-			    { 1, 80328, "", "=q3=", "", "", ""};
-                { 2, 80329, "", "=q3=", "", "", ""};
-                { 3, 80330, "", "=q3=", "", "", ""};
-                { 4, 81063, "", "=q3=", "", "", ""};
-            };
-        };
-        ["Mythic"] = {
-            {
-                { 1, 160001, "", "=q3=", "", "", ""};
-                { 2, 160501, "", "=q3=", "", "", ""};
-                { 3, 161001, "", "=q3=", "", "", ""};
-				{ 4, 672001, "", "=q3=", "", "", ""};
-            };
-        };
-        info = {
-            name = BabbleBoss["Aku'mai"],
-            module = moduleName, instance = "Blackfathom Deeps",
+AtlasLoot_Data["Lord Roccor"] = { 
+    ["Normal"] = {
+        {
+            { 1, 11129, "", "=q1=Essence of the Elements", "", "", ""};
+            { 2, 11630, "", "=q2=Rockshard Pellets", "", "", ""};
+            { 3, 11813, "", "=q3=Formula: Smoking Heart of the Mountain", "", "", ""};
+            { 4, 11631, "", "=q3=Stoneshell Guard", "", "", ""};
+            { 5, 11632, "", "=q3=Earthslag Shoulders", "", "", ""};
+            { 6, 12552, "", "=q3=Blisterbane Wrap", "", "", ""};
+            { 7, 22234, "", "=q3=Mantle of Lost Hope", "", "", ""};
         };
     };
-		-----------------------------------
-		--- Blackrock Mountain: Entrance ---
-		-----------------------------------
+    ["Heroic"] = {
+        {
+            { 1, 11630, "", "=q2=Rockshard Pellets", "", "", ""};
+            { 2, 11813, "", "=q3=Formula: Smoking Heart of the Mountain", "", "", ""};
+            { 3, 80530, "", "=q3=Stoneshell Guard", "", "", ""};
+            { 4, 80531, "", "=q3=Earthslag Shoulders", "", "", ""};
+            { 5, 80627, "", "=q3=Blisterbane Wrap", "", "", ""};
+            { 6, 81020, "", "=q3=Mantle of Lost Hope", "", "", ""};
+        };
+    };
+    ["Mythic"] = {
+        {
+            { 1, 11630, "", "=q2=Rockshard Pellets", "", "", ""};
+            { 2, 11813, "", "=q3=Formula: Smoking Heart of the Mountain", "", "", ""};
+            { 3, 261001, "", "=q3=Stoneshell Guard", "", "", ""};
+            { 4, 261501, "", "=q3=Earthslag Shoulders", "", "", ""};
+            { 5, 309501, "", "=q3=Blisterbane Wrap", "", "", ""};
+            { 6, 647501, "", "=q3=Mantle of Lost Hope", "", "", ""};
+        };
+    };
+    info = {
+        name = BabbleBoss["Lord Roccor"],
+        module = moduleName,
+        instance = "BlackrockDepths",
+    };
+};
 
-	AtlasLoot_Data["BlackrockMountainEntLoot"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Scarshield Quartermaster"], ""};
-				{ 2, 18987, "", "=q1=Blackhand's Command", "=ds=#m2#", "", "100%"};
-				{ 4, 0, "INV_Box_01", "=q6="..AL["The Behemoth"], ""};
-				{ 5, 11603, "", "=q3=Vilerend Slicer", "=ds=#h3#, #w13#", "", "95%"};
-				{ 7, 0, "INV_Box_01", "=q6="..BabbleBoss["Overmaster Pyron"], ""};
-				{ 8, 14486, "", "=q3=Pattern: Cloak of Fire", "=ds=#p8# (275)", "", "17.95%"};
-			};
-		};
-		info = {
-			name = BabbleZone["Blackrock Mountain"],
-			module = moduleName, instance = "BlackrockMountainEnt",
-		};
-	};
+AtlasLoot_Data["Bael'Gar"] = {
+    ["Normal"] = {
+        {
+            { 1, 11802, "", "=q3=Lavacrest Leggings", "", "", ""};
+            { 2, 11803, "", "=q3=Force of Magma", "", "", ""};
+            { 3, 11805, "", "=q3=Rubidium Hammer", "", "", ""};
+            { 4, 11807, "", "=q3=Sash of the Burning Heart", "", "", ""};
+        };
+    };
+    ["Heroic"] = {
+        {
+            { 1, 80571, "", "=q3=Lavacrest Leggings", "", "", ""};
+            { 2, 80572, "", "=q3=Force of Magma", "", "", ""};
+            { 3, 80573, "", "=q3=Rubidium Hammer", "", "", ""};
+            { 4, 80574, "", "=q3=Sash of the Burning Heart", "", "", ""};
+        };
+    };
+    ["Mythic"] = {
+        {
+            { 1, 281501, "", "=q3=Lavacrest Leggings", "", "", ""};
+            { 2, 282001, "", "=q3=Force of Magma", "", "", ""};
+            { 3, 282501, "", "=q3=Rubidium Hammer", "", "", ""};
+            { 4, 283001, "", "=q3=Sash of the Burning Heart", "", "", ""};
+        };
+    };
+    info = {
+        name = BabbleBoss["Bael'Gar"],
+        module = moduleName,
+        instance = "BlackrockDepths",
+    };
+};
 
+AtlasLoot_Data["Houndmaster Grebmar"] = {
+    ["Normal"] = {
+        {
+            { 1, 11623, "", "=q3=Spritecaster Cape", "", "", ""};
+            { 2, 11627, "", "=q3=Fleetfoot Greaves", "", "", ""};
+            { 3, 11628, "", "=q3=Houndmaster's Bow", "", "", ""};
+            { 4, 11629, "", "=q3=Houndmaster's Rifle", "", "", ""};
+        };
+    };
+    ["Heroic"] = {
+        {
+            { 1, 80523, "", "=q3=Spritecaster Cape", "", "", ""};
+            { 2, 80527, "", "=q3=Fleetfoot Greaves", "", "", ""};
+            { 3, 80528, "", "=q3=Houndmaster's Bow", "", "", ""};
+            { 4, 80529, "", "=q3=Houndmaster's Rifle", "", "", ""};
+        };
+    };
+    ["Mythic"] = {
+        {
+            { 1, 257501, "", "=q3=Spritecaster Cape", "", "", ""};
+            { 2, 259501, "", "=q3=Fleetfoot Greaves", "", "", ""};
+            { 3, 260001, "", "=q3=Houndmaster's Bow", "", "", ""};
+            { 4, 260501, "", "=q3=Houndmaster's Rifle", "", "", ""};
+        };
+    };
+    info = {
+        name = BabbleBoss["Houndmaster Grebmar"],
+        module = moduleName,
+        instance = "BlackrockDepths",
+    };
+};
+
+AtlasLoot_Data["Panzor the Invincible"] = {
+    ["Normal"] = {
+        {
+            { 1, 11129, "", "=q1=Essence of the Elements", "", "", ""};
+            { 2, 11785, "", "=q3=Rock Golem Bulwark", "", "", ""};
+            { 3, 11786, "", "=q3=Stone of the Earth", "", "", ""};
+            { 4, 11787, "", "=q3=Shalehusk Boots", "", "", ""};
+            { 5, 22245, "", "=q3=Soot Encrusted Footwear", "", "", ""};
+        };
+    };
+    ["Heroic"] = {
+        {
+            { 1, 81099, "", "=q3=Rock Golem Bulwark", "", "", ""};
+            { 2, 81100, "", "=q3=Stone of the Earth", "", "", ""};
+            { 3, 81101, "", "=q3=Shalehusk Boots", "", "", ""};
+            { 4, 81105, "", "=q3=Soot Encrusted Footwear", "", "", ""};
+        };
+    };
+    ["Mythic"] = {
+        {
+            { 1, 888501, "", "=q3=Rock Golem Bulwark", "", "", ""};
+            { 2, 889001, "", "=q3=Stone of the Earth", "", "", ""};
+            { 3, 889501, "", "=q3=Shalehusk Boots", "", "", ""};
+            { 4, 891501, "", "=q3=Soot Encrusted Footwear", "", "", ""};
+        };
+    };
+    info = {
+        name = BabbleBoss["Panzor the Invincible"],
+        module = moduleName,
+        instance = "BlackrockDepths",
+    };
+};
+
+AtlasLoot_Data["High Interrogator Gerstahn"] = {
+    ["Normal"] = {
+        {
+            { 1, 11140, "", "=q1=Prison Cell Key", "", "", ""};
+            { 2, 11624, "", "=q3=Kentic Amice", "", "", ""};
+            { 3, 11625, "", "=q3=Enthralled Sphere", "", "", ""};
+            { 4, 11626, "", "=q3=Blackveil Cape", "", "", ""};
+            { 5, 22240, "", "=q3=Greaves of Withering Despair", "", "", ""};
+        };
+    };
+    ["Heroic"] = {
+        {
+            { 1, 80524, "", "=q3=Kentic Amice", "", "", ""};
+            { 2, 80525, "", "=q3=Enthralled Sphere", "", "", ""};
+            { 3, 80526, "", "=q3=Blackveil Cape", "", "", ""};
+            { 4, 81021, "", "=q3=Greaves of Withering Despair", "", "", ""};
+        };
+    };
+    ["Mythic"] = {
+        {
+            { 1, 258001, "", "=q3=Kentic Amice", "", "", ""};
+            { 2, 258501, "", "=q3=Enthralled Sphere", "", "", ""};
+            { 3, 259001, "", "=q3=Blackveil Cape", "", "", ""};
+            { 4, 648001, "", "=q3=Greaves of Withering Despair", "", "", ""};
+        };
+    };
+    info = {
+        name = BabbleBoss["High Interrogator Gerstahn"],
+        module = moduleName,
+        instance = "BlackrockDepths",
+    };
+};
+
+AtlasLoot_Data["Gorosh the Dervish"] = {
+    ["Normal"] = {
+        {
+            { 1, 11726, "", "=q3=Savage Gladiator Chain", "", "", ""};
+            { 2, 22257, "", "=q3=Bloodclot Band", "", "", ""};
+            { 3, 22266, "", "=q3=Flarethorn", "", "", ""};
+            { 4, 22271, "", "=q3=Leggings of Frenzied Magic", "", "", ""};
+        };
+    };
+    ["Heroic"] = {
+        {
+            { 1, 80548, "", "=q3=Savage Gladiator Chain", "", "", ""};
+            { 2, 81026, "", "=q3=Bloodclot Band", "", "", ""};
+            { 3, 81027, "", "=q3=Flarethorn", "", "", ""};
+            { 4, 81032, "", "=q3=Leggings of Frenzied Magic", "", "", ""};
+        };
+    };
+    ["Mythic"] = {
+        {
+            { 1, 270001, "", "=q3=Savage Gladiator Chain", "", "", ""};
+            { 2, 650501, "", "=q3=Bloodclot Band", "", "", ""};
+            { 3, 651001, "", "=q3=Flarethorn", "", "", ""};
+            { 4, 653501, "", "=q3=Leggings of Frenzied Magic", "", "", ""};
+        };
+    };
+    info = {
+        name = BabbleBoss["Gorosh the Dervish"],
+        module = moduleName,
+        instance = "BlackrockDepths",
+    };
+};
+AtlasLoot_Data["Grizzle"] = {
+    ["Normal"] = {
+        {
+            {1, 11702, "", "=q3=Grizzle's Skinner", "", "", ""};
+            {2, 11703, "", "=q3=Stonewall Girdle", "", "", ""};
+            {3, 11722, "", "=q3=Dregmetal Spaulders", "", "", ""};
+            {4, 22270, "", "=q3=Entrenching Boots", "", "", ""};
+        };
+    };
+    ["Heroic"] = {
+        {
+            {1, 80545, "", "=q3=Grizzle's Skinner", "", "", ""};
+            {2, 80546, "", "=q3=Stonewall Girdle", "", "", ""};
+            {3, 80547, "", "=q3=Dregmetal Spaulders", "", "", ""};
+            {4, 81031, "", "=q3=Entrenching Boots", "", "", ""};
+        };
+    };
+    ["Mythic"] = {
+        {
+            {1, 268501, "", "=q3=Grizzle's Skinner", "", "", ""};
+            {2, 269001, "", "=q3=Stonewall Girdle", "", "", ""};
+            {3, 269501, "", "=q3=Dregmetal Spaulders", "", "", ""};
+            {4, 653001, "", "=q3=Entrenching Boots", "", "", ""};
+        };
+    };
+    info = {
+        name = BabbleBoss["Grizzle"],
+        module = moduleName,
+        instance = "BlackrockDepths"
+    };
+};
+
+AtlasLoot_Data["Eviscerator"] = {
+    ["Normal"] = {
+        {
+            {1, 11679, "", "=q3=Rubicund Armguards", "", "", ""};
+            {2, 11685, "", "=q3=Splinthide Shoulders", "", "", ""};
+            {3, 11686, "", "=q3=Girdle of Beastial Fury", "", "", ""};
+            {4, 11730, "", "=q3=Savage Gladiator Grips", "", "", ""};
+        };
+    };
+    ["Heroic"] = {
+        {
+            {1, 80541, "", "=q3=Rubicund Armguards", "", "", ""};
+            {2, 80543, "", "=q3=Splinthide Shoulders", "", "", ""};
+            {3, 80544, "", "=q3=Girdle of Beastial Fury", "", "", ""};
+            {4, 80551, "", "=q3=Savage Gladiator Grips", "", "", ""};
+        };
+    };
+    ["Mythic"] = {
+        {
+            {1, 266501, "", "=q3=Rubicund Armguards", "", "", ""};
+            {2, 267501, "", "=q3=Splinthide Shoulders", "", "", ""};
+            {3, 268001, "", "=q3=Girdle of Beastial Fury", "", "", ""};
+            {4, 271501, "", "=q3=Savage Gladiator Grips", "", "", ""};
+        };
+    };
+    info = {
+        name = BabbleBoss["Eviscerator"],
+        module = moduleName,
+        instance = "BlackrockDepths"
+    };
+};
+
+AtlasLoot_Data["Ok'thor the Breaker"] = {
+    ["Normal"] = {
+        {
+            {1, 11662, "", "=q3=Ban'thok Sash", "", "", ""};
+            {2, 11665, "", "=q3=Ogreseer Fists", "", "", ""};
+            {3, 11728, "", "=q3=Savage Gladiator Leggings", "", "", ""};
+            {4, 11824, "", "=q3=Cyclopean Band", "", "", ""};
+        };
+    };
+    ["Heroic"] = {
+        {
+            {1, 80535, "", "=q3=Ban'thok Sash", "", "", ""};
+            {2, 80536, "", "=q3=Ogreseer Fists", "", "", ""};
+            {3, 80549, "", "=q3=Savage Gladiator Leggings", "", "", ""};
+            {4, 80588, "", "=q3=Cyclopean Band", "", "", ""};
+        };
+    };
+    ["Mythic"] = {
+        {
+            {1, 263501, "", "=q3=Ban'thok Sash", "", "", ""};
+            {2, 264001, "", "=q3=Ogreseer Fists", "", "", ""};
+            {3, 270501, "", "=q3=Savage Gladiator Leggings", "", "", ""};
+            {4, 290001, "", "=q3=Cyclopean Band", "", "", ""};
+        };
+    };
+    info = {
+        name = BabbleBoss["Ok'thor the Breaker"],
+        module = moduleName,
+        instance = "BlackrockDepths"
+    };
+};
+
+AtlasLoot_Data["Anub'shiah"] = {
+    ["Normal"] = {
+        {
+            {1, 11675, "", "=q3=Shadefiend Boots", "", "", ""};
+            {2, 11677, "", "=q3=Graverot Cape", "", "", ""};
+            {3, 11678, "", "=q3=Carapace of Anub'shiah", "", "", ""};
+            {4, 11731, "", "=q3=Savage Gladiator Greaves", "", "", ""};
+        };
+    };
+    ["Heroic"] = {
+        {
+            {1, 80538, "", "=q3=Shadefiend Boots", "", "", ""};
+            {2, 80539, "", "=q3=Graverot Cape", "", "", ""};
+            {3, 80540, "", "=q3=Carapace of Anub'shiah", "", "", ""};
+            {4, 80552, "", "=q3=Savage Gladiator Greaves", "", "", ""};
+        };
+    };
+    ["Mythic"] = {
+        {
+            {1, 265001, "", "=q3=Shadefiend Boots", "", "", ""};
+            {2, 265501, "", "=q3=Graverot Cape", "", "", ""};
+            {3, 266001, "", "=q3=Carapace of Anub'shiah", "", "", ""};
+            {4, 272001, "", "=q3=Savage Gladiator Greaves", "", "", ""};
+        };
+    };
+    info = {
+        name = BabbleBoss["Anub'shiah"],
+        module = moduleName,
+        instance = "BlackrockDepths"
+    };
+};
+
+AtlasLoot_Data["Hedrum the Creeper"] = {
+    ["Normal"] = {
+        {
+            {1, 11633, "", "=q3=Spiderfang Carapace", "", "", ""};
+            {2, 11634, "", "=q3=Silkweb Gloves", "", "", ""};
+            {3, 11635, "", "=q3=Hookfang Shanker", "", "", ""};
+            {4, 11729, "", "=q3=Savage Gladiator Helm", "", "", ""};
+        };
+    };
+    ["Heroic"] = {
+        {
+            {1, 80532, "", "=q3=Spiderfang Carapace", "", "", ""};
+            {2, 80533, "", "=q3=Silkweb Gloves", "", "", ""};
+            {3, 80534, "", "=q3=Hookfang Shanker", "", "", ""};
+            {4, 80550, "", "=q3=Savage Gladiator Helm", "", "", ""};
+        };
+    };
+    ["Mythic"] = {
+        {
+            {1, 262001, "", "=q3=Spiderfang Carapace", "", "", ""};
+            {2, 262501, "", "=q3=Silkweb Gloves", "", "", ""};
+            {3, 263001, "", "=q3=Hookfang Shanker", "", "", ""};
+            {4, 271001, "", "=q3=Savage Gladiator Helm", "", "", ""};
+        };
+    };
+    info = {
+        name = BabbleBoss["Hedrum the Creeper"],
+        module = moduleName,
+        instance = "BlackrockDepths"
+    };
+};
+
+AtlasLoot_Data["Pyromancer Loregrain"] = {
+    ["Normal"] = {
+        {
+            {1, 11207, "", "=q3=Formula: Enchant Weapon - Fiery Weapon", "", "", ""},
+            {2, 11747, "", "=q3=Flamestrider Robes", "", "", ""},
+            {3, 11748, "", "=q3=Pyric Caduceus", "", "", ""},
+            {4, 11749, "", "=q3=Searingscale Leggings", "", "", ""},
+            {5, 11750, "", "=q3=Kindling Stave", "", "", ""},
+        };
+    };
+    ["Heroic"] = {
+        {
+            {1, 11207, "", "=q3=Formula: Enchant Weapon - Fiery Weapon", "", "", ""},
+            {2, 80558, "", "=q3=Flamestrider Robes", "", "", ""},
+            {3, 80559, "", "=q3=Pyric Caduceus", "", "", ""},
+            {4, 80560, "", "=q3=Searingscale Leggings", "", "", ""},
+            {5, 80561, "", "=q3=Kindling Stave", "", "", ""},
+        };
+    };
+    ["Mythic"] = {
+        {
+            {1, 11207, "", "=q3=Formula: Enchant Weapon - Fiery Weapon", "", "", ""},
+            {2, 275001, "", "=q3=Flamestrider Robes", "", "", ""},
+            {3, 275501, "", "=q3=Pyric Caduceus", "", "", ""},
+            {4, 276001, "", "=q3=Searingscale Leggings", "", "", ""},
+            {5, 276501, "", "=q3=Kindling Stave", "", "", ""},
+        };
+    };
+    info = {
+        name = BabbleBoss["Pyromancer Loregrain"],
+        module = moduleName,
+        instance = "BlackrockDepths"
+    };
+};
+
+AtlasLoot_Data["General Angerforge"] = {
+    ["Normal"] = {
+        {
+            {1, 11464, "", "=q3=Marshal Windsor's Lost Information", "", "", ""},
+            {2, 11468, "", "=q3=Dark Iron Fanny Pack", "", "", ""},
+            {3, 11810, "", "=q3=Force of Will", "", "", ""},
+            {4, 11816, "", "=q3=Angerforge's Battle Axe", "", "", ""},
+            {5, 11817, "", "=q3=Lord General's Sword", "", "", ""},
+            {6, 11820, "", "=q3=Royal Decorated Armor", "", "", ""},
+            {7, 11821, "", "=q3=Warstrife Leggings", "", "", ""},
+        };
+    };
+    ["Heroic"] = {
+        {
+            {1, 80577, "", "=q3=Force of Will", "", "", ""},
+            {2, 80581, "", "=q3=Angerforge's Battle Axe", "", "", ""},
+            {3, 80582, "", "=q3=Lord General's Sword", "", "", ""},
+            {4, 80584, "", "=q3=Royal Decorated Armor", "", "", ""},
+            {5, 80585, "", "=q3=Warstrife Leggings", "", "", ""},
+        };
+    };
+    ["Mythic"] = {
+        {
+            {1, 284501, "", "=q3=Force of Will", "", "", ""},
+            {2, 286501, "", "=q3=Angerforge's Battle Axe", "", "", ""},
+            {3, 287001, "", "=q3=Lord General's Sword", "", "", ""},
+            {4, 288001, "", "=q3=Royal Decorated Armor", "", "", ""},
+            {5, 288501, "", "=q3=Warstrife Leggings", "", "", ""},
+        };
+    };
+    info = {
+        name = BabbleBoss["General Angerforge"],
+        module = moduleName,
+        instance = "BlackrockDepths"
+    };
+};
+
+AtlasLoot_Data["Golem Lord Argelmach"] = {
+    ["Normal"] = {
+        {
+            {1, 11268, "", "=q3=Head of Argelmach", "", "", ""},
+            {2, 11465, "", "=q3=Marshal Windsor's Lost Information", "", "", ""},
+            {3, 11468, "", "=q3=Dark Iron Fanny Pack", "", "", ""},
+            {4, 11669, "", "=q3=Naglering", "", "", ""},
+            {5, 11819, "", "=q3=Second Wind", "", "", ""},
+            {6, 11822, "", "=q3=Omnicast Boots", "", "", ""},
+            {7, 11823, "", "=q3=Luminary Kilt", "", "", ""},
+        };
+    };
+    ["Heroic"] = {
+        {
+            {1, 80537, "", "=q3=Naglering", "", "", ""},
+            {2, 80583, "", "=q3=Second Wind", "", "", ""},
+            {3, 80586, "", "=q3=Omnicast Boots", "", "", ""},
+            {4, 80587, "", "=q3=Luminary Kilt", "", "", ""},
+        };
+    };
+    ["Mythic"] = {
+        {
+            {1, 264501, "", "=q3=Naglering", "", "", ""},
+            {2, 287501, "", "=q3=Second Wind", "", "", ""},
+            {3, 289001, "", "=q3=Omnicast Boots", "", "", ""},
+            {4, 289501, "", "=q3=Luminary Kilt", "", "", ""},
+        };
+    };
+    info = {
+        name = BabbleBoss["Golem Lord Argelmach"],
+        module = moduleName,
+        instance = "BlackrockDepths"
+    };
+};
+
+AtlasLoot_Data["Ribbly Screwspigot"] = {
+    ["Normal"] = {
+        {
+            {1, 9543, "", "=q2=Ribbly's Quiver", "", "", ""};
+            {2, 2663, "", "=q2=Ribbly's Bandolier", "", "", ""};
+            {3, 11313, "", "=q3=Ribbly's Head", "", "", ""};
+            {4, 11612, "", "=q3=Plans: Dark Iron Plate", "", "", ""};
+            {5, 11742, "", "=q3=Wayfarer's Knapsack", "", "", ""};
+            {6, 12528, "", "=q3=The Judge's Gavel", "", "", ""};
+            {7, 12535, "", "=q3=Doomforged Straightedge", "", "", ""};
+            {8, 12547, "", "=q3=Mar Alom's Grip", "", "", ""};
+            {9, 12555, "", "=q3=Battlechaser's Greaves", "", "", ""};
+        };
+    };
+    ["Heroic"] = {
+        {
+            {1, 109543, "", "=q2=Ribbly's Quiver", "", "", ""};
+            {2, 109543, "", "=q2=Ribbly's Bandolier", "", "", ""};
+            {3, 109543, "", "=q3=Ribbly's Head", "", "", ""};
+            {4, 109543, "", "=q3=Plans: Dark Iron Plate", "", "", ""};
+            {5, 109543, "", "=q3=Wayfarer's Knapsack", "", "", ""};
+            {6, 80618, "", "=q3=The Judge's Gavel", "", "", ""};
+            {7, 80621, "", "=q3=Doomforged Straightedge", "", "", ""};
+            {8, 80624, "", "=q3=Mar Alom's Grip", "", "", ""};
+            {9, 80630, "", "=q3=Battlechaser's Greaves", "", "", ""};
+        };
+    };
+    ["Mythic"] = {
+        {
+            {1, 209543, "", "=q2=Ribbly's Quiver", "", "", ""};
+            {2, 209543, "", "=q2=Ribbly's Bandolier", "", "", ""};
+            {3, 209543, "", "=q3=Ribbly's Head", "", "", ""};
+            {4, 209543, "", "=q3=Plans: Dark Iron Plate", "", "", ""};
+            {5, 209543, "", "=q3=Wayfarer's Knapsack", "", "", ""};
+            {6, 305001, "", "=q3=The Judge's Gavel", "", "", ""};
+            {7, 306501, "", "=q3=Doomforged Straightedge", "", "", ""};
+            {8, 308001, "", "=q3=Mar Alom's Grip", "", "", ""};
+            {9, 311001, "", "=q3=Battlechaser's Greaves", "", "", ""};
+        };
+    };
+    info = {
+        name = BabbleBoss["Ribbly Screwspigot"],
+        module = moduleName,
+        instance = "BlackrockDepths"
+    };
+};
+
+AtlasLoot_Data["Hurley Blackbreath"] = {
+    ["Normal"] = {
+        {
+            {1, 9537, "", "=q2=Lost Thunderbrew Recipe", "", "", ""};
+            {2, 11468, "", "=q2=Dark Iron Fanny Pack", "", "", ""};
+            {3, 11735, "", "=q3=Ragefury Eyepatch", "", "", ""};
+            {4, 18043, "", "=q3=Coal Miner Boots", "", "", ""};
+            {5, 18044, "", "=q3=Hurley's Tankard", "", "", ""};
+            {6, 22275, "", "=q3=Firemoss Boots", "", "", ""};
+        };
+    };
+    ["Heroic"] = {
+        {
+            {1, 109537, "", "=q2=Lost Thunderbrew Recipe", "", "", ""};
+            {2, 80553, "", "=q2=Dark Iron Fanny Pack", "", "", ""};
+            {3, 80855, "", "=q3=Ragefury Eyepatch", "", "", ""};
+            {4, 80856, "", "=q3=Coal Miner Boots", "", "", ""};
+            {5, 81033, "", "=q3=Hurley's Tankard", "", "", ""};
+            {6, 0, "", "", "", "", ""};
+        };
+    };
+    ["Mythic"] = {
+        {
+            {1, 209537, "", "=q2=Lost Thunderbrew Recipe", "", "", ""};
+            {2, 272501, "", "=q2=Dark Iron Fanny Pack", "", "", ""};
+            {3, 513001, "", "=q3=Ragefury Eyepatch", "", "", ""};
+            {4, 513501, "", "=q3=Coal Miner Boots", "", "", ""};
+            {5, 654001, "", "=q3=Hurley's Tankard", "", "", ""};
+            {6, 0, "", "", "", "", ""};
+        };
+    };
+    info = {
+        name = BabbleBoss["Hurley Blackbreath"],
+        module = moduleName,
+        instance = "BlackrockDepths"
+    };
+};
+
+AtlasLoot_Data["Plugger Spazzring"] = {
+    ["Normal"] = {
+        {
+            {1, 9499, "", "=q3=Schematic: Goblin Jumper Cables XL", "", "", ""};
+            {2, 12531, "", "=q3=Searing Needle", "", "", ""};
+            {3, 12542, "", "=q3=Funeral Pyre Vestment", "", "", ""};
+            {4, 12791, "", "=q3=Barman Shanker", "", "", ""};
+            {5, 12793, "", "=q3=Mixologist's Tunic", "", "", ""};
+        };
+    };
+    ["Heroic"] = {
+        {
+            {1, 109499, "", "=q3=Schematic: Goblin Jumper Cables XL", "", "", ""};
+            {2, 80619, "", "=q3=Searing Needle", "", "", ""};
+            {3, 80622, "", "=q3=Funeral Pyre Vestment", "", "", ""};
+            {4, 80653, "", "=q3=Barman Shanker", "", "", ""};
+            {5, 80654, "", "=q3=Mixologist's Tunic", "", "", ""};
+        };
+    };
+    ["Mythic"] = {
+        {
+            {1, 209499, "", "=q3=Schematic: Goblin Jumper Cables XL", "", "", ""};
+            {2, 305501, "", "=q3=Searing Needle", "", "", ""};
+            {3, 307001, "", "=q3=Funeral Pyre Vestment", "", "", ""};
+            {4, 322501, "", "=q3=Barman Shanker", "", "", ""};
+            {5, 323001, "", "=q3=Mixologist's Tunic", "", "", ""};
+        };
+    };
+    info = {
+        name = BabbleBoss["Plugger Spazzring"],
+        module = moduleName,
+        instance = "BlackrockDepths"
+    };
+};
+
+AtlasLoot_Data["Phalanx"] = {
+    ["Normal"] = {
+        {
+            {1, 9502, "", "=q3=Rockfist", "", "", ""},
+            {2, 11744, "", "=q3=Bloodfist", "", "", ""},
+            {3, 11745, "", "=q3=Fists of Phalanx", "", "", ""},
+            {4, 22212, "", "=q3=Golem Fitted Pauldrons", "", "", ""},
+        };
+    };
+    ["Heroic"] = {
+        {
+            {1, 109502, "", "=q3=Rockfist", "", "", ""},
+            {2, 80555, "", "=q3=Bloodfist", "", "", ""},
+            {3, 80556, "", "=q3=Fists of Phalanx", "", "", ""},
+            {4, 81015, "", "=q3=Golem Fitted Pauldrons", "", "", ""},
+        };
+    };
+    ["Mythic"] = {
+        {
+            {1, 209502, "", "=q3=Rockfist", "", "", ""},
+            {2, 273501, "", "=q3=Bloodfist", "", "", ""},
+            {3, 274001, "", "=q3=Fists of Phalanx", "", "", ""},
+            {4, 645001, "", "=q3=Golem Fitted Pauldrons", "", "", ""},
+        };
+    };
+    info = {
+        name = BabbleBoss["Phalanx"],
+        module = moduleName,
+        instance = "BlackrockDepths"
+    };
+};
+
+AtlasLoot_Data["LordIncendius"] = {
+    ["Normal"] = {
+        {
+            {1, 11126, "", "=q3=Tablet of Kurniya", "", "", ""},
+            {2, 11129, "", "=q3=Essence of the Elements", "", "", ""},
+            {3, 21987, "", "=q3=Incendicite of Incendius", "", "", ""},
+            {4, 11764, "", "=q3=Cinderhide Armsplints", "", "", ""},
+            {5, 11765, "", "=q3=Pyremail Wristguards", "", "", ""},
+            {6, 11766, "", "=q3=Flameweave Cuffs", "", "", ""},
+            {7, 11767, "", "=q3=Emberplate Armguards", "", "", ""},
+            {8, 11768, "", "=q3=Incendic Bracers", "", "", ""},
+        };
+    };
+    ["Heroic"] = {
+        {
+            {1, 80563, "", "=q3=Cinderhide Armsplints", "", "", ""},
+            {2, 80564, "", "=q3=Pyremail Wristguards", "", "", ""},
+            {3, 80565, "", "=q3=Flameweave Cuffs", "", "", ""},
+            {4, 80566, "", "=q3=Emberplate Armguards", "", "", ""},
+            {5, 80567, "", "=q3=Incendic Bracers", "", "", ""},
+        };
+    };
+    ["Mythic"] = {
+        {
+            {1, 277501, "", "=q3=Cinderhide Armsplints", "", "", ""},
+            {2, 278001, "", "=q3=Pyremail Wristguards", "", "", ""},
+            {3, 278501, "", "=q3=Flameweave Cuffs", "", "", ""},
+            {4, 279001, "", "=q3=Emberplate Armguards", "", "", ""},
+            {5, 279501, "", "=q3=Incendic Bracers", "", "", ""},
+        };
+    };
+    info = {
+        name = BabbleBoss["Lord Incendius"],
+        module = moduleName,
+        instance = "BlackrockDepths"
+    };
+};
+
+AtlasLoot_Data["FineousDarkvire"] = {
+    ["Normal"] = {
+        {
+            {1, 10999, "", "=q3=Ironfel", "", "", ""},
+            {2, 11468, "", "=q3=Dark Iron Fanny Pack", "", "", ""},
+            {3, 11840, "", "=q1=Master Builder's Shirt", "", "", ""},
+            {4, 11839, "", "=q3=Chief Architect's Monocle", "", "", ""},
+            {5, 11841, "", "=q3=Senior Designer's Pantaloons", "", "", ""},
+            {6, 11842, "", "=q3=Lead Surveyor's Mantle", "", "", ""},
+            {7, 12532, "", "=q3=Spire of the Stoneshaper", "", "", ""},
+            {8, 22223, "", "=q3=Foreman's Head Protector", "", "", ""},
+        };
+    };
+    ["Heroic"] = {
+        {
+            {1, 80590, "", "=q3=Chief Architect's Monocle", "", "", ""},
+            {2, 80591, "", "=q3=Senior Designer's Pantaloons", "", "", ""},
+            {3, 80592, "", "=q3=Lead Surveyor's Mantle", "", "", ""},
+            {4, 80620, "", "=q3=Spire of the Stoneshaper", "", "", ""},
+            {5, 81016, "", "=q3=Foreman's Head Protector", "", "", ""},
+        };
+    };
+    ["Mythic"] = {
+        {
+            {1, 291001, "", "=q3=Chief Architect's Monocle", "", "", ""},
+            {2, 291501, "", "=q3=Senior Designer's Pantaloons", "", "", ""},
+            {3, 292001, "", "=q3=Lead Surveyor's Mantle", "", "", ""},
+            {4, 306001, "", "=q3=Spire of the Stoneshaper", "", "", ""},
+            {5, 645501, "", "=q3=Foreman's Head Protector", "", "", ""},
+        };
+    };
+    info = {
+        name = BabbleBoss["Fineous Darkvire"],
+        module = moduleName,
+        instance = "BlackrockDepths"
+    };
+};
+
+AtlasLoot_Data["WarderStilgiss"] = {
+    ["Normal"] = {
+        {
+            {1, 11782, "", "=q3=Boreal Mantle", "", "", ""},
+            {2, 11783, "", "=q3=Chillsteel Girdle", "", "", ""},
+            {3, 11784, "", "=q3=Arbiter's Blade", "", "", ""},
+            {4, 12546, "", "=q3=Aristocratic Cuffs", "", "", ""},
+            {5, 22241, "", "=q3=Dark Warder's Pauldrons", "", "", ""},
+        };
+    };
+    ["Heroic"] = {
+        {
+            {1, 80568, "", "=q3=Boreal Mantle", "", "", ""},
+            {2, 80569, "", "=q3=Chillsteel Girdle", "", "", ""},
+            {3, 80570, "", "=q3=Arbiter's Blade", "", "", ""},
+            {4, 80623, "", "=q3=Aristocratic Cuffs", "", "", ""},
+            {5, 81022, "", "=q3=Dark Warder's Pauldrons", "", "", ""},
+        };
+    };
+    ["Mythic"] = {
+        {
+            {1, 280001, "", "=q3=Boreal Mantle", "", "", ""},
+            {2, 280501, "", "=q3=Chillsteel Girdle", "", "", ""},
+            {3, 281001, "", "=q3=Arbiter's Blade", "", "", ""},
+            {4, 307501, "", "=q3=Aristocratic Cuffs", "", "", ""},
+            {5, 648501, "", "=q3=Dark Warder's Pauldrons", "", "", ""},
+        };
+    };
+    info = {
+        name = BabbleBoss["Warder Stilgiss"],
+        module = moduleName,
+        instance = "BlackrockDepths"
+    };
+};
+
+AtlasLoot_Data["Verek"] = {
+    ["Normal"] = {
+        {
+            {1, 11755, "", "=q3=Verek's Collar", "", "", ""},
+            {2, 22242, "", "=q3=Verek's Leash", "", "", ""},
+        };
+    };
+    ["Heroic"] = {
+        {
+            {1, 80562, "", "=q3=Verek's Collar", "", "", ""},
+            {2, 81023, "", "=q3=Verek's Leash", "", "", ""},
+        },
+    },
+    ["Mythic"] = {
+        {
+            {1, 277001, "", "=q3=Verek's Collar", "", "", ""},
+            {2, 649001, "", "=q3=Verek's Leash", "", "", ""},
+        };
+    };
+    info = {
+        name = BabbleBoss["Verek"],
+        module = moduleName,
+        instance = "BlackrockDepths"
+    };
+};
+
+AtlasLoot_Data["Ambassador Flamelash"] = {
+    ["Normal"] = {
+        {
+            {1, 11129, "", "=q3=Essence of the Elements", "", "", ""},
+            {2, 11808, "", "=q3=Circle of Flame", "", "", ""},
+            {3, 11809, "", "=q3=Flame Wrath", "", "", ""},
+            {4, 11812, "", "=q3=Cape of the Fire Salamander", "", "", ""},
+            {5, 11814, "", "=q3=Molten Fists", "", "", ""},
+            {6, 11832, "", "=q3=Burst of Knowledge", "", "", ""},
+        },
+    },
+    ["Heroic"] = {
+        {
+            {1, 80575, "", "=q3=Circle of Flame", "", "", ""},
+            {2, 80576, "", "=q3=Flame Wrath", "", "", ""},
+            {3, 80578, "", "=q3=Cape of the Fire Salamander", "", "", ""},
+            {4, 80579, "", "=q3=Molten Fists", "", "", ""},
+            {5, 80589, "", "=q3=Burst of Knowledge", "", "", ""},
+        },
+    },
+    ["Mythic"] = {
+        {
+            {1, 283501, "", "=q3=Circle of Flame", "", "", ""},
+            {2, 284001, "", "=q3=Flame Wrath", "", "", ""},
+            {3, 285001, "", "=q3=Cape of the Fire Salamander", "", "", ""},
+            {4, 285501, "", "=q3=Molten Fists", "", "", ""},
+            {5, 290501, "", "=q3=Burst of Knowledge", "", "", ""},
+        },
+    },
+    info = {
+        name = BabbleBoss["Ambassador Flamelash"],
+        module = moduleName,
+        instance = "BlackrockDepths"
+    },
+};
+
+AtlasLoot_Data["Magmus"] = {
+    ["Normal"] = {
+        {
+            {1, 11746, "", "=q3=Golem Skull Helm", "", "", ""},
+            {2, 11935, "", "=q3=Magmus Stone", "", "", ""},
+            {3, 12550, "", "=q3=Runed Golem Shackles", "", "", ""},
+            {4, 22208, "", "=q3=Lavastone Hammer", "", "", ""},
+        },
+    },
+    ["Heroic"] = {
+        {
+            {1, 80557, "", "=q3=Golem Skull Helm", "", "", ""},
+            {2, 80608, "", "=q3=Magmus Stone", "", "", ""},
+            {3, 80625, "", "=q3=Runed Golem Shackles", "", "", ""},
+            {4, 81014, "", "=q3=Lavastone Hammer", "", "", ""},
+        },
+    },
+    ["Mythic"] = {
+        {
+            {1, 274501, "", "=q3=Golem Skull Helm", "", "", ""},
+            {2, 300001, "", "=q3=Magmus Stone", "", "", ""},
+            {3, 308501, "", "=q3=Runed Golem Shackles", "", "", ""},
+            {4, 644501, "", "=q3=Lavastone Hammer", "", "", ""},
+        },
+    },
+    info = {
+        name = BabbleBoss["Magmus"],
+        module = moduleName,
+        instance = "BlackrockDepths"
+    },
+};
+
+AtlasLoot_Data["Princess Moira Bronzebeard"] = {
+    ["Normal"] = {
+        {
+            {1, 12551, "", "=q3=Stoneshield Cloak", "", "", ""},
+            {2, 12553, "", "=q3=Swiftwalker Boots", "", "", ""},
+            {3, 12554, "", "=q3=Hands of the Exalted Herald", "", "", ""},
+            {4, 12556, "", "=q3=High Priestess Boots", "", "", ""},
+            {5, 12557, "", "=q3=Ebonsteel Spaulders", "", "", ""},
+        };
+    };
+    ["Heroic"] = {
+        {
+            {1, 80626, "", "=q3=Stoneshield Cloak", "", "", ""},
+            {2, 80628, "", "=q3=Swiftwalker Boots", "", "", ""},
+            {3, 80629, "", "=q3=Hands of the Exalted Herald", "", "", ""},
+            {4, 80631, "", "=q3=High Priestess Boots", "", "", ""},
+            {5, 80632, "", "=q3=Ebonsteel Spaulders", "", "", ""},
+        };
+    };
+    ["Mythic"] = {
+        {
+            {1, 309001, "", "=q3=Stoneshield Cloak", "", "", ""},
+            {2, 310001, "", "=q3=Swiftwalker Boots", "", "", ""},
+            {3, 310501, "", "=q3=Hands of the Exalted Herald", "", "", ""},
+            {4, 311501, "", "=q3=High Priestess Boots", "", "", ""},
+            {5, 312001, "", "=q3=Ebonsteel Spaulders", "", "", ""},
+        };
+    };
+    info = {
+        name = BabbleBoss["Princess Moira Bronzebeard"],
+        module = moduleName,
+        instance = "BlackrockDepths"
+    };
+};
+
+AtlasLoot_Data["Emperor Dagran Thaurissan"] = {
+    ["Normal"] = {
+        {
+            {1, 9019, "", "=q4=Thaurissan Family Jewels", "", "", ""};
+            {2, 11684, "", "=q3=Ironfoe", "", "", ""};
+            {3, 11815, "", "=q3=Hand of Justice", "", "", ""};
+            {4, 11924, "", "=q3=Robes of the Royal Crown", "", "", ""};
+            {5, 11928, "", "=q3=Thaurissan's Royal Scepter", "", "", ""};
+            {6, 11930, "", "=q3=The Emperor's New Cape", "", "", ""};
+            {7, 11931, "", "=q3=Dreadforge Retaliator", "", "", ""};
+            {8, 11932, "", "=q3=Guiding Stave of Wisdom", "", "", ""};
+            {9, 11933, "", "=q3=Imperial Jewel", "", "", ""};
+            {10, 11934, "", "=q3=Emperor's Seal", "", "", ""};
+            {11, 22204, "", "=q3=Wristguards of Renown", "", "", ""};
+            {12, 22207, "", "=q3=Sash of the Grand Hunt", "", "", ""};
+        };
+    };
+    ["Heroic"] = {
+        {
+            {1, 109019, "", "=q4=Thaurissan Family Jewels", "", "", ""};
+            {2, 80542, "", "=q3=Ironfoe", "", "", ""};
+            {3, 80580, "", "=q3=Hand of Justice", "", "", ""};
+            {4, 80597, "", "=q3=Robes of the Royal Crown", "", "", ""};
+            {5, 80601, "", "=q3=Thaurissan's Royal Scepter", "", "", ""};
+            {6, 80603, "", "=q3=The Emperor's New Cape", "", "", ""};
+            {7, 80604, "", "=q3=Dreadforge Retaliator", "", "", ""};
+            {8, 80605, "", "=q3=Guiding Stave of Wisdom", "", "", ""};
+            {9, 80606, "", "=q3=Imperial Jewel", "", "", ""};
+            {10, 80607, "", "=q3=Emperor's Seal", "", "", ""};
+            {11, 81012, "", "=q3=Wristguards of Renown", "", "", ""};
+            {12, 81013, "", "=q3=Sash of the Grand Hunt", "", "", ""};
+        };
+    };
+    ["Mythic"] = {
+        {
+            {1, 209019, "", "=q4=Thaurissan Family Jewels", "", "", ""};
+            {2, 267001, "", "=q3=Ironfoe", "", "", ""};
+            {3, 286001, "", "=q3=Hand of Justice", "", "", ""};
+            {4, 294501, "", "=q3=Robes of the Royal Crown", "", "", ""};
+            {5, 296501, "", "=q3=Thaurissan's Royal Scepter", "", "", ""};
+            {6, 297501, "", "=q3=The Emperor's New Cape", "", "", ""};
+            {7, 298001, "", "=q3=Dreadforge Retaliator", "", "", ""};
+            {8, 298501, "", "=q3=Guiding Stave of Wisdom", "", "", ""};
+            {9, 299001, "", "=q3=Imperial Jewel", "", "", ""};
+            {10, 299501, "", "=q3=Emperor's Seal", "", "", ""};
+            {11, 643501, "", "=q3=Wristguards of Renown", "", "", ""};
+            {12, 644001, "", "=q3=Sash of the Grand Hunt", "", "", ""};
+        };
+    };
+    info = {
+        name = BabbleBoss["Emperor Dagran Thaurissan"],
+        module = moduleName,
+        instance = "Blackrock Depths"
+    };
+};
 		-------------------------------------------------
 		--- Blackrock Mountain: Lower Blackrock Spire ---
 		-------------------------------------------------
@@ -1734,576 +2593,1170 @@ AtlasLoot_Data["General Drakkisath"] = {
 			module = moduleName, instance = "MoltenCore",
 		};
 	};
-		----------------------
-		--- Dire Maul East ---
-		----------------------
-
-	AtlasLoot_Data["DMELethtendrisPimgib"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Lethtendris"], ""};
-				{ 2, 18325, "", "=q3=Felhide Cap", "=ds=#s1#, #a2#", "", "24.67%"};
-				{ 3, 18302, "", "=q3=Band of Vigor", "=ds=#s13#", "", "29.30%"};
-				{ 4, 18311, "", "=q3=Quel'dorei Channeling Rod", "=ds=#w9#", "", "7.30%"};
-				{ 5, 18301, "", "=q3=Lethtendris' Wand", "=ds=#w12#", "", "25.57%"};
-				{ 7, 18426, "", "=q1=Lethtendris' Web", "=ds=#m3#"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Pimgib"], ""};
-				{ 17, 18354, "", "=q3=Pimgib's Collar", "=ds=#s14#, =q1=#m1# =ds=#c8#", "", "18.68%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Lethtendris"].." & "..BabbleBoss["Pimgib"],
-			module = moduleName, instance = "DireMaulEast",
-		};
-	};
-
-	AtlasLoot_Data["DMEHydro"] = {
-		["Normal"] = {
-			{
-				{ 1, 18307, "", "=q3=Riptide Shoes", "=ds=#s12#, #a1#", "", "21.33%"};
-				{ 2, 18322, "", "=q3=Waterspout Boots", "=ds=#s12#, #a2#", "", "16.42%"};
-				{ 3, 18305, "", "=q3=Breakwater Legguards", "=ds=#s11#, #a3#", "", "22.75%"};
-				{ 4, 18317, "", "=q3=Tempest Talisman", "=ds=#s2#", "", "16.44%"};
-				{ 5, 18324, "", "=q3=Waveslicer", "=ds=#h2#, #w1#", "", "8.46%"};
-				{ 7, 18299, "", "=q1=Hydrospawn Essence", "=ds=#m3#"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Hydrospawn"],
-			module = moduleName, instance = "DireMaulEast",
-		};
-	};
-
-	AtlasLoot_Data["DMEZevrimThornhoof"] = {
-		["Normal"] = {
-			{
-				{ 1, 18306, "", "=q3=Gloves of Shadowy Mist", "=ds=#s9#, #a1#", "", "21.40%"};
-				{ 2, 18308, "", "=q3=Clever Hat", "=ds=#s1#, #a2#", "", "23.73%"};
-				{ 3, 18319, "", "=q3=Fervent Helm", "=ds=#s1#, #a2#", "", "7.88%"};
-				{ 4, 18313, "", "=q3=Helm of Awareness", "=ds=#s1#, #a3#", "", "17.87%"};
-				{ 5, 18323, "", "=q3=Satyr's Bow", "=ds=#w2#", "", "17.24%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Zevrim Thornhoof"],
-			module = moduleName, instance = "DireMaulEast",
-		};
-	};
-
-	AtlasLoot_Data["DMEAlzzin"] = {
-		["Normal"] = {
-			{
-				{ 1, 18328, "", "=q3=Shadewood Cloak", "=ds=#s4#", "", "15.36%"};
-				{ 2, 18327, "", "=q3=Whipvine Cord", "=ds=#s10#, #a1#", "", "16.53%"};
-				{ 3, 18309, "", "=q3=Gloves of Restoration", "=ds=#s9#, #a2#", "", "14.05%"};
-				{ 4, 18318, "", "=q3=Merciful Greaves", "=ds=#s12#, #a2#", "", "14.88%"};
-				{ 5, 18312, "", "=q3=Energized Chestplate", "=ds=#s5#, #a3#", "", "16.08%"};
-				{ 6, 18326, "", "=q3=Razor Gauntlets", "=ds=#s9#, #a3#", "", "18.62%"};
-				{ 8, 0, "INV_Box_01", "=q6="..AL["Felvine Shard"], ""};
-				{ 9, 18501, "", "=q1=Felvine Shard", "=ds=#m3#"};
-				{ 16, 18315, "", "=q3=Ring of Demonic Potency", "=ds=#s13#", "", "15.40%"};
-				{ 17, 18314, "", "=q3=Ring of Demonic Guile", "=ds=#s13#", "", "13.71%"};
-				{ 18, 18310, "", "=q3=Fiendish Machete", "=ds=#h1#, #w10#", "", "15.39%"};
-				{ 19, 18321, "", "=q3=Energetic Rod", "=ds=#h3#, #w6#", "", "15.94%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Alzzin the Wildshaper"],
-			module = moduleName, instance = "DireMaulEast",
-		};
-	};
-
-	AtlasLoot_Data["DMEPusillin"] = {
-		["Normal"] = {
-			{
-				{ 1, 18267, "", "=q2=Recipe: Runn Tum Tuber Surprise", "=ds=#p3# (275)", "", "71.55%"};
-				{ 3, 18261, "", "=q1=Book of Incantations", "=ds=#m3#", "", "100%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Pusillin"],
-			module = moduleName, instance = "DireMaulEast",
-		};
-	};
-
-	AtlasLoot_Data["DMETrash"] = {
-		["Normal"] = {
-			{
-				{ 1, 18295, "", "=q3=Phasing Boots", "=ds=#s12#, #a1#", "", "1.26%"};
-				{ 2, 18298, "", "=q3=Unbridled Leggings", "=ds=#s11#, #a2#", "", "0.62%"};
-				{ 3, 18296, "", "=q3=Marksman Bands", "=ds=#s8#, #a3#", "", "0.59%"};
-				{ 4, 18289, "", "=q3=Barbed Thorn Necklace", "=ds=#s2#", "", "0.87%"};
-			};
-		};
-		info = {
-			name = AL["Trash Mobs"],
-			module = moduleName, instance = "DireMaulEast",
-		};
-	};
-
 		-----------------------
-		--- Dire Maul North ---
+		--- Dire Maul ---
 		-----------------------
 
-	AtlasLoot_Data["DMNGuardMoldar"] = {
-		["Normal"] = {
-			{
-				{ 1, 18496, "", "=q3=Heliotrope Cloak", "=ds=#s4#", "", "4.68%"};
-				{ 2, 18497, "", "=q3=Sublime Wristguards", "=ds=#s8#, #a1#", "", "4.14%"};
-				{ 3, 18494, "", "=q3=Denwatcher's Shoulders", "=ds=#s3#, #a3#", "", "4.62%"};
-				{ 4, 18493, "", "=q3=Bulky Iron Spaulders", "=ds=#s3#, #a4#", "", "3.96%"};
-				{ 5, 18498, "", "=q3=Hedgecutter", "=ds=#h1#, #w1#", "", "4.94%"};
-				{ 16, 18450, "", "=q3=Robe of Combustion", "=ds=#s5#, #a1#", "", "6.57%"};
-				{ 17, 18451, "", "=q3=Hyena Hide Belt", "=ds=#s10#, #a2#", "", "6.61%"};
-				{ 18, 18458, "", "=q3=Modest Armguards", "=ds=#s8#, #a3#", "", "7.12%"};
-				{ 19, 18459, "", "=q3=Gallant's Wristguards", "=ds=#s8#, #a4#", "", "6.09%"};
-				{ 20, 18464, "", "=q3=Gordok Nose Ring", "=ds=#s13#", "", "6.52%"};
-				{ 21, 18462, "", "=q3=Jagged Bone Fist", "=ds=#h1#, #w13#", "", "7.54%"};
-				{ 22, 18463, "", "=q3=Ogre Pocket Knife", "=ds=#h1#, #w10#", "", "7.38%"};
-				{ 23, 18460, "", "=q3=Unsophisticated Hand Cannon", "=ds=#w5#", "", "5.86%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Guard Mol'dar"],
-			module = moduleName, instance = "DireMaulNorth",
+AtlasLoot_Data["Lethtendris"] = {
+	["Normal"] = {
+		{
+			{ 1, 18426, "", "=q3=Lethtendris's Web", "", "", "" },
+			{ 2, 18301, "", "=q3=Lethtendris's Wand", "", "", "" },
+			{ 3, 18302, "", "=q3=Band of Vigor", "", "", "" },
+			{ 4, 18310, "", "=q3=Fiendish Machete", "", "", "" },
+			{ 5, 18311, "", "=q3=Quel'dorei Channeling Rod", "", "", "" },
+			{ 6, 18325, "", "=q3=Felhide Cap", "", "", "" },
 		};
 	};
-
-	AtlasLoot_Data["DMNStomperKreeg"] = {
-		["Normal"] = {
-			{
-				{ 1, 18425, "", "=q3=Kreeg's Mug", "=ds=#s15#", "", "40.24%"};
-				{ 2, 18269, "", "=q2=Gordok Green Grog", "=ds=#e4#", "", "100%"};
-				{ 3, 18284, "", "=q2=Kreeg's Stout Beatdown", "=ds=#e4#", "", "100%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Stomper Kreeg"],
-			module = moduleName, instance = "DireMaulNorth",
+	["Heroic"] = {
+		{
+			{ 1, 80867, "", "=q3=Lethtendris's Wand", "", "", "" },
+			{ 2, 80868, "", "=q3=Band of Vigor", "", "", "" },
+			{ 3, 80874, "", "=q3=Fiendish Machete", "", "", "" },
+			{ 4, 80875, "", "=q3=Quel'dorei Channeling Rod", "", "", "" },
+			{ 5, 80887, "", "=q3=Felhide Cap", "", "", "" },
 		};
 	};
-
-	AtlasLoot_Data["DMNGuardFengus"] = {
-		["Normal"] = {
-			{
-				{ 1, 18450, "", "=q3=Robe of Combustion", "=ds=#s5#, #a1#", "", "9.76%"};
-				{ 2, 18451, "", "=q3=Hyena Hide Belt", "=ds=#s10#, #a2#", "", "10.64%"};
-				{ 3, 18458, "", "=q3=Modest Armguards", "=ds=#s8#, #a3#", "", "11.41%"};
-				{ 4, 18459, "", "=q3=Gallant's Wristguards", "=ds=#s8#, #a4#", "", "9.60%"};
-				{ 5, 18464, "", "=q3=Gordok Nose Ring", "=ds=#s13#", "", "11.41%"};
-				{ 6, 18462, "", "=q3=Jagged Bone Fist", "=ds=#h1#, #w13#", "", "11.79%"};
-				{ 7, 18463, "", "=q3=Ogre Pocket Knife", "=ds=#h1#, #w10#", "", "11.02%"};
-				{ 8, 18460, "", "=q3=Unsophisticated Hand Cannon", "=ds=#w5#", "", "9.07%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Guard Fengus"],
-			module = moduleName, instance = "DireMaulNorth",
+	["Mythic"] = {
+		{
+			{ 1, 521501, "", "=q3=Lethtendris's Wand", "", "", "" },
+			{ 2, 522001, "", "=q3=Band of Vigor", "", "", "" },
+			{ 3, 525001, "", "=q3=Fiendish Machete", "", "", "" },
+			{ 4, 525501, "", "=q3=Quel'dorei Channeling Rod", "", "", "" },
+			{ 5, 531501, "", "=q3=Felhide Cap", "", "", "" },
 		};
 	};
+	info = {
+		name = BabbleBoss["Lethtendris"],
+		module = moduleName,
+		instance = "Dire Maul",
+	};
+};
 
-	AtlasLoot_Data["DMNGuardSlipkik"] = {
-		["Normal"] = {
-			{
-				{ 1, 18496, "", "=q3=Heliotrope Cloak", "=ds=#s4#", "", "5.82%"};
-				{ 2, 18497, "", "=q3=Sublime Wristguards", "=ds=#s8#, #a1#", "", "4.75%"};
-				{ 3, 18494, "", "=q3=Denwatcher's Shoulders", "=ds=#s3#, #a3#", "", "5.70%"};
-				{ 4, 18493, "", "=q3=Bulky Iron Spaulders", "=ds=#s3#, #a4#", "", "4.89%"};
-				{ 5, 18498, "", "=q3=Hedgecutter", "=ds=#h1#, #w1#", "", "6.01%"};
-				{ 16, 18450, "", "=q3=Robe of Combustion", "=ds=#s5#, #a1#", "", "6.78%"};
-				{ 17, 18451, "", "=q3=Hyena Hide Belt", "=ds=#s10#, #a2#", "", "7.83%"};
-				{ 18, 18458, "", "=q3=Modest Armguards", "=ds=#s8#, #a3#", "", "7.63%"};
-				{ 19, 18459, "", "=q3=Gallant's Wristguards", "=ds=#s8#, #a4#", "", "6.98%"};
-				{ 20, 18464, "", "=q3=Gordok Nose Ring", "=ds=#s13#", "", "7.36%"};
-				{ 21, 18462, "", "=q3=Jagged Bone Fist", "=ds=#h1#, #w13#", "", "8.52%"};
-				{ 22, 18463, "", "=q3=Ogre Pocket Knife", "=ds=#h1#, #w10#", "", "7.74%"};
-				{ 23, 18460, "", "=q3=Unsophisticated Hand Cannon", "=ds=#w5#", "", "6.66%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Guard Slip'kik"],
-			module = moduleName, instance = "DireMaulNorth",
+AtlasLoot_Data["Hydrospawn"] = {
+	["Normal"] = {
+		{
+			{ 1, 18299, "", "=q3=Hydrospawn Essence", "", "", "" },
+			{ 2, 18305, "", "=q3=Breakwater Legguards", "", "", "" },
+			{ 3, 18307, "", "=q3=Riptide Shoes", "", "", "" },
+			{ 4, 18317, "", "=q3=Tempest Talisman", "", "", "" },
+			{ 5, 18322, "", "=q3=Waterspout Boots", "", "", "" },
+			{ 6, 18324, "", "=q3=Waveslicer", "", "", "" },
 		};
 	};
-
-	AtlasLoot_Data["DMNThimblejack"] = {
-		["Normal"] = {
-			{
-				{ 1, 18517, "", "=q4=Pattern: Chromatic Cloak", "=ds=#p7# (300)", "", "0.92%"};
-				{ 2, 18518, "", "=q4=Pattern: Hide of the Wild", "=ds=#p7# (300)", "", "1.29%"};
-				{ 3, 18519, "", "=q4=Pattern: Shifting Cloak", "=ds=#p7# (300)", "", "1.14%"};
-				{ 4, 18414, "", "=q4=Pattern: Belt of the Archmage", "=ds=#p8# (300)", "", "1.00%"};
-				{ 6, 18418, "", "=q3=Pattern: Cloak of Warding", "=ds=#p8# (300)", "", "9.75%"};
-				{ 7, 18415, "", "=q3=Pattern: Felcloth Gloves", "=ds=#p8# (300)", "", "9.62%"};
-				{ 8, 18416, "", "=q3=Pattern: Inferno Gloves", "=ds=#p8# (300)", "", "10.66%"};
-				{ 9, 18417, "", "=q3=Pattern: Mooncloth Gloves", "=ds=#p8# (300)", "", "10.28%"};
-				{ 10, 18514, "", "=q3=Pattern: Girdle of Insight", "=ds=#p7# (300)", "", "10.90%"};
-				{ 11, 18515, "", "=q3=Pattern: Mongoose Boots", "=ds=#p7# (300)", "", "11.18%"};
-				{ 12, 18516, "", "=q3=Pattern: Swift Flight Bracers", "=ds=#p7# (300)", "", "10.26%"};
-				{ 14, 0, "INV_Box_01", "=q6="..AL["Ogre Tannin Basket"], ""};
-				{ 15, 18240, "", "=q2=Ogre Tannin", "=ds=#m3#", "", "100%"};
-				{ 16, 18509, "", "=q4=Chromatic Cloak", "=ds=#s4#"};
-				{ 17, 18510, "", "=q4=Hide of the Wild", "=ds=#s4#"};
-				{ 18, 18511, "", "=q4=Shifting Cloak", "=ds=#s4#"};
-				{ 19, 18405, "", "=q4=Belt of the Archmage", "=ds=#s10#, #a1#"};
-				{ 21, 18413, "", "=q3=Cloak of Warding", "=ds=#s4#"};
-				{ 22, 18407, "", "=q3=Felcloth Gloves", "=ds=#s9#, #a1#"};
-				{ 23, 18408, "", "=q3=Inferno Gloves", "=ds=#s9#, #a1#"};
-				{ 24, 18409, "", "=q3=Mooncloth Gloves", "=ds=#s9#, #a1#"};
-				{ 25, 18504, "", "=q3=Girdle of Insight", "=ds=#s10#, #a2#"};
-				{ 26, 18506, "", "=q3=Mongoose Boots", "=ds=#s12#, #a2#"};
-				{ 27, 18508, "", "=q3=Swift Flight Bracers", "=ds=#s8#, #a3#"};
-			};
-		};
-		info = {
-			name = AL["Knot Thimblejack"],
-			module = moduleName, instance = "DireMaulNorth",
+	["Heroic"] = {
+		{
+			{ 1, 80869, "", "=q3=Breakwater Legguards", "", "", "" },
+			{ 2, 80871, "", "=q3=Riptide Shoes", "", "", "" },
+			{ 3, 80880, "", "=q3=Tempest Talisman", "", "", "" },
+			{ 4, 80884, "", "=q3=Waterspout Boots", "", "", "" },
+			{ 5, 80886, "", "=q3=Waveslicer", "", "", "" },
 		};
 	};
-
-	AtlasLoot_Data["DMNCaptainKromcrush"] = {
-		["Normal"] = {
-			{
-				{ 1, 18507, "", "=q3=Boots of the Full Moon", "=ds=#s12#, #a1#", "", "18.75%"};
-				{ 2, 18505, "", "=q3=Mugger's Belt", "=ds=#s10#, #a2#", "", "18.06%"};
-				{ 3, 18503, "", "=q3=Kromcrush's Chestplate", "=ds=#s5#, #a4#", "", "17.48%"};
-				{ 4, 18502, "", "=q3=Monstrous Glaive", "=ds=#w7#", "", "21.47%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Captain Kromcrush"],
-			module = moduleName, instance = "DireMaulNorth",
+	["Mythic"] = {
+		{
+			{ 1, 522501, "", "=q3=Breakwater Legguards", "", "", "" },
+			{ 2, 523501, "", "=q3=Riptide Shoes", "", "", "" },
+			{ 3, 528001, "", "=q3=Tempest Talisman", "", "", "" },
+			{ 4, 530001, "", "=q3=Waterspout Boots", "", "", "" },
+			{ 5, 531001, "", "=q3=Waveslicer", "", "", "" },
 		};
 	};
+	info = {
+		name = BabbleBoss["Hydrospawn"],
+		module = moduleName,
+		instance = "Dire Maul",
+	};
+};
 
-	AtlasLoot_Data["DMNKingGordok"] = {
-		["Normal"] = {
-			{
-				{ 1, 18526, "", "=q3=Crown of the Ogre King", "=ds=#s1#, #a1#", "", "17.17%"};
-				{ 2, 18525, "", "=q3=Bracers of Prosperity", "=ds=#s8#, #a2#", "", "19.15%"};
-				{ 3, 18527, "", "=q3=Harmonious Gauntlets", "=ds=#s9#, #a3#", "", "19.73%"};
-				{ 4, 18524, "", "=q3=Leggings of Destruction", "=ds=#s11#, #a3#", "", "18.55%"};
-				{ 5, 18521, "", "=q3=Grimy Metal Boots", "=ds=#s12#, #a4#", "", "17.80%"};
-				{ 6, 18522, "", "=q3=Band of the Ogre King", "=ds=#s13#", "", "14.96%"};
-				{ 7, 18523, "", "=q3=Brightly Glowing Stone", "=ds=#s15#", "", "20.21%"};
-				{ 8, 18520, "", "=q3=Barbarous Blade", "=ds=#h2#, #w10#", "", "16.44%"};
-				{ 16, 19258, "", "=q3=Ace of Warlords", "=ds=#e16#", "", "1.84%"};
-				{ 18, 18780, "", "=q3=Top Half of Advanced Armorsmithing: Volume I", "=ds=#m3#", "", "6.00%"};
-				{ 19, 12727, "", "=q3=Plans: Enchanted Thorium Breastplate", "=q1=#m4#: =ds=#p2# (300)"};
-			};
-		};
-		info = {
-			name = BabbleBoss["King Gordok"],
-			module = moduleName, instance = "DireMaulNorth",
+AtlasLoot_Data["Zevrim Thornhoof"] = {
+	["Normal"] = {
+		{
+			{ 1, 18306, "", "=q3=Gloves of Shadowy Mist", "", "", "" },
+			{ 2, 18308, "", "=q3=Clever Hat", "", "", "" },
+			{ 3, 18313, "", "=q3=Helm of Awareness", "", "", "" },
+			{ 4, 18319, "", "=q3=Fervent Helm", "", "", "" },
+			{ 5, 18323, "", "=q3=Satyr's Bow", "", "", "" },
 		};
 	};
-
-	AtlasLoot_Data["DMNChoRush"] = {
-		["Normal"] = {
-			{
-				{ 1, 18490, "", "=q3=Insightful Hood", "=ds=#s1#, #a2#", "", "21.46%"};
-				{ 2, 18484, "", "=q3=Cho'Rush's Blade", "=ds=#h1#, #w10#", "", "22.46%"};
-				{ 3, 18485, "", "=q3=Observer's Shield", "=ds=#w8#", "", "22.96%"};
-				{ 4, 18483, "", "=q3=Mana Channeling Wand", "=ds=#w12#", "", "19.01%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Cho'Rush the Observer"],
-			module = moduleName, instance = "DireMaulNorth",
+	["Heroic"] = {
+		{
+			{ 1, 80870, "", "=q3=Gloves of Shadowy Mist", "", "", "" },
+			{ 2, 80872, "", "=q3=Clever Hat", "", "", "" },
+			{ 3, 80877, "", "=q3=Helm of Awareness", "", "", "" },
+			{ 4, 80882, "", "=q3=Fervent Helm", "", "", "" },
+			{ 5, 80885, "", "=q3=Satyr's Bow", "", "", "" },
 		};
 	};
-
-	AtlasLoot_Data["DMNTRIBUTERUN"] = {
-		["Normal"] = {
-			{
-				{ 1, 18538, "", "=q4=Treant's Bane", "=ds=#h2#, #w1#"};
-				{ 3, 18495, "", "=q3=Redoubt Cloak", "=ds=#s4#"};
-				{ 4, 18532, "", "=q3=Mindsurge Robe", "=ds=#s5#, #a1#"};
-				{ 5, 18475, "", "=q3=Oddly Magical Belt", "=ds=#s10#, #a1#"};
-				{ 6, 18528, "", "=q3=Cyclone Spaulders", "=ds=#s3#, #a2#"};
-				{ 7, 18478, "", "=q3=Hyena Hide Jerkin", "=ds=#s5#, #a2#"};
-				{ 8, 18477, "", "=q3=Shaggy Leggings", "=ds=#s11#, #a2#"};
-				{ 9, 18476, "", "=q3=Mud Stained Boots", "=ds=#s12#, #a2#"};
-				{ 10, 18479, "", "=q3=Carrion Scorpid Helm", "=ds=#s1#, #a3#"};
-				{ 11, 18530, "", "=q3=Ogre Forged Hauberk", "=ds=#s5#, #a3#"};
-				{ 12, 18480, "", "=q3=Scarab Plate Helm", "=ds=#s1#, #a4#"};
-				{ 13, 18533, "", "=q3=Gordok Bracers of Power", "=ds=#s8#, #a4#"};
-				{ 14, 18529, "", "=q3=Elemental Plate Girdle", "=ds=#s10#, #a4#"};
-				{ 16, 18500, "", "=q3=Tarnished Elven Ring", "=ds=#s13#"};
-				{ 17, 18537, "", "=q3=Counterattack Lodestone", "=ds=#s14#"};
-				{ 19, 18481, "", "=q3=Skullcracking Mace", "=ds=#h2#, #w6#"};
-				{ 20, 18531, "", "=q3=Unyielding Maul", "=ds=#h2#, #w6#"};
-				{ 21, 18534, "", "=q3=Rod of the Ogre Magi", "=ds=#w9#"};
-				{ 22, 18499, "", "=q3=Barrier Shield", "=ds=#w8#"};
-				{ 23, 18482, "", "=q3=Ogre Toothpick Shooter", "=ds=#w2#"};
-				{ 25, 18655, "", "=q2=Schematic: Major Recombobulator", "=ds=#p5# (275)"};
-			};
-		};
-		info = {
-			name = AL["DM North Tribute Chest"],
-			module = moduleName, instance = "DireMaulNorth",
+	["Mythic"] = {
+		{
+			{ 1, 523001, "", "=q3=Gloves of Shadowy Mist", "", "", "" },
+			{ 2, 524001, "", "=q3=Clever Hat", "", "", "" },
+			{ 3, 526501, "", "=q3=Helm of Awareness", "", "", "" },
+			{ 4, 529001, "", "=q3=Fervent Helm", "", "", "" },
+			{ 5, 530501, "", "=q3=Satyr's Bow", "", "", "" },
 		};
 	};
+	info = {
+		name = BabbleBoss["Zevrim Thornhoof"],
+		module = moduleName,
+		instance = "Dire Maul",
+	};
+};
 
-		----------------------
-		--- Dire Maul West ---
-		----------------------
-
-	AtlasLoot_Data["DMWTendrisWarpwood"] = {
-		["Normal"] = {
-			{
-				{ 1, 18390, "", "=q3=Tanglemoss Leggings", "=ds=#s11#, #a2#", "", "22.55%"};
-				{ 2, 18393, "", "=q3=Warpwood Binding", "=ds=#s10#, #a3#", "", "19.81%"};
-				{ 3, 18353, "", "=q3=Stoneflower Staff", "=ds=#w9#", "", "23.46%"};
-				{ 4, 18352, "", "=q3=Petrified Bark Shield", "=ds=#w8#", "", "21.67%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Tendris Warpwood"],
-			module = moduleName, instance = "DireMaulWest",
+AtlasLoot_Data["Alzzin the Wildshaper"] = {
+	["Normal"] = {
+		{
+			{ 1, 18314, "", "=q3=Ring of Demonic Guile", "", "", "" },
+			{ 2, 18315, "", "=q3=Ring of Demonic Potency", "", "", "" },
+			{ 3, 18321, "", "=q3=Energetic Rod", "", "", "" },
+			{ 4, 18326, "", "=q3=Razor Gauntlets", "", "", "" },
+			{ 5, 18327, "", "=q3=Whipvine Cord", "", "", "" },
+			{ 6, 18328, "", "=q3=Shadewood Cloak", "", "", "" },
 		};
 	};
-
-	AtlasLoot_Data["DMWMagisterKalendris"] = {
-		["Normal"] = {
-			{
-				{ 1, 18350, "", "=q3=Amplifying Cloak", "=ds=#s4#", "", "21.44%"};
-				{ 2, 18374, "", "=q3=Flamescarred Shoulders", "=ds=#s3#, #a2#", "", "18.11%"};
-				{ 3, 18351, "", "=q3=Magically Sealed Bracers", "=ds=#s8#, #a4#", "", "24.36%"};
-				{ 4, 18397, "", "=q3=Elder Magus Pendant", "=ds=#s2#", "", "17.46%"};
-				{ 5, 18371, "", "=q3=Mindtap Talisman", "=ds=#s14#", "", "7.45%"};
-				{ 7, 22309, "", "=q2=Pattern: Big Bag of Enchantment", "=ds=#p8# (300)"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Magister Kalendris"],
-			module = moduleName, instance = "DireMaulWest",
+	["Heroic"] = {
+		{
+			{ 1, 80878, "", "=q3=Ring of Demonic Guile", "", "", "" },
+			{ 2, 80879, "", "=q3=Ring of Demonic Potency", "", "", "" },
+			{ 3, 80883, "", "=q3=Energetic Rod", "", "", "" },
+			{ 4, 80888, "", "=q3=Razor Gauntlets", "", "", "" },
+			{ 5, 80889, "", "=q3=Whipvine Cord", "", "", "" },
+			{ 6, 80890, "", "=q3=Shadewood Cloak", "", "", "" },
 		};
 	};
-
-	AtlasLoot_Data["DMWIllyannaRavenoak"] = {
-		["Normal"] = {
-			{
-				{ 1, 18386, "", "=q3=Padre's Trousers", "=ds=#s11#, #a1#", "", "18.79%"};
-				{ 2, 18349, "", "=q3=Gauntlets of Accuracy", "=ds=#s9#, #a3#", "", "23.94%"};
-				{ 3, 18383, "", "=q3=Force Imbued Gauntlets", "=ds=#s9#, #a4#", "", "20.11%"};
-				{ 4, 18347, "", "=q3=Well Balanced Axe", "=ds=#h1#, #w1#", "", "22.44%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Illyanna Ravenoak"],
-			module = moduleName, instance = "DireMaulWest",
+	["Mythic"] = {
+		{
+			{ 1, 527001, "", "=q3=Ring of Demonic Guile", "", "", "" },
+			{ 2, 527501, "", "=q3=Ring of Demonic Potency", "", "", "" },
+			{ 3, 529501, "", "=q3=Energetic Rod", "", "", "" },
+			{ 4, 532001, "", "=q3=Razor Gauntlets", "", "", "" },
+			{ 5, 532501, "", "=q3=Whipvine Cord", "", "", "" },
+			{ 6, 533001, "", "=q3=Shadewood Cloak", "", "", "" },
 		};
 	};
+	info = {
+		name = BabbleBoss["Alzzin the Wildshaper"],
+		module = moduleName,
+		instance = "Dire Maul",
+	};
+};
 
-	AtlasLoot_Data["DMWImmolthar"] = {
-		["Normal"] = {
-			{
-				{ 1, 18389, "", "=q3=Cloak of the Cosmos", "=ds=#s4#", "", "14.35%"};
-				{ 2, 18385, "", "=q3=Robe of Everlasting Night", "=ds=#s5#, #a1#", "", "15.33%"};
-				{ 3, 18377, "", "=q3=Quickdraw Gloves", "=ds=#s9#, #a2#", "", "21.01%"};
-				{ 4, 18391, "", "=q3=Eyestalk Cord", "=ds=#s10#, #a2#", "", "20.08%"};
-				{ 5, 18394, "", "=q3=Demon Howl Wristguards", "=ds=#s8#, #a3#", "", "17.51%"};
-				{ 6, 18379, "", "=q3=Odious Greaves", "=ds=#s12#, #a3#", "", " 19.81%"};
-				{ 7, 18384, "", "=q3=Bile-Etched Spaulders", "=ds=#s3#, #a4#", "", "14.71%"};
-				{ 16, 18381, "", "=q3=Evil Eye Pendant", "=ds=#s2#", "", "17.78%"};
-				{ 17, 18370, "", "=q3=Vigilance Charm", "=ds=#s14#", "", "6.30%"};
-				{ 18, 18372, "", "=q3=Blade of the New Moon", "=ds=#h1#, #w4#", "", "6.99%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Immol'thar"],
-			module = moduleName, instance = "DireMaulWest",
+AtlasLoot_Data["Guard Mol'dar"] = {
+	["Normal"] = {
+		{
+			{ 1, 18250, "", "=q3=Gordok Shackle Key", "", "", "" },
+			{ 2, 18268, "", "=q3=Gordok Inner Door Key", "", "", "" },
+			{ 3, 18298, "", "=q3=Unbridled Leggings", "", "", "" },
+			{ 4, 18493, "", "=q3=Bulky Iron Spaulders", "", "", "" },
+			{ 5, 18494, "", "=q3=Denwatcher's Shoulders", "", "", "" },
+			{ 6, 18498, "", "=q3=Hedgecutter", "", "", "" },
+			{ 7, 18520, "", "=q3=Barbarous Blade", "", "", "" },
+			{ 8, 18754, "", "=q3=Fel Hardened Bracers", "", "", "" },
 		};
 	};
-
-	AtlasLoot_Data["DMWHelnurath"] = {
-		["Normal"] = {
-			{
-				{ 1, 18757, "", "=q3=Diabolic Mantle", "=ds=#s3#, #a1#", "", "23.12%"};
-				{ 2, 18754, "", "=q3=Fel Hardened Bracers", "=ds=#s8#, #a4#", "", "19.24%"};
-				{ 3, 18756, "", "=q3=Dreadguard's Protector", "=ds=#w8#", "", "19.77%"};
-				{ 4, 18755, "", "=q3=Xorothian Firestick", "=ds=#w5#", "", "21.92%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Lord Hel'nurath"].." ("..AL["Summon"]..")",
-			module = moduleName, instance = "DireMaulWest",
+	["Heroic"] = {
+		{
+			{ 1, 80866, "", "=q3=Unbridled Leggings", "", "", "" },
+			{ 2, 80933, "", "=q3=Bulky Iron Spaulders", "", "", "" },
+			{ 3, 80934, "", "=q3=Denwatcher's Shoulders", "", "", "" },
+			{ 4, 80937, "", "=q3=Hedgecutter", "", "", "" },
+			{ 5, 80944, "", "=q3=Barbarous Blade", "", "", "" },
+			{ 6, 81005, "", "=q3=Fel Hardened Bracers", "", "", "" },
 		};
 	};
-
-	AtlasLoot_Data["DMWPrinceTortheldrin"] = {
-		["Normal"] = {
-			{
-				{ 1, 18382, "", "=q3=Fluctuating Cloak", "=ds=#s4#", "", "21.84%"};
-				{ 2, 18373, "", "=q3=Chestplate of Tranquility", "=ds=#s5#, #a2#", "", "6.32%"};
-				{ 3, 18375, "", "=q3=Bracers of the Eclipse", "=ds=#s8#, #a2#", "", "15.62%"};
-				{ 4, 18378, "", "=q3=Silvermoon Leggings", "=ds=#s11#, #a3#", "", "21.20%"};
-				{ 5, 18380, "", "=q3=Eldritch Reinforced Legplates", "=ds=#s11#, #a4#", "", "15.87%"};
-				{ 6, 18395, "", "=q3=Emerald Flame Ring", "=ds=#s13#", "", "14.55%"};
-				{ 16, 18392, "", "=q3=Distracting Dagger", "=ds=#h4#, #w4#", "", "14.70%"};
-				{ 17, 18396, "", "=q3=Mind Carver", "=ds=#h3#, #w10#", "", "14.62%"};
-				{ 18, 18376, "", "=q3=Timeworn Mace", "=ds=#h1#, #w6#", "", "14.40%"};
-				{ 19, 18388, "", "=q3=Stoneshatter", "=ds=#w3#", "", "7.72%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Prince Tortheldrin"],
-			module = moduleName, instance = "DireMaulWest",
+	["Mythic"] = {
+		{
+			{ 1, 521001, "", "=q3=Unbridled Leggings", "", "", "" },
+			{ 2, 554501, "", "=q3=Bulky Iron Spaulders", "", "", "" },
+			{ 3, 555001, "", "=q3=Denwatcher's Shoulders", "", "", "" },
+			{ 4, 556501, "", "=q3=Hedgecutter", "", "", "" },
+			{ 5, 560001, "", "=q3=Barbarous Blade", "", "", "" },
+			{ 6, 594001, "", "=q3=Fel Hardened Bracers", "", "", "" },
 		};
 	};
+	info = {
+		name = BabbleBoss["Guard Mol'dar"],
+		module = moduleName,
+		instance = "Dire Maul",
+	};
+};
 
-	AtlasLoot_Data["DMWTsuzee"] = {
-		["Normal"] = {
-			{
-				{ 1, 18387, "", "=q3=Brightspark Gloves", "=ds=#s9#, #a1#", "", "24.79%"};
-				{ 2, 18346, "", "=q3=Threadbare Trousers", "=ds=#s11#, #a1#", "", "33.94%"};
-				{ 3, 18345, "", "=q3=Murmuring Ring", "=ds=#s13#", "", "30.28%"};
-			};
-		};
-		info = {
-			name = BabbleBoss["Tsu'zee"].." ("..AL["Rare"]..")",
-			module = moduleName, instance = "DireMaulWest",
+AtlasLoot_Data["Stomper Kreeg"] = {
+	["Normal"] = {
+		{
+			{ 1, 18340, "", "=q3=Eidolon Talisman", "", "", "" },
+			{ 2, 18382, "", "=q3=Fluctuating Cloak", "", "", "" },
+			{ 3, 18425, "", "=q3=Kreeg's Mug", "", "", "" },
+			{ 4, 18499, "", "=q3=Barrier Shield", "", "", "" },
+			{ 5, 18525, "", "=q3=Bracers of Prosperity", "", "", "" },
+			{ 6, 18531, "", "=q3=Unyielding Maul", "", "", "" },
 		};
 	};
-
-	AtlasLoot_Data["DMWTrash"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
-				{ 2, 18344, "", "=q3=Stonebark Gauntlets", "=ds=#s9#, #a2#", "", "0.47%"};
-				{ 3, 18340, "", "=q3=Eidolon Talisman", "=ds=#s2#", "", "0.58%"};
-				{ 4, 18338, "", "=q3=Wand of Arcane Potency", "=ds=#w12#", "", "0.78%"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Shen'dralar Provisioner"], ""};
-				{ 17, 18487, "", "=q1=Pattern: Mooncloth Robe", "=ds=#p8# (300)"};
-			};
-		};
-		info = {
-			name = AL["Trash Mobs"],
-			module = moduleName, instance = "DireMaulWest",
+	["Heroic"] = {
+		{
+			{ 1, 80892, "", "=q3=Eidolon Talisman", "", "", "" },
+			{ 2, 80912, "", "=q3=Fluctuating Cloak", "", "", "" },
+			{ 3, 80928, "", "=q3=Kreeg's Mug", "", "", "" },
+			{ 4, 80938, "", "=q3=Barrier Shield", "", "", "" },
+			{ 5, 80949, "", "=q3=Bracers of Prosperity", "", "", "" },
+			{ 6, 80955, "", "=q3=Unyielding Maul", "", "", "" },
 		};
 	};
+	["Mythic"] = {
+		{
+			{ 1, 534001, "", "=q3=Eidolon Talisman", "", "", "" },
+			{ 2, 544001, "", "=q3=Fluctuating Cloak", "", "", "" },
+			{ 3, 552001, "", "=q3=Kreeg's Mug", "", "", "" },
+			{ 4, 557001, "", "=q3=Barrier Shield", "", "", "" },
+			{ 5, 562501, "", "=q3=Bracers of Prosperity", "", "", "" },
+			{ 6, 565501, "", "=q3=Unyielding Maul", "", "", "" },
+		};
+	};
+	info = {
+		name = BabbleBoss["Stomper Kreeg"],
+		module = moduleName,
+		instance = "Dire Maul",
+	};
+};
 
+AtlasLoot_Data["Guard Fengus"] = {
+	["Normal"] = {
+		{
+			{ 1, 18250, "", "=q3=Gordok Shackle Key", "", "", "" },
+			{ 2, 18344, "", "=q3=Stonebark Gauntlets", "", "", "" },
+			{ 3, 18378, "", "=q3=Silvermoon Leggings", "", "", "" },
+			{ 4, 18459, "", "=q3=Gallant's Wristguards", "", "", "" },
+			{ 5, 18460, "", "=q3=Unsophisticated Hand Cannon", "", "", "" },
+			{ 6, 18464, "", "=q3=Gordok Nose Ring", "", "", "" },
+			{ 7, 18523, "", "=q3=Brightly Glowing Stone", "", "", "" },
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 80893, "", "=q3=Stonebark Gauntlets", "", "", "" },
+			{ 2, 80908, "", "=q3=Silvermoon Leggings", "", "", "" },
+			{ 3, 80929, "", "=q3=Gallant's Wristguards", "", "", "" },
+			{ 4, 80930, "", "=q3=Unsophisticated Hand Cannon", "", "", "" },
+			{ 5, 80932, "", "=q3=Gordok Nose Ring", "", "", "" },
+			{ 6, 80947, "", "=q3=Brightly Glowing Stone", "", "", "" },
+		};
+	};
+	["Mythic"] = {
+		{
+			{ 1, 534501, "", "=q3=Stonebark Gauntlets", "", "", "" },
+			{ 2, 542001, "", "=q3=Silvermoon Leggings", "", "", "" },
+			{ 3, 552501, "", "=q3=Gallant's Wristguards", "", "", "" },
+			{ 4, 553001, "", "=q3=Unsophisticated Hand Cannon", "", "", "" },
+			{ 5, 554001, "", "=q3=Gordok Nose Ring", "", "", "" },
+			{ 6, 561501, "", "=q3=Brightly Glowing Stone", "", "", "" },
+		};
+	};
+	info = {
+		name = BabbleBoss["Guard Fengus"],
+		module = moduleName,
+		instance = "Dire Maul",
+	};
+};
+
+AtlasLoot_Data["Guard Slip'kik"] = {
+	["Normal"] = {
+		{
+			{ 1, 18250, "", "=q3=Gordok Shackle Key", "", "", "" },
+			{ 2, 18309, "", "=q3=Gloves of Restoration", "", "", "" },
+			{ 3, 18462, "", "=q3=Jagged Bone Fist", "", "", "" },
+			{ 4, 18496, "", "=q3=Heliotrope Cloak", "", "", "" },
+			{ 5, 18497, "", "=q3=Sublime Wristguards", "", "", "" },
+			{ 6, 18529, "", "=q3=Elemental Plate Girdle", "", "", "" },
+			{ 7, 18757, "", "=q3=Diabolic Mantle", "", "", "" },
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 80873, "", "=q3=Gloves of Restoration", "", "", "" },
+			{ 2, 80931, "", "=q3=Jagged Bone Fist", "", "", "" },
+			{ 3, 80935, "", "=q3=Heliotrope Cloak", "", "", "" },
+			{ 4, 80936, "", "=q3=Sublime Wristguards", "", "", "" },
+			{ 5, 80953, "", "=q3=Elemental Plate Girdle", "", "", "" },
+			{ 6, 81008, "", "=q3=Diabolic Mantle", "", "", "" },
+		};
+	};
+	["Mythic"] = {
+		{
+			{ 1, 524501, "", "=q3=Gloves of Restoration", "", "", "" },
+			{ 2, 553501, "", "=q3=Jagged Bone Fist", "", "", "" },
+			{ 3, 555501, "", "=q3=Heliotrope Cloak", "", "", "" },
+			{ 4, 556001, "", "=q3=Sublime Wristguards", "", "", "" },
+			{ 5, 564501, "", "=q3=Elemental Plate Girdle", "", "", "" },
+			{ 6, 595501, "", "=q3=Diabolic Mantle", "", "", "" },
+		};
+	};
+	info = {
+		name = BabbleBoss["Guard Slip'kik"],
+		module = moduleName,
+		instance = "Dire Maul",
+	};
+};
+
+AtlasLoot_Data["Captain Kromcrush"] = {
+	["Normal"] = {
+		{
+			{ 1, 18250, "", "=q3=Gordok Shackle Key", "", "", "" },
+			{ 2, 18318, "", "=q3=Merciful Greaves", "", "", "" },
+			{ 3, 18502, "", "=q3=Monstrous Glaive", "", "", "" },
+			{ 4, 18503, "", "=q3=Kromcrush's Chestplate", "", "", "" },
+			{ 5, 18505, "", "=q3=Mugger's Belt", "", "", "" },
+			{ 6, 18507, "", "=q3=Boots of the Full Moon", "", "", "" },
+			{ 7, 18755, "", "=q3=Xorothian Firestick", "", "", "" },
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 80881, "", "=q3=Merciful Greaves", "", "", "" },
+			{ 2, 80940, "", "=q3=Monstrous Glaive", "", "", "" },
+			{ 3, 80941, "", "=q3=Kromcrush's Chestplate", "", "", "" },
+			{ 4, 80942, "", "=q3=Mugger's Belt", "", "", "" },
+			{ 5, 80943, "", "=q3=Boots of the Full Moon", "", "", "" },
+			{ 6, 81006, "", "=q3=Xorothian Firestick", "", "", "" },
+		};
+	};
+	["Mythic"] = {
+		{
+			{ 1, 528501, "", "=q3=Merciful Greaves", "", "", "" },
+			{ 2, 558001, "", "=q3=Monstrous Glaive", "", "", "" },
+			{ 3, 558501, "", "=q3=Kromcrush's Chestplate", "", "", "" },
+			{ 4, 559001, "", "=q3=Mugger's Belt", "", "", "" },
+			{ 5, 559501, "", "=q3=Boots of the Full Moon", "", "", "" },
+			{ 6, 594501, "", "=q3=Xorothian Firestick", "", "", "" },
+		};
+	};
+	info = {
+		name = BabbleBoss["Captain Kromcrush"],
+		module = moduleName,
+		instance = "Dire Maul",
+	};
+};
+
+AtlasLoot_Data["King Gordok"] = {
+	["Normal"] = {
+		{
+			{ 1, 18780, "", "=q3=Top Half of Advanced Armorsmithing: Volume I", "", "", "" },
+			{ 2, 19258, "", "=q3=Ace of Warlords", "", "", "" },
+			{ 3, 18521, "", "=q3=Grimy Metal Boots", "", "", "" },
+			{ 4, 18522, "", "=q3=Band of the Ogre King", "", "", "" },
+			{ 5, 18524, "", "=q3=Leggings of Destruction", "", "", "" },
+			{ 6, 18526, "", "=q3=Crown of the Ogre King", "", "", "" },
+			{ 7, 18527, "", "=q3=Harmonious Gauntlets", "", "", "" },
+			{ 8, 18756, "", "=q3=Dreadguard's Protector", "", "", "" },
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 18780, "", "=q3=Top Half of Advanced Armorsmithing: Volume I", "", "", "" },
+			{ 2, 80945, "", "=q3=Grimy Metal Boots", "", "", "" },
+			{ 3, 80946, "", "=q3=Band of the Ogre King", "", "", "" },
+			{ 4, 80948, "", "=q3=Leggings of Destruction", "", "", "" },
+			{ 5, 80950, "", "=q3=Crown of the Ogre King", "", "", "" },
+			{ 6, 80951, "", "=q3=Harmonious Gauntlets", "", "", "" },
+			{ 7, 81007, "", "=q3=Dreadguard's Protector", "", "", "" },
+		};
+	};
+	["Mythic"] = {
+		{
+			{ 1, 18780, "", "=q3=Top Half of Advanced Armorsmithing: Volume I", "", "", "" },
+			{ 2, 560501, "", "=q3=Grimy Metal Boots", "", "", "" },
+			{ 3, 561001, "", "=q3=Band of the Ogre King", "", "", "" },
+			{ 4, 562001, "", "=q3=Leggings of Destruction", "", "", "" },
+			{ 5, 563001, "", "=q3=Crown of the Ogre King", "", "", "" },
+			{ 6, 563501, "", "=q3=Harmonious Gauntlets", "", "", "" },
+			{ 7, 595001, "", "=q3=Dreadguard's Protector", "", "", "" },
+		};
+	};
+	info = {
+		name = BabbleBoss["King Gordok"],
+		module = moduleName,
+		instance = "Dire Maul",
+	};
+};
+
+AtlasLoot_Data["Cho'Rush the Observer"] = {
+	["Normal"] = {
+		{
+			{ 1, 18289, "", "=q3=Barbed Thorn Necklace", "", "", "" },
+			{ 2, 18379, "", "=q3=Odious Greaves", "", "", "" },
+			{ 3, 18500, "", "=q3=Tarnished Elven Ring", "", "", "" },
+			{ 4, 18528, "", "=q3=Cyclone Spaulders", "", "", "" },
+			{ 5, 18532, "", "=q3=Mindsurge Robe", "", "", "" },
+			{ 6, 18534, "", "=q3=Rod of the Ogre Magi", "", "", "" },
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 80864, "", "=q3=Barbed Thorn Necklace", "", "", "" },
+			{ 2, 80909, "", "=q3=Odious Greaves", "", "", "" },
+			{ 3, 80939, "", "=q3=Tarnished Elven Ring", "", "", "" },
+			{ 4, 80952, "", "=q3=Cyclone Spaulders", "", "", "" },
+			{ 5, 80956, "", "=q3=Mindsurge Robe", "", "", "" },
+			{ 6, 80958, "", "=q3=Rod of the Ogre Magi", "", "", "" },
+		};
+	};
+	["Mythic"] = {
+		{
+			{ 1, 520001, "", "=q3=Barbed Thorn Necklace", "", "", "" },
+			{ 2, 542501, "", "=q3=Odious Greaves", "", "", "" },
+			{ 3, 557501, "", "=q3=Tarnished Elven Ring", "", "", "" },
+			{ 4, 564001, "", "=q3=Cyclone Spaulders", "", "", "" },
+			{ 5, 566001, "", "=q3=Mindsurge Robe", "", "", "" },
+			{ 6, 567001, "", "=q3=Rod of the Ogre Magi", "", "", "" },
+		};
+	};
+	info = {
+		name = BabbleBoss["Cho'Rush the Observer"],
+		module = moduleName,
+		instance = "Dire Maul",
+	};
+};
+
+AtlasLoot_Data["Tendris Warpwood"] = {
+	["Normal"] = {
+		{
+			{ 1, 22529, "", "=q3=Savage Frond", "", "", "" },
+			{ 2, 18338, "", "=q3=Wand of Arcane Potency", "", "", "" },
+			{ 3, 18352, "", "=q3=Petrified Bark Shield", "", "", "" },
+			{ 4, 18353, "", "=q3=Stoneflower Staff", "", "", "" },
+			{ 5, 18390, "", "=q3=Tanglemoss Leggings", "", "", "" },
+			{ 6, 18391, "", "=q3=Eyestalk Cord", "", "", "" },
+			{ 7, 18393, "", "=q3=Warpwood Binding", "", "", "" },
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 80891, "", "=q3=Wand of Arcane Potency", "", "", "" },
+			{ 2, 80898, "", "=q3=Petrified Bark Shield", "", "", "" },
+			{ 3, 80899, "", "=q3=Stoneflower Staff", "", "", "" },
+			{ 4, 80920, "", "=q3=Tanglemoss Leggings", "", "", "" },
+			{ 5, 80921, "", "=q3=Eyestalk Cord", "", "", "" },
+			{ 6, 80923, "", "=q3=Warpwood Binding", "", "", "" },
+		};
+	};
+	["Mythic"] = {
+		{
+			{ 1, 533501, "", "=q3=Wand of Arcane Potency", "", "", "" },
+			{ 2, 537001, "", "=q3=Petrified Bark Shield", "", "", "" },
+			{ 3, 537501, "", "=q3=Stoneflower Staff", "", "", "" },
+			{ 4, 548001, "", "=q3=Tanglemoss Leggings", "", "", "" },
+			{ 5, 548501, "", "=q3=Eyestalk Cord", "", "", "" },
+			{ 6, 549501, "", "=q3=Warpwood Binding", "", "", "" },
+		};
+	};
+	info = {
+		name = BabbleBoss["Tendris Warpwood"],
+		module = moduleName,
+		instance = "Dire Maul",
+	};
+};
+
+AtlasLoot_Data["Magister Kalendris"] = {
+	["Normal"] = {
+		{
+			{ 1, 22309, "", "=q3=Pattern: Big Bag of Enchantment", "", "", "" },
+			{ 2, 18296, "", "=q3=Marksman Bands", "", "", "" },
+			{ 3, 18371, "", "=q3=Mindtap Talisman", "", "", "" },
+			{ 4, 18374, "", "=q3=Flamescarred Shoulders", "", "", "" },
+			{ 5, 18381, "", "=q3=Evil Eye Pendant", "", "", "" },
+			{ 6, 18397, "", "=q3=Elder Magus Pendant", "", "", "" },
+			{ 7, 18530, "", "=q3=Ogre Forged Hauberk", "", "", "" },
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 22309, "", "=q3=Pattern: Big Bag of Enchantment", "", "", "" },
+			{ 2, 80865, "", "=q3=Marksman Bands", "", "", "" },
+			{ 3, 80901, "", "=q3=Mindtap Talisman", "", "", "" },
+			{ 4, 80904, "", "=q3=Flamescarred Shoulders", "", "", "" },
+			{ 5, 80911, "", "=q3=Evil Eye Pendant", "", "", "" },
+			{ 6, 80927, "", "=q3=Elder Magus Pendant", "", "", "" },
+			{ 7, 80954, "", "=q3=Ogre Forged Hauberk", "", "", "" },
+		};
+	};
+	["Mythic"] = {
+		{
+			{ 1, 22309, "", "=q3=Pattern: Big Bag of Enchantment", "", "", "" },
+			{ 2, 520501, "", "=q3=Marksman Bands", "", "", "" },
+			{ 3, 538501, "", "=q3=Mindtap Talisman", "", "", "" },
+			{ 4, 540001, "", "=q3=Flamescarred Shoulders", "", "", "" },
+			{ 5, 543501, "", "=q3=Evil Eye Pendant", "", "", "" },
+			{ 6, 551501, "", "=q3=Elder Magus Pendant", "", "", "" },
+			{ 7, 565001, "", "=q3=Ogre Forged Hauberk", "", "", "" },
+		};
+	};
+	info = {
+		name = BabbleBoss["Magister Kalendris"],
+		module = moduleName,
+		instance = "Dire Maul",
+	};
+};
+
+AtlasLoot_Data["Tsu'zee"] = {
+	["Normal"] = {
+		{
+			{ 1, 18312, "", "=q3=Energized Chestplate", "", "", "" },
+			{ 2, 18345, "", "=q3=Murmuring Ring", "", "", "" },
+			{ 3, 18346, "", "=q3=Threadbare Trousers", "", "", "" },
+			{ 4, 18380, "", "=q3=Eldritch Reinforced Legplates", "", "", "" },
+			{ 5, 18387, "", "=q3=Brightspark Gloves", "", "", "" },
+			{ 6, 18533, "", "=q3=Gordok Bracers of Power", "", "", "" },
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 80876, "", "=q3=Energized Chestplate", "", "", "" },
+			{ 2, 80894, "", "=q3=Murmuring Ring", "", "", "" },
+			{ 3, 80895, "", "=q3=Threadbare Trousers", "", "", "" },
+			{ 4, 80910, "", "=q3=Eldritch Reinforced Legplates", "", "", "" },
+			{ 5, 80917, "", "=q3=Brightspark Gloves", "", "", "" },
+			{ 6, 80957, "", "=q3=Gordok Bracers of Power", "", "", "" },
+		};
+	};
+	["Mythic"] = {
+		{
+			{ 1, 526001, "", "=q3=Energized Chestplate", "", "", "" },
+			{ 2, 535001, "", "=q3=Murmuring Ring", "", "", "" },
+			{ 3, 535501, "", "=q3=Threadbare Trousers", "", "", "" },
+			{ 4, 543001, "", "=q3=Eldritch Reinforced Legplates", "", "", "" },
+			{ 5, 546501, "", "=q3=Brightspark Gloves", "", "", "" },
+			{ 6, 566501, "", "=q3=Gordok Bracers of Power", "", "", "" },
+		};
+	};
+	info = {
+		name = BabbleBoss["Tsu'zee"],
+		module = moduleName,
+		instance = "Dire Maul",
+	};
+};
+
+AtlasLoot_Data["Illyanna Ravenoak"] = {
+	["Normal"] = {
+		{
+			{ 1, 18347, "", "=q3=Well Balanced Axe", "", "", "" },
+			{ 2, 18349, "", "=q3=Gauntlets of Accuracy", "", "", "" },
+			{ 3, 18383, "", "=q3=Force Imbued Gauntlets", "", "", "" },
+			{ 4, 18385, "", "=q3=Robe of Everlasting Night", "", "", "" },
+			{ 5, 18386, "", "=q3=Padre's Trousers", "", "", "" },
+			{ 6, 18537, "", "=q3=Counterattack Lodestone", "", "", "" },
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 80896, "", "=q3=Well Balanced Axe", "", "", "" },
+			{ 2, 80897, "", "=q3=Gauntlets of Accuracy", "", "", "" },
+			{ 3, 80913, "", "=q3=Force Imbued Gauntlets", "", "", "" },
+			{ 4, 80915, "", "=q3=Robe of Everlasting Night", "", "", "" },
+			{ 5, 80916, "", "=q3=Padre's Trousers", "", "", "" },
+			{ 6, 80956, "", "=q3=Counterattack Lodestone", "", "", "" },
+		};
+	};
+	["Mythic"] = {
+		{
+			{ 1, 536001, "", "=q3=Well Balanced Axe", "", "", "" },
+			{ 2, 536501, "", "=q3=Gauntlets of Accuracy", "", "", "" },
+			{ 3, 539501, "", "=q3=Force Imbued Gauntlets", "", "", "" },
+			{ 4, 545501, "", "=q3=Robe of Everlasting Night", "", "", "" },
+			{ 5, 547501, "", "=q3=Padre's Trousers", "", "", "" },
+			{ 6, 567501, "", "=q3=Counterattack Lodestone", "", "", "" },
+		};
+	};
+	info = {
+		name = BabbleBoss["Illyanna Ravenoak"],
+		module = moduleName,
+		instance = "Dire Maul",
+	};
+};
+
+AtlasLoot_Data["Immol'thar"] = {
+	["Normal"] = {
+		{
+			{ 1, 18370, "", "=q3=Spellshock Leggings", "", "", "" },
+			{ 2, 18372, "", "=q3=Blade of the New Moon", "", "", "" },
+			{ 3, 18391, "", "=q3=Eyestalk Cord", "", "", "" },
+			{ 4, 18394, "", "=q3=Demon Howl Wristguards", "", "", "" },
+			{ 5, 18395, "", "=q3=Demon's Heart Ring", "", "", "" },
+			{ 6, 18396, "", "=q3=Mind Carver", "", "", "" },
+			{ 7, 18532, "", "=q3=Maul of the Redeemed Crusader", "", "", "" },
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 80900, "", "=q3=Spellshock Leggings", "", "", "" },
+			{ 2, 80903, "", "=q3=Blade of the New Moon", "", "", "" },
+			{ 3, 80921, "", "=q3=Eyestalk Cord", "", "", "" },
+			{ 4, 80925, "", "=q3=Demon Howl Wristguards", "", "", "" },
+			{ 5, 80929, "", "=q3=Demon's Heart Ring", "", "", "" },
+			{ 6, 80932, "", "=q3=Mind Carver", "", "", "" },
+			{ 7, 80953, "", "=q3=Maul of the Redeemed Crusader", "", "", "" },
+		};
+	};
+	["Mythic"] = {
+		{
+			{ 1, 538001, "", "=q3=Spellshock Leggings", "", "", "" },
+			{ 2, 540501, "", "=q3=Blade of the New Moon", "", "", "" },
+			{ 3, 550501, "", "=q3=Eyestalk Cord", "", "", "" },
+			{ 4, 552501, "", "=q3=Demon Howl Wristguards", "", "", "" },
+			{ 5, 553501, "", "=q3=Demon's Heart Ring", "", "", "" },
+			{ 6, 554501, "", "=q3=Mind Carver", "", "", "" },
+			{ 7, 569501, "", "=q3=Maul of the Redeemed Crusader", "", "", "" },
+		};
+	};
+	info = {
+		name = BabbleBoss["Immol'thar"],
+		module = moduleName,
+		instance = "Dire Maul",
+	};
+};
+
+AtlasLoot_Data["Prince Tortheldrin"] = {
+	["Normal"] = {
+		{
+			{ 1, 18373, "", "=q3=Ebon Hilt of Marduk", "", "", "" },
+			{ 2, 18347, "", "=q3=Well Balanced Axe", "", "", "" },
+			{ 3, 18382, "", "=q3=Fluctuating Cloak", "", "", "" },
+			{ 4, 18388, "", "=q3=Stoneshatter", "", "", "" },
+			{ 5, 18389, "", "=q3=Eidolon Talisman", "", "", "" },
+			{ 6, 18529, "", "=q3=Elemental Plate Girdle", "", "", "" },
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 80903, "", "=q3=Ebon Hilt of Marduk", "", "", "" },
+			{ 2, 80896, "", "=q3=Well Balanced Axe", "", "", "" },
+			{ 3, 80912, "", "=q3=Fluctuating Cloak", "", "", "" },
+			{ 4, 80914, "", "=q3=Stoneshatter", "", "", "" },
+			{ 5, 80918, "", "=q3=Eidolon Talisman", "", "", "" },
+			{ 6, 80955, "", "=q3=Elemental Plate Girdle", "", "", "" },
+		};
+	};
+	["Mythic"] = {
+		{
+			{ 1, 539501, "", "=q3=Ebon Hilt of Marduk", "", "", "" },
+			{ 2, 537501, "", "=q3=Well Balanced Axe", "", "", "" },
+			{ 3, 542501, "", "=q3=Fluctuating Cloak", "", "", "" },
+			{ 4, 546501, "", "=q3=Stoneshatter", "", "", "" },
+			{ 5, 551501, "", "=q3=Eidolon Talisman", "", "", "" },
+			{ 6, 567501, "", "=q3=Elemental Plate Girdle", "", "", "" },
+		};
+	};
+	info = {
+		name = BabbleBoss["Prince Tortheldrin"],
+		module = moduleName,
+		instance = "Dire Maul",
+	};
+};
 		------------------
 		--- Gnomeregan ---
 		------------------
 
-	AtlasLoot_Data["GnomereganLoot"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Grubbis"], ""};
-				{ 2, 9445, "", "=q3=Grubbis Paws", "=ds=#s9#, #a3#", "", "9.22%"};
-				{ 4, 0, "INV_Box_01", "=q6="..BabbleBoss["Viscous Fallout"], ""};
-				{ 5, 9454, "", "=q3=Acidic Walkers", "=ds=#s12#, #a1#", "", "54.02%"};
-				{ 6, 9453, "", "=q3=Toxic Revenger", "=ds=#h1#, #w4#", "", "19.05%"};
-				{ 7, 9452, "", "=q3=Hydrocane", "=ds=#w9#", "", "18.25%"};
-				{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Electrocutioner 6000"], ""};
-				{ 10, 9448, "", "=q3=Spidertank Oilrag", "=ds=#s8#, #a1#", "", "28.37%"};
-				{ 11, 9447, "", "=q3=Electrocutioner Lagnut", "=ds=#s13#", "", "28.44%"};
-				{ 12, 9446, "", "=q3=Electrocutioner Leg", "=ds=#h1#, #w10#", "", "13.19%"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Crowd Pummeler 9-60"], ""};
-				{ 17, 9450, "", "=q3=Gnomebot Operating Boots", "=ds=#s12#, #a2#", "", "60.45%"};
-				{ 18, 9449, "", "=q3=Manual Crowd Pummeler", "=ds=#h2#, #w6#", "", "33.14%"};
-				{ 20, 0, "INV_Box_01", "=q6="..BabbleBoss["Dark Iron Ambassador"], ""};
-				{ 21, 9455, "", "=q3=Emissary Cuffs", "=ds=#s8#, #a2#", "", "33.96%"};
-				{ 22, 9457, "", "=q3=Royal Diplomatic Scepter", "=ds=#h1#, #w6#", "", "17.79%"};
-				{ 23, 9456, "", "=q3=Glass Shooter", "=ds=#w5#", "", "38.01%"};
-			};
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Mekgineer Thermaplugg"], ""};
-				{ 2, 9492, "", "=q3=Electromagnetic Gigaflux Reactivator", "=ds=#s1#, #a1#", "", "7.65%"};
-				{ 3, 9461, "", "=q3=Charged Gear", "=ds=#s13#", "", "28.49%"};
-				{ 4, 9459, "", "=q3=Thermaplugg's Left Arm", "=ds=#h2#, #w1#", "", "18.05%"};
-				{ 5, 9458, "", "=q3=Thermaplugg's Central Core", "=ds=#w8#", "", "28.61%"};
-				{ 6, 4415, "", "=q3=Schematic: Craftsman's Monocle", "=ds=#p5# (185)", "", ""};
-				{ 7, 11828, "", "=q2=Schematic: Pet Bombling", "=ds=#p5# (205)", "", ""};
-				{ 8, 4413, "", "=q2=Schematic: Discombobulator Ray", "=ds=#p5# (160)", "", ""};
-				{ 9, 4411, "", "=q2=Schematic: Flame Deflector", "=ds=#p5# (125)", "", "0.7%"};
-				{ 10, 7742, "", "=q1=Schematic: Gnomish Cloaking Device", "=ds=#p5# (200)", "", ""};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
-				{ 17, 9508, "", "=q3=Mechbuilder's Overalls", "=ds=#s5#, #a1#", "", "0.02%"};
-				{ 18, 9491, "", "=q3=Hotshot Pilot's Gloves", "=ds=#s9#, #a1#", "", "0.01%"};
-				{ 19, 9509, "", "=q3=Petrolspill Leggings", "=ds=#s11#, #a2#", "", "0.01%"};
-				{ 20, 9510, "", "=q3=Caverndeep Trudgers", "=ds=#s12#, #a3#", "", "0.01%"};
-				{ 21, 9490, "", "=q3=Gizmotron Megachopper", "=ds=#h2#, #w10#", "", "0.01%"};
-				{ 22, 9485, "", "=q3=Vibroblade", "=ds=#h1#, #w1#", "", "0.01%"};
-				{ 23, 9486, "", "=q3=Supercharger Battle Axe", "=ds=#h2#, #w1#", "", "0.02%"};
-				{ 24, 9488, "", "=q3=Oscillating Power Hammer", "=ds=#h1#, #w6#", "", "0.02%"};
-				{ 25, 9487, "", "=q3=Hi-Tech Supergun", "=ds=#w5#", "", "0.01%"};
-				{ 26, 11827, "", "=q2=Schematic: Lil' Smoky", "=ds=#p5# (205)", "", ""};
-				{ 27, 9327, "", "=q2=Security DELTA Data Access Card", "=ds=#m20#", "", "1.41%"};
-				{ 28, 9326, "", "=q1=Grime-Encrusted Ring", "=ds=#m2#", "", "9.38%"};
-				{ 29, 9538, "", "=q3=Talvash's Gold Ring", "=q1=#m4#: =ds=#s13#"};
-				{ 30, 9362, "", "=q2=Brilliant Gold Ring", "=q1=#m4#: =ds=#s13#"};
-			};
-		};
-		info = {
-			name = BabbleZone["Gnomeregan"],
-			module = moduleName, instance = "Gnomeregan",
-		};
-	};
+AtlasLoot_Data["Grubbis"] = {
+    ["Normal"] = {
+        {
+            { 1, 9308, "", "=q3=Grime-Encrusted Object", "", "", "" },
+            { 2, 9445, "", "=q3=Grubbis Paws", "", "", "" },
+            { 3, 9486, "", "=q3=Supercharger Battle Axe", "", "", "" },
+            { 4, 9487, "", "=q3=Hi-tech Supergun", "", "", "" },
+            { 5, 80016, "", "=q3=Electromagnetic Legplates", "", "", "" },
+        };
+    };
+    ["Heroic"] = {
+        {
+            { 1, 80403, "", "=q3=Grubbis Paws", "", "", "" },
+            { 2, 80428, "", "=q3=Supercharger Battle Axe", "", "", "" },
+            { 3, 80429, "", "=q3=Hi-tech Supergun", "", "", "" },
+            { 4, 81066, "", "=q3=Electromagnetic Legplates", "", "", "" },
+        };
+    };
+    ["Mythic"] = {
+        {
+            { 1, 197501, "", "=q3=Grubbis Paws", "", "", "" },
+            { 2, 210001, "", "=q3=Supercharger Battle Axe", "", "", "" },
+            { 3, 210501, "", "=q3=Hi-tech Supergun", "", "", "" },
+            { 4, 673501, "", "=q3=Electromagnetic Legplates", "", "", "" },
+        };
+    };
+    info = {
+        name = BabbleBoss["Grubbis"],
+        module = moduleName,
+        instance = "Uldaman",
+    };
+};
+
+AtlasLoot_Data["Viscous Fallout"] = {
+    ["Normal"] = {
+        {
+            { 1, 9452, "", "=q3=Hydrocane", "", "", "" },
+            { 2, 9453, "", "=q3=Toxic Revenger", "", "", "" },
+            { 3, 9454, "", "=q3=Acidic Walkers", "", "", "" },
+            { 4, 9485, "", "=q3=Vibroblade", "", "", "" },
+        };
+    };
+    ["Heroic"] = {
+        {
+            { 1, 80409, "", "=q3=Hydrocane", "", "", "" },
+            { 2, 80410, "", "=q3=Toxic Revenger", "", "", "" },
+            { 3, 80411, "", "=q3=Acidic Walkers", "", "", "" },
+            { 4, 80427, "", "=q3=Vibroblade", "", "", "" },
+        };
+    };
+    ["Mythic"] = {
+        {
+            { 1, 200501, "", "=q3=Hydrocane", "", "", "" },
+            { 2, 201001, "", "=q3=Toxic Revenger", "", "", "" },
+            { 3, 201501, "", "=q3=Acidic Walkers", "", "", "" },
+            { 4, 209501, "", "=q3=Vibroblade", "", "", "" },
+        };
+    };
+    info = {
+        name = BabbleBoss["Viscous Fallout"],
+        module = moduleName,
+        instance = "Gnomeregan",
+    };
+};
+
+AtlasLoot_Data["Electrocutioner 6000"] = {
+    ["Normal"] = {
+        {
+            { 1, 6893, "", "=q3=Workshop Key", "", "", "" },
+            { 2, 9309, "", "=q3=Robo-mechanical Guts", "", "", "" },
+            { 3, 9446, "", "=q3=Electrocutioner Leg", "", "", "" },
+            { 4, 9447, "", "=q3=Electrocutioner Lagnut", "", "", "" },
+            { 5, 9448, "", "=q3=Spidertank Oilrag", "", "", "" },
+            { 6, 80017, "", "=q3=Electromagnetic Gloves", "", "", "" },
+        };
+    };
+    ["Heroic"] = {
+        {
+            { 1, 80404, "", "=q3=Electrocutioner Leg", "", "", "" },
+            { 2, 80405, "", "=q3=Electrocutioner Lagnut", "", "", "" },
+            { 3, 80406, "", "=q3=Spidertank Oilrag", "", "", "" },
+            { 4, 81067, "", "=q3=Electromagnetic Gloves", "", "", "" },
+        };
+    };
+    ["Mythic"] = {
+        {
+            { 1, 198001, "", "=q3=Electrocutioner Leg", "", "", "" },
+            { 2, 198501, "", "=q3=Electrocutioner Lagnut", "", "", "" },
+            { 3, 199001, "", "=q3=Spidertank Oilrag", "", "", "" },
+            { 4, 674001, "", "=q3=Electromagnetic Gloves", "", "", "" },
+        };
+    };
+    info = {
+        name = BabbleBoss["Electrocutioner 6000"],
+        module = moduleName,
+        instance = "Gnomeregan",
+    };
+};
+
+AtlasLoot_Data["Crowd Pummeler 9-60"] = {
+    ["Normal"] = {
+        {
+            { 1, 9309, "", "=q3=Robo-mechanical Guts", "", "", "" },
+            { 2, 9449, "", "=q3=Manual Crowd Pummeler", "", "", "" },
+            { 3, 9450, "", "=q3=Gnomebot Operating Boots", "", "", "" },
+            { 4, 9488, "", "=q3=Oscillating Power Hammer", "", "", "" },
+            { 5, 80018, "", "=q3=Electromagnetic Breastplate", "", "", "" },
+        };
+    };
+    ["Heroic"] = {
+        {
+            { 1, 80407, "", "=q3=Manual Crowd Pummeler", "", "", "" },
+            { 2, 80408, "", "=q3=Gnomebot Operating Boots", "", "", "" },
+            { 3, 80430, "", "=q3=Oscillating Power Hammer", "", "", "" },
+            { 4, 81068, "", "=q3=Electromagnetic Breastplate", "", "", "" },
+        };
+    };
+    ["Mythic"] = {
+        {
+            { 1, 199501, "", "=q3=Manual Crowd Pummeler", "", "", "" },
+            { 2, 200001, "", "=q3=Gnomebot Operating Boots", "", "", "" },
+            { 3, 211001, "", "=q3=Oscillating Power Hammer", "", "", "" },
+            { 4, 674501, "", "=q3=Electromagnetic Breastplate", "", "", "" },
+        };
+    };
+    info = {
+        name = BabbleBoss["Crowd Pummeler 9-60"],
+        module = moduleName,
+        instance = "Gnomeregan",
+    };
+};
+
+AtlasLoot_Data["Dark Iron Ambassador"] = {
+    ["Normal"] = {
+        {
+            { 1, 9456, "", "=q3=Glass Shooter", "", "", "" },
+            { 2, 9457, "", "=q3=Royal Diplomatic Scepter", "", "", "" },
+            { 3, 9491, "", "=q3=Hotshot Pilot's Gloves", "", "", "" },
+            { 4, 80019, "", "=q3=Electromagnetic Greaves", "", "", "" },
+        };
+    };
+    ["Heroic"] = {
+        {
+            { 1, 80412, "", "=q3=Glass Shooter", "", "", "" },
+            { 2, 80413, "", "=q3=Royal Diplomatic Scepter", "", "", "" },
+            { 3, 80432, "", "=q3=Hotshot Pilot's Gloves", "", "", "" },
+            { 4, 81069, "", "=q3=Electromagnetic Greaves", "", "", "" },
+        };
+    };
+    ["Mythic"] = {
+        {
+            { 1, 202001, "", "=q3=Glass Shooter", "", "", "" },
+            { 2, 202501, "", "=q3=Royal Diplomatic Scepter", "", "", "" },
+            { 3, 212001, "", "=q3=Hotshot Pilot's Gloves", "", "", "" },
+            { 4, 675001, "", "=q3=Electromagnetic Greaves", "", "", "" },
+        };
+    };
+    info = {
+        name = BabbleBoss["Dark Iron Ambassador"],
+        module = moduleName,
+        instance = "Gnomeregan",
+    };
+};
+
+AtlasLoot_Data["Mekgineer Thermaplugg"] = {
+    ["Normal"] = {
+        {
+            { 1, 9299, "", "=q3=Journeyman's Stave", "", "", "" },
+            { 2, 9452, "", "=q3=Hydrocane", "", "", "" },
+            { 3, 9455, "", "=q3=Acidic Walkers", "", "", "" },
+            { 4, 9456, "", "=q3=Glass Shooter", "", "", "" },
+            { 5, 9489, "", "=q3=Gyromatic Icemaker", "", "", "" },
+            { 6, 9490, "", "=q3=Gizmotron Megachopper", "", "", "" },
+            { 7, 80020, "", "=q3=Electromagnetic Boots", "", "", "" },
+        };
+    };
+    ["Heroic"] = {
+        {
+            { 1, 80414, "", "=q3=Journeyman's Stave", "", "", "" },
+            { 2, 80409, "", "=q3=Hydrocane", "", "", "" },
+            { 3, 80412, "", "=q3=Acidic Walkers", "", "", "" },
+            { 4, 80414, "", "=q3=Glass Shooter", "", "", "" },
+            { 5, 80431, "", "=q3=Gyromatic Icemaker", "", "", "" },
+            { 6, 81070, "", "=q3=Gizmotron Megachopper", "", "", "" },
+            { 7, 81071, "", "=q3=Electromagnetic Boots", "", "", "" },
+        };
+    };
+    ["Mythic"] = {
+        {
+            { 1, 203001, "", "=q3=Journeyman's Stave", "", "", "" },
+            { 2, 202001, "", "=q3=Hydrocane", "", "", "" },
+            { 3, 201502, "", "=q3=Acidic Walkers", "", "", "" },
+            { 4, 202502, "", "=q3=Glass Shooter", "", "", "" },
+            { 5, 211501, "", "=q3=Gyromatic Icemaker", "", "", "" },
+            { 6, 213001, "", "=q3=Gizmotron Megachopper", "", "", "" },
+            { 7, 675501, "", "=q3=Electromagnetic Boots", "", "", "" },
+        };
+    };
+    info = {
+        name = BabbleBoss["Mekgineer Thermaplugg"],
+        module = moduleName,
+        instance = "Gnomeregan",
+    };
+};
 
 		----------------
 		--- Maraudon ---
 		----------------
-		
-	AtlasLoot_Data["MaraudonLoot"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Noxxion"], ""};
-				{ 2, 17746, "", "=q3=Noxxion's Shackles", "=ds=#s8#, #a3#", "", "32.50%"};
-				{ 3, 17744, "", "=q3=Heart of Noxxion", "=ds=#s14#", "", "30.35%"};
-				{ 4, 17745, "", "=q3=Noxious Shooter", "=ds=#w12#", "", "17.53%"};
-				{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Razorlash"], ""};
-				{ 7, 17750, "", "=q3=Chloromesh Girdle", "=ds=#s10#, #a1#", "", "22.93%"};
-				{ 8, 17748, "", "=q3=Vinerot Sandals", "=ds=#s12#, #a1#", "", "20.60%"};
-				{ 9, 17749, "", "=q3=Phytoskin Spaulders", "=ds=#s3#, #a2#", "", "22.09%"};
-				{ 10, 17751, "", "=q3=Brusslehide Leggings", "=ds=#s11#, #a2#", "", "21.65%"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Lord Vyletongue"], ""};
-				{ 17, 17755, "", "=q3=Satyrmane Sash", "=ds=#s10#, #a1#", "", "25.71%"};
-				{ 18, 17754, "", "=q3=Infernal Trickster Leggings", "=ds=#s11#, #a3#", "", "28.09%"};
-				{ 19, 17752, "", "=q3=Satyr's Lash", "=ds=#h1#, #w4#", "", "23.14%"};
-				{ 21, 0, "INV_Box_01", "=q6="..BabbleBoss["Meshlok the Harvester"], ""};
-				{ 22, 17741, "", "=q3=Nature's Embrace", "=ds=#s5#, #a1#", "", "30.34%"};
-				{ 23, 17742, "", "=q3=Fungus Shroud Armor", "=ds=#s5#, #a2#", "", "31.37%"};
-				{ 24, 17767, "", "=q3=Bloomsprout Headpiece", "=ds=#s1#, #a3#", "", "28.32%"};
-				{ 26, 0, "INV_Box_01", "=q6="..BabbleBoss["Tinkerer Gizlock"], ""};
-				{ 27, 17719, "", "=q3=Inventor's Focal Sword", "=ds=#h1#, #w10#", "", "27.44%"};
-				{ 28, 17718, "", "=q3=Gizlock's Hypertech Buckler", "=ds=#w8#", "", "30.61%"};
-				{ 29, 17717, "", "=q3=Megashot Rifle", "=ds=#w5#", "", "27.23%"};
-
-			};
-			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Celebras the Cursed"], ""};
-				{ 2, 17739, "", "=q3=Grovekeeper's Drape", "=ds=#s4#", "", "30.32%"};
-				{ 3, 17740, "", "=q3=Soothsayer's Headdress", "=ds=#s1#, #a2#", "", "28.59%"};
-				{ 4, 17738, "", "=q3=Claw of Celebras", "=ds=#h4#, #w13#", "", "28.22%"};
-				{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Landslide"], ""};
-				{ 7, 17736, "", "=q3=Rockgrip Gauntlets", "=ds=#s9#, #a3#", "", "23.09%"};
-				{ 8, 17734, "", "=q3=Helm of the Mountain", "=ds=#s1#, #a3#", "", "20.87%"};
-				{ 9, 17737, "", "=q3=Cloud Stone", "=ds=#s15#", "", "19.99%"};
-				{ 10, 17943, "", "=q3=Fist of Stone", "=ds=#h1#, #w6#", "", "16.58%"};
-				{ 12, 0, "INV_Box_01", "=q6="..BabbleBoss["Rotgrip"], ""};
-				{ 13, 17732, "", "=q3=Rotgrip Mantle", "=ds=#s3#, #a1#", "", "25.73%"};
-				{ 14, 17728, "", "=q3=Albino Crocscale Boots", "=ds=#s12#, #a2#", "", "26.20%"};
-				{ 15, 17730, "", "=q3=Gatorbite Axe", "=ds=#h2#, #w1#", "", "19.21%"};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Princess Theradras"], ""};
-				{ 17, 17780, "", "=q4=Blade of Eternal Darkness", "=ds=#h1#, #w4#", "", "0.20%"};
-				{ 18, 17715, "", "=q3=Eye of Theradras", "=ds=#s1#, #a1#", "", "13.47%"};
-				{ 19, 17714, "", "=q3=Bracers of the Stone Princess", "=ds=#s8#, #a3#", "", "20.06%"};
-				{ 20, 17711, "", "=q3=Elemental Rockridge Leggings", "=ds=#s11#, #a3#", "", "14.96%"};
-				{ 21, 17707, "", "=q3=Gemshard Heart", "=ds=#s2#", "", "15.30%"};
-				{ 22, 17713, "", "=q3=Blackstone Ring", "=ds=#s13#", "", "18.92%"};
-				{ 23, 17710, "", "=q3=Charstone Dirk", "=ds=#h1#, #w4#", "", "14.24%"};
-				{ 24, 17766, "", "=q3=Princess Theradras' Scepter", "=ds=#h2#, #w6#", "", "16.44%"};
-			};
-		};
-		info = {
-			name = BabbleZone["Maraudon"],
-			module = moduleName, instance = "Maraudon",
+AtlasLoot_Data["Noxxion"] = {
+	["Normal"] = {
+		{
+			{ 1, 17684, "", "=q3=Theradric Crystal Carving", "", "", "" },
+			{ 2, 17702, "", "=q3=Celebrian Rod", "", "", "" },
+			{ 3, 17744, "", "=q3=Heart of Noxxion", "", "", "" },
+			{ 4, 17745, "", "=q3=Noxious Shooter", "", "", "" },
+			{ 5, 17746, "", "=q3=Noxxion's Shackles", "", "", "" },
 		};
 	};
+	["Heroic"] = {
+		{
+			{ 1, 80843, "", "=q3=Heart of Noxxion", "", "", "" },
+			{ 2, 80844, "", "=q3=Noxious Shooter", "", "", "" },
+			{ 3, 80845, "", "=q3=Noxxion's Shackles", "", "", "" },
+		};
+	};
+	["Mythic"] = {
+		{
+			{ 1, 507001, "", "=q3=Heart of Noxxion", "", "", "" },
+			{ 2, 507501, "", "=q3=Noxious Shooter", "", "", "" },
+			{ 3, 508001, "", "=q3=Noxxion's Shackles", "", "", "" },
+		};
+	};
+	info = {
+		name = BabbleBoss["Noxxion"],
+		module = moduleName,
+		instance = "Maraudon",
+	};
+};
 
+AtlasLoot_Data["Razorlash"] = {
+	["Normal"] = {
+		{
+			{ 1, 17684, "", "=q3=Theradric Crystal Carving", "", "", "" },
+			{ 2, 17747, "", "=q3=Razorlash Root", "", "", "" },
+			{ 3, 22529, "", "=q3=Savage Frond", "", "", "" },
+			{ 4, 17748, "", "=q3=Vinerot Sandals", "", "", "" },
+			{ 5, 17749, "", "=q3=Phytoskin Spaulders", "", "", "" },
+			{ 6, 17750, "", "=q3=Chloromesh Girdle", "", "", "" },
+			{ 7, 17751, "", "=q3=Brusslehide Leggings", "", "", "" },
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 80846, "", "=q3=Vinerot Sandals", "", "", "" },
+			{ 2, 80847, "", "=q3=Phytoskin Spaulders", "", "", "" },
+			{ 3, 80848, "", "=q3=Chloromesh Girdle", "", "", "" },
+			{ 4, 80849, "", "=q3=Brusslehide Leggings", "", "", "" },
+		};
+	};
+	["Mythic"] = {
+		{
+			{ 1, 508501, "", "=q3=Vinerot Sandals", "", "", "" },
+			{ 2, 509001, "", "=q3=Phytoskin Spaulders", "", "", "" },
+			{ 3, 509501, "", "=q3=Chloromesh Girdle", "", "", "" },
+			{ 4, 510001, "", "=q3=Brusslehide Leggings", "", "", "" },
+		};
+	};
+	info = {
+		name = BabbleBoss["Razorlash"],
+		module = moduleName,
+		instance = "Maraudon",
+	};
+};
+
+AtlasLoot_Data["Lord Vyletongue"] = {
+	["Normal"] = {
+		{
+			{ 1, 17684, "", "=q3=Theradric Crystal Carving", "", "", "" },
+			{ 2, 17703, "", "=q3=Celebrian Diamond", "", "", "" },
+			{ 3, 17752, "", "=q3=Satyr's Lash", "", "", "" },
+			{ 4, 17754, "", "=q3=Infernal Trickster Leggings", "", "", "" },
+			{ 5, 17755, "", "=q3=Satyrmane Sash", "", "", "" },
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 80850, "", "=q3=Satyr's Lash", "", "", "" },
+			{ 2, 80851, "", "=q3=Infernal Trickster Leggings", "", "", "" },
+			{ 3, 80852, "", "=q3=Satyrmane Sash", "", "", "" },
+		};
+	};
+	["Mythic"] = {
+		{
+			{ 1, 510501, "", "=q3=Satyr's Lash", "", "", "" },
+			{ 2, 511001, "", "=q3=Infernal Trickster Leggings", "", "", "" },
+			{ 3, 511501, "", "=q3=Satyrmane Sash", "", "", "" },
+		};
+	};
+	info = {
+		name = BabbleBoss["Lord Vyletongue"],
+		module = moduleName,
+		instance = "Maraudon",
+	};
+};
+
+AtlasLoot_Data["Meshlok the Harvester"] = {
+	["Normal"] = {
+		{
+			{ 1, 17684, "", "=q3=Theradric Crystal Carving", "", "", "" },
+			{ 2, 17741, "", "=q3=Nature's Embrace", "", "", "" },
+			{ 3, 17742, "", "=q3=Fungus Shroud Armor", "", "", "" },
+			{ 4, 17767, "", "=q3=Bloomsprout Headpiece", "", "", "" },
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 81086, "", "=q3=Nature's Embrace", "", "", "" },
+			{ 2, 81087, "", "=q3=Fungus Shroud Armor", "", "", "" },
+			{ 3, 81088, "", "=q3=Bloomsprout Headpiece", "", "", "" },
+		};
+	};
+	["Mythic"] = {
+		{
+			{ 1, 768501, "", "=q3=Nature's Embrace", "", "", "" },
+			{ 2, 769001, "", "=q3=Fungus Shroud Armor", "", "", "" },
+			{ 3, 769501, "", "=q3=Bloomsprout Headpiece", "", "", "" },
+		};
+	};
+	info = {
+		name = BabbleBoss["Meshlok the Harvester"],
+		module = moduleName,
+		instance = "Maraudon",
+	};
+};
+
+AtlasLoot_Data["Celebras the Cursed"] = {
+	["Normal"] = {
+		{
+			{ 1, 17684, "", "=q3=Theradric Crystal Carving", "", "", "" },
+			{ 2, 17738, "", "=q3=Claw of Celebras", "", "", "" },
+			{ 3, 17739, "", "=q3=Grovekeeper's Drape", "", "", "" },
+			{ 4, 17740, "", "=q3=Soothsayer's Headdress", "", "", "" },
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 80840, "", "=q3=Claw of Celebras", "", "", "" },
+			{ 2, 80841, "", "=q3=Grovekeeper's Drape", "", "", "" },
+			{ 3, 80842, "", "=q3=Soothsayer's Headdress", "", "", "" },
+		};
+	};
+	["Mythic"] = {
+		{
+			{ 1, 505501, "", "=q3=Claw of Celebras", "", "", "" },
+			{ 2, 506001, "", "=q3=Grovekeeper's Drape", "", "", "" },
+			{ 3, 506501, "", "=q3=Soothsayer's Headdress", "", "", "" },
+		};
+	};
+	info = {
+		name = BabbleBoss["Celebras the Cursed"],
+		module = moduleName,
+		instance = "Maraudon",
+	};
+};
+
+AtlasLoot_Data["Landslide"] = {
+	["Normal"] = {
+		{
+			{ 1, 17684, "", "=q3=Theradric Crystal Carving", "", "", "" },
+			{ 2, 17734, "", "=q3=Helm of the Mountain", "", "", "" },
+			{ 3, 17736, "", "=q3=Rockgrip Gauntlets", "", "", "" },
+			{ 4, 17737, "", "=q3=Cloud Stone", "", "", "" },
+			{ 5, 17943, "", "=q3=Fist of Stone", "", "", "" },
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 80837, "", "=q3=Helm of the Mountain", "", "", "" },
+			{ 2, 80838, "", "=q3=Rockgrip Gauntlets", "", "", "" },
+			{ 3, 80839, "", "=q3=Cloud Stone", "", "", "" },
+			{ 4, 80854, "", "=q3=Fist of Stone", "", "", "" },
+		};
+	};
+	["Mythic"] = {
+		{
+			{ 1, 504001, "", "=q3=Helm of the Mountain", "", "", "" },
+			{ 2, 504501, "", "=q3=Rockgrip Gauntlets", "", "", "" },
+			{ 3, 505001, "", "=q3=Cloud Stone", "", "", "" },
+			{ 4, 512501, "", "=q3=Fist of Stone", "", "", "" },
+		};
+	};
+	info = {
+		name = BabbleBoss["Landslide"],
+		module = moduleName,
+		instance = "Maraudon",
+	};
+};
+
+AtlasLoot_Data["Tinkerer Gizlock"] = {
+	["Normal"] = {
+		{
+			{ 1, 17684, "", "=q3=Theradric Crystal Carving", "", "", "" },
+			{ 2, 17710, "", "=q3=Charstone Dirk", "", "", "" },
+			{ 3, 17717, "", "=q3=Megashot Rifle", "", "", "" },
+			{ 4, 17718, "", "=q3=Gizlock's Hypertech Buckler", "", "", "" },
+			{ 5, 17719, "", "=q3=Inventor's Focal Sword", "", "", "" },
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 80826, "", "=q3=Charstone Dirk", "", "", "" },
+			{ 2, 80831, "", "=q3=Megashot Rifle", "", "", "" },
+			{ 3, 80832, "", "=q3=Gizlock's Hypertech Buckler", "", "", "" },
+			{ 4, 80833, "", "=q3=Inventor's Focal Sword", "", "", "" },
+		};
+	};
+	["Mythic"] = {
+		{
+			{ 1, 498501, "", "=q3=Charstone Dirk", "", "", "" },
+			{ 2, 501001, "", "=q3=Megashot Rifle", "", "", "" },
+			{ 3, 501501, "", "=q3=Gizlock's Hypertech Buckler", "", "", "" },
+			{ 4, 502001, "", "=q3=Inventor's Focal Sword", "", "", "" },
+		};
+	};
+	info = {
+		name = BabbleBoss["Tinkerer Gizlock"],
+		module = moduleName,
+		instance = "Maraudon",
+	};
+};
+
+AtlasLoot_Data["Rotgrip"] = {
+	["Normal"] = {
+		{
+			{ 1, 17684, "", "=q3=Theradric Crystal Carving", "", "", "" },
+			{ 2, 17711, "", "=q3=Elemental Rockridge Leggings", "", "", "" },
+			{ 3, 17728, "", "=q3=Albino Crocscale Boots", "", "", "" },
+			{ 4, 17730, "", "=q3=Gatorbite Axe", "", "", "" },
+			{ 5, 17732, "", "=q3=Rotgrip Mantle", "", "", "" },
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 80827, "", "=q3=Elemental Rockridge Leggings", "", "", "" },
+			{ 2, 80834, "", "=q3=Albino Crocscale Boots", "", "", "" },
+			{ 3, 80835, "", "=q3=Gatorbite Axe", "", "", "" },
+			{ 4, 80836, "", "=q3=Rotgrip Mantle", "", "", "" },
+		};
+	};
+	["Mythic"] = {
+		{
+			{ 1, 499001, "", "=q3=Elemental Rockridge Leggings", "", "", "" },
+			{ 2, 502501, "", "=q3=Albino Crocscale Boots", "", "", "" },
+			{ 3, 503001, "", "=q3=Gatorbite Axe", "", "", "" },
+			{ 4, 503501, "", "=q3=Rotgrip Mantle", "", "", "" },
+		};
+	};
+	info = {
+		name = BabbleBoss["Rotgrip"],
+		module = moduleName,
+		instance = "Maraudon",
+	};
+};
+
+AtlasLoot_Data["Princess Theradras"] = {
+	["Normal"] = {
+		{
+			{ 1, 17684, "", "=q3=Theradric Crystal Carving", "", "", "" },
+			{ 2, 17707, "", "=q3=Gemshard Heart", "", "", "" },
+			{ 3, 17713, "", "=q3=Blackstone Ring", "", "", "" },
+			{ 4, 17714, "", "=q3=Bracers of the Stone Princess", "", "", "" },
+			{ 5, 17715, "", "=q3=Eye of Theradras", "", "", "" },
+			{ 6, 17766, "", "=q3=Princess Theradras' Scepter", "", "", "" },
+			{ 7, 17780, "", "=q3=Blade of Eternal Darkness", "", "", "" },
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 80825, "", "=q3=Gemshard Heart", "", "", "" },
+			{ 2, 80828, "", "=q3=Blackstone Ring", "", "", "" },
+			{ 3, 80829, "", "=q3=Bracers of the Stone Princess", "", "", "" },
+			{ 4, 80830, "", "=q3=Eye of Theradras", "", "", "" },
+			{ 5, 80853, "", "=q3=Princess Theradras' Scepter", "", "", "" },
+			{ 6, 81092, "", "=q3=Blade of Eternal Darkness", "", "", "" },
+		};
+	};
+	["Mythic"] = {
+		{
+			{ 1, 498001, "", "=q3=Gemshard Heart", "", "", "" },
+			{ 2, 499501, "", "=q3=Blackstone Ring", "", "", "" },
+			{ 3, 500001, "", "=q3=Bracers of the Stone Princess", "", "", "" },
+			{ 4, 500501, "", "=q3=Eye of Theradras", "", "", "" },
+			{ 5, 512001, "", "=q3=Princess Theradras' Scepter", "", "", "" },
+			{ 6, 770001, "", "=q3=Blade of Eternal Darkness", "", "", "" },
+		};
+	};
+	info = {
+		name = BabbleBoss["Princess Theradras"],
+		module = moduleName,
+		instance = "Maraudon",
+	};
+};
 		----------------------
 		--- Ragefire Chasm ---
 		----------------------
@@ -2685,507 +4138,507 @@ AtlasLoot_Data["General Drakkisath"] = {
 		-------------------
 
 	AtlasLoot_Data["Kirtonos the Herald"] = {
-    ["Normal"] = {
-        {
-            { 1, 13956, "", "=q3=Clutch of Andros", "", "", "" },
-            { 2, 13960, "", "=q3=Heart of the Fiend", "", "", "" },
-            { 3, 13967, "", "=q3=Windreaver Greaves", "", "", "" },
-            { 4, 13969, "", "=q3=Loomguard Armbraces", "", "", "" },
-            { 5, 13983, "", "=q3=Gravestone War Axe", "", "", "" },
-            { 6, 14024, "", "=q3=Frightalon", "", "", "" },
+		["Normal"] = {
+			{
+				{ 1, 13956, "", "=q3=Clutch of Andros", "", "", "" },
+				{ 2, 13960, "", "=q3=Heart of the Fiend", "", "", "" },
+				{ 3, 13967, "", "=q3=Windreaver Greaves", "", "", "" },
+				{ 4, 13969, "", "=q3=Loomguard Armbraces", "", "", "" },
+				{ 5, 13983, "", "=q3=Gravestone War Axe", "", "", "" },
+				{ 6, 14024, "", "=q3=Frightalon", "", "", "" },
         };
     };
-    ["Heroic"] = {
-        {
-            { 1, 80772, "", "=q3=Clutch of Andros", "", "", "" },
-            { 2, 80774, "", "=q3=Heart of the Fiend", "", "", "" },
-            { 3, 80776, "", "=q3=Windreaver Greaves", "", "", "" },
-            { 4, 80777, "", "=q3=Loomguard Armbraces", "", "", "" },
-            { 5, 80778, "", "=q3=Gravestone War Axe", "", "", "" },
-            { 6, 80779, "", "=q3=Frightalon", "", "", "" },
+		["Heroic"] = {
+			{
+				{ 1, 80772, "", "=q3=Clutch of Andros", "", "", "" },
+				{ 2, 80774, "", "=q3=Heart of the Fiend", "", "", "" },
+				{ 3, 80776, "", "=q3=Windreaver Greaves", "", "", "" },
+				{ 4, 80777, "", "=q3=Loomguard Armbraces", "", "", "" },
+				{ 5, 80778, "", "=q3=Gravestone War Axe", "", "", "" },
+				{ 6, 80779, "", "=q3=Frightalon", "", "", "" },
         };
     };
-    ["Mythic"] = {
-        {
-            { 1, 385001, "", "=q3=Clutch of Andros", "", "", "" },
-            { 2, 386001, "", "=q3=Heart of the Fiend", "", "", "" },
-            { 3, 387001, "", "=q3=Windreaver Greaves", "", "", "" },
-            { 4, 387501, "", "=q3=Loomguard Armbraces", "", "", "" },
-            { 5, 388001, "", "=q3=Gravestone War Axe", "", "", "" },
-            { 6, 388501, "", "=q3=Frightalon", "", "", "" },
+		["Mythic"] = {
+			{
+				{ 1, 385001, "", "=q3=Clutch of Andros", "", "", "" },
+				{ 2, 386001, "", "=q3=Heart of the Fiend", "", "", "" },
+				{ 3, 387001, "", "=q3=Windreaver Greaves", "", "", "" },
+				{ 4, 387501, "", "=q3=Loomguard Armbraces", "", "", "" },
+				{ 5, 388001, "", "=q3=Gravestone War Axe", "", "", "" },
+				{ 6, 388501, "", "=q3=Frightalon", "", "", "" },
         };
     };
-    info = {
-        name = BabbleBoss["Kirtonos the Herald"],
-        module = moduleName,instance = "Scholomance",
+		info = {
+			name = BabbleBoss["Kirtonos the Herald"],
+			module = moduleName,instance = "Scholomance",
     };
 };
 
 AtlasLoot_Data["Jandice Barov"] = {
     ["Normal"] = {
         {
-            { 1, 13523, "", "=q3=Blood of Innocents", "", "", "" },
-            { 2, 13725, "", "=q3=Krastinov's Bag of Horrors", "", "", "" },
-            { 3, 14543, "", "=q3=Darkshade Gloves", "", "", "" },
-            { 4, 14545, "", "=q3=Ghostloom Leggings", "", "", "" },
-            { 5, 14548, "", "=q3=Royal Cap Spaulders", "", "", "" },
-            { 6, 18689, "", "=q3=Phantasmal Cloak", "", "", "" },
-            { 7, 18690, "", "=q3=Wraithplate Leggings", "", "", "" },
-            { 8, 22394, "", "=q3=Staff of Metanoia", "", "", "" },
+				{ 1, 13523, "", "=q3=Blood of Innocents", "", "", "" },
+				{ 2, 13725, "", "=q3=Krastinov's Bag of Horrors", "", "", "" },
+				{ 3, 14543, "", "=q3=Darkshade Gloves", "", "", "" },
+				{ 4, 14545, "", "=q3=Ghostloom Leggings", "", "", "" },
+				{ 5, 14548, "", "=q3=Royal Cap Spaulders", "", "", "" },
+				{ 6, 18689, "", "=q3=Phantasmal Cloak", "", "", "" },
+				{ 7, 18690, "", "=q3=Wraithplate Leggings", "", "", "" },
+				{ 8, 22394, "", "=q3=Staff of Metanoia", "", "", "" },
         };
     };
-    ["Heroic"] = {
+		["Heroic"] = {
         {
-            { 1, 80799, "", "=q3=Darkshade Gloves", "", "", "" },
-            { 2, 80800, "", "=q3=Ghostloom Leggings", "", "", "" },
-            { 3, 80801, "", "=q3=Royal Cap Spaulders", "", "", "" },
-            { 4, 80966, "", "=q3=Phantasmal Cloak", "", "", "" },
-            { 5, 80967, "", "=q3=Wraithplate Leggings", "", "", "" },
-            { 6, 81036, "", "=q3=Staff of Metanoia", "", "", "" },
+				{ 1, 80799, "", "=q3=Darkshade Gloves", "", "", "" },
+				{ 2, 80800, "", "=q3=Ghostloom Leggings", "", "", "" },
+				{ 3, 80801, "", "=q3=Royal Cap Spaulders", "", "", "" },
+				{ 4, 80966, "", "=q3=Phantasmal Cloak", "", "", "" },
+				{ 5, 80967, "", "=q3=Wraithplate Leggings", "", "", "" },
+				{ 6, 81036, "", "=q3=Staff of Metanoia", "", "", "" },
         };
     };
-    ["Mythic"] = {
+		["Mythic"] = {
         {
-            { 1, 398501, "", "=q3=Darkshade Gloves", "", "", "" },
-            { 2, 399001, "", "=q3=Ghostloom Leggings", "", "", "" },
-            { 3, 399501, "", "=q3=Royal Cap Spaulders", "", "", "" },
-            { 4, 574501, "", "=q3=Phantasmal Cloak", "", "", "" },
-            { 5, 575001, "", "=q3=Wraithplate Leggings", "", "", "" },
-            { 6, 655501, "", "=q3=Staff of Metanoia", "", "", "" },
+				{ 1, 398501, "", "=q3=Darkshade Gloves", "", "", "" },
+				{ 2, 399001, "", "=q3=Ghostloom Leggings", "", "", "" },
+				{ 3, 399501, "", "=q3=Royal Cap Spaulders", "", "", "" },
+				{ 4, 574501, "", "=q3=Phantasmal Cloak", "", "", "" },
+				{ 5, 575001, "", "=q3=Wraithplate Leggings", "", "", "" },
+				{ 6, 655501, "", "=q3=Staff of Metanoia", "", "", "" },
         };
     };
-    info = {
-        name = BabbleBoss["Jandice Barov"],
-		module = moduleName,instance = "Scholomance",
+		info = {
+			name = BabbleBoss["Jandice Barov"],
+			module = moduleName,instance = "Scholomance",
     };
 };
 
-AtlasLoot_Data["Rattlegore"] = {
+	AtlasLoot_Data["Rattlegore"] = {
     ["Normal"] = {
         {
-            { 1, 13873, "", "=q3=Viewing Room Key", "", "", "" },
-            { 2, 18782, "", "=q3=Top Half of Advanced Armorsmithing: Volume II", "", "", "" },
-            { 3, 14528, "", "=q3=Rattlecage Buckler", "", "", "" },
-            { 4, 14531, "", "=q3=Frightskull Shaft", "", "", "" },
-            { 5, 14537, "", "=q3=Corpselight Greaves", "", "", "" },
-            { 6, 14538, "", "=q3=Deadwalker Mantle", "", "", "" },
-            { 7, 14539, "", "=q3=Bone Ring Helm", "", "", "" },
-            { 8, 18686, "", "=q3=Bone Golem Shoulders", "", "", "" },
+				{ 1, 13873, "", "=q3=Viewing Room Key", "", "", "" },
+				{ 2, 18782, "", "=q3=Top Half of Advanced Armorsmithing: Volume II", "", "", "" },
+				{ 3, 14528, "", "=q3=Rattlecage Buckler", "", "", "" },
+				{ 4, 14531, "", "=q3=Frightskull Shaft", "", "", "" },
+				{ 5, 14537, "", "=q3=Corpselight Greaves", "", "", "" },
+				{ 6, 14538, "", "=q3=Deadwalker Mantle", "", "", "" },
+				{ 7, 14539, "", "=q3=Bone Ring Helm", "", "", "" },
+				{ 8, 18686, "", "=q3=Bone Golem Shoulders", "", "", "" },
         };
     };
     ["Heroic"] = {
         {
-            { 1, 18782, "", "=q3=Top Half of Advanced Armorsmithing: Volume II", "", "", "" },
-            { 2, 80792, "", "=q3=Rattlecage Buckler", "", "", "" },
-            { 3, 80793, "", "=q3=Frightskull Shaft", "", "", "" },
-            { 4, 80795, "", "=q3=Corpselight Greaves", "", "", "" },
-            { 5, 80796, "", "=q3=Deadwalker Mantle", "", "", "" },
-            { 6, 80797, "", "=q3=Bone Ring Helm", "", "", "" },
-            { 7, 80965, "", "=q3=Bone Golem Shoulders", "", "", "" },
+				{ 1, 18782, "", "=q3=Top Half of Advanced Armorsmithing: Volume II", "", "", "" },
+				{ 2, 80792, "", "=q3=Rattlecage Buckler", "", "", "" },
+				{ 3, 80793, "", "=q3=Frightskull Shaft", "", "", "" },
+				{ 4, 80795, "", "=q3=Corpselight Greaves", "", "", "" },
+				{ 5, 80796, "", "=q3=Deadwalker Mantle", "", "", "" },
+				{ 6, 80797, "", "=q3=Bone Ring Helm", "", "", "" },
+				{ 7, 80965, "", "=q3=Bone Golem Shoulders", "", "", "" },
         };
     };
     ["Mythic"] = {
         {
-            { 1, 395001, "", "=q3=Rattlecage Buckler", "", "", "" },
-            { 2, 395501, "", "=q3=Frightskull Shaft", "", "", "" },
-            { 3, 396501, "", "=q3=Corpselight Greaves", "", "", "" },
-            { 4, 397001, "", "=q3=Deadwalker Mantle", "", "", "" },
-            { 5, 397501, "", "=q3=Bone Ring Helm", "", "", "" },
-            { 6, 574001, "", "=q3=Bone Golem Shoulders", "", "", "" },
+				{ 1, 395001, "", "=q3=Rattlecage Buckler", "", "", "" },
+				{ 2, 395501, "", "=q3=Frightskull Shaft", "", "", "" },
+				{ 3, 396501, "", "=q3=Corpselight Greaves", "", "", "" },
+				{ 4, 397001, "", "=q3=Deadwalker Mantle", "", "", "" },
+				{ 5, 397501, "", "=q3=Bone Ring Helm", "", "", "" },
+				{ 6, 574001, "", "=q3=Bone Golem Shoulders", "", "", "" },
         };
     };
-    info = {
-        name = BabbleBoss["Rattlegore"],
-        module = moduleName,instance = "Scholomance",
+		info = {
+			name = BabbleBoss["Rattlegore"],
+			module = moduleName,instance = "Scholomance",
     };
 };
-AtlasLoot_Data["Marduk Blackpool"] = {
-    ["Normal"] = {
-        {
-            { 1, 13955, "", "=q3=Stoneform Shoulders", "", "", "" },
-            { 2, 13957, "", "=q3=Gargoyle Slashers", "", "", "" },
-            { 3, 14502, "", "=q3=Frostbite Girdle", "", "", "" },
-            { 4, 14541, "", "=q3=Barovian Family Sword", "", "", "" },
-            { 5, 14576, "", "=q3=Ebon Hilt of Marduk", "", "", "" },
-            { 6, 18692, "", "=q3=Death Knight Sabatons", "", "", "" },
+	AtlasLoot_Data["Marduk Blackpool"] = {
+		["Normal"] = {
+			{
+				{ 1, 13955, "", "=q3=Stoneform Shoulders", "", "", "" },
+				{ 2, 13957, "", "=q3=Gargoyle Slashers", "", "", "" },
+				{ 3, 14502, "", "=q3=Frostbite Girdle", "", "", "" },
+				{ 4, 14541, "", "=q3=Barovian Family Sword", "", "", "" },
+				{ 5, 14576, "", "=q3=Ebon Hilt of Marduk", "", "", "" },
+				{ 6, 18692, "", "=q3=Death Knight Sabatons", "", "", "" },
         };
     };
-    ["Heroic"] = {
-        {
-            { 1, 80771, "", "=q3=Stoneform Shoulders", "", "", "" },
-            { 2, 80773, "", "=q3=Gargoyle Slashers", "", "", "" },
-            { 3, 80788, "", "=q3=Frostbite Girdle", "", "", "" },
-            { 4, 80798, "", "=q3=Barovian Family Sword", "", "", "" },
-            { 5, 80802, "", "=q3=Ebon Hilt of Marduk", "", "", "" },
-            { 6, 80969, "", "=q3=Death Knight Sabatons", "", "", "" },
+		["Heroic"] = {
+			{
+				{ 1, 80771, "", "=q3=Stoneform Shoulders", "", "", "" },
+				{ 2, 80773, "", "=q3=Gargoyle Slashers", "", "", "" },
+				{ 3, 80788, "", "=q3=Frostbite Girdle", "", "", "" },
+				{ 4, 80798, "", "=q3=Barovian Family Sword", "", "", "" },
+				{ 5, 80802, "", "=q3=Ebon Hilt of Marduk", "", "", "" },
+				{ 6, 80969, "", "=q3=Death Knight Sabatons", "", "", "" },
         };
     };
-    ["Mythic"] = {
-        {
-            { 1, 384501, "", "=q3=Stoneform Shoulders", "", "", "" },
-            { 2, 385501, "", "=q3=Gargoyle Slashers", "", "", "" },
-            { 3, 393001, "", "=q3=Frostbite Girdle", "", "", "" },
-            { 4, 398001, "", "=q3=Barovian Family Sword", "", "", "" },
-            { 5, 400001, "", "=q3=Ebon Hilt of Marduk", "", "", "" },
-            { 6, 576001, "", "=q3=Death Knight Sabatons", "", "", "" },
+		["Mythic"] = {
+			{
+				{ 1, 384501, "", "=q3=Stoneform Shoulders", "", "", "" },
+				{ 2, 385501, "", "=q3=Gargoyle Slashers", "", "", "" },
+				{ 3, 393001, "", "=q3=Frostbite Girdle", "", "", "" },
+				{ 4, 398001, "", "=q3=Barovian Family Sword", "", "", "" },
+				{ 5, 400001, "", "=q3=Ebon Hilt of Marduk", "", "", "" },
+				{ 6, 576001, "", "=q3=Death Knight Sabatons", "", "", "" },
         };
     };
-    info = {
-       name = BabbleBoss["Marduk Blackpool"],
-        module = moduleName,instance = "Scholomance",
-    };
-};
-
-AtlasLoot_Data["Vectus"] = {
-    ["Normal"] = {
-        {
-            { 1, 13952, "", "=q3=Iceblade Hacker", "", "", "" },
-            { 2, 14525, "", "=q3=Boneclenched Gauntlets", "", "", "" },
-            { 3, 14577, "", "=q3=Skullsmoke Pants", "", "", "" },
-            { 4, 18691, "", "=q3=Dark Advisor's Pendant", "", "", "" },
-            { 5, 18693, "", "=q3=Shivery Handwraps", "", "", "" },
-            { 6, 18694, "", "=q3=Shadowy Mail Greaves", "", "", "" },
-        };
-    };
-    ["Heroic"] = {
-        {
-            { 1, 80768, "", "=q3=Iceblade Hacker", "", "", "" },
-            { 2, 80791, "", "=q3=Boneclenched Gauntlets", "", "", "" },
-            { 3, 80803, "", "=q3=Skullsmoke Pants", "", "", "" },
-            { 4, 80968, "", "=q3=Dark Advisor's Pendant", "", "", "" },
-            { 5, 80970, "", "=q3=Shivery Handwraps", "", "", "" },
-            { 6, 80971, "", "=q3=Shadowy Mail Greaves", "", "", "" },
-        };
-    };
-    ["Mythic"] = {
-        {
-            { 1, 383001, "", "=q3=Iceblade Hacker", "", "", "" },
-            { 2, 394501, "", "=q3=Boneclenched Gauntlets", "", "", "" },
-            { 3, 400501, "", "=q3=Skullsmoke Pants", "", "", "" },
-            { 4, 575501, "", "=q3=Dark Advisor's Pendant", "", "", "" },
-            { 5, 576501, "", "=q3=Shivery Handwraps", "", "", "" },
-            { 6, 577001, "", "=q3=Shadowy Mail Greaves", "", "", "" },
-        };
-    };
-    info = {
-        name = BabbleBoss["Vectus"],
-        module = moduleName,instance = "Scholomance",
+		info = {
+		   name = BabbleBoss["Marduk Blackpool"],
+			module = moduleName,instance = "Scholomance",
     };
 };
 
-AtlasLoot_Data["Ras Frostwhisper"] = {
-    ["Normal"] = {
-        {
-            { 1, 13521, "", "=q3=Recipe: Flask of Supreme Power", "", "", "" },
-            { 2, 13626, "", "=q3=Human Head of Ras Frostwhisper", "", "", "" },
-            { 3, 13314, "", "=q3=Alanna's Embrace", "", "", "" },
-            { 4, 14340, "", "=q3=Freezing Lich Robes", "", "", "" },
-            { 5, 14487, "", "=q3=Bonechill Hammer", "", "", "" },
-            { 6, 14503, "", "=q3=Death's Clutch", "", "", "" },
-            { 7, 14522, "", "=q3=Maelstrom Leggings", "", "", "" },
-            { 8, 18696, "", "=q3=Intricately Runed Shield", "", "", "" },
+	AtlasLoot_Data["Vectus"] = {
+		["Normal"] = {
+			{
+				{ 1, 13952, "", "=q3=Iceblade Hacker", "", "", "" },
+				{ 2, 14525, "", "=q3=Boneclenched Gauntlets", "", "", "" },
+				{ 3, 14577, "", "=q3=Skullsmoke Pants", "", "", "" },
+				{ 4, 18691, "", "=q3=Dark Advisor's Pendant", "", "", "" },
+				{ 5, 18693, "", "=q3=Shivery Handwraps", "", "", "" },
+				{ 6, 18694, "", "=q3=Shadowy Mail Greaves", "", "", "" },
         };
     };
-    ["Heroic"] = {
-        {
-            { 1, 80710, "", "=q3=Recipe: Flask of Supreme Power", "", "", "" },
-            { 2, 80786, "", "=q3=Alanna's Embrace", "", "", "" },
-            { 3, 80787, "", "=q3=Freezing Lich Robes", "", "", "" },
-            { 4, 80789, "", "=q3=Bonechill Hammer", "", "", "" },
-            { 5, 80790, "", "=q3=Death's Clutch", "", "", "" },
-            { 6, 80973, "", "=q3=Maelstrom Leggings", "", "", "" },
-            { 7, 80974, "", "=q3=Intricately Runed Shield", "", "", "" },
+		["Heroic"] = {
+			{
+				{ 1, 80768, "", "=q3=Iceblade Hacker", "", "", "" },
+				{ 2, 80791, "", "=q3=Boneclenched Gauntlets", "", "", "" },
+				{ 3, 80803, "", "=q3=Skullsmoke Pants", "", "", "" },
+				{ 4, 80968, "", "=q3=Dark Advisor's Pendant", "", "", "" },
+				{ 5, 80970, "", "=q3=Shivery Handwraps", "", "", "" },
+				{ 6, 80971, "", "=q3=Shadowy Mail Greaves", "", "", "" },
         };
     };
-    ["Mythic"] = {
-        {
-            { 1, 354001, "", "=q3=Alanna's Embrace", "", "", "" },
-            { 2, 392001, "", "=q3=Freezing Lich Robes", "", "", "" },
-            { 3, 392501, "", "=q3=Bonechill Hammer", "", "", "" },
-            { 4, 393501, "", "=q3=Death's Clutch", "", "", "" },
-            { 5, 394001, "", "=q3=Maelstrom Leggings", "", "", "" },
-            { 6, 578001, "", "=q3=Intricately Runed Shield", "", "", "" },
+		["Mythic"] = {
+			{
+				{ 1, 383001, "", "=q3=Iceblade Hacker", "", "", "" },
+				{ 2, 394501, "", "=q3=Boneclenched Gauntlets", "", "", "" },
+				{ 3, 400501, "", "=q3=Skullsmoke Pants", "", "", "" },
+				{ 4, 575501, "", "=q3=Dark Advisor's Pendant", "", "", "" },
+				{ 5, 576501, "", "=q3=Shivery Handwraps", "", "", "" },
+				{ 6, 577001, "", "=q3=Shadowy Mail Greaves", "", "", "" },
         };
     };
-    info = {
-        name = BabbleBoss["Ras Frostwhisper"],
-        module = moduleName,instance = "Scholomance",
+		info = {
+			name = BabbleBoss["Vectus"],
+			module = moduleName,instance = "Scholomance",
     };
 };
 
-AtlasLoot_Data["Instructor Malicia"] = {
-    ["Normal"] = {
-        {
-            { 1, 12753, "", "=q3=Skin of Shadow", "", "", "" },
-            { 2, 12843, "", "=q3=Corruptor's Scourgestone", "", "", "" },
-            { 3, 20520, "", "=q3=Dark Rune", "", "", "" },
-            { 4, 14536, "", "=q3=Bonebrace Hauberk", "", "", "" },
-            { 5, 14620, "", "=q3=Deathbone Girdle", "", "", "" },
-            { 6, 14629, "", "=q3=Necropile Cuffs", "", "", "" },
-            { 7, 14638, "", "=q3=Cadaverous Leggings", "", "", "" },
-            { 8, 18683, "", "=q3=Hammer of the Vesper", "", "", "" },
-            { 9, 18701, "", "=q3=Innervating Band", "", "", "" },
+	AtlasLoot_Data["Ras Frostwhisper"] = {
+		["Normal"] = {
+			{
+				{ 1, 13521, "", "=q3=Recipe: Flask of Supreme Power", "", "", "" },
+				{ 2, 13626, "", "=q3=Human Head of Ras Frostwhisper", "", "", "" },
+				{ 3, 13314, "", "=q3=Alanna's Embrace", "", "", "" },
+				{ 4, 14340, "", "=q3=Freezing Lich Robes", "", "", "" },
+				{ 5, 14487, "", "=q3=Bonechill Hammer", "", "", "" },
+				{ 6, 14503, "", "=q3=Death's Clutch", "", "", "" },
+				{ 7, 14522, "", "=q3=Maelstrom Leggings", "", "", "" },
+				{ 8, 18696, "", "=q3=Intricately Runed Shield", "", "", "" },
         };
     };
-    ["Heroic"] = {
-        {
-            { 1, 80794, "", "=q3=Bonebrace Hauberk", "", "", "" },
-            { 2, 80809, "", "=q3=Deathbone Girdle", "", "", "" },
-            { 3, 80815, "", "=q3=Necropile Cuffs", "", "", "" },
-            { 4, 80821, "", "=q3=Cadaverous Leggings", "", "", "" },
-            { 5, 80963, "", "=q3=Hammer of the Vesper", "", "", "" },
-            { 6, 80978, "", "=q3=Innervating Band", "", "", "" },
+		["Heroic"] = {
+			{
+				{ 1, 80710, "", "=q3=Recipe: Flask of Supreme Power", "", "", "" },
+				{ 2, 80786, "", "=q3=Alanna's Embrace", "", "", "" },
+				{ 3, 80787, "", "=q3=Freezing Lich Robes", "", "", "" },
+				{ 4, 80789, "", "=q3=Bonechill Hammer", "", "", "" },
+				{ 5, 80790, "", "=q3=Death's Clutch", "", "", "" },
+				{ 6, 80973, "", "=q3=Maelstrom Leggings", "", "", "" },
+				{ 7, 80974, "", "=q3=Intricately Runed Shield", "", "", "" },
         };
     };
-    ["Mythic"] = {
-        {
-            { 1, 396001, "", "=q3=Bonebrace Hauberk", "", "", "" },
-            { 2, 403501, "", "=q3=Deathbone Girdle", "", "", "" },
-            { 3, 406501, "", "=q3=Necropile Cuffs", "", "", "" },
-            { 4, 409501, "", "=q3=Cadaverous Leggings", "", "", "" },
-            { 5, 573001, "", "=q3=Hammer of the Vesper", "", "", "" },
-            { 6, 580501, "", "=q3=Innervating Band", "", "", "" },
+		["Mythic"] = {
+			{
+				{ 1, 354001, "", "=q3=Alanna's Embrace", "", "", "" },
+				{ 2, 392001, "", "=q3=Freezing Lich Robes", "", "", "" },
+				{ 3, 392501, "", "=q3=Bonechill Hammer", "", "", "" },
+				{ 4, 393501, "", "=q3=Death's Clutch", "", "", "" },
+				{ 5, 394001, "", "=q3=Maelstrom Leggings", "", "", "" },
+				{ 6, 578001, "", "=q3=Intricately Runed Shield", "", "", "" },
         };
     };
-    info = {
-        name = BabbleBoss["Instructor Malicia"],
-        module = moduleName,instance = "Scholomance",
+		info = {
+			name = BabbleBoss["Ras Frostwhisper"],
+			module = moduleName,instance = "Scholomance",
     };
 };
 
-AtlasLoot_Data["Doctor Theolen Krastinov"] = {
-    ["Normal"] = {
-        {
-            { 1, 12843, "", "=q3=Corruptor's Scourgestone", "", "", "" },
-            { 2, 13523, "", "=q3=Blood of Innocents", "", "", "" },
-            { 3, 14611, "", "=q3=Bloodmail Hauberk", "", "", "" },
-            { 4, 14621, "", "=q3=Deathbone Sabatons", "", "", "" },
-            { 5, 14631, "", "=q3=Necropile Boots", "", "", "" },
-            { 6, 14640, "", "=q3=Cadaverous Gloves", "", "", "" },
-            { 7, 18684, "", "=q3=Dimly Opalescent Ring", "", "", "" },
-            { 8, 18702, "", "=q3=Belt of the Ordained", "", "", "" },
+	AtlasLoot_Data["Instructor Malicia"] = {
+		["Normal"] = {
+			{
+				{ 1, 12753, "", "=q3=Skin of Shadow", "", "", "" },
+				{ 2, 12843, "", "=q3=Corruptor's Scourgestone", "", "", "" },
+				{ 3, 20520, "", "=q3=Dark Rune", "", "", "" },
+				{ 4, 14536, "", "=q3=Bonebrace Hauberk", "", "", "" },
+				{ 5, 14620, "", "=q3=Deathbone Girdle", "", "", "" },
+				{ 6, 14629, "", "=q3=Necropile Cuffs", "", "", "" },
+				{ 7, 14638, "", "=q3=Cadaverous Leggings", "", "", "" },
+				{ 8, 18683, "", "=q3=Hammer of the Vesper", "", "", "" },
+				{ 9, 18701, "", "=q3=Innervating Band", "", "", "" },
         };
     };
-    ["Heroic"] = {
-        {
-            { 1, 13523, "", "=q3=Blood of Innocents", "", "", "" },
-            { 2, 80804, "", "=q3=Bloodmail Hauberk", "", "", "" },
-            { 3, 80810, "", "=q3=Deathbone Sabatons", "", "", "" },
-            { 4, 80816, "", "=q3=Necropile Boots", "", "", "" },
-            { 5, 80822, "", "=q3=Cadaverous Gloves", "", "", "" },
-            { 6, 80964, "", "=q3=Dimly Opalescent Ring", "", "", "" },
-            { 7, 80979, "", "=q3=Belt of the Ordained", "", "", "" },
+		["Heroic"] = {
+			{
+				{ 1, 80794, "", "=q3=Bonebrace Hauberk", "", "", "" },
+				{ 2, 80809, "", "=q3=Deathbone Girdle", "", "", "" },
+				{ 3, 80815, "", "=q3=Necropile Cuffs", "", "", "" },
+				{ 4, 80821, "", "=q3=Cadaverous Leggings", "", "", "" },
+				{ 5, 80963, "", "=q3=Hammer of the Vesper", "", "", "" },
+				{ 6, 80978, "", "=q3=Innervating Band", "", "", "" },
         };
     };
-    ["Mythic"] = {
-        {
-            { 1, 401001, "", "=q3=Bloodmail Hauberk", "", "", "" },
-            { 2, 404001, "", "=q3=Deathbone Sabatons", "", "", "" },
-            { 3, 407001, "", "=q3=Necropile Boots", "", "", "" },
-            { 4, 410001, "", "=q3=Cadaverous Gloves", "", "", "" },
-            { 5, 573501, "", "=q3=Dimly Opalescent Ring", "", "", "" },
-            { 6, 581001, "", "=q3=Belt of the Ordained", "", "", "" },
+		["Mythic"] = {
+			{
+				{ 1, 396001, "", "=q3=Bonebrace Hauberk", "", "", "" },
+				{ 2, 403501, "", "=q3=Deathbone Girdle", "", "", "" },
+				{ 3, 406501, "", "=q3=Necropile Cuffs", "", "", "" },
+				{ 4, 409501, "", "=q3=Cadaverous Leggings", "", "", "" },
+				{ 5, 573001, "", "=q3=Hammer of the Vesper", "", "", "" },
+				{ 6, 580501, "", "=q3=Innervating Band", "", "", "" },
         };
     };
-    info = {
-        name = BabbleBoss["Doctor Theolen Krastinov"],
-        module = moduleName,instance = "Scholomance",
+		info = {
+			name = BabbleBoss["Instructor Malicia"],
+			module = moduleName,instance = "Scholomance",
     };
 };
 
-AtlasLoot_Data["Lorekeeper Polkelt"] = {
-    ["Normal"] = {
-        {
-            { 1, 12753, "", "=q3=Skin of Shadow", "", "", "" },
-            { 2, 12841, "", "=q3=Invader's Scourgestone", "", "", "" },
-            { 3, 20520, "", "=q3=Dark Rune", "", "", "" },
-            { 4, 13398, "", "=q3=Boots of the Shrieker", "", "", "" },
-            { 5, 14612, "", "=q3=Bloodmail Legguards", "", "", "" },
-            { 6, 14622, "", "=q3=Deathbone Gauntlets", "", "", "" },
-            { 7, 14632, "", "=q3=Necropile Leggings", "", "", "" },
-            { 8, 14641, "", "=q3=Cadaverous Walkers", "", "", "" },
-            { 9, 18697, "", "=q3=Coldstone Slippers", "", "", "" },
+	AtlasLoot_Data["Doctor Theolen Krastinov"] = {
+		["Normal"] = {
+			{
+				{ 1, 12843, "", "=q3=Corruptor's Scourgestone", "", "", "" },
+				{ 2, 13523, "", "=q3=Blood of Innocents", "", "", "" },
+				{ 3, 14611, "", "=q3=Bloodmail Hauberk", "", "", "" },
+				{ 4, 14621, "", "=q3=Deathbone Sabatons", "", "", "" },
+				{ 5, 14631, "", "=q3=Necropile Boots", "", "", "" },
+				{ 6, 14640, "", "=q3=Cadaverous Gloves", "", "", "" },
+				{ 7, 18684, "", "=q3=Dimly Opalescent Ring", "", "", "" },
+				{ 8, 18702, "", "=q3=Belt of the Ordained", "", "", "" },
         };
     };
-    ["Heroic"] = {
-        {
-            { 1, 80746, "", "=q3=Boots of the Shrieker", "", "", "" },
-            { 2, 80805, "", "=q3=Bloodmail Legguards", "", "", "" },
-            { 3, 80811, "", "=q3=Deathbone Gauntlets", "", "", "" },
-            { 4, 80817, "", "=q3=Necropile Leggings", "", "", "" },
-            { 5, 80823, "", "=q3=Cadaverous Walkers", "", "", "" },
-            { 6, 80974, "", "=q3=Coldstone Slippers", "", "", "" },
+		["Heroic"] = {
+			{
+				{ 1, 13523, "", "=q3=Blood of Innocents", "", "", "" },
+				{ 2, 80804, "", "=q3=Bloodmail Hauberk", "", "", "" },
+				{ 3, 80810, "", "=q3=Deathbone Sabatons", "", "", "" },
+				{ 4, 80816, "", "=q3=Necropile Boots", "", "", "" },
+				{ 5, 80822, "", "=q3=Cadaverous Gloves", "", "", "" },
+				{ 6, 80964, "", "=q3=Dimly Opalescent Ring", "", "", "" },
+				{ 7, 80979, "", "=q3=Belt of the Ordained", "", "", "" },
         };
     };
-    ["Mythic"] = {
-        {
-            { 1, 372001, "", "=q3=Boots of the Shrieker", "", "", "" },
-            { 2, 401501, "", "=q3=Bloodmail Legguards", "", "", "" },
-            { 3, 404501, "", "=q3=Deathbone Gauntlets", "", "", "" },
-            { 4, 407501, "", "=q3=Necropile Leggings", "", "", "" },
-            { 5, 410501, "", "=q3=Cadaverous Walkers", "", "", "" },
-            { 6, 578501, "", "=q3=Coldstone Slippers", "", "", "" },
+		["Mythic"] = {
+			{
+				{ 1, 401001, "", "=q3=Bloodmail Hauberk", "", "", "" },
+				{ 2, 404001, "", "=q3=Deathbone Sabatons", "", "", "" },
+				{ 3, 407001, "", "=q3=Necropile Boots", "", "", "" },
+				{ 4, 410001, "", "=q3=Cadaverous Gloves", "", "", "" },
+				{ 5, 573501, "", "=q3=Dimly Opalescent Ring", "", "", "" },
+				{ 6, 581001, "", "=q3=Belt of the Ordained", "", "", "" },
         };
     };
-    info = {
-        name = BabbleBoss["Lorekeeper Polkelt"],
-        module = moduleName,instance = "Scholomance",
-    };
-};
-AtlasLoot_Data["The Ravenian"] = {
-    ["Normal"] = {
-        {
-            { 1, 12753, "", "=q3=Skin of Shadow", "", "", "" },
-            { 2, 20520, "", "=q3=Dark Rune", "", "", "" },
-            { 3, 13951, "", "=q3=Vigorsteel Vambraces", "", "", "" },
-            { 4, 14614, "", "=q3=Bloodmail Belt", "", "", "" },
-            { 5, 14623, "", "=q3=Deathbone Legguards", "", "", "" },
-            { 6, 14633, "", "=q3=Necropile Mantle", "", "", "" },
-            { 7, 18680, "", "=q3=Ancient Bone Bow", "", "", "" },
-            { 8, 18698, "", "=q3=Tattered Leather Hood", "", "", "" },
-        };
-    };
-    ["Heroic"] = {
-        {
-            { 1, 80767, "", "=q3=Vigorsteel Vambraces", "", "", "" },
-            { 2, 80806, "", "=q3=Bloodmail Belt", "", "", "" },
-            { 3, 80812, "", "=q3=Deathbone Legguards", "", "", "" },
-            { 4, 80818, "", "=q3=Necropile Mantle", "", "", "" },
-            { 5, 80960, "", "=q3=Ancient Bone Bow", "", "", "" },
-            { 6, 80975, "", "=q3=Tattered Leather Hood", "", "", "" },
-        };
-    };
-    ["Mythic"] = {
-        {
-            { 1, 382501, "", "=q3=Vigorsteel Vambraces", "", "", "" },
-            { 2, 402001, "", "=q3=Bloodmail Belt", "", "", "" },
-            { 3, 405001, "", "=q3=Deathbone Legguards", "", "", "" },
-            { 4, 408001, "", "=q3=Necropile Mantle", "", "", "" },
-            { 5, 571501, "", "=q3=Ancient Bone Bow", "", "", "" },
-            { 6, 579001, "", "=q3=Tattered Leather Hood", "", "", "" },
-        };
-    };
-    info = {
-        name = BabbleBoss["The Ravenian"],
-        module = moduleName,instance = "Scholomance",
+		info = {
+			name = BabbleBoss["Doctor Theolen Krastinov"],
+			module = moduleName,instance = "Scholomance",
     };
 };
 
-AtlasLoot_Data["Lord Alexei Barov"] = {
-    ["Normal"] = {
-        {
-            { 1, 12843, "", "=q3=Corruptor's Scourgestone", "", "", "" },
-            { 2, 14615, "", "=q3=Bloodmail Gauntlets", "", "", "" },
-            { 3, 14624, "", "=q3=Deathbone Chestplate", "", "", "" },
-            { 4, 14636, "", "=q3=Cadaverous Belt", "", "", "" },
-            { 5, 18681, "", "=q3=Burial Shawl", "", "", "" },
-            { 6, 18695, "", "=q3=Spellbound Tome", "", "", "" },
-            { 7, 18699, "", "=q3=Icy Tomb Spaulders", "", "", "" },
+	AtlasLoot_Data["Lorekeeper Polkelt"] = {
+		["Normal"] = {
+			{
+				{ 1, 12753, "", "=q3=Skin of Shadow", "", "", "" },
+				{ 2, 12841, "", "=q3=Invader's Scourgestone", "", "", "" },
+				{ 3, 20520, "", "=q3=Dark Rune", "", "", "" },
+				{ 4, 13398, "", "=q3=Boots of the Shrieker", "", "", "" },
+				{ 5, 14612, "", "=q3=Bloodmail Legguards", "", "", "" },
+				{ 6, 14622, "", "=q3=Deathbone Gauntlets", "", "", "" },
+				{ 7, 14632, "", "=q3=Necropile Leggings", "", "", "" },
+				{ 8, 14641, "", "=q3=Cadaverous Walkers", "", "", "" },
+				{ 9, 18697, "", "=q3=Coldstone Slippers", "", "", "" },
         };
     };
-    ["Heroic"] = {
-        {
-            { 1, 80807, "", "=q3=Bloodmail Gauntlets", "", "", "" },
-            { 2, 80813, "", "=q3=Deathbone Chestplate", "", "", "" },
-            { 3, 80819, "", "=q3=Cadaverous Belt", "", "", "" },
-            { 4, 80961, "", "=q3=Burial Shawl", "", "", "" },
-            { 5, 80972, "", "=q3=Spellbound Tome", "", "", "" },
-            { 6, 80976, "", "=q3=Icy Tomb Spaulders", "", "", "" },
+		["Heroic"] = {
+			{
+				{ 1, 80746, "", "=q3=Boots of the Shrieker", "", "", "" },
+				{ 2, 80805, "", "=q3=Bloodmail Legguards", "", "", "" },
+				{ 3, 80811, "", "=q3=Deathbone Gauntlets", "", "", "" },
+				{ 4, 80817, "", "=q3=Necropile Leggings", "", "", "" },
+				{ 5, 80823, "", "=q3=Cadaverous Walkers", "", "", "" },
+				{ 6, 80974, "", "=q3=Coldstone Slippers", "", "", "" },
         };
     };
-    ["Mythic"] = {
-        {
-            { 1, 402501, "", "=q3=Bloodmail Gauntlets", "", "", "" },
-            { 2, 405501, "", "=q3=Deathbone Chestplate", "", "", "" },
-            { 3, 408501, "", "=q3=Cadaverous Belt", "", "", "" },
-            { 4, 572001, "", "=q3=Burial Shawl", "", "", "" },
-            { 5, 577501, "", "=q3=Spellbound Tome", "", "", "" },
-            { 6, 579501, "", "=q3=Icy Tomb Spaulders", "", "", "" },
+		["Mythic"] = {
+			{
+				{ 1, 372001, "", "=q3=Boots of the Shrieker", "", "", "" },
+				{ 2, 401501, "", "=q3=Bloodmail Legguards", "", "", "" },
+				{ 3, 404501, "", "=q3=Deathbone Gauntlets", "", "", "" },
+				{ 4, 407501, "", "=q3=Necropile Leggings", "", "", "" },
+				{ 5, 410501, "", "=q3=Cadaverous Walkers", "", "", "" },
+				{ 6, 578501, "", "=q3=Coldstone Slippers", "", "", "" },
         };
     };
-    info = {
-        name = BabbleBoss["Lord Alexei Barov"],
-        module = moduleName,instance = "Scholomance",
+		info = {
+			name = BabbleBoss["Lorekeeper Polkelt"],
+			module = moduleName,instance = "Scholomance",
     };
 };
-AtlasLoot_Data["Lady Illucia Barov"] = {
-    ["Normal"] = {
-        {
-            { 1, 12753, "", "=q3=Skin of Shadow", "", "", "" },
-            { 2, 20520, "", "=q3=Dark Rune", "", "", "" },
-            { 3, 13938, "", "=q3=Bonecreeper Stylus", "", "", "" },
-            { 4, 14616, "", "=q3=Bloodmail Boots", "", "", "" },
-            { 5, 14626, "", "=q3=Necropile Robe", "", "", "" },
-            { 6, 14637, "", "=q3=Cadaverous Armor", "", "", "" },
-            { 7, 18682, "", "=q3=Ghoul Skin Leggings", "", "", "" },
-            { 8, 18700, "", "=q3=Malefic Bracers", "", "", "" },
+	AtlasLoot_Data["The Ravenian"] = {
+		["Normal"] = {
+			{
+				{ 1, 12753, "", "=q3=Skin of Shadow", "", "", "" },
+				{ 2, 20520, "", "=q3=Dark Rune", "", "", "" },
+				{ 3, 13951, "", "=q3=Vigorsteel Vambraces", "", "", "" },
+				{ 4, 14614, "", "=q3=Bloodmail Belt", "", "", "" },
+				{ 5, 14623, "", "=q3=Deathbone Legguards", "", "", "" },
+				{ 6, 14633, "", "=q3=Necropile Mantle", "", "", "" },
+				{ 7, 18680, "", "=q3=Ancient Bone Bow", "", "", "" },
+				{ 8, 18698, "", "=q3=Tattered Leather Hood", "", "", "" },
         };
     };
-    ["Heroic"] = {
-        {
-            { 1, 80764, "", "=q3=Bonecreeper Stylus", "", "", "" },
-            { 2, 80808, "", "=q3=Bloodmail Boots", "", "", "" },
-            { 3, 80814, "", "=q3=Necropile Robe", "", "", "" },
-            { 4, 80820, "", "=q3=Cadaverous Armor", "", "", "" },
-            { 5, 80962, "", "=q3=Ghoul Skin Leggings", "", "", "" },
-            { 6, 80977, "", "=q3=Malefic Bracers", "", "", "" },
+		["Heroic"] = {
+			{
+				{ 1, 80767, "", "=q3=Vigorsteel Vambraces", "", "", "" },
+				{ 2, 80806, "", "=q3=Bloodmail Belt", "", "", "" },
+				{ 3, 80812, "", "=q3=Deathbone Legguards", "", "", "" },
+				{ 4, 80818, "", "=q3=Necropile Mantle", "", "", "" },
+				{ 5, 80960, "", "=q3=Ancient Bone Bow", "", "", "" },
+				{ 6, 80975, "", "=q3=Tattered Leather Hood", "", "", "" },
         };
     };
-    ["Mythic"] = {
-        {
-            { 1, 381001, "", "=q3=Bonecreeper Stylus", "", "", "" },
-            { 2, 403001, "", "=q3=Bloodmail Boots", "", "", "" },
-            { 3, 406001, "", "=q3=Necropile Robe", "", "", "" },
-            { 4, 409001, "", "=q3=Cadaverous Armor", "", "", "" },
-            { 5, 572501, "", "=q3=Ghoul Skin Leggings", "", "", "" },
-            { 6, 580001, "", "=q3=Malefic Bracers", "", "", "" },
+		["Mythic"] = {
+			{
+				{ 1, 382501, "", "=q3=Vigorsteel Vambraces", "", "", "" },
+				{ 2, 402001, "", "=q3=Bloodmail Belt", "", "", "" },
+				{ 3, 405001, "", "=q3=Deathbone Legguards", "", "", "" },
+				{ 4, 408001, "", "=q3=Necropile Mantle", "", "", "" },
+				{ 5, 571501, "", "=q3=Ancient Bone Bow", "", "", "" },
+				{ 6, 579001, "", "=q3=Tattered Leather Hood", "", "", "" },
         };
     };
-    info = {
-        name = BabbleBoss["Lady Illucia Barov"],
-        module = moduleName,instance = "Scholomance",
+		info = {
+			name = BabbleBoss["The Ravenian"],
+			module = moduleName,instance = "Scholomance",
     };
 };
-AtlasLoot_Data["Darkmaster Gandling"] = {
-    ["Normal"] = {
-        {
-            { 1, 14514, "", "=q3=Pattern: Robe of the Void", "", "", "" },
-            { 2, 13937, "", "=q3=Headmaster's Charge", "", "", "" },
-            { 3, 13944, "", "=q3=Tombstone Breastplate", "", "", "" },
-            { 4, 13950, "", "=q3=Detention Strap", "", "", "" },
-            { 5, 13953, "", "=q3=Silent Fang", "", "", "" },
-            { 6, 13964, "", "=q3=Witchblade", "", "", "" },
-            { 7, 22433, "", "=q3=Don Mauricio's Band of Domination", "", "", "" },
-        };
-    };
 
-    ["Heroic"] = {
-        {
-            { 1, 14514, "", "=q3=Pattern: Robe of the Void", "", "", "" },
-            { 2, 80763, "", "=q3=Headmaster's Charge", "", "", "" },
-            { 3, 80765, "", "=q3=Tombstone Breastplate", "", "", "" },
-            { 4, 80766, "", "=q3=Detention Strap", "", "", "" },
-            { 5, 80769, "", "=q3=Silent Fang", "", "", "" },
-            { 6, 80775, "", "=q3=Witchblade", "", "", "" },
-            { 7, 81047, "", "=q3=Don Mauricio's Band of Domination", "", "", "" },
+	AtlasLoot_Data["Lord Alexei Barov"] = {
+		["Normal"] = {
+			{
+				{ 1, 12843, "", "=q3=Corruptor's Scourgestone", "", "", "" },
+				{ 2, 14615, "", "=q3=Bloodmail Gauntlets", "", "", "" },
+				{ 3, 14624, "", "=q3=Deathbone Chestplate", "", "", "" },
+				{ 4, 14636, "", "=q3=Cadaverous Belt", "", "", "" },
+				{ 5, 18681, "", "=q3=Burial Shawl", "", "", "" },
+				{ 6, 18695, "", "=q3=Spellbound Tome", "", "", "" },
+				{ 7, 18699, "", "=q3=Icy Tomb Spaulders", "", "", "" },
         };
     };
-    ["Mythic"] = {
-        {
-            { 1, 14514, "", "=q3=Pattern: Robe of the Void", "", "", "" },
-            { 2, 380501, "", "=q3=Headmaster's Charge", "", "", "" },
-            { 3, 381501, "", "=q3=Tombstone Breastplate", "", "", "" },
-            { 4, 382001, "", "=q3=Detention Strap", "", "", "" },
-            { 5, 383501, "", "=q3=Silent Fang", "", "", "" },
-            { 6, 386501, "", "=q3=Witchblade", "", "", "" },
-            { 7, 662501, "", "=q3=Don Mauricio's Band of Domination", "", "", "" },
+		["Heroic"] = {
+			{
+				{ 1, 80807, "", "=q3=Bloodmail Gauntlets", "", "", "" },
+				{ 2, 80813, "", "=q3=Deathbone Chestplate", "", "", "" },
+				{ 3, 80819, "", "=q3=Cadaverous Belt", "", "", "" },
+				{ 4, 80961, "", "=q3=Burial Shawl", "", "", "" },
+				{ 5, 80972, "", "=q3=Spellbound Tome", "", "", "" },
+				{ 6, 80976, "", "=q3=Icy Tomb Spaulders", "", "", "" },
         };
     };
-    info = {
-        name = BabbleBoss["Darkmaster Gandling"],
-        module = moduleName,instance = "Scholomance",
+		["Mythic"] = {
+			{
+				{ 1, 402501, "", "=q3=Bloodmail Gauntlets", "", "", "" },
+				{ 2, 405501, "", "=q3=Deathbone Chestplate", "", "", "" },
+				{ 3, 408501, "", "=q3=Cadaverous Belt", "", "", "" },
+				{ 4, 572001, "", "=q3=Burial Shawl", "", "", "" },
+				{ 5, 577501, "", "=q3=Spellbound Tome", "", "", "" },
+				{ 6, 579501, "", "=q3=Icy Tomb Spaulders", "", "", "" },
+        };
     };
-};
+		info = {
+			name = BabbleBoss["Lord Alexei Barov"],
+			module = moduleName,instance = "Scholomance",
+		};
+	};
+	AtlasLoot_Data["Lady Illucia Barov"] = {
+		["Normal"] = {
+			{
+				{ 1, 12753, "", "=q3=Skin of Shadow", "", "", "" },
+				{ 2, 20520, "", "=q3=Dark Rune", "", "", "" },
+				{ 3, 13938, "", "=q3=Bonecreeper Stylus", "", "", "" },
+				{ 4, 14616, "", "=q3=Bloodmail Boots", "", "", "" },
+				{ 5, 14626, "", "=q3=Necropile Robe", "", "", "" },
+				{ 6, 14637, "", "=q3=Cadaverous Armor", "", "", "" },
+				{ 7, 18682, "", "=q3=Ghoul Skin Leggings", "", "", "" },
+				{ 8, 18700, "", "=q3=Malefic Bracers", "", "", "" },
+        };
+    };
+		["Heroic"] = {
+			{
+				{ 1, 80764, "", "=q3=Bonecreeper Stylus", "", "", "" },
+				{ 2, 80808, "", "=q3=Bloodmail Boots", "", "", "" },
+				{ 3, 80814, "", "=q3=Necropile Robe", "", "", "" },
+				{ 4, 80820, "", "=q3=Cadaverous Armor", "", "", "" },
+				{ 5, 80962, "", "=q3=Ghoul Skin Leggings", "", "", "" },
+				{ 6, 80977, "", "=q3=Malefic Bracers", "", "", "" },
+        };
+    };
+		["Mythic"] = {
+			{
+				{ 1, 381001, "", "=q3=Bonecreeper Stylus", "", "", "" },
+				{ 2, 403001, "", "=q3=Bloodmail Boots", "", "", "" },
+				{ 3, 406001, "", "=q3=Necropile Robe", "", "", "" },
+				{ 4, 409001, "", "=q3=Cadaverous Armor", "", "", "" },
+				{ 5, 572501, "", "=q3=Ghoul Skin Leggings", "", "", "" },
+				{ 6, 580001, "", "=q3=Malefic Bracers", "", "", "" },
+		};
+	};
+		info = {
+			name = BabbleBoss["Lady Illucia Barov"],
+			module = moduleName,instance = "Scholomance",
+		};
+	};
+	AtlasLoot_Data["Darkmaster Gandling"] = {
+		["Normal"] = {
+			{
+				{ 1, 14514, "", "=q3=Pattern: Robe of the Void", "", "", "" },
+				{ 2, 13937, "", "=q3=Headmaster's Charge", "", "", "" },
+				{ 3, 13944, "", "=q3=Tombstone Breastplate", "", "", "" },
+				{ 4, 13950, "", "=q3=Detention Strap", "", "", "" },
+				{ 5, 13953, "", "=q3=Silent Fang", "", "", "" },
+				{ 6, 13964, "", "=q3=Witchblade", "", "", "" },
+				{ 7, 22433, "", "=q3=Don Mauricio's Band of Domination", "", "", "" },
+			};
+		};
+
+		["Heroic"] = {
+			{
+				{ 1, 14514, "", "=q3=Pattern: Robe of the Void", "", "", "" },
+				{ 2, 80763, "", "=q3=Headmaster's Charge", "", "", "" },
+				{ 3, 80765, "", "=q3=Tombstone Breastplate", "", "", "" },
+				{ 4, 80766, "", "=q3=Detention Strap", "", "", "" },
+				{ 5, 80769, "", "=q3=Silent Fang", "", "", "" },
+				{ 6, 80775, "", "=q3=Witchblade", "", "", "" },
+				{ 7, 81047, "", "=q3=Don Mauricio's Band of Domination", "", "", "" },
+			};
+		};
+		["Mythic"] = {
+			{
+				{ 1, 14514, "", "=q3=Pattern: Robe of the Void", "", "", "" },
+				{ 2, 380501, "", "=q3=Headmaster's Charge", "", "", "" },
+				{ 3, 381501, "", "=q3=Tombstone Breastplate", "", "", "" },
+				{ 4, 382001, "", "=q3=Detention Strap", "", "", "" },
+				{ 5, 383501, "", "=q3=Silent Fang", "", "", "" },
+				{ 6, 386501, "", "=q3=Witchblade", "", "", "" },
+				{ 7, 662501, "", "=q3=Don Mauricio's Band of Domination", "", "", "" },
+        };
+    };
+		info = {
+			name = BabbleBoss["Darkmaster Gandling"],
+			module = moduleName,instance = "Scholomance",
+		};
+    };
 
 		-----------------------
 		--- Shadowfang Keep ---
@@ -6039,96 +7492,6 @@ AtlasLoot_Data["Darkmaster Gandling"] = {
 			module = moduleName, menu = "SETSMISCMENU",
 		};
 	}
-
-		-----------------------
-		--- BoE World Epics ---
-		-----------------------
-
-	AtlasLoot_Data["WorldEpics3039"] = {
-		["Normal"] = {
-			{
-				{ 1, 867, "", "=q4=Gloves of Holy Might", "=ds=#s9#, #a2#", "", ""};
-				{ 2, 1981, "", "=q4=Icemail Jerkin", "=ds=#s5#, #a3#", "", ""};
-				{ 3, 1980, "", "=q4=Underworld Band", "=ds=#s13#", "", ""};
-				{ 16, 869, "", "=q4=Dazzling Longsword", "=ds=#h1#, #w10#", "", ""};
-				{ 17, 1982, "", "=q4=Nightblade", "=ds=#h2#, #w10#", "", ""};
-				{ 18, 870, "", "=q4=Fiery War Axe", "=ds=#h2#, #w1#", "", ""};
-				{ 19, 868, "", "=q4=Ardent Custodian", "=ds=#h1#, #w6#", "", ""};
-				{ 20, 873, "", "=q4=Staff of Jordan", "=ds=#w9#", "", ""};
-				{ 21, 1204, "", "=q4=The Green Tower", "=ds=#w8#", "", ""};
-				{ 22, 2825, "", "=q4=Bow of Searing Arrows", "=ds=#w2#", "", ""};
-			};
-		};
-		info = {
-			name = AL["BoE World Epics"].." "..AL["Level 30-39"],
-			module = moduleName, menu = "WORLDEPICS", instance = "WorldEpics",
-		};
-	}
-
-	AtlasLoot_Data["WorldEpics4049"] = {
-		["Normal"] = {
-			{
-				{ 1, 3075, "", "=q4=Eye of Flame", "=ds=#s1#, #a1#", "", ""};
-				{ 2, 940, "", "=q4=Robes of Insight", "=ds=#s5#, #a1#", "", ""};
-				{ 3, 14551, "", "=q4=Edgemaster's Handguards", "=ds=#s9#, #a3#", "", ""};
-				{ 4, 17007, "", "=q4=Stonerender Gauntlets", "=ds=#s9#, #a3#", "", ""};
-				{ 5, 14549, "", "=q4=Boots of Avoidance", "=ds=#s12#, #a4#", "", ""};
-				{ 6, 1315, "", "=q4=Lei of Lilies", "=ds=#s2#", "", ""};
-				{ 7, 942, "", "=q4=Freezing Band", "=ds=#s13#", "", ""};
-				{ 8, 1447, "", "=q4=Ring of Saviors", "=ds=#s13#", "", ""};
-				{ 16, 2164, "", "=q4=Gut Ripper", "=ds=#h1#, #w4#", "", ""};
-				{ 17, 2163, "", "=q4=Shadowblade", "=ds=#h1#, #w4#", "", ""};
-				{ 18, 809, "", "=q4=Bloodrazor", "=ds=#h1#, #w10#", "", ""};
-				{ 19, 871, "", "=q4=Flurry Axe", "=ds=#h1#, #w1#", "", ""};
-				{ 20, 2291, "", "=q4=Kang the Decapitator", "=ds=#h2#, #w1#", "", ""};
-				{ 21, 810, "", "=q4=Hammer of the Northern Wind", "=ds=#h1#, #w6#", "", ""};
-				{ 22, 2915, "", "=q4=Taran Icebreaker", "=ds=#h2#, #w6#", "", ""};
-				{ 23, 812, "", "=q4=Glowing Brightwood Staff", "=ds=#w9#", "", ""};
-				{ 24, 943, "", "=q4=Warden Staff", "=ds=#w9#", "", ""};
-				{ 25, 1169, "", "=q4=Blackskull Shield", "=ds=#w8#", "", ""};
-				{ 26, 1979, "", "=q4=Wall of the Dead", "=ds=#w8#", "", ""};
-				{ 27, 2824, "", "=q4=Hurricane", "=ds=#w2#", "", ""};
-				{ 28, 2100, "", "=q4=Precisely Calibrated Boomstick", "=ds=#w5#", "", ""};
-			};
-		};
-		info = {
-			name = AL["BoE World Epics"].." "..AL["Level 40-49"],
-			module = moduleName, menu = "WORLDEPICS", instance = "WorldEpics",
-		};
-	}
-
-	AtlasLoot_Data["WorldEpics5060"] = {
-		["Normal"] = {
-			{
-				{ 1, 3475, "", "=q4=Cloak of Flames", "=ds=#s4#", "", ""};
-				{ 2, 14553, "", "=q4=Sash of Mercy", "=ds=#s10#, #a2#", "", ""};
-				{ 3, 2245, "", "=q4=Helm of Narv", "=ds=#s1#, #a3#", "", ""};
-				{ 4, 14552, "", "=q4=Stockade Pauldrons", "=ds=#s3#, #a4#", "", ""};
-				{ 5, 14554, "", "=q4=Cloudkeeper Legplates", "=ds=#s11#, #a4#", "", ""};
-				{ 6, 1443, "", "=q4=Jeweled Amulet of Cainwyn", "=ds=#s2#", "", ""};
-				{ 7, 14558, "", "=q4=Lady Maye's Pendant", "=ds=#s2#", "", ""};
-				{ 8, 2246, "", "=q4=Myrmidon's Signet", "=ds=#s13#", "", ""};
-				{ 9, 833, "", "=q4=Lifestone", "=ds=#s14#", "", ""};
-				{ 10, 14557, "", "=q4=The Lion Horn of Stormwind", "=ds=#s14#", "", ""};
-				{ 16, 14555, "", "=q4=Alcor's Sunrazor", "=ds=#h1#, #w4#", "", ""};
-				{ 17, 2244, "", "=q4=Krol Blade", "=ds=#h1#, #w10#", "", ""};
-				{ 18, 1728, "", "=q4=Teebu's Blazing Longsword", "=ds=#h1#, #w10#", "", ""};
-				{ 19, 2801, "", "=q4=Blade of Hanna", "=ds=#h2#, #w10#", "", ""};
-				{ 20, 647, "", "=q4=Destiny", "=ds=#h2#, #w10#", "", ""};
-				{ 21, 811, "", "=q4=Axe of the Deep Woods", "=ds=#h1#, #w1#", "", ""};
-				{ 22, 1263, "", "=q4=Brain Hacker", "=ds=#h2#, #w1#", "", ""};
-				{ 23, 2243, "", "=q4=Hand of Edward the Odd", "=ds=#h1#, #w6#", "", ""};
-				{ 24, 944, "", "=q4=Elemental Mage Staff", "=ds=#w9#", "", ""};
-				{ 25, 1168, "", "=q4=Skullflame Shield", "=ds=#w8#", "", ""};
-				{ 26, 2099, "", "=q4=Dwarven Hand Cannon", "=ds=#w5#", "", ""};
-			};
-		};
-		info = {
-			name = AL["BoE World Epics"].." "..AL["Level 50-60"],
-			module = moduleName, menu = "WORLDEPICS", instance = "WorldEpics",
-		};
-	}
-
 	-----------
 	--- PvP ---
 	-----------

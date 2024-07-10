@@ -731,7 +731,7 @@ AtlasLoot_LootTableRegister = {
 
 		["BlackfathomDeeps"] = {
 			["Bosses"] = {
-				{ "Ghamoo-ra", 1 },
+				{ "Lord Roccor", 1 },
 				{ "Lady Sarevess", 2 },
 				{ "Gelihast", 3 },
 				{ "Twilight Lord Kelris", 4 },
@@ -743,16 +743,35 @@ AtlasLoot_LootTableRegister = {
 		},
 
 		["BlackrockDepths"] = {
-			["Bosses"] = {
+			 ["Bosses"] = {
+				 { "Lord Roccor", 1 },
+				 { "Bael'Gar", 2 },
+				 { "Houndmaster Grebmar", 3 },
+				 { "Panzor the Invincible", 4 },
+				 { "High Interrogator Gerstahn", 5 },
+				 { "Gorosh the Dervish", 6 },
+				 { "Grizzle", 7 },
+				 { "Eviscerator", 8 },
+				 { "Ok'thor the Breaker", 9 },
+				 { "Anub'shiah", 10 },
+				 { "Hedrum the Creeper", 11 },
+				 { "Pyromancer Loregrain", 12 },
+				 { "General Angerforge", 13 },
+				 { "Golem Lord Argelmach", 14 },
+				 { "Ribbly Screwspigot", 15 },
+				 { "Hurley Blackbreath", 16 },
+				 { "Plugger Spazzring", 17 },
+				 { "Phalanx", 18 },
+				 { "Lord Incendius", 19 },
+				 { "Fineous Darkvire", 20 },
+				 { "Warder Stilgiss", 21 },
+				 { "Verek", 22 },
+				 { "Ambassador Flamelash", 23 },
+				 { "Magmus", 24 },
+				 { "Princess Moira Bronzebeard", 25 },
+				 { "Emperor Dagran Thaurissan", 26 },
 			},
 			["Info"] = { BabbleZone["Blackrock Depths"], "AtlasLootClassicWoW", mapname = "BlackrockDepths" },
-		},
-
-		["BlackrockMountainEnt"] = {
-			["Bosses"] = {
-				{ "BlackrockMountainEntLoot", {12,13,14}, hide = true },
-			},
-			["Info"] = { BabbleZone["Blackrock Mountain"], "AtlasLootClassicWoW" },
 		},
 
 		["BlackrockSpireLower"] = {
@@ -808,64 +827,40 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { BabbleZone["Blackwing Lair"], "AtlasLootClassicWoW", mapname = "BlackwingLair", raid = true },
 		},
 
-		["DireMaulEnt"] = {
-			["Bosses"] = {
-				{ "LunarFestival", 7, hide = true },
-			},
-			["Info"] = { BabbleZone["Dire Maul"], "AtlasLootWorldEvents" },
-		},
 
-		["DireMaulNorth"] = {
-			["Bosses"] = {
-				{ "DMNGuardMoldar", 4 },
-				{ "DMNStomperKreeg", 5 },
-				{ "DMNGuardFengus", 6 },
-				{ "DMNGuardSlipkik", 7 },
-				{ "DMNThimblejack", 8 },
-				{ "DMNCaptainKromcrush", 9 },
-				{ "DMNKingGordok", 10 },
-				{ "DMNChoRush", 11 }, 
-				{ "DMNTRIBUTERUN", 13 },
-				{ "DMBooks", 14 },
+		["DireMaul"] = {
+			 ["Bosses"] = {
+				 { "Lethtendris", 1 },
+				 { "Hydrospawn", 2 },
+				 { "Zevrim Thornhoof", 3 },
+				 { "Alzzin the Wildshaper", 4 },
+				 { "Guard Mol'dar", 5 },
+				 { "Stomper Kreeg", 6 },
+				 { "Guard Fengus", 7 },
+				 { "Guard Slip'kik", 8 },
+				 { "Captain Kromcrush", 9 },
+				 { "King Gordok", 10 },
+				 { "Cho'Rush the Observer", 11 },
+				 { "Magister Kalendris", 13 },
+				 { "Tsu'zee", 14 },
+				 { "Illyanna Ravenoak", 15 },
+				 { "Immol'thar", 16 },
+				 { "Prince Tortheldrin", 17 }
 			},
-			["Info"] = { BabbleZone["Dire Maul (North)"], "AtlasLootClassicWoW", mapname = "DireMaul" },
-		},
-
-		["DireMaulEast"] = {
-			["Bosses"] = {
-				{ "DMELethtendrisPimgib", {8,9} },
-				{ "DMEHydro", 10 },
-				{ "DMEZevrimThornhoof", 11 },
-				{ "DMEAlzzin", 12 },
-				{ "DMEPusillin", {13,14} },
-				{ "DMETrash", 17 },
-				{ "DMBooks", 18 },
-			},
-			["Info"] = { BabbleZone["Dire Maul (East)"], "AtlasLootClassicWoW", mapname = "DireMaul" },
-		},
-
-		["DireMaulWest"] = {
-			["Bosses"] = {
-				{ "OldKeys", 1, hide = true },
-				{ "DMWTendrisWarpwood", 4 },
-				{ "DMWMagisterKalendris", 5 },
-				{ "DMWIllyannaRavenoak", 6 },
-				{ "DMWImmolthar", 8 },
-				{ "DMWHelnurath", 9 },
-				{ "DMWPrinceTortheldrin", 10 },
-				{ "DMWTsuzee", 11 },
-				{ "DMWTrash", 23, hide = true },
-				{ "DMWTrash", 25 },
-				{ "DMBooks", 26 },
-			},
-			["Info"] = { BabbleZone["Dire Maul (West)"], "AtlasLootClassicWoW", mapname = "DireMaul" },
+			["Info"] = { BabbleZone["Dire Maul"], "AtlasLootClassicWoW", mapname = "DireMaul" },
 		},
 
 		["Maraudon"] = {
 			["Bosses"] = {
-				{ "MaraudonLoot#1", {4,5,6,7,12} },
-				{ "MaraudonLoot#2", {8,9,10,11}, hide = true }, 
-				{ "LunarFestival", 13, hide = true },
+				{ "Noxxion", 1 },
+				{ "Razorlash", 2 },
+			    { "Lord Vyletongue", 3 },
+				{ "Meshlok the Harvester", 4 },
+			    { "Celebras the Cursed", 5 },
+				{ "Landslide", 6 },
+				{ "Tinkerer Gizlock", 7 },
+			    { "Rotgrip", 8 },
+			    { "Princess Theradras", 9 }
 			},
 			["Info"] = { BabbleZone["Maraudon"], "AtlasLootClassicWoW", mapname = "Maraudon" },
 		},
@@ -1016,8 +1011,12 @@ AtlasLoot_LootTableRegister = {
 
 		["Gnomeregan"] = {
 			["Bosses"] = {
-				{ "GnomereganLoot#1", {4,7,8,9} },
-				{ "GnomereganLoot#2", {10}, hide = true },
+				 { "Grubbis", 1 },
+				 { "Viscous Fallout", 2 },
+				 { "Electrocutioner 6000", 3 },
+				 { "Crowd Pummeler 9-60", 4 },
+				 { "Dark Iron Ambassador", 5 },
+				 { "Mekgineer Thermaplugg", 6 }
 			},
 			["Info"] = { BabbleZone["Gnomeregan"], "AtlasLootClassicWoW", mapname = "Gnomeregan" },
 		},
