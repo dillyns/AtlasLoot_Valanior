@@ -103,13 +103,31 @@ end
 local function Init_ButtonList()
 	if AtlasLoot.PanelButtonList then return end
 	AtlasLoot.PanelButtonList = {
-
+		Collections = {
+			text = AL["Collections"],
+			lootPage = "SETMENU",
+			order = 20,
+		},
+		Factions = {
+			text = AL["Factions"],
+			lootPage = "REPMENU",
+			order = 30,
+		},
+		PvPRewards = {
+			text = AL["PvP Rewards"],
+			lootPage = "PVPMENU",
+			order = 40,
+		},
+		Crafting = {
+			text = AL["Crafting"],
+			lootPage = "CRAFTINGMENU",
+			order = 50,
+		},
 		Options = {
 			text = AL["Options"],
 			func = AtlasLoot.OptionsToggle,
 			order = 70,
 		},
-
 	}
 end
 

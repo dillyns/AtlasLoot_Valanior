@@ -731,7 +731,7 @@ AtlasLoot_LootTableRegister = {
 
 		["BlackfathomDeeps"] = {
 			["Bosses"] = {
-				{ "Lord Roccor", 1 },
+				{ "Ghamoo-ra", 1 },
 				{ "Lady Sarevess", 2 },
 				{ "Gelihast", 3 },
 				{ "Twilight Lord Kelris", 4 },
