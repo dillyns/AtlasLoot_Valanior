@@ -15,10 +15,10 @@ local openName = nil
 
 AtlasLoot.Modules = {
 	{"AtlasLootClassicWoW", "AtlasLoot_ClassicWoW", false, "", AL["Classic WoW"] },
-	{"AtlasLootBurningCrusade", "AtlasLoot_BurningCrusade", false, "", AL["Burning Crusade"] },
-	{"AtlasLootWotLK", "AtlasLoot_WrathoftheLichKing", false, "", AL["Wrath of the Lich King"] },
-	{"AtlasLootCrafting", "AtlasLoot_Crafting", false, ""},
-	{"AtlasLootWorldEvents", "AtlasLoot_WorldEvents", false, ""},
+	--{"AtlasLootBurningCrusade", "AtlasLoot_BurningCrusade", false, "", AL["Burning Crusade"] },
+	--{"AtlasLootWotLK", "AtlasLoot_WrathoftheLichKing", false, "", AL["Wrath of the Lich King"] },
+	--{"AtlasLootCrafting", "AtlasLoot_Crafting", false, ""},
+	--{"AtlasLootWorldEvents", "AtlasLoot_WorldEvents", false, ""},
 }
 
 -- Shows the DropDown

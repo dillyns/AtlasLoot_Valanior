@@ -731,7 +731,7 @@ AtlasLoot_LootTableRegister = {
 
 		["BlackfathomDeeps"] = {
 			["Bosses"] = {
-				{ "Lord Roccor", 1 },
+				{ "Ghamoo-ra", 1 },
 				{ "Lady Sarevess", 2 },
 				{ "Gelihast", 3 },
 				{ "Twilight Lord Kelris", 4 },
@@ -874,6 +874,13 @@ AtlasLoot_LootTableRegister = {
 			    { "Princess Theradras", 9 }
 			},
 			["Info"] = { BabbleZone["Maraudon"], "AtlasLootClassicWoW", mapname = "Maraudon" },
+		},
+
+		["Onyxia's Lair"] = {
+			["Bosses"] = {
+				{ "Onyxia", 1 },
+			},
+			["Info"] = { BabbleZone["Onyxia's Lair"], "AtlasLootClassicWoW", mapname = "OnyxiasLair", raid = true },
 		},
 
 		["Uldaman"] = {
@@ -1044,37 +1051,37 @@ AtlasLoot_LootTableRegister = {
 
 		["ScarletMonasteryArmory"] = {
 			["Bosses"] = {
-				 { "Herod", 1 },
-			},
-			["Info"] = { BabbleZone["Scarlet Monastery"]..": "..BabbleZone["Armory"], "AtlasLootClassicWoW", mapname = "ScarletMonastery" },
+				{ "Herod", 1 },
+		    },
+		    ["Info"] = { BabbleZone["Scarlet Monastery (Armory)"], "AtlasLootClassicWoW", mapname = "ScarletMonastery" },
 		},
 
 		["ScarletMonasteryCathedral"] = {
 			["Bosses"] = {
-			    { "High Inquisitor Whitemane", 1 },
-			    { "High Inquisitor Fairbanks", 2 },
-			    { "Scarlet Commander Mograine", 3 }
+				{ "High Inquisitor Whitemane", 1 },
+				{ "High Inquisitor Fairbanks", 2 },
+				{ "Scarlet Commander Mograine", 3 },
 			},
-			["Info"] = { BabbleZone["Scarlet Monastery"]..": "..BabbleZone["Cathedral"], "AtlasLootClassicWoW", mapname = "ScarletMonastery" },
+			["Info"] = { BabbleZone["Scarlet Monastery (Cathedral)"], "AtlasLootClassicWoW", mapname = "ScarletMonastery" },
 		},
 
 		["ScarletMonasteryLibrary"] = {
-			  ["Bosses"] = {
+			["Bosses"] = {
 				{ "Houndmaster Loksey", 1 },
-			    { "Arcanist Doan", 2 }
+				{ "Arcanist Doan", 2 }
 			},
-			["Info"] = { BabbleZone["Scarlet Monastery"]..": "..BabbleZone["Library"], "AtlasLootClassicWoW", mapname = "ScarletMonastery" },
+			["Info"] = { BabbleZone["Scarlet Monastery (Library)"], "AtlasLootClassicWoW", mapname = "ScarletMonastery" },
 		},
 
 		["ScarletMonasteryGraveyard"] = {
-			 ["Bosses"] = {
+			["Bosses"] = {
 				{ "Interrogator Vishas", 1 },
-			    { "Bloodmage Thalnos", 2 },
-			    { "Azshir the Sleepless", 3 },
-			    { "Fallen Champion", 4 },
-			    { "Ironspine", 5 }
+				{ "Bloodmage Thalnos", 2 },
+				{ "Azshir the Sleepless", 3 },
+				{ "Fallen Champion", 4 },
+				{ "Ironspine", 5 }
 			},
-			["Info"] = { BabbleZone["Scarlet Monastery"]..": "..BabbleZone["Graveyard"], "AtlasLootClassicWoW", mapname = "ScarletMonastery" },
+			["Info"] = { BabbleZone["Scarlet Monastery (Graveyard)"], "AtlasLootClassicWoW", mapname = "ScarletMonastery" },
 		},
 
 		["Scholomance"] = {
@@ -1170,6 +1177,15 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { BabbleZone["Zul'Farrak"], "AtlasLootClassicWoW", mapname = "ZulFarrak" },
 		},
+
+
+		["World Bosses"] = {
+			["Bosses"] = {
+				{ "Azuregos", 1 },
+				{ "Lord Kazzak", 2 },
+			},
+			["Info"] = { "World Bosses", "AtlasLootClassicWoW"},
+		}
 	},
 
 ---------------------

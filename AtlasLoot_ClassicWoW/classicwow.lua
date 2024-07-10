@@ -22,6 +22,7 @@ local moduleName = "AtlasLootClassicWoW"
 ---- Dire Maul
 ---- Gnomeregan
 ---- Maraudon
+---- Onyxia's Lair
 ---- Ragefire Chasm
 ---- Razorfen Downs
 ---- Razorfen Kraul
@@ -36,6 +37,7 @@ local moduleName = "AtlasLootClassicWoW"
 ---- Uldaman
 ---- Wailing Caverns
 ---- Zul'Farrak
+---- World Bosses
 --- Sets & Collections
 ---- Dungeon 1 and 2 Sets (D1/D2)
 ---- Tier 1/2 Sets (T1/T2)
@@ -659,27 +661,27 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Ghamoo-ra"] = {
         ["Normal"] = {
             {
-			    { 1, 3417, "", "=q3=", "", "", ""};
-                { 2, 6907, "", "=q3=S", "", "", ""};
-                { 3, 6908, "", "=q3=", "", "", ""};
-                { 4, 80010, "", "=q3=", "", "", ""};
+			    { 1, 3417, "", "=q3=Onyx Claymore", "", "", ""};
+                { 2, 6907, "", "=q3=Tortoise Armor", "", "", ""};
+                { 3, 6908, "", "=q3=Ghamoo-ra's Bind", "", "", ""};
+                { 4, 80010, "", "=q3=Hydra's Gauntlets", "", "", ""};
 				
             };
         };
         ["Heroic"] = {
             {
-			    { 1, 80254, "", "=q3=", "", "", ""};
-                { 2, 80326, "", "=q3=", "", "", ""};
-                { 3, 80327, "", "=q3=", "", "", ""};
-                { 4, 81060, "", "=q3=", "", "", ""};
+			    { 1, 80254, "", "=q3=Onyx Claymore", "", "", ""};
+                { 2, 80326, "", "=q3=Tortoise Armor", "", "", ""};
+                { 3, 80327, "", "=q3=Ghamoo-ra's Bind", "", "", ""};
+                { 4, 81060, "", "=q3=Hydra's Gauntlets", "", "", ""};
             };
         };
         ["Mythic"] = {
             {
-                { 1, 123001, "", "=q3=", "", "", ""};
-                { 2, 159001, "", "=q3=", "", "", ""};
-                { 3, 159501, "", "=q3=", "", "", ""};
-				{ 4, 670501, "", "=q3=", "", "", ""};
+                { 1, 123001, "", "=q3=Onyx Claymore", "", "", ""};
+                { 2, 159001, "", "=q3=Tortoise Armor", "", "", ""};
+                { 3, 159501, "", "=q3=Ghamoo-ra's Bind", "", "", ""};
+				{ 4, 670501, "", "=q3=Hydra's Gauntlets", "", "", ""};
             };
         };
         info = {
@@ -691,30 +693,30 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Lady Sarevess"] = {
         ["Normal"] = {
             {
-			    { 1, 888, "", "", "", "", ""};
-                { 2, 3078, "", "=q3=", "", "", ""};
-                { 3, 3415, "", "=q3=", "", "", ""};
-                { 4, 11121, "", "=q3=", "", "", ""};
+			    { 1, 888, "", "=q3=Naga Battle Gloves", "", "", ""};
+                { 2, 3078, "", "=q3=Naga Heartpiercer", "", "", ""};
+                { 3, 3415, "", "=q3=Staff of the Friar", "", "", ""};
+                { 4, 11121, "", "=q3=Darkwater Talwar", "", "", ""};
             };
         };
         ["Heroic"] = {
             {
-			    { 1, 80210, "", "=q3=", "", "", ""};
-                { 2, 80246, "", "=q3=", "", "", ""};
-                { 3, 80252, "", "=q3=", "", "", ""};
-                { 4, 80520, "", "=q3=", "", "", ""};
+			    { 1, 80210, "", "=q3=Naga Battle Gloves", "", "", ""};
+                { 2, 80246, "", "=q3=Naga Heartpiercer", "", "", ""};
+                { 3, 80252, "", "=q3=Staff of the Friar", "", "", ""};
+                { 4, 80520, "", "=q3=Darkwater Talwar", "", "", ""};
             };
         };
         ["Mythic"] = {
             {
-                { 1, 101001, "", "=q3=", "", "", ""};
-                { 2, 119001, "", "=q3=", "", "", ""};
-                { 3, 122001, "", "=q3=", "", "", ""};
-				{ 4, 256001, "", "=q3=", "", "", ""};
+                { 1, 101001, "", "=q3=Naga Battle Gloves", "", "", ""};
+                { 2, 119001, "", "=q3=Naga Heartpiercer", "", "", ""};
+                { 3, 122001, "", "=q3=Staff of the Friar", "", "", ""};
+				{ 4, 256001, "", "=q3=Darkwater Talwar", "", "", ""};
             };
         };
         info = {
-            name = BabbleBoss["lady Sarevess"],
+            name = BabbleBoss["Lady Sarevess"],
             module = moduleName, instance = "Blackfathom Deeps",
         };
     };
@@ -722,27 +724,27 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Gelihast"] = {
         ["Normal"] = {
             {
-			    { 1, 1470, "", "=q3=", "", "", ""};
-                { 2, 3413, "", "=q3=", "", "", ""};
-                { 3, 6905, "", "=q3=", "", "", ""};
-                { 4, 6906, "", "=q3=", "", "", ""};
-				{ 5, 80011, "", "=q3=", "", "", ""};
+			    { 1, 1470, "", "=q3=Murloc Skin Bag", "", "", ""};
+                { 2, 3413, "", "=q3=Doomspike", "", "", ""};
+                { 3, 6905, "", "=q3=Reef Axe", "", "", ""};
+                { 4, 6906, "", "=q3=Algae Fists", "", "", ""};
+				{ 5, 80011, "", "=q3=Hydra's legguards", "", "", ""};
             };
         };
         ["Heroic"] = {
             {
-			    { 1, 80250, "", "=q3=", "", "", ""};
-                { 2, 80324, "", "=q3=", "", "", ""};
-                { 3, 80325, "", "=q3=", "", "", ""};
-                { 4, 81061, "", "=q3=", "", "", ""};
+			    { 1, 80250, "", "=q3=Doomspike", "", "", ""};
+                { 2, 80324, "", "=q3=Reef Axe", "", "", ""};
+                { 3, 80325, "", "=q3=Algae Fists", "", "", ""};
+                { 4, 81061, "", "=q3=Hydra's legguards", "", "", ""};
             };
         };
         ["Mythic"] = {
             {
-                { 1, 121001, "", "=q3=", "", "", ""};
-                { 2, 158001, "", "=q3=", "", "", ""};
-                { 3, 158501, "", "=q3=", "", "", ""};
-				{ 4, 671001, "", "=q3=", "", "", ""};
+                { 1, 121001, "", "=q3=Doomspike", "", "", ""};
+                { 2, 158001, "", "=q3=Reef Axe", "", "", ""};
+                { 3, 158501, "", "=q3=Algae Fists", "", "", ""};
+				{ 4, 671001, "", "=q3=Hydra's legguards", "", "", ""};
             };
         };
         info = {
@@ -754,27 +756,27 @@ local moduleName = "AtlasLootClassicWoW"
 	 AtlasLoot_Data["Twilight Lord Kelris"] = {
         ["Normal"] = {
             {
-			    { 1, 5881, "", "=q3=", "", "", ""};
-                { 2, 1155, "", "=q3=", "", "", ""};
-                { 3, 2567, "", "=q3=", "", "", ""};
-                { 4, 6903, "", "=q3=", "", "", ""};
-				{ 5, 80012, "", "=q3=", "", "", ""};
+			    { 1, 5881, "", "=q3=Head of Kelris", "", "", ""};
+                { 2, 1155, "", "=q3=Rod of the Sleepwalker", "", "", ""};
+                { 3, 2567, "", "=q3=Evocator's Blade", "", "", ""};
+                { 4, 6903, "", "=q3=Gaze Dreamer Pants", "", "", ""};
+				{ 5, 80012, "", "=q3=Hydra's Pauldrons", "", "", ""};
             };
         };
         ["Heroic"] = {
             {
-			    { 1, 80211, "", "=q3=", "", "", ""};
-                { 2, 80241, "", "=q3=", "", "", ""};
-                { 3, 80322, "", "=q3=", "", "", ""};
-                { 4, 81062, "", "=q3=", "", "", ""};
+			    { 1, 80211, "", "=q3=Rod of the Sleepwalker", "", "", ""};
+                { 2, 80241, "", "=q3=Evocator's Blade", "", "", ""};
+                { 3, 80322, "", "=q3=Gaze Dreamer Pants", "", "", ""};
+                { 4, 81062, "", "=q3=Hydra's Pauldrons", "", "", ""};
             };
         };
         ["Mythic"] = {
             {
-                { 1, 101501, "", "=q3=", "", "", ""};
-                { 2, 116501, "", "=q3=", "", "", ""};
-                { 3, 157001, "", "=q3=", "", "", ""};
-				{ 4, 671501, "", "=q3=", "", "", ""};
+                { 1, 101501, "", "=q3=Rod of the Sleepwalker", "", "", ""};
+                { 2, 116501, "", "=q3=Evocator's Blade", "", "", ""};
+                { 3, 157001, "", "=q3=Gaze Dreamer Pants", "", "", ""};
+				{ 4, 671501, "", "=q3=Hydra's Pauldrons", "", "", ""};
             };
         };
         info = {
@@ -786,26 +788,26 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Old Serra'kis"] = {
         ["Normal"] = {
             {
-			    { 1, 2271, "", "=q3=", "", "", ""};
-                { 2, 6901, "", "=q3=", "", "", ""};
-                { 3, 6902, "", "=q3=", "", "", ""};
-                { 4, 6904, "", "=q3=", "", "", ""};
+			    { 1, 2271, "", "=q3=Staff of the Blessed Seer", "", "", ""};
+                { 2, 6901, "", "=q3=Glowing Thresher Cape", "", "", ""};
+                { 3, 6902, "", "=q3=Bands of Serra'kis", "", "", ""};
+                { 4, 6904, "", "=q3=Bite of Serra'kis", "", "", ""};
             };
         };
         ["Heroic"] = {
             {
-			    { 1, 80237, "", "=q3=", "", "", ""};
-                { 2, 80320, "", "=q3=", "", "", ""};
-                { 3, 80321, "", "=q3=", "", "", ""};
-                { 4, 80323, "", "=q3=", "", "", ""};
+			    { 1, 80237, "", "=q3=Staff of the Blessed Seer", "", "", ""};
+                { 2, 80320, "", "=q3=Glowing Thresher Cape", "", "", ""};
+                { 3, 80321, "", "=q3=Bands of Serra'kis", "", "", ""};
+                { 4, 80323, "", "=q3=Bite of Serra'kis", "", "", ""};
             };
         };
         ["Mythic"] = {
             {
-                { 1, 114501, "", "=q3=", "", "", ""};
-                { 2, 156001, "", "=q3=", "", "", ""};
-                { 3, 156501, "", "=q3=", "", "", ""};
-				{ 4, 157501, "", "=q3=", "", "", ""};
+                { 1, 114501, "", "=q3=Staff of the Blessed Seer", "", "", ""};
+                { 2, 156001, "", "=q3=Glowing Thresher Cape", "", "", ""};
+                { 3, 156501, "", "=q3=Bands of Serra'kis", "", "", ""};
+				{ 4, 157501, "", "=q3=Bite of Serra'kis", "", "", ""};
             };
         };
         info = {
@@ -817,26 +819,26 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Aku'mai"] = {
         ["Normal"] = {
             {
-			    { 1, 6909, "", "=q3=", "", "", ""};
-                { 2, 6910, "", "=q3=", "", "", ""};
-                { 3, 6911, "", "=q3=", "", "", ""};
-                { 4, 80013, "", "=q3=", "", "", ""};
+			    { 1, 6909, "", "=q3=Strike of the Hydra", "", "", ""};
+                { 2, 6910, "", "=q3=Leech Pants", "", "", ""};
+                { 3, 6911, "", "=q3=Moss Cinch", "", "", ""};
+                { 4, 80013, "", "=q3=Hydra's Carapace", "", "", ""};
             };
         };
         ["Heroic"] = {
             {
-			    { 1, 80328, "", "=q3=", "", "", ""};
-                { 2, 80329, "", "=q3=", "", "", ""};
-                { 3, 80330, "", "=q3=", "", "", ""};
-                { 4, 81063, "", "=q3=", "", "", ""};
+			    { 1, 80328, "", "=q3=Strike of the Hydra", "", "", ""};
+                { 2, 80329, "", "=q3=Leech Pants", "", "", ""};
+                { 3, 80330, "", "=q3=Moss Cinch", "", "", ""};
+                { 4, 81063, "", "=q3=Hydra's Carapace", "", "", ""};
             };
         };
         ["Mythic"] = {
             {
-                { 1, 160001, "", "=q3=", "", "", ""};
-                { 2, 160501, "", "=q3=", "", "", ""};
-                { 3, 161001, "", "=q3=", "", "", ""};
-				{ 4, 672001, "", "=q3=", "", "", ""};
+                { 1, 160001, "", "=q3=Strike of the Hydra", "", "", ""};
+                { 2, 160501, "", "=q3=Leech Pants", "", "", ""};
+                { 3, 161001, "", "=q3=Moss Cinch", "", "", ""};
+				{ 4, 672001, "", "=q3=Hydra's Carapace", "", "", ""};
             };
         };
         info = {
@@ -3846,6 +3848,94 @@ AtlasLoot_Data["Princess Theradras"] = {
 		instance = "Maraudon",
 	};
 };
+
+		---------------------
+		--- Onyxia's Lair ---
+		---------------------
+
+	AtlasLoot_Data["Onyxia"] = {
+        ["Normal"] = {
+            {
+			    { 1, 21110, "", "=q3=Draconic for Dummies", "", "", ""};
+                { 2, 17963, "", "=q3=Green Sack of Gems", "", "", ""};
+                { 3, 17962, "", "=q3=Blue Sack of Gems", "", "", ""};
+                { 4, 17964, "", "=q3=Gray Sack of Gems", "", "", ""};
+				{ 5, 17969, "", "=q3=Red Sack of Gems", "", "", ""};
+                { 6, 17965, "", "=q3=Yellow Sack of Gems", "", "", ""};
+                { 7, 887004, "", "=q3=Onyxia Hide Backpack", "", "", ""};
+                { 8, 30174, "", "=q3=", "", "", ""};
+			    { 9, 18423, "", "=q3=Head of Onyxia", "", "", ""};
+                { 10, 18422, "", "=q3=Head of Onyxia", "", "", ""};
+                { 11, 333004, "", "=q3=Mageflame Cloak", "", "", ""};
+                { 12, 519004, "", "=q3=Eskhandar's Collar", "", "", ""};
+				{ 13, 333504, "", "=q3=Dalewind Trousers", "", "", ""};
+                { 14, 334004, "", "=q3=Elder Wizard's Mantle", "", "", ""};
+                { 15, 335004, "", "=q3=Magiskull Cuffs", "", "", ""};
+                { 16, 335504, "", "=q3=Windrunner Legguards", "", "", ""};
+			    { 17, 337504, "", "=q3=Serenity Belt", "", "", ""};
+                { 18, 484004, "", "=q3=Shard of the Scale", "", "", ""};
+                { 19, 485504, "", "=q3=Ancient Cornerstone Grimoire", "", "", ""};
+                { 20, 486004, "", "=q3=Deathbringer", "", "", ""};
+				{ 21, 489504, "", "=q3=Vis'kag the Bloodletter", "", "", ""};
+                { 22, 491004, "", "=q3=Sapphiron Drape", "", "", ""};
+                { 23, 600004, "", "=q3=Ring of Binding", "", "", ""};
+            };
+        };
+        ["Heroic"] = {
+            {
+                { 1, 887007, "", "=q3=Onyxia Hide Backpack", "", "", ""};
+                { 2, 17963, "", "=q3=Green Sack of Gems", "", "", ""};
+                { 3, 17962, "", "=q3=Blue Sack of Gems", "", "", ""};
+                { 4, 17964, "", "=q3=Gray Sack of Gems", "", "", ""};
+				{ 5, 17969, "", "=q3=Red Sack of Gems", "", "", ""};
+                { 6, 17965, "", "=q3=Yellow Sack of Gems", "", "", ""};
+				{ 7, 30174, "", "=q3=", "", "", ""};
+                { 11, 333007, "", "=q3=Mageflame Cloak", "", "", ""};
+                { 12, 519007, "", "=q3=Eskhandar's Collar", "", "", ""};
+				{ 13, 333507, "", "=q3=Dalewind Trousers", "", "", ""};
+                { 14, 334007, "", "=q3=Elder Wizard's Mantle", "", "", ""};
+                { 15, 335007, "", "=q3=Magiskull Cuffs", "", "", ""};
+                { 16, 335507, "", "=q3=Windrunner Legguards", "", "", ""};
+			    { 17, 337507, "", "=q3=Serenity Belt", "", "", ""};
+                { 18, 484007, "", "=q3=Shard of the Scale", "", "", ""};
+                { 19, 485507, "", "=q3=Ancient Cornerstone Grimoire", "", "", ""};
+                { 20, 486007, "", "=q3=Deathbringer", "", "", ""};
+				{ 21, 489507, "", "=q3=Vis'kag the Bloodletter", "", "", ""};
+                { 22, 491007, "", "=q3=Sapphiron Drape", "", "", ""};
+                { 23, 600007, "", "=q3=Ring of Binding", "", "", ""};
+            };
+        };
+        ["Mythic"] = {
+            {
+                { 1, 887008, "", "=q3=Onyxia Hide Backpack", "", "", ""};
+                { 2, 18705, "", "=q3=Mature Black Dragon Sinew", "", "", ""};
+				{ 3, 17963, "", "=q3=Green Sack of Gems", "", "", ""};
+                { 4, 17962, "", "=q3=Blue Sack of Gems", "", "", ""};
+                { 5, 17964, "", "=q3=Gray Sack of Gems", "", "", ""};
+				{ 6, 17969, "", "=q3=Red Sack of Gems", "", "", ""};
+                { 7, 17965, "", "=q3=Yellow Sack of Gems", "", "", ""};
+				{ 8, 30174, "", "=q3=", "", "", ""};
+                { 11, 333008, "", "=q3=Mageflame Cloak", "", "", ""};
+                { 12, 519008, "", "=q3=Eskhandar's Collar", "", "", ""};
+				{ 13, 333508, "", "=q3=Dalewind Trousers", "", "", ""};
+                { 14, 334008, "", "=q3=Elder Wizard's Mantle", "", "", ""};
+                { 15, 335008, "", "=q3=Magiskull Cuffs", "", "", ""};
+                { 16, 335508, "", "=q3=Windrunner Legguards", "", "", ""};
+			    { 17, 337508, "", "=q3=Serenity Belt", "", "", ""};
+                { 18, 484008, "", "=q3=Shard of the Scale", "", "", ""};
+                { 19, 485508, "", "=q3=Ancient Cornerstone Grimoire", "", "", ""};
+                { 20, 486008, "", "=q3=Deathbringer", "", "", ""};
+				{ 21, 489508, "", "=q3=Vis'kag the Bloodletter", "", "", ""};
+                { 22, 491008, "", "=q3=Sapphiron Drape", "", "", ""};
+                { 23, 600008, "", "=q3=Ring of Binding", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Onyxia"],
+            module = moduleName, instance = "Onyxia's Lair",
+        };
+    };
+	
 		----------------------
 		--- Ragefire Chasm ---
 		----------------------
@@ -4388,9 +4478,10 @@ AtlasLoot_Data["Charlga Razorflank"] = {
 		instance = "Razorfen Kraul",
 	};
 };
-		--------------------------------------
-		--- Scarlet Monastery (Armory)---
-		--------------------------------------
+	
+		-------------------
+--		   Scarlet Armory
+		-------------------
 		AtlasLoot_Data["Herod"] = {
     ["Normal"] = {
         {
@@ -4423,25 +4514,364 @@ AtlasLoot_Data["Charlga Razorflank"] = {
     info = {
         name = "Herod",
         module = moduleName,
-        instance = "Scarlet Monastery - Armory",
+        instance = "Scarlet Monastery (Armory)",
     };
 };
-		--------------------------------------
-		--- Scarlet Monastery (Armory)---
-		--------------------------------------
 
-		--------------------------------------
-		--- Scarlet Monastery (Armory)---
-		--------------------------------------
+		---------------------
+        --Scarlet Cathedral--
+		---------------------
+		AtlasLoot_Data["Scarlet Commander Mograine"] = {
+    ["Normal"] = {
+        {
+            { 1, 5805, "", "=q3=Heart of Zeal", "", "", "" },
+            { 2, 7723, "", "=q3=Mograine's Might", "", "", "" },
+            { 3, 7724, "", "=q3=Gauntlets of Divinity", "", "", "" },
+            { 4, 7726, "", "=q3=Aegis of the Scarlet Commander", "", "", "" },
+            { 5, 80028, "", "=q3=Leggings of Purifying", "", "", "" },
+        };
+    };
+    ["Heroic"] = {
+        {
+            { 1, 80355, "", "=q3=Mograine's Might", "", "", "" },
+            { 2, 80356, "", "=q3=Gauntlets of Divinity", "", "", "" },
+            { 3, 80357, "", "=q3=Aegis of the Scarlet Commander", "", "", "" },
+            { 4, 81078, "", "=q3=Leggings of Purifying", "", "", "" },
+        };
+    };
+    ["Mythic"] = {
+        {
+            { 1, 173501, "", "=q3=Mograine's Might", "", "", "" },
+            { 2, 174001, "", "=q3=Gauntlets of Divinity", "", "", "" },
+            { 3, 174501, "", "=q3=Aegis of the Scarlet Commander", "", "", "" },
+            { 4, 679501, "", "=q3=Leggings of Purifying", "", "", "" },
+        };
+    };
+    info = {
+        name = "Scarlet Commander Mograine",
+        module = moduleName,
+        instance = "Scarlet Monastery (Cathedral)",
+    };
+};
 
-		--------------------------------------
-		--- Scarlet Monastery (Armory)---
-		--------------------------------------
+AtlasLoot_Data["High Inquisitor Whitemane"] = {
+    ["Normal"] = {
+        {
+            { 1, 7720, "", "=q3=Whitemane's Chapeau", "", "", "" },
+            { 2, 7721, "", "=q3=Hand of Righteousness", "", "", "" },
+            { 3, 7722, "", "=q3=Triune Amulet", "", "", "" },
+            { 4, 8225, "", "=q3=Tainted Pierce", "", "", "" },
+            { 5, 80033, "", "=q3=Whitemane's Pants", "", "", "" },
+        };
+    };
+    ["Heroic"] = {
+        {
+            { 1, 80352, "", "=q3=Whitemane's Chapeau", "", "", "" },
+            { 2, 80353, "", "=q3=Hand of Righteousness", "", "", "" },
+            { 3, 80354, "", "=q3=Triune Amulet", "", "", "" },
+            { 4, 80370, "", "=q3=Tainted Pierce", "", "", "" },
+            { 5, 81083, "", "=q3=Whitemane's Pants", "", "", "" },
+        };
+    };
+    ["Mythic"] = {
+        {
+            { 1, 172001, "", "=q3=Whitemane's Chapeau", "", "", "" },
+            { 2, 172501, "", "=q3=Hand of Righteousness", "", "", "" },
+            { 3, 173001, "", "=q3=Triune Amulet", "", "", "" },
+            { 4, 181001, "", "=q3=Tainted Pierce", "", "", "" },
+            { 5, 682001, "", "=q3=Whitemane's Pants", "", "", "" },
+        };
+    };
+    info = {
+        name = "High Inquisitor Whitemane",
+        module = moduleName,
+        instance = "Scarlet Monastery (Cathedral)",
+    };
+};
 
+AtlasLoot_Data["High Inquisitor Fairbanks"] = {
+    ["Normal"] = {
+        {
+            { 1, 19507, "", "=q3=Inquisitor's Shawl", "", "", "" },
+            { 2, 19508, "", "=q3=Branded Leather Bracers", "", "", "" },
+            { 3, 19509, "", "=q3=Dusty Mail Boots", "", "", "" },
+            { 4, 80029, "", "=q3=Inquisitor's Boots", "", "", "" },
+            { 5, 80034, "", "=q3=Undeadbane Striders", "", "", "" },
+        };
+    };
+    ["Heroic"] = {
+        {
+            { 1, 81009, "", "=q3=Inquisitor's Shawl", "", "", "" },
+            { 2, 81010, "", "=q3=Branded Leather Bracers", "", "", "" },
+            { 3, 81011, "", "=q3=Dusty Mail Boots", "", "", "" },
+            { 4, 81079, "", "=q3=Inquisitor's Boots", "", "", "" },
+            { 5, 81084, "", "=q3=Undeadbane Striders", "", "", "" },
+        };
+    };
+    ["Mythic"] = {
+        {
+            { 1, 618001, "", "=q3=Inquisitor's Shawl", "", "", "" },
+            { 2, 618501, "", "=q3=Branded Leather Bracers", "", "", "" },
+            { 3, 619001, "", "=q3=Dusty Mail Boots", "", "", "" },
+            { 4, 680001, "", "=q3=Inquisitor's Boots", "", "", "" },
+            { 5, 682501, "", "=q3=Undeadbane Striders", "", "", "" },
+        };
+    };
+    info = {
+        name = "High Inquisitor Fairbanks",
+        module = moduleName,
+        instance = "Scrlet Monastery (Cathedral)",
+    };
+};
 		-------------------
-		--- Scholomance ---
+        --Scarlet Library--
 		-------------------
+		AtlasLoot_Data["Houndmaster Loksey"] = {
+    ["Normal"] = {
+        {
+            { 1, 5805, "", "=q3=Heart of Zeal", "", "", "" },
+            { 2, 3456, "", "=q3=Dog Whistle", "", "", "" },
+            { 3, 7710, "", "=q3=Loksey's Training Stick", "", "", "" },
+            { 4, 7756, "", "=q3=Dog Training Gloves", "", "", "" },
+            { 5, 7758, "", "=q3=Ruthless Shiv", "", "", "" },
+            { 6, 10332, "", "=q3=Houndmaster's Boots", "", "", "" },
+            { 7, 80027, "", "=q3=Loksey's Gauntlets", "", "", "" },
+        };
+    };
+    ["Heroic"] = {
+        {
+            { 1, 80344, "", "=q3=Loksey's Training Stick", "", "", "" },
+            { 2, 80364, "", "=q3=Dog Training Gloves", "", "", "" },
+            { 3, 80366, "", "=q3=Ruthless Shiv", "", "", "" },
+            { 4, 80441, "", "=q3=Houndmaster's Boots", "", "", "" },
+            { 5, 81077, "", "=q3=Loksey's Gauntlets", "", "", "" },
+        };
+    };
+    ["Mythic"] = {
+        {
+            { 1, 168001, "", "=q3=Loksey's Training Stick", "", "", "" },
+            { 2, 178001, "", "=q3=Dog Training Gloves", "", "", "" },
+            { 3, 179001, "", "=q3=Ruthless Shiv", "", "", "" },
+            { 4, 216501, "", "=q3=Houndmaster's Boots", "", "", "" },
+            { 5, 679001, "", "=q3=Loksey's Gauntlets", "", "", "" },
+        };
+    };
+    info = {
+        name = "Houndmaster Loksey",
+        module = moduleName,
+        instance = "Scarlet Monastery (Library)",
+    };
+};
 
+AtlasLoot_Data["Arcanist Doan"] = {
+    ["Normal"] = {
+        {
+            { 1, 5805, "", "=q3=Heart of Zeal", "", "", "" },
+            { 2, 7711, "", "=q3=Robe of Doan", "", "", "" },
+            { 3, 7712, "", "=q3=Mantle of Doan", "", "", "" },
+            { 4, 7713, "", "=q3=Illusionary Rod", "", "", "" },
+            { 5, 7714, "", "=q3=Hypnotic Blade", "", "", "" },
+            { 6, 34227, "", "=q3=Deadman's Hand", "", "", "" },
+            { 7, 80032, "", "=q3=Gloves of the Magus", "", "", "" },
+        };
+    };
+    ["Heroic"] = {
+        {
+            { 1, 80345, "", "=q3=Robe of Doan", "", "", "" },
+            { 2, 80346, "", "=q3=Mantle of Doan", "", "", "" },
+            { 3, 80347, "", "=q3=Illusionary Rod", "", "", "" },
+            { 4, 80348, "", "=q3=Hypnotic Blade", "", "", "" },
+            { 5, 81049, "", "=q3=Deadman's Hand", "", "", "" },
+            { 6, 81082, "", "=q3=Gloves of the Magus", "", "", "" },
+        };
+    };
+    ["Mythic"] = {
+        {
+            { 1, 168501, "", "=q3=Robe of Doan", "", "", "" },
+            { 2, 169001, "", "=q3=Mantle of Doan", "", "", "" },
+            { 3, 169501, "", "=q3=Illusionary Rod", "", "", "" },
+            { 4, 170001, "", "=q3=Hypnotic Blade", "", "", "" },
+            { 5, 665001, "", "=q3=Deadman's Hand", "", "", "" },
+            { 6, 681501, "", "=q3=Gloves of the Magus", "", "", "" },
+        };
+    };
+    info = {
+        name = "Arcanist Doan",
+        module = moduleName,
+        instance = "Scarlet Monastery (Library)",
+    };
+};
+
+		---------------------
+        --Scarlet Graveyard--
+		---------------------
+		AtlasLoot_Data["Interrogator Vishas"] = {
+    ["Normal"] = {
+        {
+            { 1, 5805, "", "=q3=Heart of Zeal", "", "", "" },
+            { 2, 5756, "", "=q3=Sliverblade", "", "", "" },
+            { 3, 7682, "", "=q3=Torturing Poker", "", "", "", "" },
+            { 4, 7683, "", "=q3=Bloody Brass Knuckles", "", "", "" },
+            { 5, 80024, "", "=q3=Interrogator's Circlet", "", "", "" },
+        };
+    };
+    ["Heroic"] = {
+        {
+            { 1, 80273, "", "=q3=Sliverblade", "", "", "" },
+            { 2, 80332, "", "=q3=Torturing Poker", "", "" , "", "" },
+            { 3, 80333, "", "=q3=Bloody Brass Knuckles", "", "", "" },
+            { 4, 81074, "", "=q3=Interrogator's Circlet", "", "", "" },
+        };
+    };
+    ["Mythic"] = {
+        {
+            { 1, 132501, "", "=q3=Sliverblade", "", "", "" },
+            { 2, 162001, "", "=q3=Torturing Poker", "", "" , "", "" },
+            { 3, 162501, "", "=q3=Bloody Brass Knuckles", "", "", "" },
+            { 4, 677501, "", "=q3=Interrogator's Circlet", "", "", "" },
+        };
+    };
+    info = {
+        name = "Interrogator Vishas",
+        module = moduleName,
+        instance = "Scarlet Monastery (Graveyard)",
+    };
+};
+
+AtlasLoot_Data["Bloodmage Thalnos"] = {
+    ["Normal"] = {
+        {
+            { 1, 7684, "", "=q3=Bloodmage Mantle", "", "", "" },
+            { 2, 7685, "", "=q3=Orb of the Forgotten Seer", "", "", "" },
+            { 3, 7729, "", "=q3=Chesterfall Musket", "", "", "" },
+            { 4, 80031, "", "=q3=Vest of Thalnos", "", "", "" },
+        };
+    };
+    ["Heroic"] = {
+        {
+            { 1, 80334, "", "=q3=Bloodmage Mantle", "", "", "" },
+            { 2, 80335, "", "=q3=Orb of the Forgotten Seer", "", "", "" },
+            { 3, 80359, "", "=q3=Chesterfall Musket", "", "", "" },
+            { 4, 81081, "", "=q3=Vest of Thalnos", "", "", "" },
+        };
+    };
+    ["Mythic"] = {
+        {
+            { 1, 163001, "", "=q3=Bloodmage Mantle", "", "", "" },
+            { 2, 163501, "", "=q3=Orb of the Forgotten Seer", "", "", "" },
+            { 3, 175501, "", "=q3=Chesterfall Musket", "", "", "" },
+            { 4, 681001, "", "=q3=Vest of Thalnos", "", "", "" },
+        };
+    };
+    info = {
+        name = "Bloodmage Thalnos",
+        module = moduleName,
+        instance = "Scarlet Monastery (Graveyard)",
+    };
+};
+
+AtlasLoot_Data["Azshir the Sleepless"] = {
+    ["Normal"] = {
+        {
+            { 1, 7708, "", "=q3=Necrotic Wand", "", "", "" },
+            { 2, 7709, "", "=q3=Blighted Leggings", "", "", "" },
+            { 3, 7731, "", "=q3=Ghostshard Talisman", "", "", "" },
+            { 4, 80030, "", "=q3=Shroud of Azshir", "", "", "" },
+        };
+    };
+    ["Heroic"] = {
+        {
+            { 1, 80342, "", "=q3=Necrotic Wand", "", "", "" },
+            { 2, 80343, "", "=q3=Blighted Leggings", "", "", "" },
+            { 3, 80361, "", "=q3=Ghostshard Talisman", "", "", "" },
+            { 4, 81080, "", "=q3=Shroud of Azshir", "", "", "" },
+        };
+    };
+    ["Mythic"] = {
+        {
+            { 1, 167001, "", "=q3=Necrotic Wand", "", "", "" },
+            { 2, 167501, "", "=q3=Blighted Leggings", "", "", "" },
+            { 3, 176501, "", "=q3=Ghostshard Talisman", "", "", "" },
+            { 4, 680501, "", "=q3=Shroud of Azshir", "", "", "" },
+        };
+    };
+    info = {
+        name = "Azshir the Sleepless",
+        module = moduleName,
+        instance = "Scarlet Monastery (Graveyard)",
+    };
+};
+
+AtlasLoot_Data["Fallen Champion"] = {
+    ["Normal"] = {
+        {
+            { 1, 7689, "", "=q3=Morbid Dawn", "", "", "" },
+            { 2, 7690, "", "=q3=Ebon Vise", "", "", "" },
+            { 3, 7691, "", "=q3=Embalmed Shroud", "", "", "" },
+            { 4, 80025, "", "=q3=Champion's Pauldrons", "", "", "" },
+        };
+    };
+    ["Heroic"] = {
+        {
+            { 1, 80339, "", "=q3=Morbid Dawn", "", "", "" },
+            { 2, 80340, "", "=q3=Ebon Vise", "", "", "" },
+            { 3, 80341, "", "=q3=Embalmed Shroud", "", "", "" },
+            { 4, 81075, "", "=q3=Champion's Pauldrons", "", "", "" },
+        };
+    };
+    ["Mythic"] = {
+        {
+            { 1, 165501, "", "=q3=Morbid Dawn", "", "", "" },
+            { 2, 166001, "", "=q3=Ebon Vise", "", "", "" },
+            { 3, 166501, "", "=q3=Embalmed Shroud", "", "", "" },
+            { 4, 678001, "", "=q3=Champion's Pauldrons", "", "", "" },
+        };
+    };
+    info = {
+        name = "Fallen Champion",
+        module = moduleName,
+        instance = "Scarlet Monastery (Graveyard)",
+    };
+};
+
+AtlasLoot_Data["Ironspine"] = {
+    ["Normal"] = {
+        {
+            { 1, 7686, "", "=q3=Ironspine's Eye", "", "", "" },
+            { 2, 7687, "", "=q3=Ironspine's Fist", "", "", "" },
+            { 3, 7688, "", "=q3=Ironspine's Ribcage", "", "", "" },
+            { 4, 7736, "", "=q3=Fight Club", "", "", "" },
+            { 5, 80026, "", "=q3=Undeadbane Harness", "", "", "" },
+        };
+    };
+    ["Heroic"] = {
+        {
+            { 1, 80336, "", "=q3=Ironspine's Eye", "", "", "" },
+            { 2, 80337, "", "=q3=Ironspine's Fist", "", "", "" },
+            { 3, 80338, "", "=q3=Ironspine's Ribcage", "", "", "" },
+            { 4, 80362, "", "=q3=Fight Club", "", "", "" },
+            { 5, 81076, "", "=q3=Undeadbane Harness", "", "", "" },
+        };
+    };
+    ["Mythic"] = {
+        {
+            { 1, 164001, "", "=q3=Ironspine's Eye", "", "", "" },
+            { 2, 164501, "", "=q3=Ironspine's Fist", "", "", "" },
+            { 3, 165001, "", "=q3=Ironspine's Ribcage", "", "", "" },
+            { 4, 177001, "", "=q3=Fight Club", "", "", "" },
+            { 5, 678501, "", "=q3=Undeadbane Harness", "", "", "" },
+        };
+    };
+    info = {
+        name = "Ironspine",
+        module = moduleName,
+        instance = "Scarlet Monastery (Graveyard)",
+    };
+};
+
+		---------------------
+        --   Scholomance  --
+		---------------------
 	AtlasLoot_Data["Kirtonos the Herald"] = {
 		["Normal"] = {
 			{
@@ -5233,333 +5663,10 @@ AtlasLoot_Data["Jandice Barov"] = {
 		--- Stratholme - Crusader's Square ---
 		--------------------------------------
 
-	AtlasLoot_Data["STRATTheUnforgiven"] = {
-		["Normal"] = {
-			{
-				{ 1, 13409, "", "=q3=Tearfall Bracers", "=ds=#s8#, #a1#", "", "14.62%"};
-				{ 2, 13404, "", "=q3=Mask of the Unforgiven", "=ds=#s1#, #a2#", "", "14.96%"};
-				{ 3, 13405, "", "=q3=Wailing Nightbane Pauldrons", "=ds=#s3#, #a4#", "", "12.10%"};
-				{ 4, 13408, "", "=q3=Soul Breaker", "=ds=#h1#, #w1#", "", "19.33%"};
-			}
-		};
-		info = {
-			name = BabbleBoss["The Unforgiven"],
-			module = moduleName, instance = "StratholmeCrusader",
-		};
-	};
-
-	AtlasLoot_Data["STRATTimmytheCruel"] = {
-		["Normal"] = {
-			{
-				{ 1, 13403, "", "=q3=Grimgore Noose", "=ds=#s10#, #a1#", "", "16.48%"};
-				{ 2, 13402, "", "=q3=Timmy's Galoshes", "=ds=#s12#, #a3#", "", "16.74%"};
-				{ 3, 13400, "", "=q3=Vambraces of the Sadist", "=ds=#s8#, #a4#", "", "14.02%"};
-				{ 4, 13401, "", "=q3=The Cruel Hand of Timmy", "=ds=#h1#, #w6#", "", "16.87%"};
-			}
-		};
-		info = {
-			name = BabbleBoss["Timmy the Cruel"],
-			module = moduleName, instance = "StratholmeCrusader",
-		};
-	};
-
-	AtlasLoot_Data["STRATWilleyHopebreaker"] = {
-		["Normal"] = {
-			{
-				{ 1, 22405, "", "=q3=Mantle of the Scarlet Crusade", "=ds=#s3#, #a1#", "", "16.03%"};
-				{ 2, 22407, "", "=q3=Helm of the New Moon", "=ds=#s1#, #a2#", "", "13.61%"};
-				{ 3, 18721, "", "=q3=Barrage Girdle", "=ds=#s10#, #a3#", "", "12.39%"};
-				{ 4, 13381, "", "=q3=Master Cannoneer Boots", "=ds=#s12#, #a4#", "", "12.86%"};
-				{ 5, 22403, "", "=q3=Diana's Pearl Necklace", "=ds=#s2#", "", "14.27%"};
-				{ 6, 13382, "", "=q3=Cannonball Runner", "=ds=#s14#", "", "12.28%"};
-				{ 7, 22404, "", "=q3=Willey's Back Scratcher", "=ds=#h3#, #w13#", "", "6.26%"};
-				{ 8, 22406, "", "=q3=Redemption", "=ds=#w9#", "", "7.04%"};
-				{ 9, 13380, "", "=q3=Willey's Portable Howitzer", "=ds=#w5#", "", "10.71%"};
-				{ 16, 12839, "", "=q3=Plans: Heartseeker", "=ds=#p2# (300)", "", "4.98%"};
-				{ 17, 12783, "", "=q3=Heartseeker", "=ds=#h1#, #w4#"};
-			}
-		};
-		info = {
-			name = BabbleBoss["Willey Hopebreaker"],
-			module = moduleName, instance = "StratholmeCrusader",
-		};
-	};
-
-	AtlasLoot_Data["STRATInstructorGalford"] = {
-		["Normal"] = {
-			{
-				{ 1, 13386, "", "=q3=Archivist Cape", "=ds=#s4#", "", "18.45%"};
-				{ 2, 18716, "", "=q3=Ash Covered Boots", "=ds=#s12#, #a2#", "", "16.30%"};
-				{ 3, 13387, "", "=q3=Foresight Girdle", "=ds=#s10#, #a3#", "", "18.24%"};
-				{ 4, 13385, "", "=q3=Tome of Knowledge", "=ds=#s15#", "", "9.87%"};
-				{ 6, 12811, "", "=q2=Righteous Orb", "=ds=#e8#", "", "61.3%"};
-				{ 16, 0, "INV_Box_01", "=q6="..AL["Unfinished Painting"], ""};
-				{ 17, 14679, "", "=q1=Of Love and Family", "=ds=#m3#"};
-			}
-		};
-		info = {
-			name = BabbleBoss["Instructor Galford"],
-			module = moduleName, instance = "StratholmeCrusader",
-		};
-	};
-
-	AtlasLoot_Data["STRATBalnazzar"] = {
-		["Normal"] = {
-			{
-				{ 1, 13353, "", "=q4=Book of the Dead", "=ds=#s15#", "", "1.37%"};
-				{ 2, 14512, "", "=q4=Pattern: Truefaith Vestments", "=ds=#p8# (300)", "", "3.02%"};
-				{ 3, 14154, "", "=q4=Truefaith Vestments", "=ds=#s5#, #a1# =q1=#m1# =ds=#c5#"};
-				{ 5, 18720, "", "=q3=Shroud of the Nathrezim", "=ds=#s3#, #a1#", "", "10.54%"};
-				{ 6, 13369, "", "=q3=Fire Striders", "=ds=#s12#, #a1#", "", "14.84%"};
-				{ 7, 13358, "", "=q3=Wyrmtongue Shoulders", "=ds=#s3#, #a2#", "", "11.58%"};
-				{ 8, 13359, "", "=q3=Crown of Tyranny", "=ds=#s1#, #a3#", "", "13.94%"};
-				{ 9, 18718, "", "=q3=Grand Crusader's Helm", "=ds=#s1#, #a4#", "", "10.16%"};
-				{ 10, 12103, "", "=q3=Star of Mystaria", "=ds=#s2#", "", "12.48%"};
-				{ 11, 13360, "", "=q3=Gift of the Elven Magi", "=ds=#h1#, #w4#", "", "13.66%"};
-				{ 12, 13348, "", "=q3=Demonshear", "=ds=#h2#, #w10#", "", "13.94%"};
-				{ 13, 18717, "", "=q3=Hammer of the Grand Crusader", "=ds=#h2#, #w6#", "", "11.91%"};
-				{ 16, 13520, "", "=q2=Recipe: Flask of Distilled Wisdom", "=ds=#p1# (300)", "", "1.94%"};
-			}
-		};
-		info = {
-			name = BabbleBoss["Balnazzar"],
-			module = moduleName, instance = "StratholmeCrusader",
-		};
-	};
-
-	AtlasLoot_Data["STRATSkull"] = {
-		["Normal"] = {
-			{
-				{ 1, 13395, "", "=q3=Skul's Fingerbone Claws", "=ds=#s9#, #a2#", "", "36.52%"};
-				{ 2, 13394, "", "=q3=Skul's Cold Embrace", "=ds=#s5#, #a4#", "", "24.16%"};
-				{ 3, 13396, "", "=q3=Skul's Ghastly Touch", "=ds=#w12#", "", "16.85%"};
-			}
-		};
-		info = {
-			name = BabbleBoss["Skul"],
-			module = moduleName, instance = "StratholmeCrusader",
-		};
-	};
-
-	AtlasLoot_Data["STRATFrasSiabi"] = {
-		["Normal"] = {
-			{
-				{ 1, 13172, "", "=q1=Siabi's Premium Tobacco", "=ds=#m3#", "", "100%"};
-			}
-		};
-		info = {
-			name = BabbleBoss["Fras Siabi"],
-			module = moduleName, instance = "StratholmeCrusader",
-		};
-	};
-
-	AtlasLoot_Data["STRATHearthsingerForresten"] = {
-		["Normal"] = {
-			{
-				{ 1, 13378, "", "=q3=Songbird Blouse", "=ds=#s5#, #a2#", "", "15.31%"};
-				{ 2, 13383, "", "=q3=Woollies of the Prancing Minstrel", "=ds=#s11#, #a3#", "", "18.42%"};
-				{ 3, 13384, "", "=q3=Rainbow Girdle", "=ds=#s10#, #a4#", "", "19.21%"};
-				{ 4, 13379, "", "=q3=Piccolo of the Flaming Fire", "=ds=#s14#", "", "15.13%"};
-			}
-		};
-		info = {
-			name = BabbleBoss["Hearthsinger Forresten"],
-			module = moduleName, instance = "StratholmeCrusader",
-		};
-	};
-
-	AtlasLoot_Data["STRATRisenHammersmith"] = {
-		["Normal"] = {
-			{
-				{ 1, 18781, "", "=q3=Bottom Half of Advanced Armorsmithing: Volume II", "=ds=#m3#", "", "41.6%"};
-				{ 2, 12726, "", "=q3=Plans: Enchanted Thorium Leggings", "=q1=#m4#: =ds=#p2# (300)"};
-				{ 4, 12827, "", "=q2=Plans: Serenity", "=ds=#p2# (285)", "", "100%"};
-			}
-		};
-		info = {
-			name = BabbleBoss["Risen Hammersmith"].." ("..AL["Summon"]..")",
-			module = moduleName, instance = "StratholmeCrusader",
-		};
-	};
-
-	AtlasLoot_Data["STRATTrash"] = {
-		["Normal"] = {
-			{
-				{ 1, 18743, "", "=q3=Gracious Cape", "=ds=#s4#", "", "0.01%"};
-				{ 2, 17061, "", "=q3=Juno's Shadow", "=ds=#s4#", "", "0.01%"};
-				{ 3, 18745, "", "=q3=Sacred Cloth Leggings", "=ds=#s11#, #a1#", "", "0.01%"};
-				{ 4, 18744, "", "=q3=Plaguebat Fur Gloves", "=ds=#s9#, #a2#", "", "0.00%"};
-				{ 5, 18736, "", "=q3=Plaguehound Leggings", "=ds=#s11#, #a2#", "", "0.00%"};
-				{ 6, 18742, "", "=q3=Stratholme Militia Shoulderguard", "=ds=#s3#, #a3#", "", "0.00%"};
-				{ 7, 18741, "", "=q3=Morlune's Bracer", "=ds=#s8#, #a4#", "", "0.01%"};
-				{ 9, 12811, "", "=q2=Righteous Orb", "=ds=#e8#", "", "5.09%"};
-				{ 16, 16249, "", "=q2=Formula: Enchant 2H Weapon - Major Intellect", "=ds=#p4# (300) =q1="..AL["Crimson Sorcerer"], "", "1.19%"};
-				{ 17, 16248, "", "=q2=Formula: Enchant Weapon - Unholy", "=ds=#p4# (295) =q1="..AL["Thuzadin Shadowcaster"], "", "0.36%"};
-				{ 18, 18658, "", "=q2=Schematic: Ultra-Flash Shadow Reflector", "=ds=#p5# (300) =q1="..AL["Crimson Inquisitor"], "", "1.82%"};
-				{ 19, 16052, "", "=q2=Schematic: Voice Amplification Modulator", "=ds=#p5# (290) =q1="..AL["Crimson Inquisitor"], "", "1.99%"};
-				{ 20, 15777, "", "=q2=Pattern: Runic Leather Shoulders", "=ds=#p7# (300) =q1="..AL["Crimson Battle Mage"], "", "1.00%"};
-				{ 21, 15768, "", "=q2=Pattern: Wicked Leather Belt", "=ds=#p7# (300) =q1="..AL["Ghoul Ravener"], "", "0.85%"};
-				{ 22, 14495, "", "=q2=Pattern: Ghostweave Pants", "=ds=#p8# (290) =q1="..AL["Spectral Citizen"], "", "2.13%"};
-			}
-		};
-		info = {
-			name = AL["Trash Mobs"],
-			module = moduleName, NextPrevDisable = true,
-		};
-	};
-
+	
 		---------------------------------
 		--- Stratholme - The Gauntlet ---
 		---------------------------------
-
-	AtlasLoot_Data["STRATBaronessAnastari"] = {
-		["Normal"] = {
-			{
-				{ 1, 13535, "", "=q3=Coldtouch Phantom Wraps", "=ds=#s5#, #a1#", "", "9.84%"};
-				{ 2, 18730, "", "=q3=Shadowy Laced Handwraps", "=ds=#s9#, #a1#", "", "13.54%"};
-				{ 3, 13537, "", "=q3=Chillhide Bracers", "=ds=#s8#, #a2#", "", "9.71%"};
-				{ 4, 13538, "", "=q3=Windshrieker Pauldrons", "=ds=#s3#, #a3#", "", "9.75%"};
-				{ 5, 13539, "", "=q3=Banshee's Touch", "=ds=#s9#, #a4#", "", "8.27%"};
-				{ 6, 18728, "", "=q3=Anastari Heirloom", "=ds=#s2#", "", "11.92%"};
-				{ 7, 13534, "", "=q3=Banshee Finger", "=ds=#w12#", "", "13.42%"};
-				{ 8, 18729, "", "=q3=Screeching Bow", "=ds=#w2#", "", "15.59%"};
-				{ 10, 13514, "", "=q2=Wail of the Banshee", "=ds=#m20#", "", "7.73%"};
-			}
-		};
-		info = {
-			name = BabbleBoss["Baroness Anastari"],
-			module = moduleName, instance = "StratholmeGauntlet",
-		};
-	};
-
-	AtlasLoot_Data["STRATNerubenkan"] = {
-		["Normal"] = {
-			{
-				{ 1, 18740, "", "=q3=Thuzadin Sash", "=ds=#s10#, #a1#", "", "14.72%"};
-				{ 2, 18739, "", "=q3=Chitinous Plate Legguards", "=ds=#s11#, #a4#", "", "12.19%"};
-				{ 3, 13529, "", "=q3=Husk of Nerub'enkan", "=ds=#w8#", "", "12.62%"};
-				{ 4, 18738, "", "=q3=Carapace Spine Crossbow", "=ds=#w3#", "", "14.17%"};
-				{ 6, 13530, "", "=q2=Fangdrip Runners", "=ds=#s12#, #a1#", "", "8.49%"};
-				{ 7, 13531, "", "=q2=Crypt Stalker Leggings", "=ds=#s11#, #a2#", "", "10.17%"};
-				{ 8, 13532, "", "=q2=Darkspinner Claws", "=ds=#s9#, #a3#", "", "9.69%"};
-				{ 9, 13533, "", "=q2=Acid-Etched Pauldrons", "=ds=#s3#, #a4#", "", "8.11%"};
-				{ 10, 13508, "", "=q2=Eye of Arachnida", "=ds=#m20#", "", "7.39%"};
-			}
-		};
-		info = {
-			name = BabbleBoss["Nerub'enkan"],
-			module = moduleName, instance = "StratholmeGauntlet",
-		};
-	};
-
-	AtlasLoot_Data["STRATMalekithePallid"] = {
-		["Normal"] = {
-			{
-				{ 1, 18734, "", "=q3=Pale Moon Cloak", "=ds=#s4#", "", "13.42%"};
-				{ 2, 13525, "", "=q3=Darkbind Fingers", "=ds=#s9#, #a1#", "", "9.15%"};
-				{ 3, 18735, "", "=q3=Maleki's Footwraps", "=ds=#s12#, #a1#", "", "15.03%"};
-				{ 4, 13526, "", "=q3=Flamescarred Girdle", "=ds=#s10#, #a2#", "", "9.57%"};
-				{ 5, 13528, "", "=q3=Twilight Void Bracers", "=ds=#s8#, #a3#", "", "9.49%"};
-				{ 6, 13527, "", "=q3=Lavawalker Greaves", "=ds=#s12#, #a4#", "", "9.39%"};
-				{ 7, 13524, "", "=q3=Skull of Burning Shadows", "=ds=#s15#", "", "13.42%"};
-				{ 8, 18737, "", "=q3=Bone Slicing Hatchet", "=ds=#h1#, #w1#", "", "14.23%"};
-				{ 10, 13509, "", "=q2=Clutch of Foresight", "=ds=#m20#", "", "6.95%"};
-				{ 16, 12833, "", "=q3=Plans: Hammer of the Titans", "=ds=#p2# (300)", "", "5.86%"};
-				{ 17, 12796, "", "=q3=Hammer of the Titans", "=ds=#h2#, #w6#"};
-			}
-		};
-		info = {
-			name = BabbleBoss["Maleki the Pallid"],
-			module = moduleName, instance = "StratholmeGauntlet",
-		};
-	};
-
-	AtlasLoot_Data["STRATMagistrateBarthilas"] = {
-		["Normal"] = {
-			{
-				{ 1, 13376, "", "=q3=Royal Tribunal Cloak", "=ds=#s4#", "", "12.44%"};
-				{ 2, 18727, "", "=q3=Crimson Felt Hat", "=ds=#s1#, #a1#", "", "13.82%"};
-				{ 3, 18726, "", "=q3=Magistrate's Cuffs", "=ds=#s8#, #a2#", "", "12.87%"};
-				{ 4, 18722, "", "=q3=Death Grips", "=ds=#s9#, #a4#", "", "15.34%"};
-				{ 5, 23198, "", "=q3=Idol of Brutality", "=ds=#s16#", "", "2.37%"};
-				{ 6, 18725, "", "=q3=Peacemaker", "=ds=#w7#", "", "14.22%"};
-			}
-		};
-		info = {
-			name = BabbleBoss["Magistrate Barthilas"],
-			module = moduleName, instance = "StratholmeGauntlet",
-		};
-	};
-
-	AtlasLoot_Data["STRATRamsteintheGorger"] = {
-		["Normal"] = {
-			{
-				{ 1, 13374, "", "=q3=Soulstealer Mantle", "=ds=#s3#, #a1#", "", "9.87%"};
-				{ 2, 18723, "", "=q3=Animated Chain Necklace", "=ds=#s2#", "", "7.54%"};
-				{ 3, 13373, "", "=q3=Band of Flesh", "=ds=#s13#", "", "8.15%"};
-				{ 4, 13515, "", "=q3=Ramstein's Lightning Bolts", "=ds=#s14#", "", "8.09%"};
-				{ 5, 13372, "", "=q3=Slavedriver's Cane", "=ds=#w9#", "", "8.63%"};
-				{ 6, 13375, "", "=q3=Crest of Retribution", "=ds=#w8#", "", "9.17%"};
-			}
-		};
-		info = {
-			name = BabbleBoss["Ramstein the Gorger"],
-			module = moduleName, instance = "StratholmeGauntlet",
-		};
-	};
-
-	AtlasLoot_Data["STRATLordAuriusRivendare"] = {
-		["Normal"] = {
-			{
-				{ 1, 13505, "", "=q4=Runeblade of Baron Rivendare", "=ds=#h2#, #w10#", "", "1%"};
-				{ 2, 13335, "", "=q4=Deathcharger's Reins", "=ds=#e26#", "", "1%"};
-				{ 4, 13340, "", "=q3=Cape of the Black Baron", "=ds=#s4#", "", "8.75%"};
-				{ 5, 22412, "", "=q3=Thuzadin Mantle", "=ds=#s3#, #a1#", "", "4.16%"};
-				{ 6, 13346, "", "=q3=Robes of the Exalted", "=ds=#s5#, #a1#", "", "11.51%"};
-				{ 7, 22409, "", "=q3=Tunic of the Crescent Moon", "=ds=#s5#, #a2#", "", "4.59%"};
-				{ 8, 13344, "", "=q3=Dracorian Gauntlets", "=ds=#s9#, #a3#", "", "10.85%"};
-				{ 9, 22410, "", "=q3=Gauntlets of Deftness", "=ds=#s9#, #a3#", "", "4.98%"};
-				{ 10, 22411, "", "=q3=Helm of the Executioner", "=ds=#s1#, #a4#", "", "3.80%"};
-				{ 11, 13345, "", "=q3=Seal of Rivendare", "=ds=#s13#", "", "9.50%"};
-				{ 16, 13368, "", "=q3=Bonescraper", "=ds=#h1#, #w4#", "", "4.32%"};
-				{ 17, 13361, "", "=q3=Skullforge Reaver", "=ds=#h1#, #w10#", "", "4.25%"};
-				{ 18, 13349, "", "=q3=Scepter of the Unholy", "=ds=#h1#, #w6#", "", "9.30%"};
-				{ 19, 22408, "", "=q3=Ritssyn's Wand of Bad Mojo", "=ds=#w12#", "", "3.39%"};
-			}
-		};
-		info = {
-			name = BabbleBoss["Lord Aurius Rivendare"],
-			module = moduleName, instance = "StratholmeGauntlet",
-		};
-	};
-
-	AtlasLoot_Data["STRATBlackGuardSwordsmith"] = {
-		["Normal"] = {
-			{
-				{ 1, 18783, "", "=q3=Bottom Half of Advanced Armorsmithing: Volume III", "=ds=#m3#", "", "23.5%"};
-				{ 2, 12725, "", "=q3=Plans: Enchanted Thorium Helm", "=q1=#m4#: =ds=#p2# (300)"};
-				{ 4, 12830, "", "=q1=Plans: Corruption", "=ds=#p2# (290)", "", "100%"};
-			}
-		};
-		info = {
-			name = BabbleBoss["Black Guard Swordsmith"].." ("..AL["Summon"]..")",
-			module = moduleName, instance = "StratholmeGauntlet",
-		};
-	};
-
-	AtlasLoot_Data["STRATStonespine"] = {
-		["Normal"] = {
-			{
-				{ 1, 13397, "", "=q3=Stoneskin Gargoyle Cape", "=ds=#s4#", "", "23.44%"};
-				{ 2, 13954, "", "=q3=Verdant Footpads", "=ds=#s12#, #a2#", "", "25.36%"};
-				{ 3, 13399, "", "=q3=Gargoyle Shredder Talons", "=ds=#h4#, #w13#", "", "26.16%"};
-			}
-		};
-		info = {
-			name = BabbleBoss["Stonespine"],
-			module = moduleName, instance = "StratholmeGauntlet",
-		};
-	};
 
 		---------------------
 		--- The Deadmines ---
@@ -6283,8 +6390,10 @@ AtlasLoot_Data["Jandice Barov"] = {
             {
 			    { 1, 5404, "", "=q3=Serpent's Shoulders", "", "", ""};
                 { 2, 10412, "", "=q3=Belt of the Fang", "", "", ""};
-				{ 4, 6446, "", "=q3=Snakeskin Bag", "", "", ""};
-				{ 5, 9739, "", "=q3=Gem of Anacondra", "", "", ""};
+--			    { 16, 0, "INV_Box_01", "Misc", ""};
+				{ 17, 6446, "", "=q3=Snakeskin Bag", "", "", ""};
+ -- 			{ 19, 0, "INV_Box_01", "Quest Items", ""};
+				{ 20, 9739, "", "=q3=Gem of Anacondra", "", "", ""};
             };
         };
         ["Heroic"] = {
@@ -6837,6 +6946,67 @@ AtlasLoot_Data["Jandice Barov"] = {
         info = {
             name = BabbleBoss["Nekrum Gutchewer"],
             module = moduleName, instance = "ZulFarrak",
+        };
+    };
+
+    	--------------------
+		--- World Bosses ---
+		--------------------
+	
+	AtlasLoot_Data["Azuregos"] = {
+        ["Normal"] = {
+            {
+				{ 1, 17963, "", "=q3=Green Sack of Gems", "", "", ""};
+				{ 2, 17962, "", "=q3=Blue Sack of Gems", "", "", ""};
+				{ 3, 17964, "", "=q3=Gray Sack of Gems", "", "", ""};
+				{ 4, 17969, "", "=q3=Red Sack of Gems", "", "", ""};
+				{ 5, 17965, "", "=q3=Yellow Sack of Gems", "", "", ""};
+				{ 6, 18704, "", "=q3=Mature Blue Dragon Sinew", "", "", ""};
+				{ 7, 30174, "", "=q3=", "", "", ""};
+				{ 8, 487003, "", "=q3=Fang of the Mystics", "", "", ""};
+				{ 9, 517503, "", "=q3=Eskhandar's Left Claw", "", "", ""};
+				{ 10, 519503, "", "=q3=Drape of Benediction", "", "", ""};
+				{ 11, 568003, "", "=q3=Puissant Cape", "", "", ""};
+				{ 12, 568503, "", "=q3=Typhoon", "", "", ""};
+				{ 13, 570003, "", "=q3=Leggings of Arcane Supremacy", "", "", ""};
+				{ 14, 571003, "", "=q3=Unmelting Ice Girdle", "", "", ""};
+				{ 15, 609503, "", "=q3=Cold Snap", "", "", ""};
+				{ 16, 610003, "", "=q3=Snowblind Shoes", "", "", ""};
+				{ 17, 610503, "", "=q3=Crystal Adorned Crown", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Azuregos"],
+            module = moduleName, instance = "World Bosses",
+        };
+    };
+
+	AtlasLoot_Data["Lord Kazzak"] = {
+        ["Normal"] = {
+            {
+				{ 1, 17963, "", "=q3=Green Sack of Gems", "", "", ""};
+				{ 2, 17962, "", "=q3=Blue Sack of Gems", "", "", ""};
+				{ 3, 17964, "", "=q3=Gray Sack of Gems", "", "", ""};
+				{ 4, 17969, "", "=q3=Red Sack of Gems", "", "", ""};
+				{ 5, 17965, "", "=q3=Yellow Sack of Gems", "", "", ""};
+				{ 6, 18665, "", "=q3=The Eye of Shadow", "", "", ""};
+				{ 7, 30174, "", "=q3=", "", "", ""};
+				{ 8, 21371, "", "=q3=Pattern: Core Felcloth Bag", "", "", ""};
+				{ 9, 496003, "", "=q3=Blazefury Medallion", "", "", ""};
+				{ 10, 496503, "", "=q3=Empyrean Demolisher", "", "", ""};
+				{ 11, 497003, "", "=q3=Amberseal Keeper", "", "", ""};
+				{ 12, 518503, "", "=q3=Eskhandar's Pelt", "", "", ""};
+				{ 13, 569003, "", "=q3=Ring of Entropy", "", "", ""};
+				{ 14, 569503, "", "=q3=Doomhide Gauntlets", "", "", ""};
+				{ 15, 570503, "", "=q3=Infernal Headcage", "", "", ""};
+				{ 16, 611003, "", "=q3=Fel Infused Leggings", "", "", ""};
+				{ 17, 611503, "", "=q3=Flayed Doomguard Belt", "", "", ""};
+				{ 18, 612003, "", "=q3=Blacklight Bracer", "", "", ""};
+            };
+        };
+        info = {
+            name = BabbleBoss["Lord Kazzak"],
+            module = moduleName, instance = "World Bosses",
         };
     };
 
