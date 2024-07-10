@@ -1320,7 +1320,7 @@ AtlasLoot_Data["Golem Lord Argelmach"] = {
 AtlasLoot_Data["Ribbly Screwspigot"] = {
     ["Normal"] = {
         {
-            {1, 9543, "", "=q2=Ribbly's Quiver", "", "", ""};
+            {1, 2662, "", "=q2=Ribbly's Quiver", "", "", ""};
             {2, 2663, "", "=q2=Ribbly's Bandolier", "", "", ""};
             {3, 11313, "", "=q3=Ribbly's Head", "", "", ""};
             {4, 11612, "", "=q3=Plans: Dark Iron Plate", "", "", ""};
@@ -1333,11 +1333,11 @@ AtlasLoot_Data["Ribbly Screwspigot"] = {
     };
     ["Heroic"] = {
         {
-            {1, 109543, "", "=q2=Ribbly's Quiver", "", "", ""};
-            {2, 109543, "", "=q2=Ribbly's Bandolier", "", "", ""};
-            {3, 109543, "", "=q3=Ribbly's Head", "", "", ""};
-            {4, 109543, "", "=q3=Plans: Dark Iron Plate", "", "", ""};
-            {5, 109543, "", "=q3=Wayfarer's Knapsack", "", "", ""};
+            {1, 2662, "", "=q2=Ribbly's Quiver", "", "", ""};
+            {2, 2663, "", "=q2=Ribbly's Bandolier", "", "", ""};
+            {3, 11313, "", "=q3=Ribbly's Head", "", "", ""};
+            {4, 11612, "", "=q3=Plans: Dark Iron Plate", "", "", ""};
+            {5, 11742, "", "=q3=Wayfarer's Knapsack", "", "", ""};
             {6, 80618, "", "=q3=The Judge's Gavel", "", "", ""};
             {7, 80621, "", "=q3=Doomforged Straightedge", "", "", ""};
             {8, 80624, "", "=q3=Mar Alom's Grip", "", "", ""};
@@ -1346,11 +1346,11 @@ AtlasLoot_Data["Ribbly Screwspigot"] = {
     };
     ["Mythic"] = {
         {
-            {1, 209543, "", "=q2=Ribbly's Quiver", "", "", ""};
-            {2, 209543, "", "=q2=Ribbly's Bandolier", "", "", ""};
-            {3, 209543, "", "=q3=Ribbly's Head", "", "", ""};
-            {4, 209543, "", "=q3=Plans: Dark Iron Plate", "", "", ""};
-            {5, 209543, "", "=q3=Wayfarer's Knapsack", "", "", ""};
+            {1, 2662, "", "=q2=Ribbly's Quiver", "", "", ""};
+            {2, 2663, "", "=q2=Ribbly's Bandolier", "", "", ""};
+            {3, 11313, "", "=q3=Ribbly's Head", "", "", ""};
+            {4, 11612, "", "=q3=Plans: Dark Iron Plate", "", "", ""};
+            {5, 11742, "", "=q3=Wayfarer's Knapsack", "", "", ""};
             {6, 305001, "", "=q3=The Judge's Gavel", "", "", ""};
             {7, 306501, "", "=q3=Doomforged Straightedge", "", "", ""};
             {8, 308001, "", "=q3=Mar Alom's Grip", "", "", ""};
@@ -1377,22 +1377,18 @@ AtlasLoot_Data["Hurley Blackbreath"] = {
     };
     ["Heroic"] = {
         {
-            {1, 109537, "", "=q2=Lost Thunderbrew Recipe", "", "", ""};
-            {2, 80553, "", "=q2=Dark Iron Fanny Pack", "", "", ""};
-            {3, 80855, "", "=q3=Ragefury Eyepatch", "", "", ""};
-            {4, 80856, "", "=q3=Coal Miner Boots", "", "", ""};
-            {5, 81033, "", "=q3=Hurley's Tankard", "", "", ""};
-            {6, 0, "", "", "", "", ""};
+            {1, 80855, "", "=q3=Ragefury Eyepatch", "", "", ""};
+            {2, 80856, "", "=q3=Coal Miner Boots", "", "", ""};
+            {3, 81033, "", "=q3=Hurley's Tankard", "", "", ""};
+            {4, 81033, "", "=q3=FireMoss Boots", "", "", ""};
         };
     };
     ["Mythic"] = {
         {
-            {1, 209537, "", "=q2=Lost Thunderbrew Recipe", "", "", ""};
-            {2, 272501, "", "=q2=Dark Iron Fanny Pack", "", "", ""};
-            {3, 513001, "", "=q3=Ragefury Eyepatch", "", "", ""};
-            {4, 513501, "", "=q3=Coal Miner Boots", "", "", ""};
-            {5, 654001, "", "=q3=Hurley's Tankard", "", "", ""};
-            {6, 0, "", "", "", "", ""};
+            {1, 513001, "", "=q3=Ragefury Eyepatch", "", "", ""};
+            {2, 513501, "", "=q3=Coal Miner Boots", "", "", ""};
+            {3, 654001, "", "=q3=Hurley's Tankard", "", "", ""};
+            {4, 654001, "", "=q3=FireMoss Boots", "", "", ""};
         };
     };
     info = {
@@ -1405,7 +1401,7 @@ AtlasLoot_Data["Hurley Blackbreath"] = {
 AtlasLoot_Data["Plugger Spazzring"] = {
     ["Normal"] = {
         {
-            {1, 9499, "", "=q3=Schematic: Goblin Jumper Cables XL", "", "", ""};
+            {1, 18653, "", "=q3=Schematic: Goblin Jumper Cables XL", "", "", ""};
             {2, 12531, "", "=q3=Searing Needle", "", "", ""};
             {3, 12542, "", "=q3=Funeral Pyre Vestment", "", "", ""};
             {4, 12791, "", "=q3=Barman Shanker", "", "", ""};
@@ -1414,7 +1410,7 @@ AtlasLoot_Data["Plugger Spazzring"] = {
     };
     ["Heroic"] = {
         {
-            {1, 109499, "", "=q3=Schematic: Goblin Jumper Cables XL", "", "", ""};
+            {1, 18653, "", "=q3=Schematic: Goblin Jumper Cables XL", "", "", ""};
             {2, 80619, "", "=q3=Searing Needle", "", "", ""};
             {3, 80622, "", "=q3=Funeral Pyre Vestment", "", "", ""};
             {4, 80653, "", "=q3=Barman Shanker", "", "", ""};
@@ -1423,7 +1419,7 @@ AtlasLoot_Data["Plugger Spazzring"] = {
     };
     ["Mythic"] = {
         {
-            {1, 209499, "", "=q3=Schematic: Goblin Jumper Cables XL", "", "", ""};
+            {1, 18653, "", "=q3=Schematic: Goblin Jumper Cables XL", "", "", ""};
             {2, 305501, "", "=q3=Searing Needle", "", "", ""};
             {3, 307001, "", "=q3=Funeral Pyre Vestment", "", "", ""};
             {4, 322501, "", "=q3=Barman Shanker", "", "", ""};
@@ -1440,7 +1436,7 @@ AtlasLoot_Data["Plugger Spazzring"] = {
 AtlasLoot_Data["Phalanx"] = {
     ["Normal"] = {
         {
-            {1, 9502, "", "=q3=Rockfist", "", "", ""},
+            {1, 11743, "", "=q3=Rockfist", "", "", ""},
             {2, 11744, "", "=q3=Bloodfist", "", "", ""},
             {3, 11745, "", "=q3=Fists of Phalanx", "", "", ""},
             {4, 22212, "", "=q3=Golem Fitted Pauldrons", "", "", ""},
@@ -1448,7 +1444,7 @@ AtlasLoot_Data["Phalanx"] = {
     };
     ["Heroic"] = {
         {
-            {1, 109502, "", "=q3=Rockfist", "", "", ""},
+            {1, 80554, "", "=q3=Rockfist", "", "", ""},
             {2, 80555, "", "=q3=Bloodfist", "", "", ""},
             {3, 80556, "", "=q3=Fists of Phalanx", "", "", ""},
             {4, 81015, "", "=q3=Golem Fitted Pauldrons", "", "", ""},
@@ -1456,7 +1452,7 @@ AtlasLoot_Data["Phalanx"] = {
     };
     ["Mythic"] = {
         {
-            {1, 209502, "", "=q3=Rockfist", "", "", ""},
+            {1, 273001, "", "=q3=Rockfist", "", "", ""},
             {2, 273501, "", "=q3=Bloodfist", "", "", ""},
             {3, 274001, "", "=q3=Fists of Phalanx", "", "", ""},
             {4, 645001, "", "=q3=Golem Fitted Pauldrons", "", "", ""},
@@ -1712,7 +1708,7 @@ AtlasLoot_Data["Princess Moira Bronzebeard"] = {
 AtlasLoot_Data["Emperor Dagran Thaurissan"] = {
     ["Normal"] = {
         {
-            {1, 9019, "", "=q4=Thaurissan Family Jewels", "", "", ""};
+            {1, 12033, "", "=q4=Thaurissan Family Jewels", "", "", ""};
             {2, 11684, "", "=q3=Ironfoe", "", "", ""};
             {3, 11815, "", "=q3=Hand of Justice", "", "", ""};
             {4, 11924, "", "=q3=Robes of the Royal Crown", "", "", ""};
@@ -1728,7 +1724,7 @@ AtlasLoot_Data["Emperor Dagran Thaurissan"] = {
     };
     ["Heroic"] = {
         {
-            {1, 109019, "", "=q4=Thaurissan Family Jewels", "", "", ""};
+            {1, 12033, "", "=q4=Thaurissan Family Jewels", "", "", ""};
             {2, 80542, "", "=q3=Ironfoe", "", "", ""};
             {3, 80580, "", "=q3=Hand of Justice", "", "", ""};
             {4, 80597, "", "=q3=Robes of the Royal Crown", "", "", ""};
@@ -1744,7 +1740,7 @@ AtlasLoot_Data["Emperor Dagran Thaurissan"] = {
     };
     ["Mythic"] = {
         {
-            {1, 209019, "", "=q4=Thaurissan Family Jewels", "", "", ""};
+            {1, 12033, "", "=q4=Thaurissan Family Jewels", "", "", ""};
             {2, 267001, "", "=q3=Ironfoe", "", "", ""};
             {3, 286001, "", "=q3=Hand of Justice", "", "", ""};
             {4, 294501, "", "=q3=Robes of the Royal Crown", "", "", ""};
