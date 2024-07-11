@@ -878,16 +878,16 @@ AtlasLoot_LootTableRegister = {
 
 		["Uldaman"] = {
 			["Bosses"] = {
-				{ "UldShovelphlange", },
-				{ "UldBaelog", {4,5,6,7} },
-				{ "UldRevelosh", 8 },
-				{ "UldIronaya", 9 },
-				{ "UldObsidianSentinel", 10 },
-				{ "UldAncientStoneKeeper", 11 },
-				{ "UldGalgannFirehammer", 12 },
-				{ "UldGrimlok", 13 },
-				{ "UldArchaedas", 14 },
-				{ "UldTrash", 24 },
+				{ "Revelosh", 1 },
+				{ "Baelog", 2 },
+				{ "Eric \"The Swift\"", 3 },
+				{ "Olaf", 4 },
+				{ "Ironaya", 5 },
+				{ "Obsidian Sentinel", 6 },
+				{ "Ancient Stone Keeper", 7 },
+				{ "Galgann Firehammer", 8 },
+				{ "Grimlok", 9 },
+				{ "Archaedas", 10 },
 			},
 			["Info"] = { BabbleZone["Uldaman"], "AtlasLootClassicWoW", mapname = "Uldaman" },
 		},
@@ -906,7 +906,7 @@ AtlasLoot_LootTableRegister = {
 				{ "Archivist Galford", 10 },
 				{ "Balnazzar", 11 },
 			},
-	["Info"] = { BabbleZone["Stratholme Main Gate"], "AtlasLootClassicWoW", mapname = "Stratholme" },
+	["Info"] = { AL["Stratholme Main Gate"], "AtlasLootClassicWoW", mapname = "Stratholme" },
 },	
 
 		["Stratholme Service Gate"] = {
@@ -920,7 +920,7 @@ AtlasLoot_LootTableRegister = {
 				{ "Ramstein the Gorger", 7 },
 				{ "Baron Rivendare", 8 },
 			},
-	["Info"] = { BabbleZone["Stratholme Service Gate"], "AtlasLootClassicWoW", mapname = "Stratholme" },
+	["Info"] = { AL["Stratholme Service Gate"], "AtlasLootClassicWoW", mapname = "Stratholme" },
 },
 
 		["RazorfenDowns"] = {
@@ -1052,7 +1052,7 @@ AtlasLoot_LootTableRegister = {
 				{ "High Inquisitor Fairbanks", 2 },
 				{ "Scarlet Commander Mograine", 3 },
 			},
-			["Info"] = { BabbleZone["Scarlet Monastery (Cathedral)"], "AtlasLootClassicWoW", mapname = "ScarletMonastery" },
+			["Info"] = { AL["Scarlet Monastery (Cathedral)"], "AtlasLootClassicWoW", mapname = "ScarletMonastery" },
 		},
 
 		["ScarletMonasteryLibrary"] = {
@@ -1060,7 +1060,7 @@ AtlasLoot_LootTableRegister = {
 				{ "Houndmaster Loksey", 1 },
 				{ "Arcanist Doan", 2 }
 			},
-			["Info"] = { BabbleZone["Scarlet Monastery (Library)"], "AtlasLootClassicWoW", mapname = "ScarletMonastery" },
+			["Info"] = { AL["Scarlet Monastery (Library)"], "AtlasLootClassicWoW", mapname = "ScarletMonastery" },
 		},
 
 		["ScarletMonasteryGraveyard"] = {
@@ -1071,7 +1071,7 @@ AtlasLoot_LootTableRegister = {
 				{ "Fallen Champion", 4 },
 				{ "Ironspine", 5 }
 			},
-			["Info"] = { BabbleZone["Scarlet Monastery (Graveyard)"], "AtlasLootClassicWoW", mapname = "ScarletMonastery" },
+			["Info"] = { AL["Scarlet Monastery (Graveyard)"], "AtlasLootClassicWoW", mapname = "ScarletMonastery" },
 		},
 
 		["Scholomance"] = {

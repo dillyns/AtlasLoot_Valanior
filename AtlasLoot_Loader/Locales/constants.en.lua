@@ -595,6 +595,11 @@ if AL then
 
 	-- Loot Table Names
 	AL["Scarlet Monastery (Armory)"] = true;
+	AL["Scarlet Monastery (Graveyard)"] = true;
+	AL["Scarlet Monastery (Library)"] = true;
+	AL["Scarlet Monastery (Cathedral)"] = true;
+	AL["Stratholme Service Gate"] = true;
+	AL["Stratholme Main Gate"] = true;
 	AL["Level 30-39"] = true;
 	AL["Level 40-49"] = true;
 	AL["Level 50-60"] = true;
