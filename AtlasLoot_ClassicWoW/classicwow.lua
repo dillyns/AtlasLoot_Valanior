@@ -1354,32 +1354,31 @@ AtlasLoot_Data["Crystal Fang"] = {
 AtlasLoot_Data["Urok Doomhowl"] = {
     ["Normal"] = {
         {
-            { 1, 13258, "", "=q3=Slaghide Gauntlets", "", "", "" },
-            { 2, 13259, "", "=q3=Ribsteel Footguards", "", "", "" },
-            { 3, 22232, "", "=q3=Marksman's Girdle", "", "", "" },
-            { 4, 13260, "", "=q3=Wind Dancer Boots", "", "", "" },
-            { 5, 18784, "", "=q3=Top Half of Advanced Armorsmithing: Volume III", "", "", "" },
-            { 6, 12712, "", "=q3=Warosh's Mojo", "", "", "" },
+            { 1, 12219, "", "=q3=Unadorned Seal of Ascension", "", "", "" },
+            { 2, 12712, "", "=q3=Warosh's Mojo", "", "", "" },
+            { 3, 18784, "", "=q3=Top Half of Advanced Armorsmithing: Volume III", "", "", "" },
+            { 4, 13178, "", "=q3=Rosewine Circle", "", "", "" },
+            { 5, 13258, "", "=q3=Slaghide Gauntlets", "", "", "" },
+            { 6, 13259, "", "=q3=Ribsteel Footguards", "", "", "" },
+            { 6, 22232, "", "=q3=Marksman's Girdle'", "", "", "" },
     };
 };
     ["Heroic"] = {
         {
-            { 1, 80632, "", "=q3=Slaghide Gauntlets", "", "", "" },
-            { 2, 80634, "", "=q3=Ribsteel Footguards", "", "", "" },
-            { 3, 80635, "", "=q3=Marksman's Girdle", "", "", "" },
-            { 4, 80636, "", "=q3=Wind Dancer Boots", "", "", "" },
-            { 5, 80745, "", "=q3=Top Half of Advanced Armorsmithing: Volume III", "", "", "" },
-            { 6, 80747, "", "=q3=Warosh's Mojo", "", "", "" },
+            { 1, 18784, "", "=q3=Top Half of Advanced Armorsmithing: Volume III", "", "", "" },
+            { 2, 80689, "", "=q3=Rosewine Circle", "", "", "" },
+            { 3, 80708, "", "=q3=Slaghide Gauntlets", "", "", "" },
+            { 4, 80709, "", "=q3=Ribsteel Footguards", "", "", "" },
+            { 5, 81019, "", "=q3=Marksman's Girdle", "", "", "" },
     };
 };
     ["Mythic"] = {
         {
-            { 1, 902501, "", "=q3=Slaghide Gauntlets", "", "", "" },
-            { 2, 903001, "", "=q3=Ribsteel Footguards", "", "", "" },
-            { 3, 903501, "", "=q3=Marksman's Girdle", "", "", "" },
-            { 4, 904001, "", "=q3=Wind Dancer Boots", "", "", "" },
-            { 5, 904501, "", "=q3=Top Half of Advanced Armorsmithing: Volume III", "", "", "" },
-            { 6, 905001, "", "=q3=Warosh's Mojo", "", "", "" },
+            { 1, 18784, "", "=q3=Top Half of Advanced Armorsmithing: Volume III", "", "", "" },
+            { 2, 343501, "", "=q3= Rosewine Circle", "", "", "" },
+            { 3, 353001, "", "=q3= Slaghide Gauntlets", "", "", "" },
+            { 4, 353501, "", "=q3= Ribsteel Footguards", "", "", "" },
+            { 5, 647001, "", "=q3= Marksman's Girdle", "", "", "" },
     };
 };
     info = {
@@ -1530,45 +1529,7 @@ AtlasLoot_Data["Overlord Wyrmthalak"] = {
         instance = "BlackrockSpireLower",
     };
 };
-AtlasLoot_Data["WarchiefRendBlackhand"] = {
-    ["Normal"] = {
-        {
-            { 1, 12630, "", "=q1=Head of Rend Blackhand", "", "", "" },
-            { 2, 22138, "", "=q1=Blackrock Bracer", "", "", "" },
-            { 3, 12583, "", "=q3=Blackhand Doomsaw", "", "", "" },
-            { 4, 12587, "", "=q3=Eye of Rend", "", "", "" },
-            { 5, 12588, "", "=q3=Bonespike Shoulder", "", "", "" },
-            { 6, 12590, "", "=q3=Felstriker", "", "", "" },
-            { 7, 12939, "", "=q3=Dal'Rend's Tribal Guardian", "", "", "" },
-            { 8, 12940, "", "=q3=Dal'Rend's Sacred Charge", "", "", "" },
-        },
-    },
-    ["Heroic"] = {
-        {
-            { 1, 80634, "", "=q3=Blackhand Doomsaw", "", "", "" },
-            { 2, 80635, "", "=q3=Eye of Rend", "", "", "" },
-            { 3, 80636, "", "=q3=Bonespike Shoulder", "", "", "" },
-            { 4, 80638, "", "=q3=Felstriker", "", "", "" },
-            { 5, 80662, "", "=q3=Dal'Rend's Tribal Guardian", "", "", "" },
-            { 6, 80663, "", "=q3=Dal'Rend's Sacred Charge", "", "", "" },
-        },
-    },
-    ["Mythic"] = {
-        {
-            { 1, 313001, "", "=q4=Blackhand Doomsaw", "", "", "" },
-            { 2, 313501, "", "=q4=Eye of Rend", "", "", "" },
-            { 3, 314001, "", "=q4=Bonespike Shoulder", "", "", "" },
-            { 4, 315001, "", "=q4=Felstriker", "", "", "" },
-            { 5, 327001, "", "=q4=Dal'Rend's Tribal Guardian", "", "", "" },
-            { 6, 327501, "", "=q4=Dal'Rend's Sacred Charge", "", "", "" },
-        },
-    },
-    info = {
-        name = BabbleBoss["Warchief Rend Blackhand"],
-        module = moduleName,
-        instance = "BlackrockSpireUpper",
-    },
-};
+
 
 		-------------------------------------------------
 		--- Blackrock Mountain: Upper Blackrock Spire ---
