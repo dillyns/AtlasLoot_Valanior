@@ -4691,7 +4691,7 @@ AtlasLoot_Data["Arcanist Doan"] = {
         };
     };
     info = {
-        name = "Arcanist Doan",
+        name = BabbleBoss["Arcanist Doan"],
         module = moduleName,
         instance = "Scarlet Monastery (Library)",
     };
@@ -4727,7 +4727,7 @@ AtlasLoot_Data["Arcanist Doan"] = {
         };
     };
     info = {
-        name = "Interrogator Vishas",
+       name = BabbleBoss["Interrogator Vishas"],
         module = moduleName,
         instance = "Scarlet Monastery (Graveyard)",
     };
@@ -4759,7 +4759,7 @@ AtlasLoot_Data["Bloodmage Thalnos"] = {
         };
     };
     info = {
-        name = "Bloodmage Thalnos",
+        name = BabbleBoss["Bloodmage Thalnos"],
         module = moduleName,
         instance = "Scarlet Monastery (Graveyard)",
     };
@@ -4791,7 +4791,7 @@ AtlasLoot_Data["Azshir the Sleepless"] = {
         };
     };
     info = {
-        name = "Azshir the Sleepless",
+        name = BabbleBoss["Azshir the Sleepless"],
         module = moduleName,
         instance = "Scarlet Monastery (Graveyard)",
     };
@@ -4823,7 +4823,7 @@ AtlasLoot_Data["Fallen Champion"] = {
         };
     };
     info = {
-        name = "Fallen Champion",
+        name = BabbleBoss["Fallen Champion"],
         module = moduleName,
         instance = "Scarlet Monastery (Graveyard)",
     };
@@ -4858,7 +4858,7 @@ AtlasLoot_Data["Ironspine"] = {
         };
     };
     info = {
-        name = "Ironspine",
+        name = BabbleBoss["Ironspine"],
         module = moduleName,
         instance = "Scarlet Monastery (Graveyard)",
     };
@@ -5657,7 +5657,371 @@ AtlasLoot_Data["Jandice Barov"] = {
 		--------------------------------------
 		--- Stratholme - Crusader's Square ---
 		--------------------------------------
+		AtlasLoot_Data["Ezra Grimm"] = {
+    ["Normal"] = {
+        {
+            { 1, 12843, "", "=q3=Corruptor's Scourgestone", "", "", "" },
+            { 2, 13172, "", "=q3=Siabi's Premium Tobacco", "", "", "" },
+            { 3, 22526, "", "=q3=Bone Fragments", "", "", "" },
+            { 4, 18744, "", "=q3=Plaguebat Fur Gloves", "", "", "" },
+            { 5, 18745, "", "=q3=Sacred Cloth Leggings", "", "", "" },
+            { 6, 22334, "", "=q3=Band of Mending", "", "", "" },
+            { 7, 22407, "", "=q3=Helm of the New Moon", "", "", "" },
+        };
+    };
+    ["Heroic"] = {
+        {
+            { 1, 81003, "", "=q3=Plaguebat Fur Gloves", "", "", "" },
+            { 2, 81004, "", "=q3=Sacred Cloth Leggings", "", "", "" },
+            { 3, 81035, "", "=q3=Band of Mending", "", "", "" },
+            { 4, 81041, "", "=q3=Helm of the New Moon", "", "", "" },
+        };
+    };
+    ["Mythic"] = {
+        {
+            { 1, 593001, "", "=q3=Plaguebat Fur Gloves", "", "", "" },
+            { 2, 593501, "", "=q3=Sacred Cloth Leggings", "", "", "" },
+            { 3, 655001, "", "=q3=Band of Mending", "", "", "" },
+            { 4, 659501, "", "=q3=Helm of the New Moon", "", "", "" },
+        };
+    };
+    info = {
+        name = BabbleBoss["Ezra Grimm"],
+        module = moduleName,
+        instance = "Stratholme Main Gate",
+    };
+};
 
+AtlasLoot_Data["Skul"] = {
+    ["Normal"] = {
+        {
+            { 1, 12843, "", "=q3=Corruptor's Scourgestone", "", "", "" },
+            { 2, 22526, "", "=q3=Bone Fragments", "", "", "" },
+            { 3, 13394, "", "=q3=Skul's Cold Embrace", "", "", "" },
+            { 4, 13395, "", "=q3=Skul's Fingerbone Claws", "", "", "" },
+            { 5, 13396, "", "=q3=Skul's Ghastly Touch", "", "", "" },
+            { 6, 18721, "", "=q3=Barrage Girdle", "", "", "" },
+        };
+    };
+    ["Heroic"] = {
+        {
+            { 1, 80742, "", "=q3=Skul's Cold Embrace", "", "", "" },
+            { 2, 80743, "", "=q3=Skul's Fingerbone Claws", "", "", "" },
+            { 3, 80744, "", "=q3=Skul's Ghastly Touch", "", "", "" },
+            { 4, 80984, "", "=q3=Barrage Girdle", "", "", "" },
+        };
+    };
+    ["Mythic"] = {
+        {
+            { 1, 370001, "", "=q3=Skul's Cold Embrace", "", "", "" },
+            { 2, 370501, "", "=q3=Skul's Fingerbone Claws", "", "", "" },
+            { 3, 371001, "", "=q3=Skul's Ghastly Touch", "", "", "" },
+            { 4, 583501, "", "=q3=Barrage Girdle", "", "", "" },
+        };
+    };
+    info = {
+        name = BabbleBoss["Skul"],
+        module = moduleName,
+        instance = "Stratholme Main Gate",
+    };
+};
+
+AtlasLoot_Data["Hearthsinger Forresten"] = {
+    ["Normal"] = {
+        {
+            { 1, 12843, "", "=q3=Corruptor's Scourgestone", "", "", "" },
+            { 2, 13378, "", "=q3=Songbird Blouse", "", "", "" },
+            { 3, 13383, "", "=q3=Woollies of the Prancing Minstrel", "", "", "" },
+            { 4, 13384, "", "=q3=Rainbow Girdle", "", "", "" },
+            { 5, 22405, "", "=q3=Mantle of the Scarlet Crusade", "", "", "" },
+        };
+    };
+    ["Heroic"] = {
+        {
+            { 1, 80728, "", "=q3=Songbird Blouse", "", "", "" },
+            { 2, 80732, "", "=q3=Woollies of the Prancing Minstrel", "", "", "" },
+            { 3, 80733, "", "=q3=Rainbow Girdle", "", "", "" },
+            { 4, 81039, "", "=q3=Mantle of the Scarlet Crusade", "", "", "" },
+        };
+    };
+    ["Mythic"] = {
+        {
+            { 1, 363001, "", "=q3=Songbird Blouse", "", "", "" },
+            { 2, 365001, "", "=q3=Woollies of the Prancing Minstrel", "", "", "" },
+            { 3, 365501, "", "=q3=Rainbow Girdle", "", "", "" },
+            { 4, 658501, "", "=q3=Mantle of the Scarlet Crusade", "", "", "" },
+        };
+    };
+    info = {
+        name = BabbleBoss["Hearthsinger Forresten"],
+        module = moduleName,
+        instance = "Stratholme Main Gate",
+    };
+};
+AtlasLoot_Data["The Unforgiven"] = {
+    ["Normal"] = {
+        {
+            { 1, 12843, "", "=q3=Corruptor's Scourgestone", "", "", "" },
+            { 2, 13174, "", "=q3=Plagued Flesh Sample", "", "", "" },
+            { 3, 13404, "", "=q3=Mask of the Unforgiven", "", "", "" },
+            { 4, 13405, "", "=q3=Wailing Nightbane Pauldrons", "", "", "" },
+            { 5, 13408, "", "=q3=Soul Breaker", "", "", "" },
+            { 6, 13409, "", "=q3=Tearfall Bracers", "", "", "" },
+        };
+    };
+    ["Heroic"] = {
+        {
+            { 1, 80752, "", "=q3=Mask of the Unforgiven", "", "", "" },
+            { 2, 80753, "", "=q3=Wailing Nightbane Pauldrons", "", "", "" },
+            { 3, 80754, "", "=q3=Soul Breaker", "", "", "" },
+            { 4, 80755, "", "=q3=Tearfall Bracers", "", "", "" },
+        };
+    };
+    ["Mythic"] = {
+        {
+            { 1, 375001, "", "=q3=Mask of the Unforgiven", "", "", "" },
+            { 2, 375501, "", "=q3=Wailing Nightbane Pauldrons", "", "", "" },
+            { 3, 376001, "", "=q3=Soul Breaker", "", "", "" },
+            { 4, 376501, "", "=q3=Tearfall Bracers", "", "", "" },
+        };
+    };
+    info = {
+        name = BabbleBoss["The Unforgiven"],
+        module = moduleName,
+        instance = "Stratholme Main Gate",
+    };
+};
+
+AtlasLoot_Data["Postmaster Malown"] = {
+    ["Normal"] = {
+        {
+            { 1, 12843, "", "=q3=Corruptor's Scourgestone", "", "", "" },
+            { 2, 13388, "", "=q3=The Postmaster's Tunic", "", "", "" },
+            { 3, 13389, "", "=q3=The Postmaster's Trousers", "", "", "" },
+            { 4, 13390, "", "=q3=The Postmaster's Band", "", "", "" },
+            { 5, 13391, "", "=q3=The Postmaster's Tread", "", "", "" },
+            { 6, 13392, "", "=q3=The Postmaster's Seal", "", "", "" },
+            { 7, 13393, "", "=q3=Malown's Slam", "", "", "" },
+        };
+    };
+    ["Heroic"] = {
+        {
+            { 1, 80736, "", "=q3=The Postmaster's Tunic", "", "", "" },
+            { 2, 80737, "", "=q3=The Postmaster's Trousers", "", "", "" },
+            { 3, 80738, "", "=q3=The Postmaster's Band", "", "", "" },
+            { 4, 80739, "", "=q3=The Postmaster's Tread", "", "", "" },
+            { 5, 80740, "", "=q3=The Postmaster's Seal", "", "", "" },
+            { 6, 80741, "", "=q3=Malown's Slam", "", "", "" },
+        };
+    };
+    ["Mythic"] = {
+        {
+            { 1, 367001, "", "=q3=The Postmaster's Tunic", "", "", "" },
+            { 2, 367501, "", "=q3=The Postmaster's Trousers", "", "", "" },
+            { 3, 368001, "", "=q3=The Postmaster's Band", "", "", "" },
+            { 4, 368501, "", "=q3=The Postmaster's Tread", "", "", "" },
+            { 5, 369001, "", "=q3=The Postmaster's Seal", "", "", "" },
+            { 6, 369501, "", "=q3=Malown's Slam", "", "", "" },
+        };
+    };
+    info = {
+        name = BabbleBoss["Postmaster Malown"],
+        module = moduleName,
+        instance = "Stratholme Main Gate",
+    };
+};
+
+AtlasLoot_Data["Timmy the Cruel"] = {
+    ["Normal"] = {
+        {
+            { 1, 12843, "", "=q3=Corruptor's Scourgestone", "", "", "" },
+            { 2, 13174, "", "=q3=Plagued Flesh Sample", "", "", "" },
+            { 3, 13349, "", "=q3=Scepter of the Unholy", "", "", "" },
+            { 4, 13400, "", "=q3=Vambraces of the Sadist", "", "", "" },
+            { 5, 13401, "", "=q3=The Cruel Hand of Timmy", "", "", "" },
+            { 6, 13402, "", "=q3=Timmy's Galoshes", "", "", "" },
+            { 7, 13403, "", "=q3=Grimgore Noose", "", "", "" },
+        };
+    };
+    ["Heroic"] = {
+        {
+            { 1, 80716, "", "=q3=Scepter of the Unholy", "", "", "" },
+            { 2, 80748, "", "=q3=Vambraces of the Sadist", "", "", "" },
+            { 3, 80749, "", "=q3=The Cruel Hand of Timmy", "", "", "" },
+            { 4, 80750, "", "=q3=Timmy's Galoshes", "", "", "" },
+            { 5, 80751, "", "=q3=Grimgore Noose", "", "", "" },
+        };
+    };
+    ["Mythic"] = {
+        {
+            { 1, 357001, "", "=q3=Scepter of the Unholy", "", "", "" },
+            { 2, 373001, "", "=q3=Vambraces of the Sadist", "", "", "" },
+            { 3, 373501, "", "=q3=The Cruel Hand of Timmy", "", "", "" },
+            { 4, 374001, "", "=q3=Timmy's Galoshes", "", "", "" },
+            { 5, 374501, "", "=q3=Grimgore Noose", "", "", "" },
+        };
+    };
+    info = {
+        name = BabbleBoss["Timmy the Cruel"],
+        module = moduleName,
+        instance = "Stratholme Main Gate",
+    };
+};
+AtlasLoot_Data["Malor the Zealous"] = {
+    ["Normal"] = {
+        {
+            { 1, 11032, "", "=q3=Crown of Tyranny", "", "", "" },
+            { 2, 13359, "", "=q3=Gift of the Elven Magi", "", "", "" },
+            { 3, 17061, "", "=q3=Juno's Shadow", "", "", "" },
+            { 4, 18743, "", "=q3=Gracious Cape", "", "", "" },
+            { 5, 22403, "", "=q3=Nacreous Shell Necklace", "", "", "" },
+        },
+    },
+    ["Heroic"] = {
+        {
+            { 1, 111032, "", "=q3=Crown of Tyranny", "", "", "" },
+            { 2, 80718, "", "=q3=Gift of the Elven Magi", "", "", "" },
+            { 3, 80719, "", "=q3=Juno's Shadow", "", "", "" },
+            { 4, 81002, "", "=q3=Gracious Cape", "", "", "" },
+            { 5, 81037, "", "=q3=Nacreous Shell Necklace", "", "", "" },
+        },
+    },
+    ["Mythic"] = {
+        {
+            { 1, 211032, "", "=q3=Crown of Tyranny", "", "", "" },
+            { 2, 358001, "", "=q3=Gift of the Elven Magi", "", "", "" },
+            { 3, 483001, "", "=q3=Juno's Shadow", "", "", "" },
+            { 4, 592501, "", "=q3=Gracious Cape", "", "", "" },
+            { 5, 657501, "", "=q3=Nacreous Shell Necklace", "", "", "" },
+        },
+    },
+    info = {
+        name = BabbleBoss["Malor the Zealous"],
+        module = moduleName,
+        instance = "Stratholme Main Gate",
+    },
+};
+
+AtlasLoot_Data["Cannon Master Willey"] = {
+    ["Normal"] = {
+        {
+            { 1, 10997, "", "=q3=Plans: Heartseeker", "", "", "" },
+            { 2, 12839, "", "=q3=Miniature Cannon Balls", "", "", "" },
+            { 3, 13377, "", "=q3=Willey's Portable Howitzer", "", "", "" },
+            { 4, 13380, "", "=q3=Master Cannoneer Boots", "", "", "" },
+            { 5, 13381, "", "=q3=Cannonball Runner", "", "", "" },
+            { 6, 22404, "", "=q3=Willey's Back Scratcher", "", "", "" },
+            { 7, 22406, "", "=q3=Redemption", "", "", "" },
+        },
+    },
+    ["Heroic"] = {
+        {
+            { 1, 110997, "", "=q3=Plans: Heartseeker", "", "", "" },
+            { 2, 12839, "", "=q3=Miniature Cannon Balls", "", "", "" },
+            { 3, 80729, "", "=q3=Willey's Portable Howitzer", "", "", "" },
+            { 4, 80730, "", "=q3=Master Cannoneer Boots", "", "", "" },
+            { 5, 80731, "", "=q3=Cannonball Runner", "", "", "" },
+            { 6, 81038, "", "=q3=Willey's Back Scratcher", "", "", "" },
+            { 7, 81040, "", "=q3=Redemption", "", "", "" },
+        },
+    },
+    ["Mythic"] = {
+        {
+            { 1, 210997, "", "=q3=Plans: Heartseeker", "", "", "" },
+            { 2, 13377, "", "=q3=Miniature Cannon Balls", "", "", "" },
+            { 3, 363501, "", "=q3=Willey's Portable Howitzer", "", "", "" },
+            { 4, 364001, "", "=q3=Master Cannoneer Boots", "", "", "" },
+            { 5, 364501, "", "=q3=Cannonball Runner", "", "", "" },
+            { 6, 658001, "", "=q3=Willey's Back Scratcher", "", "", "" },
+            { 7, 659001, "", "=q3=Redemption", "", "", "" },
+        },
+    },
+    info = {
+        name = BabbleBoss["Cannon Master Willey"],
+        module = moduleName,
+        instance = "Stratholme Main Gate",
+    },
+};
+
+AtlasLoot_Data["Archivist Galford"] = {
+    ["Normal"] = {
+        {
+            { 1, 10811, "", "=q3=Star of Mystaria", "", "", "" },
+            { 2, 13348, "", "=q3=Demonshear", "", "", "" },
+            { 3, 13386, "", "=q3=Archivist Cape", "", "", "" },
+            { 4, 13387, "", "=q3=Foresight Girdle", "", "", "" },
+            { 5, 18716, "", "=q3=Ash Covered Boots", "", "", "" },
+        },
+    },
+    ["Heroic"] = {
+        {
+            { 1, 110811, "", "=q3=Star of Mystaria", "", "", "" },
+            { 2, 80715, "", "=q3=Demonshear", "", "", "" },
+            { 3, 80734, "", "=q3=Archivist Cape", "", "", "" },
+            { 4, 80735, "", "=q3=Foresight Girdle", "", "", "" },
+            { 5, 80980, "", "=q3=Ash Covered Boots", "", "", "" },
+        },
+    },
+    ["Mythic"] = {
+        {
+            { 1, 210811, "", "=q3=Star of Mystaria", "", "", "" },
+            { 2, 356501, "", "=q3=Demonshear", "", "", "" },
+            { 3, 366001, "", "=q3=Archivist Cape", "", "", "" },
+            { 4, 366501, "", "=q3=Foresight Girdle", "", "", "" },
+            { 5, 581501, "", "=q3=Ash Covered Boots", "", "", "" },
+        },
+    },
+    info = {
+        name = BabbleBoss["Archivist Galford"],
+        module = moduleName,
+        instance = "Stratholme Main Gate",
+    },
+};
+
+AtlasLoot_Data["Balnazzar"] = {
+    ["Normal"] = {
+        {
+            { 1, 10813, "", "=q3=Head of Balnazzar", "", "", "" },
+            { 2, 13250, "", "=q3=Balnazzar's Hide", "", "", "" },
+            { 3, 13352, "", "=q3=Book of the Dead", "", "", "" },
+            { 4, 13353, "", "=q3=Grand Crusader's Helm", "", "", "" },
+            { 5, 13358, "", "=q3=Wyrmtongue Shoulders", "", "", "" },
+            { 6, 13369, "", "=q3=Fire Striders", "", "", "" },
+            { 7, 18717, "", "=q3=Hammer of the Grand Crusader", "", "", "" },
+            { 8, 18718, "", "=q3=Grand Crusader's Helm", "", "", "" },
+            { 9, 18720, "", "=q3=Shroud of the Nathrezim", "", "", "" },
+        },
+    },
+    ["Heroic"] = {
+        {
+            { 1, 110813, "", "=q3=Head of Balnazzar", "", "", "" },
+            { 2, 13520, "", "=q3=Recipe: Flask of Distilled Wisdom", "", "", "" },
+            { 3, 14512, "", "=q3=Pattern: Truefaith Vestments", "", "", "" },
+            { 4, 80717, "", "=q3=Wyrmtongue Shoulders", "", "", "" },
+            { 5, 80722, "", "=q3=Fire Striders", "", "", "" },
+            { 6, 80981, "", "=q3=Hammer of the Grand Crusader", "", "", "" },
+            { 7, 80982, "", "=q3=Grand Crusader's Helm", "", "", "" },
+            { 8, 80983, "", "=q3=Shroud of the Nathrezim", "", "", "" },
+        },
+    },
+    ["Mythic"] = {
+        {
+            { 1, 210813, "", "=q3=Recipe: Flask of Distilled Wisdom", "", "", "" },
+            { 2, 14512, "", "=q3=Pattern: Truefaith Vestments", "", "", "" },
+            { 3, 770501, "", "=q3=Book of the Dead", "", "", "" },
+            { 4, 357501, "", "=q3=Wyrmtongue Shoulders", "", "", "" },
+            { 5, 360001, "", "=q3=Fire Striders", "", "", "" },
+            { 6, 582001, "", "=q3=Hammer of the Grand Crusader", "", "", "" },
+            { 7, 582501, "", "=q3=Grand Crusader's Helm", "", "", "" },
+            { 8, 583001, "", "=q3=Shroud of the Nathrezim", "", "", "" },
+        },
+    },
+    info = {
+        name = BabbleBoss["Balnazzar"],
+        module = moduleName,
+        instance = "Stratholme Main Gate",
+    },
+};
 	
 		---------------------------------
 		--- Stratholme - The Gauntlet ---
