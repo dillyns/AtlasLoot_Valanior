@@ -784,6 +784,7 @@ AtlasLoot_LootTableRegister = {
 				{ "Spirestone battle Lord", 18 },
 				{ "Spirestone Lord Magus", 19 },
 				{ "Ghok Bashguud", 20 },
+				{ "Warchief Rend Blackhand", 21 },
 			},
 			["Info"] = { BabbleZone["Lower Blackrock Spire"], "AtlasLootClassicWoW", mapname = "BlackrockSpire" },
 		},

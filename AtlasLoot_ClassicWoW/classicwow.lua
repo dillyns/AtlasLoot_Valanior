@@ -1530,6 +1530,46 @@ AtlasLoot_Data["Overlord Wyrmthalak"] = {
     };
 };
 
+AtlasLoot_Data["Warchief Rend Blackhand"] = {
+    ["Normal"] = {
+        {
+            { 1, 12630, "", "=q3=Head of Rend Blackhand", "", "", },
+            { 2, 22138, "", "=q3=Blackrock Bracer", "", "", },
+            { 3, 12583, "", "=q3=Blackhand Doomsaw", "", "", },
+            { 4, 12587, "", "=q3=Eye of Rend", "", "", },
+            { 5, 12588, "", "=q3=Bonespike Shoulder", "", "", },
+            { 6, 12590, "", "=q3=Felstriker", "", "", },
+            { 7, 12939, "", "=q3=Dal'Rend's Tribal Guardian", "", "", },
+            { 8, 12940, "", "=q3=Dal'Rend's Sacred Charge", "", "", },
+    };
+};
+    ["Heroic"] = {
+        {
+            { 1, 80634, "", "=q3=Blackhand Doomsaw", "", "", },
+            { 2, 80635, "", "=q3=Eye of Rend", "", "", },
+            { 3, 80636, "", "=q3=Bonespike Shoulder", "", "", },
+            { 4, 80638, "", "=q3=Felstriker", "", "", },
+            { 5, 80662, "", "=q3=Dal'Rend's Tribal Guardian", "", "", },
+            { 6, 80663, "", "=q3=Dal'Rend's Sacred Charge", "", "", },
+    };
+};
+    ["Mythic"] = {
+        {
+            { 1, 313001, "", "=q3=Blackhand Doomsaw", "", "", },
+            { 2, 313501, "", "=q3=Eye of Rend", "", "", },
+            { 3, 314001, "", "=q3=Bonespike Shoulder", "", "", },
+            { 4, 315001, "", "=q3=Felstriker", "", "", },
+            { 5, 327001, "", "=q3=Dal'Rend's Tribal Guardian", "", "", },
+            { 6, 327501, "", "=q3=Dal'Rend's Sacred Charge", "", "", },
+    };
+};
+    info = {
+        name = BabbleBoss["Warchief Rend Blackhand"],
+        module = moduleName,
+        instance = "Blackrock Spire",
+    };
+};
+
 
 		-------------------------------------------------
 		--- Blackrock Mountain: Upper Blackrock Spire ---
