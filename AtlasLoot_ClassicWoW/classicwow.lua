@@ -4507,7 +4507,7 @@ AtlasLoot_Data["Charlga Razorflank"] = {
         };
     };
     info = {
-        name = "Herod",
+        name = BabbleBoss["Herod"],
         module = moduleName,
         instance = "Scarlet Monastery (Armory)",
     };
@@ -4543,7 +4543,7 @@ AtlasLoot_Data["Charlga Razorflank"] = {
         };
     };
     info = {
-        name = "Scarlet Commander Mograine",
+        name = BabbleBoss["Scarlet Commander Mograine"],
         module = moduleName,
         instance = "Scarlet Monastery (Cathedral)",
     };
@@ -4578,7 +4578,7 @@ AtlasLoot_Data["High Inquisitor Whitemane"] = {
         };
     };
     info = {
-        name = "High Inquisitor Whitemane",
+        name = BabbleBoss["High Inquisitor Whitemane"],
         module = moduleName,
         instance = "Scarlet Monastery (Cathedral)",
     };
@@ -4613,7 +4613,7 @@ AtlasLoot_Data["High Inquisitor Fairbanks"] = {
         };
     };
     info = {
-        name = "High Inquisitor Fairbanks",
+        name = BabbleBoss["High Inquisitor Fairbanks"],
         module = moduleName,
         instance = "Scrlet Monastery (Cathedral)",
     };
@@ -4652,7 +4652,7 @@ AtlasLoot_Data["High Inquisitor Fairbanks"] = {
         };
     };
     info = {
-        name = "Houndmaster Loksey",
+        name = BabbleBoss["Houndmaster Loksey"],
         module = moduleName,
         instance = "Scarlet Monastery (Library)",
     };
