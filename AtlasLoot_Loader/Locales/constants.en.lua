@@ -594,6 +594,7 @@ if AL then
 	AL["Raid Finder"] = true;
 
 	-- Loot Table Names
+	AL["Scarlet Monastery (Armory)"] = true;
 	AL["Level 30-39"] = true;
 	AL["Level 40-49"] = true;
 	AL["Level 50-60"] = true;

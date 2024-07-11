@@ -299,13 +299,6 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { BabbleZone["The Obsidian Sanctum"], "AtlasLootWotLK", mapname = "TheObsidianSanctum", raid = true },
 		},
 
-		["OnyxiasLair"] = {
-			["Bosses"] = {
-				{ "Onyxia", 2 },
-			},
-			["Info"] = { BabbleZone["Onyxia's Lair"], "AtlasLootWotLK", mapname = "OnyxiasLair", raid = true },
-		},
-
 		["RubySanctum"] = {
 			["Bosses"] = {
 				{ "Halion", 6 },
@@ -1050,7 +1043,7 @@ AtlasLoot_LootTableRegister = {
 			["Bosses"] = {
 				{ "Herod", 1 },
 		    },
-		    ["Info"] = { BabbleZone["Scarlet Monastery (Armory)"], "AtlasLootClassicWoW", mapname = "ScarletMonastery" },
+		    ["Info"] = { AL["Scarlet Monastery (Armory)"], "AtlasLootClassicWoW", mapname = "ScarletMonastery" },
 		},
 
 		["ScarletMonasteryCathedral"] = {
