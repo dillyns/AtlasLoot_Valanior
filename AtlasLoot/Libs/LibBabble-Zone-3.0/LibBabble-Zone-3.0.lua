@@ -192,6 +192,7 @@ lib:SetBaseTranslations {
 	["Scarlet Monastery (Library)"] = "Scarlet Monastery (Library)",
 	["Scarlet Monastery (Graveyard)"] = "Scarlet Monastery (Graveyard)",
 	["Scarlet Monastery"] = "Scarlet Monastery",
+	Stratholme = "Stratholme",
 	Scholomance = "Scholomance",
 	["Searing Gorge"] = "Searing Gorge",
 	["Serpent Lake"] = "Serpent Lake",
