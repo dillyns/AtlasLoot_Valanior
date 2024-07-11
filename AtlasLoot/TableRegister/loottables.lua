@@ -952,12 +952,12 @@ AtlasLoot_LootTableRegister = {
 		["TheSunkenTemple"] = {
 			["Bosses"] = {
 				{ "Atal'alarion", 1 },
-				--{ "Dreamscythe", 2 },
-				--{ "Weaver", 3 },
+				{ "Dreamscythe", 2 },
+				{ "Weaver", 3 },
 				{ "Jammal'an the Prophet", 4 },
 				{ "Ogom the Wretched", 5 },
-				--{ "Morphaz", 6 },
-				--{ "Hazzas", 7 },
+				{ "Morphaz", 6 },
+				{ "Hazzas", 7 },
 				{ "Avatar of Hakkar", 8 },
 				{ "Shade of Eranikus", 9 },
 			},
