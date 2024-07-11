@@ -5994,7 +5994,7 @@ AtlasLoot_Data["Balnazzar"] = {
     },
     ["Heroic"] = {
         {
-            { 1, 110813, "", "=q3=Head of Balnazzar", "", "", "" },
+            { 1, 10813, "", "=q3=Head of Balnazzar", "", "", "" },
             { 2, 13520, "", "=q3=Recipe: Flask of Distilled Wisdom", "", "", "" },
             { 3, 14512, "", "=q3=Pattern: Truefaith Vestments", "", "", "" },
             { 4, 80717, "", "=q3=Wyrmtongue Shoulders", "", "", "" },
@@ -6006,7 +6006,7 @@ AtlasLoot_Data["Balnazzar"] = {
     },
     ["Mythic"] = {
         {
-            { 1, 210813, "", "=q3=Recipe: Flask of Distilled Wisdom", "", "", "" },
+            { 1, 13520, "", "=q3=Recipe: Flask of Distilled Wisdom", "", "", "" },
             { 2, 14512, "", "=q3=Pattern: Truefaith Vestments", "", "", "" },
             { 3, 770501, "", "=q3=Book of the Dead", "", "", "" },
             { 4, 357501, "", "=q3=Wyrmtongue Shoulders", "", "", "" },
