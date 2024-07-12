@@ -7580,24 +7580,24 @@ AtlasLoot_Data["Archaedas"] = {
 	
 	AtlasLoot_Data["Azuregos"] = {
         ["Normal"] = {
-            {
-				{ 1, 17963, "", "=q3=Green Sack of Gems", "", "",};
-				{ 2, 17962, "", "=q3=Blue Sack of Gems", "", "",};
-				{ 3, 17964, "", "=q3=Gray Sack of Gems", "", "",};
-				{ 4, 17969, "", "=q3=Red Sack of Gems", "", "",};
-				{ 5, 17965, "", "=q3=Yellow Sack of Gems", "", "",};
-				{ 6, 18704, "", "=q3=Mature Blue Dragon Sinew", "", "",};
-				{ 7, 30174, "", "=q3=", "", "",};
-				{ 8, 487003, "", "=q3=Fang of the Mystics", "", "",};
-				{ 9, 517503, "", "=q3=Eskhandar's Left Claw", "", "",};
-				{ 10, 519503, "", "=q3=Drape of Benediction", "", "",};
-				{ 11, 568003, "", "=q3=Puissant Cape", "", "",};
-				{ 12, 568503, "", "=q3=Typhoon", "", "",};
-				{ 13, 570003, "", "=q3=Leggings of Arcane Supremacy", "", "",};
-				{ 14, 571003, "", "=q3=Unmelting Ice Girdle", "", "",};
-				{ 15, 609503, "", "=q3=Cold Snap", "", "",};
-				{ 16, 610003, "", "=q3=Snowblind Shoes", "", "",};
-				{ 17, 610503, "", "=q3=Crystal Adorned Crown", "", "",};
+            {	
+				{ 1, 519503, "", "=q3=Drape of Benediction", "", "",};
+				{ 2, 568003, "", "=q3=Puissant Cape", "", "",};
+				{ 3, 610003, "", "=q3=Snowblind Shoes", "", "",};
+				{ 4, 610503, "", "=q3=Crystal Adorned Crown", "", "",};
+				{ 5, 570003, "", "=q3=Leggings of Arcane Supremacy", "", "",};
+				{ 6, 571003, "", "=q3=Unmelting Ice Girdle", "", "",};
+				{ 7, 487003, "", "=q3=Fang of the Mystics", "", "",};
+				{ 8, 517503, "", "=q3=Eskhandar's Left Claw", "", "",};
+				{ 9, 568503, "", "=q3=Typhoon", "", "",};
+				{ 10, 609503, "", "=q3=Cold Snap", "", "",};
+
+				{ 16, 18704, "", "=q3=Mature Blue Dragon Sinew", "", "",};
+				{ 18, 17963, "", "=q3=Green Sack of Gems", "", "",};
+				{ 19, 17962, "", "=q3=Blue Sack of Gems", "", "",};
+				{ 20, 17964, "", "=q3=Gray Sack of Gems", "", "",};
+				{ 21, 17969, "", "=q3=Red Sack of Gems", "", "",};
+				{ 22, 17965, "", "=q3=Yellow Sack of Gems", "", "",};
             };
         };
         info = {
@@ -7609,24 +7609,24 @@ AtlasLoot_Data["Archaedas"] = {
 	AtlasLoot_Data["Lord Kazzak"] = {
         ["Normal"] = {
             {
-				{ 1, 17963, "", "=q3=Green Sack of Gems", "", "",};
-				{ 2, 17962, "", "=q3=Blue Sack of Gems", "", "",};
-				{ 3, 17964, "", "=q3=Gray Sack of Gems", "", "",};
-				{ 4, 17969, "", "=q3=Red Sack of Gems", "", "",};
-				{ 5, 17965, "", "=q3=Yellow Sack of Gems", "", "",};
-				{ 6, 18665, "", "=q3=The Eye of Shadow", "", "",};
-				{ 7, 30174, "", "=q3=", "", "",};
-				{ 8, 21371, "", "=q3=Pattern: Core Felcloth Bag", "", "",};
-				{ 9, 496003, "", "=q3=Blazefury Medallion", "", "",};
-				{ 10, 496503, "", "=q3=Empyrean Demolisher", "", "",};
-				{ 11, 497003, "", "=q3=Amberseal Keeper", "", "",};
-				{ 12, 518503, "", "=q3=Eskhandar's Pelt", "", "",};
-				{ 13, 569003, "", "=q3=Ring of Entropy", "", "",};
-				{ 14, 569503, "", "=q3=Doomhide Gauntlets", "", "",};
-				{ 15, 570503, "", "=q3=Infernal Headcage", "", "",};
-				{ 16, 611003, "", "=q3=Fel Infused Leggings", "", "",};
-				{ 17, 611503, "", "=q3=Flayed Doomguard Belt", "", "",};
-				{ 18, 612003, "", "=q3=Blacklight Bracer", "", "",};
+				{ 1, 518503, "", "=q3=Eskhandar's Pelt", "", "",};
+				{ 2, 611003, "", "=q3=Fel Infused Leggings", "", "",};
+				{ 3, 612003, "", "=q3=Blacklight Bracer", "", "",};
+				{ 4, 569503, "", "=q3=Doomhide Gauntlets", "", "",};
+				{ 5, 611503, "", "=q3=Flayed Doomguard Belt", "", "",};
+				{ 6, 570503, "", "=q3=Infernal Headcage", "", "",};
+				{ 7, 496003, "", "=q3=Blazefury Medallion", "", "",};
+				{ 8, 569003, "", "=q3=Ring of Entropy", "", "",};
+				{ 9, 496503, "", "=q3=Empyrean Demolisher", "", "",};
+				{ 10, 497003, "", "=q3=Amberseal Keeper", "", "",};
+
+				{ 16, 18665, "", "=q3=The Eye of Shadow", "", "",};
+				{ 18, 21371, "", "=q3=Pattern: Core Felcloth Bag", "", "",};
+				{ 19, 17963, "", "=q3=Green Sack of Gems", "", "",};
+				{ 20, 17962, "", "=q3=Blue Sack of Gems", "", "",};
+				{ 21, 17964, "", "=q3=Gray Sack of Gems", "", "",};
+				{ 22, 17969, "", "=q3=Red Sack of Gems", "", "",};
+				{ 23, 17965, "", "=q3=Yellow Sack of Gems", "", "",};	
             };
         };
         info = {
