@@ -2935,41 +2935,43 @@ AtlasLoot_Data["Immol'thar"] = {
 };
 
 AtlasLoot_Data["Prince Tortheldrin"] = {
-	["Normal"] = {
-		{
-			{ 1, 18373, "", "=q3=Ebon Hilt of Marduk", "", "",};
-			{ 2, 18347, "", "=q3=Well Balanced Axe", "", "",};
-			{ 3, 18382, "", "=q3=Fluctuating Cloak", "", "",};
-			{ 4, 18388, "", "=q3=Stoneshatter", "", "",};
-			{ 5, 18389, "", "=q3=Eidolon Talisman", "", "",};
-			{ 6, 18529, "", "=q3=Elemental Plate Girdle", "", "",};
-		};
-	};
-	["Heroic"] = {
-		{
-			{ 1, 80903, "", "=q3=Ebon Hilt of Marduk", "", "",};
-			{ 2, 80896, "", "=q3=Well Balanced Axe", "", "",};
-			{ 3, 80912, "", "=q3=Fluctuating Cloak", "", "",};
-			{ 4, 80914, "", "=q3=Stoneshatter", "", "",};
-			{ 5, 80918, "", "=q3=Eidolon Talisman", "", "",};
-			{ 6, 80955, "", "=q3=Elemental Plate Girdle", "", "",};
-		};
-	};
-	["Mythic"] = {
-		{
-			{ 1, 539501, "", "=q3=Ebon Hilt of Marduk", "", "",};
-			{ 2, 537501, "", "=q3=Well Balanced Axe", "", "",};
-			{ 3, 542501, "", "=q3=Fluctuating Cloak", "", "",};
-			{ 4, 546501, "", "=q3=Stoneshatter", "", "",};
-			{ 5, 551501, "", "=q3=Eidolon Talisman", "", "",};
-			{ 6, 567501, "", "=q3=Elemental Plate Girdle", "", "",};
-		};
-	};
-	info = {
-		name = BabbleBoss["Prince Tortheldrin"],
-		module = moduleName,
-		instance = "Dire Maul (West)",
-	};
+    ["Normal"] = {
+        {
+            { 1, 18373, "", "=q3=Chestplate of Tranquility", "", "", },
+            { 2, 18375, "", "=q3=Bracers of the Eclipse", "", "", },
+            { 3, 18376, "", "=q3=Timeworn Mace", "", "", },
+            { 4, 18388, "", "=q3=Stoneshatter", "", "", },
+            { 5, 18392, "", "=q3=Distracting Dagger", "", "", },
+            { 6, 18395, "", "=q3=Emerald Flame Ring", "", "", },
+            { 7, 18396, "", "=q3=Mind Carver", "", "", },
+        },
+    },
+    ["Heroic"] = {
+        {
+            { 1, 80903, "", "=q3=Chestplate of Tranquility", "", "", },
+            { 2, 80905, "", "=q3=Bracers of the Eclipse", "", "", },
+            { 3, 80906, "", "=q3=Timeworn Mace", "", "", },
+            { 4, 80918, "", "=q3=Stoneshatter", "", "", },
+            { 5, 80922, "", "=q3=Distracting Dagger", "", "", },
+            { 6, 80925, "", "=q3=Emerald Flame Ring", "", "", },
+            { 7, 80926, "", "=q3=Mind Carver", "", "", },
+        },
+    },
+    ["Mythic"] = {
+        {
+            { 1, 539501, "", "=q3=Chestplate of Tranquility", "", "", },
+            { 2, 540501, "", "=q3=Bracers of the Eclipse", "", "", },
+            { 3, 541001, "", "=q3=Timeworn Mace", "", "", },
+            { 4, 547001, "", "=q3=Stoneshatter", "", "", },
+            { 5, 549001, "", "=q3=Distracting Dagger", "", "", },
+            { 6, 550501, "", "=q3=Emerald Flame Ring", "", "", },
+            { 7, 551001, "", "=q3=Mind Carver", "", "", },
+        },
+    },
+    info = {
+        name = BabbleBoss["Prince Tortheldrin"],
+        module = moduleName, instance = "Dire Maul (West)",
+    },
 };
 		------------------
 		--- Gnomeregan ---

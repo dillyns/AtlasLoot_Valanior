@@ -850,7 +850,8 @@ AtlasLoot_LootTableRegister = {
 				 { "Tsu'zee", 2},
 				 { "Illyanna Ravenoak", 3 },
 				 { "Immol'thar", 4 },
-				 { "Prince Tortheldrin", 5 }
+				 { "Prince Tortheldrin", 5 },
+				 { "Tendris Warpwood", 6 },
 			},
 			["Info"] = { BabbleZone["Dire Maul (West)"], "AtlasLootClassicWoW", mapname = "DireMaul" },
 		},
