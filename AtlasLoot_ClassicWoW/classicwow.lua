@@ -18,7 +18,7 @@ local moduleName = "AtlasLootClassicWoW"
 ---- Dire Maul
 ---- Gnomeregan
 ---- Maraudon
----- Onyxia's Lair
+---- Onyxia's Lair 
 ---- Ragefire Chasm
 ---- Razorfen Downs
 ---- Razorfen Kraul
